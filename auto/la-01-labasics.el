@@ -9,6 +9,7 @@
     "beamer10"
     "teachbeamer")
    (LaTeX-add-labels
+    "eq:oathaemo"
     "eq:ohghohfi"
     "eq:cegeemoi"
     "eq:ahloongi"
