@@ -314,12 +314,42 @@ matrix
     \begin{array}{cc}
       a & b \\
       c & d
-    \end{array}\right]\hspace{.5in}\mbox{ is }A^{-1}=\frac{1}{ad-bc}\left[
+    \end{array}\right]\hspace{.25in}\mbox{ is }\hspace{.25in}A^{-1}=\frac{1}{ad-bc}\left[
     \begin{array}{cc}
       d & -b \\
       -c & a
     \end{array}\right]
 \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Matrix Determinant}
+  Considering the last slide, it is evident that a matrix has an
+  inverse if and only if $ad-bc\neq{}0$. Such a matrix is called
+  \alert{invertible}. If $ad-bc=0$ then the matrix is \alert{singular}
+  and has no inverse (find some examples). It turns out that the
+  number $ad-bc$ is so special for $2\times{}2$ matrices that it gets
+  its own name: it is the \alert{determinant} of the matrix. On the
+  next slide, I will define the determinant of a matrix using an
+  inductive procedure.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Matrix Determinant}
+  \begin{itemize}
+  \item The determinant of a $1\times{}1$ matrix $A$ is
+    $det(A)=a_{11}$.
+  \item The determinant of a $m\times{}m$ matrix with $m>1$ is
+    $det(A)=c$. 
+  \end{itemize}
+  Calculate $c$ by picking an arbitrary row, for example the $i$-th
+  row. Then
+  \begin{equation}
+    \label{eq:queiyesh}
+    c=\sum_{j=1,j\neq{}i}^{m}(-1)^{i+j}a_{ij}det(A_{ij})
+  \end{equation}
+where $A_{ij}$ is the matrix that results when you delete the $i$-th
+row and the $j$-th column from $A$.
 \end{frame}
 
 \begin{frame}

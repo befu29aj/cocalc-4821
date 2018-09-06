@@ -28,6 +28,7 @@
     "eq:ubaisula"
     "eq:quoovain"
     "eq:iiphiese"
+    "eq:queiyesh"
     "eq:ohghohfi"
     "eq:cegeemoi"
     "eq:vaishien"
