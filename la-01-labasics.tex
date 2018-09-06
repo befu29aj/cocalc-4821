@@ -17,6 +17,342 @@
 \end{frame}
 
 \begin{frame}
+  \frametitle{Matrix Method}
+  \begin{equation}
+    \label{eq:ohghohfi}
+    \begin{array}{rcrcl}
+      5x&+&3y&=&13.5 \\
+      x&+&5y&=&13.7
+    \end{array}
+  \end{equation}
+is the system of linear equations that we are trying to solve. A
+matrix is a rectangular arrangement of numbers, for example
+\begin{equation}
+  \label{eq:cegeemoi}
+  \left[\begin{array}{ccc}
+    5&3&13.5 \\
+    1&5&13.7
+  \end{array}\right]
+\end{equation}
+There are many fascinating things you can do with matrices. The
+discipline that deals with matrices is called Linear Algebra. 
+\end{frame}
+
+\begin{frame}
+  \frametitle{Matrix Addition}
+We can define operations on matrices just like we define operations on
+numbers. For example, we can add an $m\times{}n$ matrix to another one
+as follows,
+\begin{equation}
+  \label{eq:ahloongi}
+  \left[\begin{array}{cccc}
+    a_{11}&a_{12}&\cdots{}&a_{1n} \\
+          a_{21}&\ddots{}&& \\
+          \vdots{}&&&\vdots \\
+          a_{m1}&&\cdots{}&a_{mn}
+  \end{array}\right]+\left[
+\begin{array}{cccc}
+    b_{11}&b_{12}&\cdots{}&b_{1n} \\
+          b_{21}&\ddots{}&& \\
+          \vdots{}&&&\vdots \\
+          b_{m1}&&\cdots{}&b_{mn}
+  \end{array}\right]=\notag
+\end{equation}
+\begin{equation}
+  \label{eq:fohghoaw}
+\left[
+\begin{array}{cccc}
+    a_{11}+b_{11}&a_{12}+b_{12}&\cdots{}&a_{1n}+b_{1n} \\
+          a_{21}+b_{21}&\ddots{}&& \\
+          \vdots{}&&&\vdots \\
+          a_{m1}+b_{m1}&&\cdots{}&a_{mn}+b_{mn}
+  \end{array}\right]\notag
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Matrix Scalar Multiplication}
+Next, we define what it means to multiply a matrix by a scalar, i.e.\
+a real number (NOT a matrix). 
+\begin{equation}
+  \label{eq:theishie}
+  k\cdot\left[\begin{array}{cccc}
+    a_{11}&a_{12}&\cdots{}&a_{1n} \\
+          a_{21}&\ddots{}&& \\
+          \vdots{}&&&\vdots \\
+          a_{m1}&&\cdots{}&a_{mn}
+  \end{array}\right]=\left[\begin{array}{cccc}
+    ka_{11}&ka_{12}&\cdots{}&ka_{1n} \\
+          ka_{21}&\ddots{}&& \\
+          \vdots{}&&&\vdots \\
+          ka_{m1}&&\cdots{}&ka_{mn}
+  \end{array}\right]\notag
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Matrix Product}
+Finally, we define matrix multiplication. You can multiply an
+$m\times{}j$ matrix by a $j\times{}n$ matrix, which will give you an
+$m\times{}n$ matrix.
+\begin{equation}
+  \label{eq:orahpahn}
+  \left[\begin{array}{cccc}
+    a_{11}&a_{12}&\cdots{}&a_{1j} \\
+          a_{21}&\ddots{}&& \\
+          \vdots{}&&&\vdots \\
+          a_{m1}&&\cdots{}&a_{mj}
+  \end{array}\right]\cdot
+\left[\begin{array}{cccc}
+    b_{11}&b_{12}&\cdots{}&b_{1n} \\
+          b_{21}&\ddots{}&& \\
+          \vdots{}&&&\vdots \\
+          b_{j1}&&\cdots{}&b_{jn}
+  \end{array}\right]=\notag
+\end{equation}
+\begin{equation}
+  \label{eq:raipuboi}
+  \left[\begin{array}{cccc}
+    c_{11}&c_{12}&\cdots{}&c_{1n} \\
+          c_{21}&\ddots{}&& \\
+          \vdots{}&&&\vdots \\
+          c_{m1}&&\cdots{}&c_{mn}
+  \end{array}\right]\notag
+\end{equation}
+where $c_{ik}=a_{i1}b_{1k}+a_{i2}b_{2k}+\ldots+a_{ij}b_{jk}$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Matrix Inverse I}
+  Matrix multiplication for an an $m\times{}j$ matrix by a
+  $k\times{}n$ matrix is not defined when $j\neq{}k$. An inverse
+  matrix $A^{-1}$ of a square matrix $A$ is defined to be the matrix
+\begin{equation}
+  \label{eq:vaishien}
+A\cdot{}A^{-1}=A^{-1}\cdot{}A=E
+\end{equation}
+where
+\begin{equation}
+  \label{eq:phoaxoze}
+  E=\left[\begin{array}{ccccc}
+     1        & 0 & \cdots{} &   & 0      \\
+     0        & 1 & \cdots{} &   & 0      \\
+     \vdots{} &   & \ddots{} &   & \vdots \\
+     0        &   & \cdots{} & 1 & 0      \\
+     0        &   & \cdots{} & 0 & 1
+  \end{array}\right]\notag
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Matrices and Systems of Linear Equations I}
+Remember our system of linear equations. 
+  \begin{equation}
+    \label{eq:ahgohcoh}
+    \begin{array}{rcrcl}
+      5x & + & 3y & = & 13.5 \\
+      x  & + & 5y & = & 13.7
+    \end{array}
+  \end{equation}
+In matrix notation, we can write
+  \begin{equation}
+    \label{eq:neithohn}
+  \left[\begin{array}{cc}
+5        & 3                 \\
+ 1       & 5
+  \end{array}\right]\cdot
+  \left[\begin{array}{c}
+ x                 \\
+ y
+  \end{array}\right]=
+  \left[\begin{array}{c}
+13.5                 \\
+13.7
+  \end{array}\right]\notag
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Matrices and Systems of Linear Equations II}
+Let's call these three matrices $A,v,b$ respectively. $A$ and $b$ are
+provided, and we are looking for $v$. If we had $A^{-1}$, we could go
+from
+\begin{equation}
+  \label{eq:baixieda}
+  Av=b
+\end{equation}
+to
+\begin{equation}
+  \label{eq:maethung}
+  A^{-1}Av=A^{-1}b
+\end{equation}
+which is the same as
+\begin{equation}
+  \label{eq:leighuga}
+  v=A^{-1}b
+\end{equation}
+The challenge is therefore to find $A^{-1}$. Scientific calculators
+and computers can find $A^{-1}$ for you. 
+\end{frame}
+
+\begin{frame}
+  \frametitle{Matrix Inverse and Determinants}
+  If you want to know how to find the inverse yourself, one method to
+  use is calculating the determinant of a matrix. It takes a bit of
+  time to understand determinants, and then it's still a complicated
+  (and not very transparent) procedure to get to the inverse. For
+  $2\times{}2$ matrices, however, the inverse is
+  \begin{equation}
+    \label{eq:iephaizu}
+    A^{-1}=\frac{1}{\det{}A}\left[
+      \begin{array}{cc}
+        d & -b \\
+        -c & a
+      \end{array}\right]
+  \end{equation}
+for
+  \begin{equation}
+    \label{eq:sooxaexa}
+    A=\left[
+      \begin{array}{cc}
+        a & b \\
+        c & d
+      \end{array}\right]
+  \end{equation}
+and the determinant is $\det{}A=ad-bc$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Matrix Row Operations}
+  Another method to find the inverse of a matrix is using
+  \alert{matrix row operations}. There are three matrix row
+  operations.
+\begin{itemize}
+\item \alert{Row Switching} means you are allowed to switch two rows,
+  for example $R_{1}\leftrightarrow{}R_{2}$
+\item \alert{Row Multiplication} means you are allowed to multiply all
+  elements of a row by a real non-zero number, for example
+  $\frac{2}{5}R_{2}\rightarrow{}R_{2}$
+\item \alert{Row Addition} means you are allowed to add one row to
+  another and then replace one of the original rows by the sum of the
+  two rows, for example $R_{1}+R_{2}\rightarrow{}R_{1}$
+\end{itemize}
+Row multiplication and row addition are often used together, for
+example $\frac{7}{8}R_{1}-R_{3}\rightarrow{}R_{3}$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Matrix Row Operations}
+To find the inverse of a square matrix, we combine $A$ and $E$
+  \begin{equation}
+    \label{eq:aurohbac}
+  \left[\begin{array}{cccc}
+ 5 & 3 & 1 & 0 \\
+ 1 & 5 & 0 & 1
+  \end{array}\right]\notag
+  \end{equation}
+and apply matrix row operations until we get
+  \begin{equation}
+    \label{eq:nahshooh}
+  \left[\begin{array}{cccc}
+ 1 & 0 & x & y \\
+ 0 & 1 & z & w
+  \end{array}\right]\notag
+  \end{equation}
+where
+  \begin{equation}
+    \label{eq:aecocaeh}
+  A^{-1}=\left[\begin{array}{cc}
+ x & y  \\
+ z & w 
+  \end{array}\right]\notag
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Inverse Example}
+For our example,
+  \begin{equation}
+    \label{eq:weeraesh}
+  \left[\begin{array}{cccc}
+ 5    & 3     & 1     & 0     \\
+ 1    & 5     & 0     & 1
+  \end{array}\right]\longrightarrow
+  \left[\begin{array}{cccc}
+ 25/3 & 5     & 5/3   & 0     \\
+ 1    & 5     & 0     & 1
+        \end{array}\right]\longrightarrow\notag
+\end{equation}
+  \begin{equation}
+  \left[\begin{array}{cccc}
+ 22/3 & 0     & 5/3   & -1    \\
+ 1    & 5     & 0     & 1
+  \end{array}\right]\longrightarrow\notag
+\end{equation}
+  \begin{equation}
+    \label{eq:ieyoongu}
+  \left[\begin{array}{cccc}
+ 22/3 & 0     & 5/3   & -1    \\
+ 22/3 & 110/3 & 0     & 22/3
+  \end{array}\right]\longrightarrow
+  \left[\begin{array}{cccc}
+ 22/3 & 0     & 5/3   & -1    \\
+ 0    & 110/3 & -5/3  & 25/3
+  \end{array}\right]\longrightarrow\notag
+\end{equation}
+  \begin{equation}
+    \label{eq:ephoopha}
+  \left[\begin{array}{cccc}
+ 1    & 0     & 5/22  & -3/22 \\
+ 0    & 1     & -1/22 & 5/22
+  \end{array}\right]\notag
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Inverse Example}
+  For step 1, we multiplied the first row by $5/3$ (row
+  multiplication). For step 2, we subtracted the second row from the
+  first row and replaced the first row by the result (row addition).
+  For step 3, we multiplied the second row by $22/3$ (row
+  multiplication). For step 4, we subtracted the first row from the
+  second row and replaced the second row by the result (row addition).
+  For the last step, we multiplied the first row by $3/22$ and the
+  second row by $3/110$ (row multiplication applied twice).
+\end{frame}
+
+\begin{frame}
+  \frametitle{Matrices and Systems of Linear Equations III}
+Thus,
+\begin{equation}
+  \label{eq:oogeujie}
+  A^{-1}=\left[\begin{array}{cc}
+ 5/22  & -3/22 \\
+ -1/22 & 5/22
+               \end{array}\right]=\frac{1}{22}\cdot\left[
+               \begin{array}{cc}
+                 5 & -3 \\
+                 -1 & 5
+               \end{array}\right]\notag
+\end{equation}
+and
+\begin{equation}
+  \label{eq:seeleeje}
+  v=A^{-1}b=\left[\begin{array}{cc}
+ 5/22  & -3/22 \\
+ -1/22 & 5/22
+  \end{array}\right]\cdot
+\left[\begin{array}{c}
+ 13.5   \\
+ 13.7  
+  \end{array}\right]=\left[\begin{array}{c}
+ 1.2   \\
+ 2.5  
+  \end{array}\right]\notag
+\end{equation}
+\end{frame}
+
+\begin{frame}
   \frametitle{End of Lesson}
 Next Lesson: Determinants and Inverse
 \end{frame}

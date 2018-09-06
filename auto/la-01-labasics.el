@@ -7,6 +7,31 @@
     "latex2e"
     "beamer"
     "beamer10"
-    "teachbeamer"))
+    "teachbeamer")
+   (LaTeX-add-labels
+    "eq:ohghohfi"
+    "eq:cegeemoi"
+    "eq:ahloongi"
+    "eq:fohghoaw"
+    "eq:theishie"
+    "eq:orahpahn"
+    "eq:raipuboi"
+    "eq:vaishien"
+    "eq:phoaxoze"
+    "eq:ahgohcoh"
+    "eq:neithohn"
+    "eq:baixieda"
+    "eq:maethung"
+    "eq:leighuga"
+    "eq:iephaizu"
+    "eq:sooxaexa"
+    "eq:aurohbac"
+    "eq:nahshooh"
+    "eq:aecocaeh"
+    "eq:weeraesh"
+    "eq:ieyoongu"
+    "eq:ephoopha"
+    "eq:oogeujie"
+    "eq:seeleeje"))
  :latex)
 
