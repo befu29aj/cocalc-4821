@@ -26,6 +26,8 @@
     "eq:tiequooh"
     "eq:aivaitoa"
     "eq:ubaisula"
+    "eq:quoovain"
+    "eq:iiphiese"
     "eq:ohghohfi"
     "eq:cegeemoi"
     "eq:vaishien"

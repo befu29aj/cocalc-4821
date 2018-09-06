@@ -18,7 +18,7 @@
 
 \begin{frame}
   \frametitle{Matrix Definition}
-  A matrix is a tabular arrangement of real numbers. 
+  A \alert{matrix} is a tabular arrangement of real numbers. 
   \begin{equation}
     \label{eq:oathaemo}
     A=\left[\begin{array}{cccc}
@@ -103,7 +103,7 @@ as follows,
 
 \begin{frame}
   \frametitle{Matrix Scalar Multiplication}
-Next, we define what it means to multiply a matrix by a scalar, i.e.\
+Next, we define what it means to multiply a matrix by a \alert{scalar}, i.e.\
 a real number (NOT a matrix). 
 \begin{equation}
   \label{eq:theishie}
@@ -152,7 +152,7 @@ a real number (NOT a matrix).
 
 \begin{frame}
   \frametitle{Matrix Transpose}
-  The columns of a transpose $A^{\intercal}$ are the rows of the
+  The columns of a \alert{transpose} $A^{\intercal}$ are the rows of the
   matrix $A$. The rows of a transpose $A^{\intercal}$ are the columns
   of the matrix $A$.
   \begin{equation}
@@ -197,7 +197,7 @@ a real number (NOT a matrix).
 
 \begin{frame}
   \frametitle{Matrix Product}
-Finally, we define matrix multiplication. You can multiply an
+Finally, we define \alert{matrix multiplication}. You can multiply an
 $m\times{}j$ matrix by a $j\times{}n$ matrix, which will give you an
 $m\times{}n$ matrix.
 \begin{equation}
@@ -276,7 +276,7 @@ multiplication is commutative.
 
 \begin{frame}
   \frametitle{Identity Matrix}
-The identity matrix $I$ with dimension $m\times{}m$ is a square matrix
+The \alert{identity matrix} $I$ with dimension $m\times{}m$ is a square matrix
 such that for all $m\times{}m$ matrices $A$ it is true that
 \begin{equation}
   \label{eq:aivaitoa}
@@ -290,8 +290,34 @@ elsewhere.
     \begin{array}{cccc}
       1 & 0 & \ldots & 0 \\
       0 & 1 & \ldots & 0 \\
-      \vdots & & \ddots & 0 \\
+      \vdots & & \ddots & \vdots \\
       0 & \ldots & 0 & 1
+    \end{array}\right]
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Matrix Inverse}
+The \alert{inverse matrix} $A^{-1}$ of a square matrix $A$ is the
+matrix for which
+\begin{equation}
+  \label{eq:quoovain}
+  A\cdot{}A^{-1}=A^{-1}\cdot{}A=I
+\end{equation}
+Not all matrices have an inverse. Finding the inverse of a
+$m\times{}m$ matrix is equivalent to solving a system of $m\cdot{}m$
+equations with $m\cdot{}m$ variables. For example, the inverse of the
+matrix
+\begin{equation}
+  \label{eq:iiphiese}
+  A=\left[
+    \begin{array}{cc}
+      a & b \\
+      c & d
+    \end{array}\right]\hspace{.5in}\mbox{ is }A^{-1}=\frac{1}{ad-bc}\left[
+    \begin{array}{cc}
+      d & -b \\
+      -c & a
     \end{array}\right]
 \end{equation}
 \end{frame}
