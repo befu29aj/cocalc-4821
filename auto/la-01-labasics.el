@@ -24,6 +24,8 @@
     "eq:raipuboi"
     "eq:eroogaju"
     "eq:tiequooh"
+    "eq:aivaitoa"
+    "eq:ubaisula"
     "eq:ohghohfi"
     "eq:cegeemoi"
     "eq:vaishien"
