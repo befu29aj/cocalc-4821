@@ -10,13 +10,14 @@
     "teachbeamer")
    (LaTeX-add-labels
     "eq:oathaemo"
-    "eq:ohghohfi"
-    "eq:cegeemoi"
     "eq:ahloongi"
     "eq:fohghoaw"
+    "eq:pahleuza"
     "eq:theishie"
     "eq:orahpahn"
     "eq:raipuboi"
+    "eq:ohghohfi"
+    "eq:cegeemoi"
     "eq:vaishien"
     "eq:phoaxoze"
     "eq:ahgohcoh"
