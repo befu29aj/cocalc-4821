@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1536271721 "la-01-labasics.tex~" "la-01-labasics.pdf" "la-01-labasics" 1536271722
+["pdflatex"] 1536272380 "la-01-labasics.tex~" "la-01-labasics.pdf" "la-01-labasics" 1536272381
   "/etc/texmf/web2c/texmf.cnf" 1535314180 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -203,17 +203,17 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1535345801 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1535345686 4127293 e426791f7d60570cbd329fe378e4215f ""
-  "la-01-labasics.aux" 1536271722 6599 49a0e6a97519305018cf9182828e3596 ""
-  "la-01-labasics.nav" 1536271722 2039 5a4196ea47006e239fc20568aaec1af6 ""
-  "la-01-labasics.out" 1536271722 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "la-01-labasics.tex" 1536271544 12801 49c39098fc238ce8a2e73a52e554cbd8 ""
+  "la-01-labasics.aux" 1536272381 6825 2d4a0ba01721bcf31da58e7fdab301ae ""
+  "la-01-labasics.nav" 1536272381 2132 9ecbcfc9f7de68c052dc9846a033acac ""
+  "la-01-labasics.out" 1536272381 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "la-01-labasics.tex" 1536272340 13566 0c048d23c379e5959754be887a7d15fe ""
   "la-01-labasics.tex~" 1536261356 25680 8990d1e0fb6e629e4b6f3b0141d64bd1 ""
   "teachbeamer.sty" 1536261356 1599 47b30f8a7e30907cf86a9a1fff41cc5e ""
   (generated)
+  "la-01-labasics.snm"
+  "la-01-labasics.nav"
+  "la-01-labasics.log"
+  "la-01-labasics.out"
+  "la-01-labasics.pdf"
   "la-01-labasics.toc"
   "la-01-labasics.aux"
-  "la-01-labasics.pdf"
-  "la-01-labasics.log"
-  "la-01-labasics.nav"
-  "la-01-labasics.snm"
-  "la-01-labasics.out"
