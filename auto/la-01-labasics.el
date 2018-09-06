@@ -29,6 +29,8 @@
     "eq:quoovain"
     "eq:iiphiese"
     "eq:queiyesh"
+    "eq:quesieha"
+    "eq:iegoowae"
     "eq:ohghohfi"
     "eq:cegeemoi"
     "eq:vaishien"

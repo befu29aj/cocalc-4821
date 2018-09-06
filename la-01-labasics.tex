@@ -330,26 +330,42 @@ matrix
   and has no inverse (find some examples). It turns out that the
   number $ad-bc$ is so special for $2\times{}2$ matrices that it gets
   its own name: it is the \alert{determinant} of the matrix. On the
-  next slide, I will define the determinant of a matrix using an
-  inductive procedure.
+  next slide, I will define the determinant of any square matrix using
+  an inductive procedure.
 \end{frame}
 
 \begin{frame}
   \frametitle{Matrix Determinant}
   \begin{itemize}
   \item The determinant of a $1\times{}1$ matrix $A$ is
-    $det(A)=a_{11}$.
+    $\det(A)=a_{11}$.
   \item The determinant of a $m\times{}m$ matrix with $m>1$ is
-    $det(A)=c$. 
+    $\det(A)=c$. 
   \end{itemize}
   Calculate $c$ by picking an arbitrary row, for example the $i$-th
   row. Then
   \begin{equation}
     \label{eq:queiyesh}
-    c=\sum_{j=1,j\neq{}i}^{m}(-1)^{i+j}a_{ij}det(A_{ij})
+    c=\sum_{j=1}^{m}(-1)^{i+j}a_{ij}\det(A_{ij})
   \end{equation}
 where $A_{ij}$ is the matrix that results when you delete the $i$-th
 row and the $j$-th column from $A$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Adjugate Matrix}
+The \alert{adjugate matrix} of a matrix $A$ has as its elements the
+real numbers $b_{ij}$ with
+\begin{equation}
+  \label{eq:quesieha}
+  b_{ij}=(-1)^{i+j}\det(A_{ij})
+\end{equation}
+where $A_{ij}$ is defined on the last slide. Consequently,
+\begin{equation}
+  \label{eq:iegoowae}
+  \det(A)=\adj(A)\cdot{}A
+\end{equation}
+for all square matrices $A$.
 \end{frame}
 
 \begin{frame}
