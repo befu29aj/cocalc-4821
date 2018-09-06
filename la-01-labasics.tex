@@ -150,6 +150,50 @@ a real number (NOT a matrix).
 \end{frame}
 
 \begin{frame}
+  \frametitle{Matrix Transpose}
+  The columns of a transpose $A^{\intercal}$ are the rows of the
+  matrix $A$. The rows of a transpose $A^{\intercal}$ are the columns
+  of the matrix $A$.
+  \begin{equation}
+    \label{eq:chuiruth}
+        A=\left[\begin{array}{cccc}
+    a_{11}&a_{12}&\cdots{}&a_{1n} \\
+          a_{21}&\ddots{}&& \\
+          \vdots{}&&&\vdots \\
+          a_{m1}&&\cdots{}&a_{mn}
+  \end{array}\right]\notag
+  \end{equation}
+  \begin{equation}
+    \label{eq:aetheini}
+        A^{\intercal}=\left[\begin{array}{cccc}
+    a_{11}&a_{21}&\cdots{}&a_{n1} \\
+          a_{12}&\ddots{}&& \\
+          \vdots{}&&&\vdots \\
+          a_{1m}&&\cdots{}&a_{nm}
+  \end{array}\right]\notag
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Matrix Transpose}
+  \beispiel{Transposing a Matrix}
+  \begin{equation}
+    \label{eq:ujaesuch}
+    \left[
+      \begin{array}{ccc}
+        -1 & 2 & 1 \\
+        7 & -2 & -1 \\
+        0 & 6 & 6
+      \end{array}\right]^{\intercal}=\left[
+      \begin{array}{ccc}
+        -1 & 7 & 0 \\
+        2 & -2 & 6 \\
+        1 & -1 & 6
+      \end{array}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
   \frametitle{Matrix Product}
 Finally, we define matrix multiplication. You can multiply an
 $m\times{}j$ matrix by a $j\times{}n$ matrix, which will give you an
