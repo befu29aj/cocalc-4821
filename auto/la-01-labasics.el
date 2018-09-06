@@ -23,6 +23,7 @@
     "eq:orahpahn"
     "eq:raipuboi"
     "eq:eroogaju"
+    "eq:tiequooh"
     "eq:ohghohfi"
     "eq:cegeemoi"
     "eq:vaishien"
