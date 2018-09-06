@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  6 SEP 2018 19:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  6 SEP 2018 21:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -935,17 +935,17 @@ Dictionary: translator-theorem-dictionary, Language: English
 ) (./la-01-labasics.nav) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+LaTeX Font Info:    Try loading font information for U+msa on input line 31.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Try loading font information for U+msb on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 39.
+line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -971,18 +971,20 @@ thkerncmss.
 
 ] [11
 
+] [12
+
 ]
-Overfull \hbox (25.77708pt too wide) detected at line 310
+Overfull \hbox (25.77708pt too wide) detected at line 324
 [][] [] [][]\OMS/cmsy/m/n/10.95 ! [] [][]![]
  []
 
-[12
-
-] [13
+[13
 
 ] [14
 
 ] [15
+
+] [16
 
 ]
 \tf@nav=\write6
@@ -994,19 +996,19 @@ Overfull \hbox (25.77708pt too wide) detected at line 310
 \tf@snm=\write8
 \openout8 = `la-01-labasics.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 360.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 360.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 374.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 374.
  (./la-01-labasics.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 360.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 360.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 374.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 374.
 Package rerunfilecheck Info: File `la-01-labasics.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 20278 strings out of 492982
- 398402 string characters out of 6134896
- 478634 words of memory out of 5000000
- 23327 multiletter control sequences out of 15000+600000
+ 20284 strings out of 492982
+ 398461 string characters out of 6134896
+ 477660 words of memory out of 5000000
+ 23330 multiletter control sequences out of 15000+600000
  10390 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,63p,805b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1019,10 +1021,10 @@ t/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb>
-Output written on la-01-labasics.pdf (15 pages, 102856 bytes).
+Output written on la-01-labasics.pdf (16 pages, 103981 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 156 compressed objects within 2 object streams
- 55 named destinations out of 1000 (max. 500000)
+ 204 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
+ 58 named destinations out of 1000 (max. 500000)
  79 words of extra memory for PDF output out of 10000 (max. 10000000)
 
