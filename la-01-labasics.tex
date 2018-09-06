@@ -28,7 +28,8 @@
           a_{m1}&&\cdots{}&a_{mn}
   \end{array}\right]
 \end{equation}
-The number of rows is $m$, the number of columns is $n$. 
+The number of rows is $m$, the number of columns is $n$. $m\times{}n$
+is called the \alert{dimension} or \alert{size} of the matrix.
 \end{frame}
 
 \begin{frame}
@@ -183,12 +184,13 @@ a real number (NOT a matrix).
       \begin{array}{ccc}
         -1 & 2 & 1 \\
         7 & -2 & -1 \\
-        0 & 6 & 6
+        0 & 6 & 6 \\
+        7 & 6 & 4
       \end{array}\right]^{\intercal}=\left[
-      \begin{array}{ccc}
-        -1 & 7 & 0 \\
-        2 & -2 & 6 \\
-        1 & -1 & 6
+      \begin{array}{cccc}
+        -1 & 7 & 0 & 7 \\
+        2 & -2 & 6 & 6 \\
+        1 & -1 & 6 & 4
       \end{array}\right]
   \end{equation}
 \end{frame}
@@ -223,6 +225,32 @@ $m\times{}n$ matrix.
   \end{array}\right]\notag
 \end{equation}
 where $c_{ik}=a_{i1}b_{1k}+a_{i2}b_{2k}+\ldots+a_{ij}b_{jk}$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Matrix Product}
+  Notice that $c_{ik}$ is the product of the $i$-th row vector of $A$
+  and the $k$-th column vector of $B$. The dot product of two vectors
+  $\vec{v}$ and $\vec{w}$ is defined to be
+  $\vec{v}^{\intercal}\cdot\vec{w}$.
+
+  \beispiel{Multiplying Matrices}
+  \begin{equation}
+    \label{eq:eroogaju}
+    \left[
+      \begin{array}{cc}
+        -1 & 5 \\
+        10 & 8 
+      \end{array}\right]\cdot\left[
+      \begin{array}{cc}
+        -3 & -8 \\
+        7 & 0
+      \end{array}\right]=\left[
+      \begin{array}{cc}
+        38 & 8 \\
+        26 & -80
+      \end{array}\right]\notag
+  \end{equation}
 \end{frame}
 
 \begin{frame}

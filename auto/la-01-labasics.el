@@ -22,6 +22,7 @@
     "eq:ujaesuch"
     "eq:orahpahn"
     "eq:raipuboi"
+    "eq:eroogaju"
     "eq:ohghohfi"
     "eq:cegeemoi"
     "eq:vaishien"
