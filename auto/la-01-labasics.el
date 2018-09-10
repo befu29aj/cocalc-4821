@@ -81,6 +81,7 @@
     "eq:ephoopha"
     "eq:oogeujie"
     "eq:seeleeje"
-    "eq:oemeyeib"))
+    "eq:oemeyeib"
+    "eq:eicheuth"))
  :latex)
 
