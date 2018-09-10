@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  10 SEP 2018 16:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  10 SEP 2018 16:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1004,16 +1004,12 @@ Package epstopdf Info: Source file: <./diagrams/gm-03-SystemsEquations-01.eps>
 (epstopdf)                    size: 168631 bytes
 (epstopdf)             Output file: <./diagrams/gm-03-SystemsEquations-01-eps-c
 onverted-to.pdf>
+(epstopdf)                    date: 2018-09-10 16:22:37
+(epstopdf)                    size: 5783 bytes
 (epstopdf)             Command: <repstopdf --outfile=./diagrams/gm-03-SystemsEq
 uations-01-eps-converted-to.pdf ./diagrams/gm-03-SystemsEquations-01.eps>
 (epstopdf)             \includegraphics on input line 526.
-runsystem(repstopdf --outfile=./diagrams/gm-03-SystemsEquations-01-eps-converte
-d-to.pdf ./diagrams/gm-03-SystemsEquations-01.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <./diagrams/gm-03-SystemsEquations-01-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2018-09-10 16:22:37
-(epstopdf)                    size: 5783 bytes.
+Package epstopdf Info: Output file is already uptodate.
 <./diagrams/gm-03-SystemsEquations-01-eps-converted-to.pdf, id=222, 465.74pt x 
 371.3875pt>
 File: ./diagrams/gm-03-SystemsEquations-01-eps-converted-to.pdf Graphic file (t
@@ -1034,16 +1030,12 @@ Package epstopdf Info: Source file: <./diagrams/gm-03-SystemsEquations-02.eps>
 (epstopdf)                    size: 170896 bytes
 (epstopdf)             Output file: <./diagrams/gm-03-SystemsEquations-02-eps-c
 onverted-to.pdf>
+(epstopdf)                    date: 2018-09-10 16:22:38
+(epstopdf)                    size: 6582 bytes
 (epstopdf)             Command: <repstopdf --outfile=./diagrams/gm-03-SystemsEq
 uations-02-eps-converted-to.pdf ./diagrams/gm-03-SystemsEquations-02.eps>
 (epstopdf)             \includegraphics on input line 533.
-runsystem(repstopdf --outfile=./diagrams/gm-03-SystemsEquations-02-eps-converte
-d-to.pdf ./diagrams/gm-03-SystemsEquations-02.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <./diagrams/gm-03-SystemsEquations-02-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2018-09-10 16:22:38
-(epstopdf)                    size: 6582 bytes.
+Package epstopdf Info: Output file is already uptodate.
 <./diagrams/gm-03-SystemsEquations-02-eps-converted-to.pdf, id=235, 465.74pt x 
 371.3875pt>
 File: ./diagrams/gm-03-SystemsEquations-02-eps-converted-to.pdf Graphic file (t
@@ -1064,16 +1056,12 @@ Package epstopdf Info: Source file: <./diagrams/gm-03-SystemsEquations-03.eps>
 (epstopdf)                    size: 171216 bytes
 (epstopdf)             Output file: <./diagrams/gm-03-SystemsEquations-03-eps-c
 onverted-to.pdf>
+(epstopdf)                    date: 2018-09-10 16:22:40
+(epstopdf)                    size: 6689 bytes
 (epstopdf)             Command: <repstopdf --outfile=./diagrams/gm-03-SystemsEq
 uations-03-eps-converted-to.pdf ./diagrams/gm-03-SystemsEquations-03.eps>
 (epstopdf)             \includegraphics on input line 540.
-runsystem(repstopdf --outfile=./diagrams/gm-03-SystemsEquations-03-eps-converte
-d-to.pdf ./diagrams/gm-03-SystemsEquations-03.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <./diagrams/gm-03-SystemsEquations-03-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2018-09-10 16:22:40
-(epstopdf)                    size: 6689 bytes.
+Package epstopdf Info: Output file is already uptodate.
 <./diagrams/gm-03-SystemsEquations-03-eps-converted-to.pdf, id=247, 465.74pt x 
 371.3875pt>
 File: ./diagrams/gm-03-SystemsEquations-03-eps-converted-to.pdf Graphic file (t
@@ -1094,16 +1082,12 @@ Package epstopdf Info: Source file: <./diagrams/gm-03-SystemsEquations-04.eps>
 (epstopdf)                    size: 168642 bytes
 (epstopdf)             Output file: <./diagrams/gm-03-SystemsEquations-04-eps-c
 onverted-to.pdf>
+(epstopdf)                    date: 2018-09-10 16:22:40
+(epstopdf)                    size: 5358 bytes
 (epstopdf)             Command: <repstopdf --outfile=./diagrams/gm-03-SystemsEq
 uations-04-eps-converted-to.pdf ./diagrams/gm-03-SystemsEquations-04.eps>
 (epstopdf)             \includegraphics on input line 547.
-runsystem(repstopdf --outfile=./diagrams/gm-03-SystemsEquations-04-eps-converte
-d-to.pdf ./diagrams/gm-03-SystemsEquations-04.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <./diagrams/gm-03-SystemsEquations-04-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2018-09-10 16:22:40
-(epstopdf)                    size: 5358 bytes.
+Package epstopdf Info: Output file is already uptodate.
 <./diagrams/gm-03-SystemsEquations-04-eps-converted-to.pdf, id=259, 469.755pt x
  371.3875pt>
 File: ./diagrams/gm-03-SystemsEquations-04-eps-converted-to.pdf Graphic file (t
