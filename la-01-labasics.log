@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  10 SEP 2018 16:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  10 SEP 2018 16:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -999,118 +999,131 @@ thkerncmss.
 ] [24
 
 ]
-
-LaTeX Warning: File `./gm-03-SystemsEquations-01.eps' not found on input line 5
-26.
-
-Package epstopdf Info: Source file: <./gm-03-SystemsEquations-01.eps>
-(epstopdf)             Output file: <./gm-03-SystemsEquations-01-eps-converted-
-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=./gm-03-SystemsEquations-0
-1-eps-converted-to.pdf ./gm-03-SystemsEquations-01.eps>
+Package epstopdf Info: Source file: <./diagrams/gm-03-SystemsEquations-01.eps>
+(epstopdf)                    date: 2018-09-10 16:21:20
+(epstopdf)                    size: 168631 bytes
+(epstopdf)             Output file: <./diagrams/gm-03-SystemsEquations-01-eps-c
+onverted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./diagrams/gm-03-SystemsEq
+uations-01-eps-converted-to.pdf ./diagrams/gm-03-SystemsEquations-01.eps>
 (epstopdf)             \includegraphics on input line 526.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=./diagrams/gm-03-SystemsEquations-01-eps-converte
+d-to.pdf ./diagrams/gm-03-SystemsEquations-01.eps)...executed safely (allowed).
 
-! Package pdftex.def Error: File `./gm-03-SystemsEquations-01-eps-converted-to.
-pdf' not found: using draft setting.
+Package epstopdf Info: Result file: <./diagrams/gm-03-SystemsEquations-01-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2018-09-10 16:22:37
+(epstopdf)                    size: 5783 bytes.
+<./diagrams/gm-03-SystemsEquations-01-eps-converted-to.pdf, id=222, 465.74pt x 
+371.3875pt>
+File: ./diagrams/gm-03-SystemsEquations-01-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use ./diagrams/gm-03-SystemsEquations-01-eps-converted-to.pdf>
+Package pdftex.def Info: ./diagrams/gm-03-SystemsEquations-01-eps-converted-to.
+pdf  used on input line 526.
+(pdftex.def)             Requested size: 279.44615pt x 222.83421pt.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.526 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \vbox (1.29181pt too high) detected at line 526
+ []
 
 [25
 
-]
-
-LaTeX Warning: File `./gm-03-SystemsEquations-02.eps' not found on input line 5
-33.
-
-Package epstopdf Info: Source file: <./gm-03-SystemsEquations-02.eps>
-(epstopdf)             Output file: <./gm-03-SystemsEquations-02-eps-converted-
-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=./gm-03-SystemsEquations-0
-2-eps-converted-to.pdf ./gm-03-SystemsEquations-02.eps>
+ <./diagrams/gm-03-SystemsEquations-01-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./diagrams/gm-03-SystemsEquations-02.eps>
+(epstopdf)                    date: 2018-09-10 16:21:20
+(epstopdf)                    size: 170896 bytes
+(epstopdf)             Output file: <./diagrams/gm-03-SystemsEquations-02-eps-c
+onverted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./diagrams/gm-03-SystemsEq
+uations-02-eps-converted-to.pdf ./diagrams/gm-03-SystemsEquations-02.eps>
 (epstopdf)             \includegraphics on input line 533.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=./diagrams/gm-03-SystemsEquations-02-eps-converte
+d-to.pdf ./diagrams/gm-03-SystemsEquations-02.eps)...executed safely (allowed).
 
-! Package pdftex.def Error: File `./gm-03-SystemsEquations-02-eps-converted-to.
-pdf' not found: using draft setting.
+Package epstopdf Info: Result file: <./diagrams/gm-03-SystemsEquations-02-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2018-09-10 16:22:38
+(epstopdf)                    size: 6582 bytes.
+<./diagrams/gm-03-SystemsEquations-02-eps-converted-to.pdf, id=235, 465.74pt x 
+371.3875pt>
+File: ./diagrams/gm-03-SystemsEquations-02-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use ./diagrams/gm-03-SystemsEquations-02-eps-converted-to.pdf>
+Package pdftex.def Info: ./diagrams/gm-03-SystemsEquations-02-eps-converted-to.
+pdf  used on input line 533.
+(pdftex.def)             Requested size: 279.44615pt x 222.83421pt.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.533 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \vbox (1.29181pt too high) detected at line 533
+ []
 
 [26
 
-]
-
-LaTeX Warning: File `./gm-03-SystemsEquations-03.eps' not found on input line 5
-40.
-
-Package epstopdf Info: Source file: <./gm-03-SystemsEquations-03.eps>
-(epstopdf)             Output file: <./gm-03-SystemsEquations-03-eps-converted-
-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=./gm-03-SystemsEquations-0
-3-eps-converted-to.pdf ./gm-03-SystemsEquations-03.eps>
+ <./diagrams/gm-03-SystemsEquations-02-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./diagrams/gm-03-SystemsEquations-03.eps>
+(epstopdf)                    date: 2018-09-10 16:21:20
+(epstopdf)                    size: 171216 bytes
+(epstopdf)             Output file: <./diagrams/gm-03-SystemsEquations-03-eps-c
+onverted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./diagrams/gm-03-SystemsEq
+uations-03-eps-converted-to.pdf ./diagrams/gm-03-SystemsEquations-03.eps>
 (epstopdf)             \includegraphics on input line 540.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=./diagrams/gm-03-SystemsEquations-03-eps-converte
+d-to.pdf ./diagrams/gm-03-SystemsEquations-03.eps)...executed safely (allowed).
 
-! Package pdftex.def Error: File `./gm-03-SystemsEquations-03-eps-converted-to.
-pdf' not found: using draft setting.
+Package epstopdf Info: Result file: <./diagrams/gm-03-SystemsEquations-03-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2018-09-10 16:22:40
+(epstopdf)                    size: 6689 bytes.
+<./diagrams/gm-03-SystemsEquations-03-eps-converted-to.pdf, id=247, 465.74pt x 
+371.3875pt>
+File: ./diagrams/gm-03-SystemsEquations-03-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use ./diagrams/gm-03-SystemsEquations-03-eps-converted-to.pdf>
+Package pdftex.def Info: ./diagrams/gm-03-SystemsEquations-03-eps-converted-to.
+pdf  used on input line 540.
+(pdftex.def)             Requested size: 279.44615pt x 222.83421pt.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.540 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \vbox (1.29181pt too high) detected at line 540
+ []
 
 [27
 
-]
-
-LaTeX Warning: File `./gm-03-SystemsEquations-04.eps' not found on input line 5
-47.
-
-Package epstopdf Info: Source file: <./gm-03-SystemsEquations-04.eps>
-(epstopdf)             Output file: <./gm-03-SystemsEquations-04-eps-converted-
-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=./gm-03-SystemsEquations-0
-4-eps-converted-to.pdf ./gm-03-SystemsEquations-04.eps>
+ <./diagrams/gm-03-SystemsEquations-03-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./diagrams/gm-03-SystemsEquations-04.eps>
+(epstopdf)                    date: 2018-09-10 16:21:20
+(epstopdf)                    size: 168642 bytes
+(epstopdf)             Output file: <./diagrams/gm-03-SystemsEquations-04-eps-c
+onverted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./diagrams/gm-03-SystemsEq
+uations-04-eps-converted-to.pdf ./diagrams/gm-03-SystemsEquations-04.eps>
 (epstopdf)             \includegraphics on input line 547.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=./diagrams/gm-03-SystemsEquations-04-eps-converte
+d-to.pdf ./diagrams/gm-03-SystemsEquations-04.eps)...executed safely (allowed).
 
-! Package pdftex.def Error: File `./gm-03-SystemsEquations-04-eps-converted-to.
-pdf' not found: using draft setting.
+Package epstopdf Info: Result file: <./diagrams/gm-03-SystemsEquations-04-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2018-09-10 16:22:40
+(epstopdf)                    size: 5358 bytes.
+<./diagrams/gm-03-SystemsEquations-04-eps-converted-to.pdf, id=259, 469.755pt x
+ 371.3875pt>
+File: ./diagrams/gm-03-SystemsEquations-04-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use ./diagrams/gm-03-SystemsEquations-04-eps-converted-to.pdf>
+Package pdftex.def Info: ./diagrams/gm-03-SystemsEquations-04-eps-converted-to.
+pdf  used on input line 547.
+(pdftex.def)             Requested size: 281.85518pt x 222.83421pt.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.547 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \vbox (1.29181pt too high) detected at line 547
+ []
 
 [28
 
-] [29
+ <./diagrams/gm-03-SystemsEquations-04-eps-converted-to.pdf>] [29
 
 ] [30
 
-] [31
+]
+[31
 
 ] [32
 
@@ -1160,11 +1173,11 @@ Package rerunfilecheck Info: File `la-01-labasics.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 20483 strings out of 492982
- 400545 string characters out of 6134896
+ 20498 strings out of 492982
+ 401632 string characters out of 6134896
  476682 words of memory out of 5000000
- 23427 multiletter control sequences out of 15000+600000
- 10852 words of font info for 40 fonts, out of 8000000 for 9000
+ 23442 multiletter control sequences out of 15000+600000
+ 10684 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,63p,805b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
@@ -1177,13 +1190,12 @@ nts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
-ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
-ls/msbm10.pfb>
-Output written on la-01-labasics.pdf (43 pages, 170851 bytes).
+s/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/symbols/msbm10.pfb>
+Output written on la-01-labasics.pdf (43 pages, 171833 bytes).
 PDF statistics:
- 451 PDF objects out of 1000 (max. 8388607)
- 376 compressed objects within 4 object streams
+ 471 PDF objects out of 1000 (max. 8388607)
+ 389 compressed objects within 4 object streams
  153 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 99 words of extra memory for PDF output out of 10000 (max. 10000000)
 
