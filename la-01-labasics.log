@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  6 SEP 2018 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  10 SEP 2018 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -996,18 +996,150 @@ thkerncmss.
 
 ] [23
 
+] [24
+
 ]
-Overfull \hbox (25.77708pt too wide) detected at line 578
+
+LaTeX Warning: File `./gm-03-SystemsEquations-01.eps' not found on input line 5
+26.
+
+Package epstopdf Info: Source file: <./gm-03-SystemsEquations-01.eps>
+(epstopdf)             Output file: <./gm-03-SystemsEquations-01-eps-converted-
+to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./gm-03-SystemsEquations-0
+1-eps-converted-to.pdf ./gm-03-SystemsEquations-01.eps>
+(epstopdf)             \includegraphics on input line 526.
+Package epstopdf Info: Output file is already uptodate.
+
+! Package pdftex.def Error: File `./gm-03-SystemsEquations-01-eps-converted-to.
+pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.526 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[25
+
+]
+
+LaTeX Warning: File `./gm-03-SystemsEquations-02.eps' not found on input line 5
+33.
+
+Package epstopdf Info: Source file: <./gm-03-SystemsEquations-02.eps>
+(epstopdf)             Output file: <./gm-03-SystemsEquations-02-eps-converted-
+to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./gm-03-SystemsEquations-0
+2-eps-converted-to.pdf ./gm-03-SystemsEquations-02.eps>
+(epstopdf)             \includegraphics on input line 533.
+Package epstopdf Info: Output file is already uptodate.
+
+! Package pdftex.def Error: File `./gm-03-SystemsEquations-02-eps-converted-to.
+pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.533 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[26
+
+]
+
+LaTeX Warning: File `./gm-03-SystemsEquations-03.eps' not found on input line 5
+40.
+
+Package epstopdf Info: Source file: <./gm-03-SystemsEquations-03.eps>
+(epstopdf)             Output file: <./gm-03-SystemsEquations-03-eps-converted-
+to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./gm-03-SystemsEquations-0
+3-eps-converted-to.pdf ./gm-03-SystemsEquations-03.eps>
+(epstopdf)             \includegraphics on input line 540.
+Package epstopdf Info: Output file is already uptodate.
+
+! Package pdftex.def Error: File `./gm-03-SystemsEquations-03-eps-converted-to.
+pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.540 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[27
+
+]
+
+LaTeX Warning: File `./gm-03-SystemsEquations-04.eps' not found on input line 5
+47.
+
+Package epstopdf Info: Source file: <./gm-03-SystemsEquations-04.eps>
+(epstopdf)             Output file: <./gm-03-SystemsEquations-04-eps-converted-
+to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./gm-03-SystemsEquations-0
+4-eps-converted-to.pdf ./gm-03-SystemsEquations-04.eps>
+(epstopdf)             \includegraphics on input line 547.
+Package epstopdf Info: Output file is already uptodate.
+
+! Package pdftex.def Error: File `./gm-03-SystemsEquations-04-eps-converted-to.
+pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.547 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[28
+
+] [29
+
+] [30
+
+] [31
+
+] [32
+
+] [33
+
+] [34
+
+] [35
+
+] [36
+
+] [37
+
+] [38
+
+] [39
+
+]
+Overfull \hbox (25.77708pt too wide) detected at line 859
 [][] [] [][]\OMS/cmsy/m/n/10.95 ! [] [][]![]
  []
 
-[24
+[40
 
-] [25
+] [41
 
-] [26
+] [42
 
-] [27
+] [43
 
 ]
 \tf@nav=\write6
@@ -1019,20 +1151,20 @@ Overfull \hbox (25.77708pt too wide) detected at line 578
 \tf@snm=\write8
 \openout8 = `la-01-labasics.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 628.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 628.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 909.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 909.
  (./la-01-labasics.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 628.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 628.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 909.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 909.
 Package rerunfilecheck Info: File `la-01-labasics.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 20362 strings out of 492982
- 399257 string characters out of 6134896
- 476057 words of memory out of 5000000
- 23369 multiletter control sequences out of 15000+600000
- 10684 words of font info for 39 fonts, out of 8000000 for 9000
+ 20483 strings out of 492982
+ 400545 string characters out of 6134896
+ 476682 words of memory out of 5000000
+ 23427 multiletter control sequences out of 15000+600000
+ 10852 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,63p,805b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
@@ -1045,11 +1177,13 @@ nts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/symbols/msam10.pfb>
-Output written on la-01-labasics.pdf (27 pages, 136914 bytes).
+s/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
+ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
+ls/msbm10.pfb>
+Output written on la-01-labasics.pdf (43 pages, 170851 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
- 248 compressed objects within 3 object streams
- 96 named destinations out of 1000 (max. 500000)
+ 451 PDF objects out of 1000 (max. 8388607)
+ 376 compressed objects within 4 object streams
+ 153 named destinations out of 1000 (max. 500000)
  79 words of extra memory for PDF output out of 10000 (max. 10000000)
 
