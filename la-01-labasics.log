@@ -981,31 +981,10 @@ thkerncmss.
 
 ] [16
 
+] [17
+
 ]
-! You can't use `\eqno' in math mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.403 \end{frame}
-                 
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing \right. inserted.
-<inserted text> 
-                \right .
-l.403 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[17
-
-] [18
+[18
 
 ] [19
 
@@ -1195,7 +1174,7 @@ ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb>
-Output written on la-01-labasics.pdf (42 pages, 170844 bytes).
+Output written on la-01-labasics.pdf (42 pages, 170857 bytes).
 PDF statistics:
  463 PDF objects out of 1000 (max. 8388607)
  382 compressed objects within 4 object streams
