@@ -358,7 +358,7 @@ The \alert{adjugate matrix} of a matrix $A$ has as its elements the
 real numbers $b_{ij}$ with
 \begin{equation}
   \label{eq:quesieha}
-  b_{ij}=(-1)^{i+j}\det(A_{ij})
+  b_{ji}=(-1)^{i+j}\det(A_{ij})
 \end{equation}
 where $A_{ij}$ is defined on the last slide. Consequently,
 \begin{equation}
@@ -366,6 +366,40 @@ where $A_{ij}$ is defined on the last slide. Consequently,
   \det(A)=\mbox{adj}(A)\cdot{}A
 \end{equation}
 for all square matrices $A$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Finding Inverse Using Adjugate}
+  Right-multiply equation~(\ref{eq:iegoowae}) by $A^{-1}$ to see that
+  \begin{equation}
+    \label{eq:foomochu}
+    A^{-1}=\frac{1}{\det(A)}\mbox{adj}(A)
+  \end{equation}
+  For example, the adjugate of
+  \begin{equation}
+    \label{eq:soojohdi}
+    \left[
+      \begin{array}{ccc}
+        0 & -1 & 4 \\
+        3 & 2 & 0 \\
+        4 & 3 & 1 
+      \end{array}\right]\mbox{ is }\left[
+      \begin{array}{ccc}
+        2 & -3 & 1 \\
+        13 & -16 & -4 \\
+        -8 & 12 & 3 
+\end{array}\right]^{\intercal}
+  \end{equation}
+  Therefore, the inverse is
+  \begin{equation}
+    \label{eq:fiaphaid}
+    \frac{1}{7}\cdot\left[
+      \begin{array}{ccc}
+        2 & 13 & -8 \\
+        -3 & -16 & 12 \\
+        1 & -4 & 3 
+      \end{array}
+  \end{equation}
 \end{frame}
 
 \begin{frame}
@@ -395,50 +429,6 @@ for all square matrices $A$.
   \end{equation}
 Calculate $\det(D)$. Then use softward to calculate the inverse of
 $D$. What do you notice about $\det(D)\cdot{}D^{-1}$?
-\end{frame}
-
-\begin{frame}
-  \frametitle{Matrix Method}
-  \begin{equation}
-    \label{eq:ohghohfi}
-    \begin{array}{rcrcl}
-      5x&+&3y&=&13.5 \\
-      x&+&5y&=&13.7
-    \end{array}
-  \end{equation}
-is the system of linear equations that we are trying to solve. A
-matrix is a rectangular arrangement of numbers, for example
-\begin{equation}
-  \label{eq:cegeemoi}
-  \left[\begin{array}{ccc}
-    5&3&13.5 \\
-    1&5&13.7
-  \end{array}\right]
-\end{equation}
-There are many fascinating things you can do with matrices. The
-discipline that deals with matrices is called Linear Algebra. 
-\end{frame}
-
-\begin{frame}
-  \frametitle{Matrix Inverse}
-  Matrix multiplication for an an $m\times{}j$ matrix by a
-  $k\times{}n$ matrix is not defined when $j\neq{}k$. An inverse
-  matrix $A^{-1}$ of a square matrix $A$ is defined to be the matrix
-\begin{equation}
-  \label{eq:vaishien}
-A\cdot{}A^{-1}=A^{-1}\cdot{}A=E
-\end{equation}
-where
-\begin{equation}
-  \label{eq:phoaxoze}
-  E=\left[\begin{array}{ccccc}
-     1        & 0 & \cdots{} &   & 0      \\
-     0        & 1 & \cdots{} &   & 0      \\
-     \vdots{} &   & \ddots{} &   & \vdots \\
-     0        &   & \cdots{} & 1 & 0      \\
-     0        &   & \cdots{} & 0 & 1
-  \end{array}\right]\notag
-\end{equation}
 \end{frame}
 
 \begin{frame}
