@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  10 SEP 2018 20:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  10 SEP 2018 20:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1121,20 +1121,27 @@ Overfull \vbox (1.29181pt too high) detected at line 537
 
 ] [37
 
-] [38
-
 ]
-Overfull \hbox (25.77708pt too wide) detected at line 849
+Overfull \hbox (25.77708pt too wide) detected at line 820
 [][] [] [][]\OMS/cmsy/m/n/10.95 ! [] [][]![]
  []
 
-[39
+[38
+
+] [39
 
 ] [40
 
 ] [41
 
-] [42
+]
+Overfull \hbox (60.51338pt too wide) detected at line 889
+[]
+ []
+
+[42
+
+] [43
 
 ]
 \tf@nav=\write6
@@ -1146,19 +1153,19 @@ Overfull \hbox (25.77708pt too wide) detected at line 849
 \tf@snm=\write8
 \openout8 = `la-01-labasics.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 899.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 899.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 896.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 896.
  (./la-01-labasics.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 899.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 899.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 896.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 896.
 Package rerunfilecheck Info: File `la-01-labasics.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 20492 strings out of 492982
- 401573 string characters out of 6134896
- 476657 words of memory out of 5000000
- 23439 multiletter control sequences out of 15000+600000
+ 20494 strings out of 492982
+ 401584 string characters out of 6134896
+ 476632 words of memory out of 5000000
+ 23440 multiletter control sequences out of 15000+600000
  10684 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,63p,805b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1174,10 +1181,10 @@ ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb>
-Output written on la-01-labasics.pdf (42 pages, 170857 bytes).
+Output written on la-01-labasics.pdf (43 pages, 172127 bytes).
 PDF statistics:
- 463 PDF objects out of 1000 (max. 8388607)
- 382 compressed objects within 4 object streams
- 150 named destinations out of 1000 (max. 500000)
+ 470 PDF objects out of 1000 (max. 8388607)
+ 388 compressed objects within 4 object streams
+ 151 named destinations out of 1000 (max. 500000)
  99 words of extra memory for PDF output out of 10000 (max. 10000000)
 

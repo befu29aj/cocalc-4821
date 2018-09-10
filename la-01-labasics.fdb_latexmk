@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1536610318 "la-01-labasics.tex" "la-01-labasics.pdf" "la-01-labasics" 1536610320
+["pdflatex"] 1536610912 "la-01-labasics.tex" "la-01-labasics.pdf" "la-01-labasics" 1536610914
   "/etc/texmf/web2c/texmf.cnf" 1535314180 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -208,16 +208,16 @@
   "diagrams/gm-03-SystemsEquations-02.eps" 1536596480 170896 69e5a50ed8951e878033a97a6caddc60 ""
   "diagrams/gm-03-SystemsEquations-03.eps" 1536596480 171216 4a4e82041e183ff8a446d63b04cad9cc ""
   "diagrams/gm-03-SystemsEquations-04.eps" 1536596480 168642 6fb042f8a7ff311dcf3176d5f033ac62 ""
-  "la-01-labasics.aux" 1536610320 12672 0c3cb56b9b260ed6b87d9afcd6d8523b ""
-  "la-01-labasics.nav" 1536610320 4085 b8c8ab2e113f394f7ad8f1b22510059d ""
-  "la-01-labasics.out" 1536610319 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "la-01-labasics.tex" 1536610305 23357 a1c2a6c4d6141802783d4c1f756bcb60 ""
+  "la-01-labasics.aux" 1536610914 12703 5ce105869bc48d29b16cf17466d052d8 ""
+  "la-01-labasics.nav" 1536610914 4178 fe9bef6b28af8afa8a81c37827a7c3ca ""
+  "la-01-labasics.out" 1536610913 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "la-01-labasics.tex" 1536610909 23599 33c24908179835926572a3fa5c0fd0ad ""
   "teachbeamer.sty" 1536261356 1599 47b30f8a7e30907cf86a9a1fff41cc5e ""
   (generated)
-  "la-01-labasics.aux"
-  "la-01-labasics.pdf"
-  "la-01-labasics.nav"
   "la-01-labasics.toc"
-  "la-01-labasics.out"
   "la-01-labasics.snm"
+  "la-01-labasics.out"
+  "la-01-labasics.aux"
   "la-01-labasics.log"
+  "la-01-labasics.nav"
+  "la-01-labasics.pdf"
