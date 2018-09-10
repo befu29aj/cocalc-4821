@@ -369,6 +369,35 @@ for all square matrices $A$.
 \end{frame}
 
 \begin{frame}
+  \frametitle{Matrix Determinants Exercises}  
+  {\ubung} Consider
+  \begin{equation}
+    \label{eq:aengixoh}
+    B=\left[
+      \begin{array}{cc}
+        1 & 0 \\
+        3 & -2 
+      \end{array}\right]
+  \end{equation}
+  Calculate $B^{-1}$ and show that $B\cdot{}B^{-1}=I$.
+
+  \medskip
+
+  {\ubung} Consider
+  \begin{equation}
+    \label{eq:eecheipo}
+    D=\left[
+      \begin{array}{ccc}
+        0 & -1 & 4 \\
+        3 & 2 & 0 \\
+        4 & 3 & -1 
+      \end{array}\right]
+  \end{equation}
+Calculate $\det(D)$. Then use softward to calculate the inverse of
+$D$. What do you notice about $\det(D)\cdot{}D^{-1}$?
+\end{frame}
+
+\begin{frame}
   \frametitle{Matrix Method}
   \begin{equation}
     \label{eq:ohghohfi}
@@ -391,7 +420,7 @@ discipline that deals with matrices is called Linear Algebra.
 \end{frame}
 
 \begin{frame}
-  \frametitle{Matrix Inverse I}
+  \frametitle{Matrix Inverse}
   Matrix multiplication for an an $m\times{}j$ matrix by a
   $k\times{}n$ matrix is not defined when $j\neq{}k$. An inverse
   matrix $A^{-1}$ of a square matrix $A$ is defined to be the matrix
@@ -410,6 +439,258 @@ where
      0        &   & \cdots{} & 0 & 1
   \end{array}\right]\notag
 \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Systems of Linear Equations Introduced}
+  Chaitali and Amulya go to a concession stand to buy fruit. Chaitali
+  buys 5 bananas and 3 apples and spends \$13.50. Amulya buys 1 banana
+  and 5 apples and spends 20 cents more than Chaitali. How much do
+  bananas and apples cost at the concession stand?
+\end{frame}
+
+\begin{frame}
+  \frametitle{Systems of Linear Equations Introduced}
+  Chaitali and Amulya go to a concession stand to buy fruit. Chaitali
+  buys 5 bananas and 3 apples and spends \$13.50. Amulya buys 1 banana
+  and 5 apples and spends 20 cents more than Chaitali. How much do
+  bananas and apples cost at the concession stand?
+  \begin{equation}
+    \label{eq:mohloogh}
+    \begin{array}{rcrcl}
+      5x&+&3y&=&13.5 \\
+      x&+&5y&=&13.7
+    \end{array}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{What Is a System of Linear Equations?}
+  \begin{equation}
+    \label{eq:xaigeeke}
+    \begin{array}{rcrcl}
+      5x&+&3y&=&13.5 \\
+      x&+&5y&=&13.7
+    \end{array}
+  \end{equation}
+  This system of linear equations is the rule for the following set $S\subset\mathbb{R}\times\mathbb{R}$:
+  \begin{equation}
+    \label{eq:ahshohwa}
+S=\{(x,y)\in\mathbb{R}\times\mathbb{R}|5x+3y=13.5\mbox{ and }x+5y=13.7\}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Solution Methods}
+  \begin{equation}
+    \label{eq:yeghahpi}
+    \begin{array}{rcrcl}
+      5x&+&3y&=&13.5 \\
+      x&+&5y&=&13.7
+    \end{array}
+  \end{equation}
+There are several ways to solve a system of equations like this. 
+\begin{itemize}
+\item Graphing
+\item Substitution
+\item Elimination
+\item Using a Matrix
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Graphing Method I}
+  \begin{equation}
+    \label{eq:oamaiwei}
+    \begin{array}{rcrcl}
+      5x&+&3y&=&13.5 \\
+      x&+&5y&=&13.7
+    \end{array}
+  \end{equation}
+is equivalent to
+  \begin{equation}
+    \label{eq:kaiquaeb}
+    \begin{array}{rcl}
+      y&=&-\frac{5}{3}x+\frac{9}{2} \\
+      && \\
+      y&=&-\frac{1}{5}x+\frac{137}{50}
+    \end{array}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Graphing Method II}
+  \begin{figure}[h]
+    \includegraphics[scale=.6]{./gm-03-SystemsEquations-01.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Graphing Method III}
+  \begin{figure}[h]
+    \includegraphics[scale=.6]{./gm-03-SystemsEquations-02.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Graphing Method IV}
+  \begin{figure}[h]
+    \includegraphics[scale=.6]{./gm-03-SystemsEquations-03.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Graphing Method V}
+  \begin{figure}[h]
+    \includegraphics[scale=.6]{./gm-03-SystemsEquations-04.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Graphing Method Exercises}
+Find a solution to these systems of linear equations by graphing them
+and check your answer by substituting.
+  \begin{equation}
+    \label{eq:fiesebah}
+    \begin{array}{rcrcl}
+      7x&-&6y&=&19 \\
+      -5x&+&2y&=&-9
+    \end{array}
+  \end{equation}
+  \begin{equation}
+    \label{eq:weaseiwa}
+    \begin{array}{rcrcl}
+      x&+&3y&=&12 \\
+      11x&-&2y&=&27
+    \end{array}
+  \end{equation}
+  \begin{equation}
+    \label{eq:yaetooni}
+    \begin{array}{rcrcl}
+      \frac{1}{2}x&-&2y&=&\frac{9}{2} \\
+      -\frac{5}{8}x&+&y&=&-\frac{15}{8}
+    \end{array}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Substitution Method I}
+  \begin{equation}
+    \label{eq:jichoora}
+    \begin{array}{rcrcl}
+      5x&+&3y&=&13.5 \\
+      x&+&5y&=&13.7
+    \end{array}
+  \end{equation}
+The second equation yields $x=13.7-5y$. Use this to substitute in the
+first equation
+  \begin{equation}
+    \label{eq:iewoobih}
+5\cdot\alert{(13.7-5y)}+3y=13.5
+  \end{equation}
+therefore, $-22y=-55$ and $y=5/2$. Now substitute $y=5/2$ in the first
+equation (you could just as well use the second equation), so
+\begin{equation}
+  \label{eq:phaiyahj}
+  5x+3\cdot\frac{5}{2}=13.5
+\end{equation}
+which implies $x=1.2$. A banana costs \$1.20; an apple costs \$2.50.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Substitution Method Exercises}
+Find a solution to these systems of linear equations by using the
+substitution method.
+  \begin{equation}
+    \label{eq:waduifee}
+    \begin{array}{rcrcl}
+      7x&-&6y&=&19 \\
+      -5x&+&2y&=&-9
+    \end{array}
+  \end{equation}
+  \begin{equation}
+    \label{eq:weiyushe}
+    \begin{array}{rcrcl}
+      x&+&3y&=&12 \\
+      11x&-&2y&=&27
+    \end{array}
+  \end{equation}
+  \begin{equation}
+    \label{eq:jiadaush}
+    \begin{array}{rcrcl}
+      \frac{1}{2}x&-&2y&=&\frac{9}{2} \\
+      -\frac{5}{8}x&+&y&=&-\frac{15}{8}
+    \end{array}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Elimination Method I}
+  \begin{equation}
+    \label{eq:ohneirae}
+    \begin{array}{rcrcl}
+      5x&+&3y&=&13.5 \\
+      x&+&5y&=&13.7
+    \end{array}
+  \end{equation}
+is equivalent to
+  \begin{equation}
+    \label{eq:wahheedo}
+    \begin{array}{rcrcl}
+      5x&+&3y&=&13.5 \\
+      5x&+&25y&=&68.5
+    \end{array}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Elimination Method II}
+  \begin{equation}
+    \label{eq:zeegheir}
+    \begin{array}{rcrcl}
+      5x&+&3y&=&13.5 \\
+      5x&+&25y&=&68.5
+    \end{array}
+  \end{equation}
+implies
+  \begin{equation}
+    \label{eq:ooleeyae}
+(5x+3y)-(5x+25y)=13.5-68.5
+  \end{equation}
+therefore, $-22y=-55$ and $y=5/2$. Now substitute $y=5/2$ in the first
+equation (you could just as well use the second equation), so
+\begin{equation}
+  \label{eq:ieghoisa}
+  5x+3\cdot\frac{5}{2}=13.5
+\end{equation}
+which implies $x=1.2$. A banana costs \$1.20; an apple costs \$2.50.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Elimination Method Exercises}
+Find a solution to these systems of linear equations by using the
+elimination method.
+  \begin{equation}
+    \label{eq:eighilai}
+    \begin{array}{rcrcl}
+      7x&-&6y&=&19 \\
+      -5x&+&2y&=&-9
+    \end{array}
+  \end{equation}
+  \begin{equation}
+    \label{eq:thidaitu}
+    \begin{array}{rcrcl}
+      x&+&3y&=&12 \\
+      11x&-&2y&=&27
+    \end{array}
+  \end{equation}
+  \begin{equation}
+    \label{eq:ohkaicux}
+    \begin{array}{rcrcl}
+      \frac{1}{2}x&-&2y&=&\frac{9}{2} \\
+      -\frac{5}{8}x&+&y&=&-\frac{15}{8}
+    \end{array}
+  \end{equation}
 \end{frame}
 
 \begin{frame}
