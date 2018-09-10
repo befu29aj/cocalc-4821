@@ -73,8 +73,6 @@
     "eq:baixieda"
     "eq:maethung"
     "eq:leighuga"
-    "eq:iephaizu"
-    "eq:sooxaexa"
     "eq:aurohbac"
     "eq:nahshooh"
     "eq:aecocaeh"
@@ -82,6 +80,7 @@
     "eq:ieyoongu"
     "eq:ephoopha"
     "eq:oogeujie"
-    "eq:seeleeje"))
+    "eq:seeleeje"
+    "eq:oemeyeib"))
  :latex)
 
