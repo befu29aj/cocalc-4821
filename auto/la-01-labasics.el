@@ -33,6 +33,7 @@
     "eq:raipuboi"
     "eq:eroogaju"
     "eq:tiequooh"
+    "eq:equaewoi"
     "eq:aivaitoa"
     "eq:ubaisula"
     "eq:quoovain"
@@ -85,7 +86,10 @@
     "eq:ephoopha"
     "eq:oogeujie"
     "eq:seeleeje"
+    "eq:shuajohs"
     "eq:oemeyeib"
-    "eq:eicheuth"))
+    "eq:eicheuth"
+    "eq:iephaeke"
+    "eq:euseeyee"))
  :latex)
 
