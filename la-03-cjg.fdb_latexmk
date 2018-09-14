@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1536967165 "la-03-cjg.tex" "la-03-cjg.pdf" "la-03-cjg" 1536967166
+["pdflatex"] 1536967833 "la-03-cjg.tex" "la-03-cjg.pdf" "la-03-cjg" 1536967834
   "/etc/texmf/web2c/texmf.cnf" 1535314180 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -26,6 +26,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb" 1480098733 24393 3b7eb51a67a0a62aec5849271bdb9c2e ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb" 1480098733 24420 52dbb8e8aa0069a1b987309557f8d303 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb" 1480098733 25150 e0d09798d232ab9d00c5c0a8df6cc22d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb" 1480098733 25168 33771b85f45c82138dd7745db7092d1c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1480098733 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1480098806 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1480098815 1458 43ab4710dc82f3edeabecd0d099626b2 ""
@@ -197,16 +198,16 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1535345801 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1535345686 4127293 e426791f7d60570cbd329fe378e4215f ""
-  "la-03-cjg.aux" 1536967166 2380 c215b94c8f2194a9bbb0899769590ba4 ""
-  "la-03-cjg.nav" 1536967166 747 0e276c0940a342ad38699132b0e9aa8d ""
-  "la-03-cjg.out" 1536967166 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "la-03-cjg.tex" 1536967164 3757 2fc280956b0522c0db9d3cb30efc7185 ""
+  "la-03-cjg.aux" 1536967834 2790 7f094c41608e83ad3bee7df0f1ada09d ""
+  "la-03-cjg.nav" 1536967834 835 b5c49ba28d3d2049d1773682fb2767a8 ""
+  "la-03-cjg.out" 1536967834 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "la-03-cjg.tex" 1536967832 4841 350ea44ff541de05b5b2ede8426c9a20 ""
   "teachbeamer.sty" 1536261356 1599 47b30f8a7e30907cf86a9a1fff41cc5e ""
   (generated)
-  "la-03-cjg.nav"
-  "la-03-cjg.toc"
   "la-03-cjg.pdf"
+  "la-03-cjg.nav"
   "la-03-cjg.aux"
-  "la-03-cjg.out"
   "la-03-cjg.snm"
   "la-03-cjg.log"
+  "la-03-cjg.toc"
+  "la-03-cjg.out"
