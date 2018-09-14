@@ -369,6 +369,78 @@ for all square matrices $A$.
 \end{frame}
 
 \begin{frame}
+  \frametitle{Calculating the Adjugate Matrix}
+  \begin{description}
+  \item[Step 1: Determinants of Minor Square Matrices] For each
+    element of the matrix $a_{ij}$, delete the $i$-th row and the
+    $j$-th column and calculate the determinant of the matrix that is
+    left over. Put that determinant in a new matrix in $a_{ij}$'s
+    place.
+  \item[Step 2: Multiply by Checkerboard Matrix] Multiply each element
+    of the result matrix in step 1 by each element of the checkerboard
+    matrix (see next slide). (This way of multiplying matrices is
+    called Hadamard multiplication as opposed to matrix
+    multiplication.)
+  \item[Step 3: Transpose] Now transpose the result matrix of step 2
+    in order to calculate the adjugate matrix.
+  \end{description}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Calculating the Adjugate Matrix Example}
+  \alert{Step 1}
+  \begin{equation}
+    \label{eq:oyingiej}
+    \left[
+      \begin{array}{ccc}
+        4 & 1 & -3 \\
+        3 & 0 & 1 \\
+        8 & -1 & 2
+      \end{array}\right]\longrightarrow\left[
+      \begin{array}{ccc}
+        1 & -2 & -3 \\
+        -1 & 32 & -12 \\
+        1 & 13 & -3
+      \end{array}\right]
+  \end{equation}
+  \alert{Step 2}
+  \begin{equation}
+    \label{eq:ewezohhu}
+    \left[
+      \begin{array}{ccc}
+        1 & -2 & -3 \\
+        -1 & 32 & -12 \\
+        1 & 13 & -3
+      \end{array}\right]\longrightarrow\left[
+      \begin{array}{ccc}
+        1 & 2 & -3 \\
+        1 & 32 & 12 \\
+        1 & -13 & -3
+      \end{array}\right]\hspace{.5in}\left[
+      \begin{array}{ccc}
+        + & - & + \\
+        - & + & - \\
+        + & - & +
+      \end{array}\right]
+  \end{equation}
+  \alert{Step 3}
+  \begin{equation}
+    \label{eq:oazefako}
+    \left[
+      \begin{array}{ccc}
+        1 & 2 & -3 \\
+        1 & 32 & 12 \\
+        1 & -13 & -3
+      \end{array}\right]\longrightarrow\left[
+      \begin{array}{ccc}
+        1 & 1 & 1 \\
+        2 & 32 & -13 \\
+        -3 & -12 & -3
+      \end{array}\right]
+  \end{equation}
+\end{frame}
+
+\begin{frame}
   \frametitle{Finding Inverse Using Adjugate}
   Right-multiply equation~(\ref{eq:iegoowae}) by $A^{-1}$ to see that
   \begin{equation}
