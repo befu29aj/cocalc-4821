@@ -187,7 +187,8 @@
       \end{array}\right]
   \end{equation}
 Now use elementary row operations to make sure that only zeroes
-populate the matrix below the diagonal.
+populate the matrix below the diagonal. This is called the
+\alert{echelon form} of the system.
 \begin{equation}
   \label{eq:eitaewoo}
     \left[
@@ -197,6 +198,54 @@ populate the matrix below the diagonal.
         0 & 0 & 7 & -7
       \end{array}\right]
 \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Echelon Form}
+  Because the echelon form is the product of elementary row
+  operations, the solutions of the system of linear equations
+  associated with it are the same as the solutions of the original
+  system of linear equations.
+  \begin{equation}
+    \label{eq:thiajaxe}
+    \begin{array}{ccccccc}
+      3x & + & 4y & - & 2z & = & 20 \\
+       &  & -10y & + & 5z & = & -35 \\
+      & & & & 7z & = & -7
+    \end{array}
+  \end{equation}
+The last equation tells us that $z=-1$. Substituting $z=-1$, the
+middle equation tells us that $y=3$. Substituting both of these
+results in the first equation tells us that $x=2$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Echelon Form}
+  The echelon form provides another way to solve a system of linear
+  equations. The elementary row operations are called \alert{Gaussian
+    elimination} or \alert{Gauss-Jordan elimination} (there are
+  technical details about the difference between these two elimination
+  methods that we are not worried about right now). Gaussian or
+  Gauss-Jordan elimination, however, is hard to do manually. We use
+  the echelon form primarily to deal with pathological cases where the
+  determinant of the coefficient matrix is zero.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Theory of Linear Systems}
+  \begin{enumerate}
+  \item If some row of an echelon form has its first nonzero entry in
+    the last column, then the system has no solution. The system is
+    \alert{inconsistent}. 
+  \item If a system is consistent, it has a \alert{rank}. The rank is
+    the number of leading nonzero entries with respect to the rows of
+    the echelon form.
+  \item If the rank of a system equals the number of rows (or the
+    number of equations), then the system has exactly one solution.
+  \item If the rank of a system is strictly less than the number of
+    rows (or the number of equations), then the system has infinitely
+    many solutions.
+  \end{enumerate}
 \end{frame}
 
 \begin{frame}
