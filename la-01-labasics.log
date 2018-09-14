@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  14 SEP 2018 16:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  14 SEP 2018 16:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -984,8 +984,8 @@ thkerncmss.
 ] [17
 
 ]
-Overfull \hbox (1.95374pt too wide) detected at line 441
-[][] [] [][]\OMS/cmsy/m/n/10.95 ! []  []
+Overfull \hbox (38.50552pt too wide) detected at line 450
+[][][] [] [] [][]
  []
 
 [18
@@ -1014,18 +1014,18 @@ onverted-to.pdf>
 (epstopdf)                    size: 5783 bytes
 (epstopdf)             Command: <repstopdf --outfile=./diagrams/gm-03-SystemsEq
 uations-01-eps-converted-to.pdf ./diagrams/gm-03-SystemsEquations-01.eps>
-(epstopdf)             \includegraphics on input line 588.
+(epstopdf)             \includegraphics on input line 597.
 Package epstopdf Info: Output file is already uptodate.
-<./diagrams/gm-03-SystemsEquations-01-eps-converted-to.pdf, id=232, 465.74pt x 
+<./diagrams/gm-03-SystemsEquations-01-eps-converted-to.pdf, id=233, 465.74pt x 
 371.3875pt>
 File: ./diagrams/gm-03-SystemsEquations-01-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use ./diagrams/gm-03-SystemsEquations-01-eps-converted-to.pdf>
 Package pdftex.def Info: ./diagrams/gm-03-SystemsEquations-01-eps-converted-to.
-pdf  used on input line 588.
+pdf  used on input line 597.
 (pdftex.def)             Requested size: 279.44615pt x 222.83421pt.
 
-Overfull \vbox (1.29181pt too high) detected at line 588
+Overfull \vbox (1.29181pt too high) detected at line 597
  []
 
 [26
@@ -1040,18 +1040,18 @@ onverted-to.pdf>
 (epstopdf)                    size: 6582 bytes
 (epstopdf)             Command: <repstopdf --outfile=./diagrams/gm-03-SystemsEq
 uations-02-eps-converted-to.pdf ./diagrams/gm-03-SystemsEquations-02.eps>
-(epstopdf)             \includegraphics on input line 595.
+(epstopdf)             \includegraphics on input line 604.
 Package epstopdf Info: Output file is already uptodate.
-<./diagrams/gm-03-SystemsEquations-02-eps-converted-to.pdf, id=244, 465.74pt x 
+<./diagrams/gm-03-SystemsEquations-02-eps-converted-to.pdf, id=245, 465.74pt x 
 371.3875pt>
 File: ./diagrams/gm-03-SystemsEquations-02-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use ./diagrams/gm-03-SystemsEquations-02-eps-converted-to.pdf>
 Package pdftex.def Info: ./diagrams/gm-03-SystemsEquations-02-eps-converted-to.
-pdf  used on input line 595.
+pdf  used on input line 604.
 (pdftex.def)             Requested size: 279.44615pt x 222.83421pt.
 
-Overfull \vbox (1.29181pt too high) detected at line 595
+Overfull \vbox (1.29181pt too high) detected at line 604
  []
 
 [27
@@ -1066,18 +1066,18 @@ onverted-to.pdf>
 (epstopdf)                    size: 6689 bytes
 (epstopdf)             Command: <repstopdf --outfile=./diagrams/gm-03-SystemsEq
 uations-03-eps-converted-to.pdf ./diagrams/gm-03-SystemsEquations-03.eps>
-(epstopdf)             \includegraphics on input line 602.
+(epstopdf)             \includegraphics on input line 611.
 Package epstopdf Info: Output file is already uptodate.
-<./diagrams/gm-03-SystemsEquations-03-eps-converted-to.pdf, id=256, 465.74pt x 
+<./diagrams/gm-03-SystemsEquations-03-eps-converted-to.pdf, id=257, 465.74pt x 
 371.3875pt>
 File: ./diagrams/gm-03-SystemsEquations-03-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use ./diagrams/gm-03-SystemsEquations-03-eps-converted-to.pdf>
 Package pdftex.def Info: ./diagrams/gm-03-SystemsEquations-03-eps-converted-to.
-pdf  used on input line 602.
+pdf  used on input line 611.
 (pdftex.def)             Requested size: 279.44615pt x 222.83421pt.
 
-Overfull \vbox (1.29181pt too high) detected at line 602
+Overfull \vbox (1.29181pt too high) detected at line 611
  []
 
 [28
@@ -1092,18 +1092,18 @@ onverted-to.pdf>
 (epstopdf)                    size: 5358 bytes
 (epstopdf)             Command: <repstopdf --outfile=./diagrams/gm-03-SystemsEq
 uations-04-eps-converted-to.pdf ./diagrams/gm-03-SystemsEquations-04.eps>
-(epstopdf)             \includegraphics on input line 609.
+(epstopdf)             \includegraphics on input line 618.
 Package epstopdf Info: Output file is already uptodate.
-<./diagrams/gm-03-SystemsEquations-04-eps-converted-to.pdf, id=268, 469.755pt x
+<./diagrams/gm-03-SystemsEquations-04-eps-converted-to.pdf, id=269, 469.755pt x
  371.3875pt>
 File: ./diagrams/gm-03-SystemsEquations-04-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use ./diagrams/gm-03-SystemsEquations-04-eps-converted-to.pdf>
 Package pdftex.def Info: ./diagrams/gm-03-SystemsEquations-04-eps-converted-to.
-pdf  used on input line 609.
+pdf  used on input line 618.
 (pdftex.def)             Requested size: 281.85518pt x 222.83421pt.
 
-Overfull \vbox (1.29181pt too high) detected at line 609
+Overfull \vbox (1.29181pt too high) detected at line 618
  []
 
 [29
@@ -1130,7 +1130,7 @@ Overfull \vbox (1.29181pt too high) detected at line 609
 ] [39
 
 ]
-Overfull \hbox (25.77708pt too wide) detected at line 892
+Overfull \hbox (25.77708pt too wide) detected at line 901
 [][] [] [][]\OMS/cmsy/m/n/10.95 ! [] [][]![]
  []
 
@@ -1166,20 +1166,20 @@ Overfull \hbox (25.77708pt too wide) detected at line 892
 \tf@snm=\write8
 \openout8 = `la-01-labasics.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1024.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1024.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1033.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1033.
  (./la-01-labasics.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1024.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1024.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1033.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1033.
 
 Package rerunfilecheck Info: File `la-01-labasics.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 20566 strings out of 492982
- 403023 string characters out of 6134896
- 476732 words of memory out of 5000000
- 23494 multiletter control sequences out of 15000+600000
+ 20568 strings out of 492982
+ 403047 string characters out of 6134896
+ 477757 words of memory out of 5000000
+ 23495 multiletter control sequences out of 15000+600000
  10684 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,63p,805b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1195,10 +1195,10 @@ ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb>
-Output written on la-01-labasics.pdf (50 pages, 181619 bytes).
+Output written on la-01-labasics.pdf (50 pages, 181765 bytes).
 PDF statistics:
- 521 PDF objects out of 1000 (max. 8388607)
- 431 compressed objects within 5 object streams
- 169 named destinations out of 1000 (max. 500000)
+ 522 PDF objects out of 1000 (max. 8388607)
+ 432 compressed objects within 5 object streams
+ 170 named destinations out of 1000 (max. 500000)
  99 words of extra memory for PDF output out of 10000 (max. 10000000)
 
