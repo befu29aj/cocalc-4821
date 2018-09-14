@@ -1,4 +1,4 @@
-% la-01-labasics.tex
+% la-02-lineareqs.tex
 
 \documentclass[xcolor=dvipsnames]{beamer}
 \usepackage{teachbeamer}
@@ -562,6 +562,437 @@ $D$. What do you notice about $\det(D)\cdot{}D^{-1}$?
 \end{frame}
 
 \begin{frame}
+  \frametitle{Systems of Linear Equations Introduced}
+  Chaitali and Amulya go to a concession stand to buy fruit. Chaitali
+  buys 5 bananas and 3 apples and spends \$13.50. Amulya buys 1 banana
+  and 5 apples and spends 20 cents more than Chaitali. How much do
+  bananas and apples cost at the concession stand?
+\end{frame}
+
+\begin{frame}
+  \frametitle{Systems of Linear Equations Introduced}
+  Chaitali and Amulya go to a concession stand to buy fruit. Chaitali
+  buys 5 bananas and 3 apples and spends \$13.50. Amulya buys 1 banana
+  and 5 apples and spends 20 cents more than Chaitali. How much do
+  bananas and apples cost at the concession stand?
+  \begin{equation}
+    \label{eq:mohloogh}
+    \begin{array}{rcrcl}
+      5x&+&3y&=&13.5 \\
+      x&+&5y&=&13.7
+    \end{array}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{What Is a System of Linear Equations?}
+  \begin{equation}
+    \label{eq:xaigeeke}
+    \begin{array}{rcrcl}
+      5x&+&3y&=&13.5 \\
+      x&+&5y&=&13.7
+    \end{array}
+  \end{equation}
+  This system of linear equations is the rule for the following set $S\subset\mathbb{R}\times\mathbb{R}$:
+  \begin{equation}
+    \label{eq:ahshohwa}
+S=\{(x,y)\in\mathbb{R}\times\mathbb{R}|5x+3y=13.5\mbox{ and }x+5y=13.7\}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Solution Methods}
+  \begin{equation}
+    \label{eq:yeghahpi}
+    \begin{array}{rcrcl}
+      5x&+&3y&=&13.5 \\
+      x&+&5y&=&13.7
+    \end{array}
+  \end{equation}
+There are several ways to solve a system of equations like this. 
+\begin{itemize}
+\item Graphing
+\item Substitution
+\item Elimination
+\item Using a Matrix
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Graphing Method I}
+  \begin{equation}
+    \label{eq:oamaiwei}
+    \begin{array}{rcrcl}
+      5x&+&3y&=&13.5 \\
+      x&+&5y&=&13.7
+    \end{array}
+  \end{equation}
+is equivalent to
+  \begin{equation}
+    \label{eq:kaiquaeb}
+    \begin{array}{rcl}
+      y&=&-\frac{5}{3}x+\frac{9}{2} \\
+      && \\
+      y&=&-\frac{1}{5}x+\frac{137}{50}
+    \end{array}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Graphing Method II}
+  \begin{figure}[h]
+    \includegraphics[scale=.6]{./diagrams/gm-03-SystemsEquations-01.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Graphing Method III}
+  \begin{figure}[h]
+    \includegraphics[scale=.6]{./diagrams/gm-03-SystemsEquations-02.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Graphing Method IV}
+  \begin{figure}[h]
+    \includegraphics[scale=.6]{./diagrams/gm-03-SystemsEquations-03.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Graphing Method V}
+  \begin{figure}[h]
+    \includegraphics[scale=.6]{./diagrams/gm-03-SystemsEquations-04.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Graphing Method Exercises}
+Find a solution to these systems of linear equations by graphing them
+and check your answer by substituting.
+  \begin{equation}
+    \label{eq:fiesebah}
+    \begin{array}{rcrcl}
+      7x&-&6y&=&19 \\
+      -5x&+&2y&=&-9
+    \end{array}
+  \end{equation}
+  \begin{equation}
+    \label{eq:weaseiwa}
+    \begin{array}{rcrcl}
+      x&+&3y&=&12 \\
+      11x&-&2y&=&27
+    \end{array}
+  \end{equation}
+  \begin{equation}
+    \label{eq:yaetooni}
+    \begin{array}{rcrcl}
+      \frac{1}{2}x&-&2y&=&\frac{9}{2} \\
+      -\frac{5}{8}x&+&y&=&-\frac{15}{8}
+    \end{array}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Substitution Method I}
+  \begin{equation}
+    \label{eq:jichoora}
+    \begin{array}{rcrcl}
+      5x&+&3y&=&13.5 \\
+      x&+&5y&=&13.7
+    \end{array}
+  \end{equation}
+The second equation yields $x=13.7-5y$. Use this to substitute in the
+first equation
+  \begin{equation}
+    \label{eq:iewoobih}
+5\cdot\alert{(13.7-5y)}+3y=13.5
+  \end{equation}
+therefore, $-22y=-55$ and $y=5/2$. Now substitute $y=5/2$ in the first
+equation (you could just as well use the second equation), so
+\begin{equation}
+  \label{eq:phaiyahj}
+  5x+3\cdot\frac{5}{2}=13.5
+\end{equation}
+which implies $x=1.2$. A banana costs \$1.20; an apple costs \$2.50.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Substitution Method Exercises}
+Find a solution to these systems of linear equations by using the
+substitution method.
+  \begin{equation}
+    \label{eq:waduifee}
+    \begin{array}{rcrcl}
+      7x&-&6y&=&19 \\
+      -5x&+&2y&=&-9
+    \end{array}
+  \end{equation}
+  \begin{equation}
+    \label{eq:weiyushe}
+    \begin{array}{rcrcl}
+      x&+&3y&=&12 \\
+      11x&-&2y&=&27
+    \end{array}
+  \end{equation}
+  \begin{equation}
+    \label{eq:jiadaush}
+    \begin{array}{rcrcl}
+      \frac{1}{2}x&-&2y&=&\frac{9}{2} \\
+      -\frac{5}{8}x&+&y&=&-\frac{15}{8}
+    \end{array}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Elimination Method I}
+  \begin{equation}
+    \label{eq:ohneirae}
+    \begin{array}{rcrcl}
+      5x&+&3y&=&13.5 \\
+      x&+&5y&=&13.7
+    \end{array}
+  \end{equation}
+is equivalent to
+  \begin{equation}
+    \label{eq:wahheedo}
+    \begin{array}{rcrcl}
+      5x&+&3y&=&13.5 \\
+      5x&+&25y&=&68.5
+    \end{array}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Elimination Method II}
+  \begin{equation}
+    \label{eq:zeegheir}
+    \begin{array}{rcrcl}
+      5x&+&3y&=&13.5 \\
+      5x&+&25y&=&68.5
+    \end{array}
+  \end{equation}
+implies
+  \begin{equation}
+    \label{eq:ooleeyae}
+(5x+3y)-(5x+25y)=13.5-68.5
+  \end{equation}
+therefore, $-22y=-55$ and $y=5/2$. Now substitute $y=5/2$ in the first
+equation (you could just as well use the second equation), so
+\begin{equation}
+  \label{eq:ieghoisa}
+  5x+3\cdot\frac{5}{2}=13.5
+\end{equation}
+which implies $x=1.2$. A banana costs \$1.20; an apple costs \$2.50.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Elimination Method Exercises}
+Find a solution to these systems of linear equations by using the
+elimination method.
+  \begin{equation}
+    \label{eq:eighilai}
+    \begin{array}{rcrcl}
+      7x&-&6y&=&19 \\
+      -5x&+&2y&=&-9
+    \end{array}
+  \end{equation}
+  \begin{equation}
+    \label{eq:thidaitu}
+    \begin{array}{rcrcl}
+      x&+&3y&=&12 \\
+      11x&-&2y&=&27
+    \end{array}
+  \end{equation}
+  \begin{equation}
+    \label{eq:ohkaicux}
+    \begin{array}{rcrcl}
+      \frac{1}{2}x&-&2y&=&\frac{9}{2} \\
+      -\frac{5}{8}x&+&y&=&-\frac{15}{8}
+    \end{array}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Matrices and Systems of Linear Equations I}
+Remember our system of linear equations. 
+  \begin{equation}
+    \label{eq:ahgohcoh}
+    \begin{array}{rcrcl}
+      5x & + & 3y & = & 13.5 \\
+      x  & + & 5y & = & 13.7
+    \end{array}
+  \end{equation}
+In matrix notation, we can write
+  \begin{equation}
+    \label{eq:neithohn}
+  \left[\begin{array}{cc}
+5        & 3                 \\
+ 1       & 5
+  \end{array}\right]\cdot
+  \left[\begin{array}{c}
+ x                 \\
+ y
+  \end{array}\right]=
+  \left[\begin{array}{c}
+13.5                 \\
+13.7
+  \end{array}\right]\notag
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Matrices and Systems of Linear Equations II}
+Let's call these three matrices $A,v,b$ respectively. $A$ and $b$ are
+provided, and we are looking for $v$. If we had $A^{-1}$, we could go
+from
+\begin{equation}
+  \label{eq:baixieda}
+  Av=b
+\end{equation}
+to
+\begin{equation}
+  \label{eq:maethung}
+  A^{-1}Av=A^{-1}b
+\end{equation}
+which is the same as
+\begin{equation}
+  \label{eq:leighuga}
+  v=A^{-1}b
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Matrix Row Operations}
+  Another method to find the inverse of a matrix is using
+  \alert{matrix row operations}. There are three matrix row
+  operations.
+\begin{itemize}
+\item \alert{Row Switching} means you are allowed to switch two rows,
+  for example $R_{1}\leftrightarrow{}R_{2}$
+\item \alert{Row Multiplication} means you are allowed to multiply all
+  elements of a row by a real non-zero number, for example
+  $\frac{2}{5}R_{2}\rightarrow{}R_{2}$
+\item \alert{Row Addition} means you are allowed to add one row to
+  another and then replace one of the original rows by the sum of the
+  two rows, for example $R_{1}+R_{2}\rightarrow{}R_{1}$
+\end{itemize}
+Row multiplication and row addition are often used together, for
+example $\frac{7}{8}R_{1}-R_{3}\rightarrow{}R_{3}$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Matrix Row Operations}
+To find the inverse of a square matrix, we combine $A$ and $E$
+  \begin{equation}
+    \label{eq:aurohbac}
+  \left[\begin{array}{cccc}
+ 5 & 3 & 1 & 0 \\
+ 1 & 5 & 0 & 1
+  \end{array}\right]\notag
+  \end{equation}
+and apply matrix row operations until we get
+  \begin{equation}
+    \label{eq:nahshooh}
+  \left[\begin{array}{cccc}
+ 1 & 0 & x & y \\
+ 0 & 1 & z & w
+  \end{array}\right]\notag
+  \end{equation}
+where
+  \begin{equation}
+    \label{eq:aecocaeh}
+  A^{-1}=\left[\begin{array}{cc}
+ x & y  \\
+ z & w 
+  \end{array}\right]\notag
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Inverse Example}
+For our example,
+  \begin{equation}
+    \label{eq:weeraesh}
+  \left[\begin{array}{cccc}
+ 5    & 3     & 1     & 0     \\
+ 1    & 5     & 0     & 1
+  \end{array}\right]\longrightarrow
+  \left[\begin{array}{cccc}
+ 25/3 & 5     & 5/3   & 0     \\
+ 1    & 5     & 0     & 1
+        \end{array}\right]\longrightarrow\notag
+\end{equation}
+  \begin{equation}
+  \left[\begin{array}{cccc}
+ 22/3 & 0     & 5/3   & -1    \\
+ 1    & 5     & 0     & 1
+  \end{array}\right]\longrightarrow\notag
+\end{equation}
+  \begin{equation}
+    \label{eq:ieyoongu}
+  \left[\begin{array}{cccc}
+ 22/3 & 0     & 5/3   & -1    \\
+ 22/3 & 110/3 & 0     & 22/3
+  \end{array}\right]\longrightarrow
+  \left[\begin{array}{cccc}
+ 22/3 & 0     & 5/3   & -1    \\
+ 0    & 110/3 & -5/3  & 25/3
+  \end{array}\right]\longrightarrow\notag
+\end{equation}
+  \begin{equation}
+    \label{eq:ephoopha}
+  \left[\begin{array}{cccc}
+ 1    & 0     & 5/22  & -3/22 \\
+ 0    & 1     & -1/22 & 5/22
+  \end{array}\right]\notag
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Inverse Example}
+  For step 1, we multiplied the first row by $5/3$ (row
+  multiplication). For step 2, we subtracted the second row from the
+  first row and replaced the first row by the result (row addition).
+  For step 3, we multiplied the second row by $22/3$ (row
+  multiplication). For step 4, we subtracted the first row from the
+  second row and replaced the second row by the result (row addition).
+  For the last step, we multiplied the first row by $3/22$ and the
+  second row by $3/110$ (row multiplication applied twice).
+\end{frame}
+
+\begin{frame}
+  \frametitle{Matrices and Systems of Linear Equations III}
+Thus,
+\begin{equation}
+  \label{eq:oogeujie}
+  A^{-1}=\left[\begin{array}{cc}
+ 5/22  & -3/22 \\
+ -1/22 & 5/22
+               \end{array}\right]=\frac{1}{22}\cdot\left[
+               \begin{array}{cc}
+                 5 & -3 \\
+                 -1 & 5
+               \end{array}\right]\notag
+\end{equation}
+and
+\begin{equation}
+  \label{eq:seeleeje}
+  v=A^{-1}b=\left[\begin{array}{cc}
+ 5/22  & -3/22 \\
+ -1/22 & 5/22
+  \end{array}\right]\cdot
+\left[\begin{array}{c}
+ 13.5   \\
+ 13.7  
+  \end{array}\right]=\left[\begin{array}{c}
+ 1.2   \\
+ 2.5  
+  \end{array}\right]\notag
+\end{equation}
+\end{frame}
+
+\begin{frame}
   \frametitle{Using Determinants to find Areas}
   The determinant of a 2x2 matrix $A$ is the area of the following
   parallelogram:
@@ -605,9 +1036,126 @@ The area of the triangle is half of the area of the parallelogram. The
 answer is 17. 
 \end{frame}
 
+% The following exercises are from http://www.algebralab.org/practice/practice.aspx?file=Word_ApplicationProblemFor3EquationsWith3Variables.xml
+
+\begin{frame}
+  \frametitle{System of Three Linear Equations Word Problems}
+  {\ubung} Marina had \$24,500 to invest. She divided the money into
+  three different accounts. At the end of the year, she had made
+  \$1,300 in interest. The annual yield on each of the three accounts
+  was 4\%, 5.5\%, and 6\%. If the amount of money in the 4\% account
+  was four \%times the amount of money in the 5.5\% account, how much
+  had she \%placed in each account?
+\end{frame}
+
+\begin{frame}
+  \frametitle{System of Three Linear Equations Word Problems}
+  {\ubung} The currents running through an electrical system are given
+  by the following system of equations. The three currents $I_{1},I_{2},I_{3}$
+  are measured in amps. Solve the system to find the currents in this
+  circuit.
+  \begin{align}
+    \label{eq:oemeyeib}
+    \begin{array}{clclclc}
+    I_{1} & + & 2I_{2} & - & I_{3} & = & 0.425 \\
+    3I_{1} & - & I_{2} & + & 2I_{3} & = & 2.225 \\
+    5I_{1} & + & I_{2} & + & 2I_{3} & = & 3.775
+    \end{array}
+  \end{align}
+\end{frame}
+
+\begin{frame}
+  \frametitle{System of Three Linear Equations Word Problems}
+  {\ubung} Find the equation of the parabola $y=ax^{2}+bx+c$ that
+  passes through the following three points: $(-2,40),(1,7),(3,15)$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{System of Three Linear Equations Word Problems}
+  {\ubung} Billy's Restaurant ordered 200 flowers for Mother's Day.
+  They ordered carnations at \$1.50 each, roses at \$5.75 each, and
+  daisies at \$2.60 each. They ordered mostly carnations; and 20 fewer
+  roses than daisies. The total order came to \$589.50. How many of
+  each type of flower was ordered?
+\end{frame}
+
+\begin{frame}
+  \frametitle{System of Three Linear Equations Word Problems}
+  {\ubung} The Arcadium arcade in Lynchburg, Tennessee uses 3
+  different colored tokens for their game machines. For \$20 you can
+  purchase any of the following mixtures of tokens: 14 gold, 20
+  silver, and 24 bronze; OR, 20 gold, 15 silver, and 19 bronze; OR, 30
+  gold, 5 silver, and 13 bronze. What is the monetary value of each
+  token?
+\end{frame}
+
+\begin{frame}
+  \frametitle{System of Three Linear Equations Word Problems}
+  {\ubung} In the position function for vertical height
+  \begin{equation}
+    \label{eq:eicheuth}
+    s(t)=\frac{1}{2}at^{2}+v_{0}t+s_{0}
+  \end{equation}
+  $s(t)$ represents height in meters and $t$ represents time in
+  seconds.
+  \begin{enumerate}
+  \item Find the position function for a volleyball served at an
+    initial height of one meter, with height of 6.275 meters 0.5
+    seconds after serve, and height of 9.1 meters one second after
+    serve.
+  \item How long until the ball hits the ground on the other side of
+    the net if everyone on that team completely misses it?
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{System of Three Linear Equations Word Problems}
+  {\ubung} Last Tuesday, Regal Cinemas sold a total of 8500 movie
+  tickets. Proceeds totaled \$64,600. Tickets can be bought in one of
+  3 ways: a matinee admission costs \$5, student admission is \$6 all
+  day, and regular admissions are \$8.50. How many of each type of
+  ticket was sold if twice as many student tickets were sold as
+  matinee tickets?
+\end{frame}
+
+\begin{frame}
+  \frametitle{System of Three Linear Equations Word Problems}
+  {\ubung} Curve fitting. Determine the equation of the circle which
+  passes through the three points $(1,1),(2,1),(1,3)$. 
+\end{frame}
+
+\begin{frame}
+  \frametitle{System of Three Linear Equations Word Problems}
+  {\ubung} You receive a coded message. You know that each letter of
+  the original message was replaced with a one- or two-digit number
+  corresponding to its placement in the English alphabet, so ``E'' is
+  represented by ``5'' and ``W'' by ``23''; spaces in the message are
+  indicated by zeroes. You also know that the message was transformed
+  (encoded) left-multiplying the message by the following matrix:
+\begin{equation}
+  \label{eq:iephaeke}
+  \left[
+    \begin{array}{ccc}
+    1 & 2  & 3  \\
+    0 & 1  & 4  \\
+    5 & 6  & 0 
+  \end{array}\right]
+\end{equation}
+Translate the coded message:
+\begin{equation}
+  \label{eq:euseeyee}
+  \left[
+    \begin{array}{cccccccc}
+    105   & 62 & 53  & 107 & 88  & 37  & 52 & 31 \\
+    99    & 76 & 19  & 92  & 81  & 16  & 49 & 14 \\
+    149   & 25 & 189 & 185 & 131 & 124 & 75 & 99
+  \end{array}\right]
+\end{equation}
+\end{frame}
+
 \begin{frame}
   \frametitle{End of Lesson}
-Next Lesson: Linear Equations
+Next Lesson: Vectors
 \end{frame}
 
 \end{document}
