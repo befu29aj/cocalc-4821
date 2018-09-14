@@ -1,0 +1,413 @@
+% la-04-vectors.tex
+
+\documentclass[xcolor=dvipsnames]{beamer}
+\usepackage{teachbeamer}
+
+\title{Vectors}
+\subtitle{{\CourseNumber}, BCIT}
+
+\author{\CourseName}
+
+\date{September 24, 2018}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+  \frametitle{Vectors}
+  A vector is an ordered pair or triplet of real numbers. One way to interpret it
+  is to make it refer to a point in the $xy$-plane or
+  $xyz$-three-dimensional space. The usual interpretation, however, is
+  as a \alert{displacement vector} with a direction and a length. Here
+  is an example:
+  \begin{equation}
+    \label{eq:lapheeka}
+    \vec{v}=\left(
+    \begin{array}{c}
+      3 \\
+      5 \\
+      -1
+    \end{array}\right)
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Vector Algebra}
+  Vectors can be added, subtracted, and multiplied by a scalar (a real
+  number).
+  \begin{equation}
+    \label{eq:kaepuema}
+    \left(
+    \begin{array}{c}
+      3 \\
+      5 \\
+      -1
+    \end{array}\right)+
+  \left(
+    \begin{array}{c}
+      2 \\
+      \pi \\
+      -6
+    \end{array}\right)=
+  \left(
+    \begin{array}{c}
+      5 \\
+      5+\pi \\
+      -7
+    \end{array}\right)
+  \end{equation}
+  \begin{equation}
+    \label{eq:kemodaim}
+    1.5\cdot\left(
+    \begin{array}{c}
+      3 \\
+      5 \\
+      -1
+    \end{array}\right)=
+  \left(
+    \begin{array}{c}
+      4.5 \\
+      7.5 \\
+      -1.5
+    \end{array}\right)
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Unit Vectors}
+  All three-dimensional vectors can be expressed in components. For
+  this expression we need unit vectors. Any three linearly-independent
+  vectors would work, but it makes sense to use the following three:
+  \begin{equation}
+    \label{eq:bahniech}
+    \vec{i}=\left(
+    \begin{array}{c}
+      1 \\
+      0 \\
+      0
+    \end{array}\right)\hspace{.2in}
+    \vec{j}=\left(
+    \begin{array}{c}
+      0 \\
+      1 \\
+      0
+    \end{array}\right)\hspace{.2in}
+    \vec{k}=\left(
+    \begin{array}{c}
+      0 \\
+      0 \\
+      1
+    \end{array}\right)
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Vector Decomposition}
+  For any vector $\vec{v}$  (assuming from now on three dimensions),
+  \begin{equation}
+    \label{eq:teequahg}
+    \vec{v}=v_{x}\vec{i}+v_{y}\vec{j}+v_{z}\vec{k}
+  \end{equation}
+where $V=(v_{x},v_{y},v_{z})$, and $V$ is the point to which the
+origin $O=(0,0,0)$ would be displaced by vector
+\begin{equation}
+  \label{eq:zaegiexo}
+  \vec{v}=\left(
+    \begin{array}{c}
+      v_{x} \\
+      v_{y} \\
+      v_{z} \\
+    \end{array}\right)
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Vector Length and Distance Between Two Points}
+  The length of vector $\vec{v}$ is
+  \begin{equation}
+    \label{eq:ogeithie}
+    \Vert\vec{v}\Vert=\sqrt{v_{x}^{2}+v_{y}^{2}+v_{z}^{2}}
+  \end{equation}
+The distance between two points $P$ and $Q$ is the length of a
+displacement vector between them. Let $\vec{OP}$ be the displacement
+vector from $O$ to $P$ and so on. Then
+\begin{equation}
+  \label{eq:ahnoocae}
+  \vec{PQ}=\vec{PO}+\vec{OQ}=\vec{OQ}-\vec{OP}
+\end{equation}
+and $\Vert\vec{PQ}\Vert$ is the distance between $P$ and $Q$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Dot Product}
+  The following two definition of the \alert{dot product}, or
+  \alert{scalar product}, $\vec{v}\cdot\vec{w}$ are equivalent:
+  \begin{description}
+  \item[geometric]
+    $\vec{v}\cdot\vec{w}=\Vert\vec{v}\Vert\cdot\Vert\vec{w}\Vert\cdot\cos\vartheta$
+    where $\vartheta$ is the angle between $\vec{v}$ and $\vec{w}$,
+    $0\leq\vartheta\leq\pi$.
+  \item[algebraic] $\vec{v}\cdot\vec{w}=v_{x}w_{x}+v_{y}w_{y}+v_{z}w_{z}$
+  \end{description}
+The dot product is a number, not a vector.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Dot Product}
+  Now we need to show that the two definitions are equivalent.
+  Consider a triangle $PQR$ in three-dimensional space. Let
+  $\vec{v}=\vec{PQ},\vec{w}=\vec{PR}$. Then
+  \begin{equation}
+    \label{eq:oobeipho}
+  \vec{QR}=\vec{QP}+\vec{PR}=-\vec{v}+\vec{w}=\vec{w}-\vec{v}  
+\end{equation}
+Here is the law of cosines for this triangle:
+\begin{equation}
+  \label{eq:aiwahzoa}
+  \Vert\vec{w}-\vec{v}\Vert^{2}=\Vert\vec{v}\Vert^{2}+\Vert\vec{w}\Vert^{2}-2\Vert\vec{v}\Vert\cdot\Vert\vec{w}\Vert\cos\vartheta
+\end{equation}
+It follows that the two definitions are equivalent.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Dot Product}
+\begin{block}{Perpendicularity and Dot Product}
+  Two non-zero vectors $\vec{v}$ and $\vec{w}$ are perpendicular, or
+  orthogonal, if and only if $\vec{v}\cdot\vec{w}=0$.
+\end{block}
+
+\bigskip
+
+\begin{block}{Magnitude and Dot Product}
+  Magnitude and dot product are related as follows: $\vec{v}\cdot\vec{v}=\Vert\vec{v}\Vert$.
+\end{block}
+\end{frame}
+
+% this is NOT correct
+% \begin{frame}
+%   \frametitle{Dot Product Exercise}
+%   {\ubung} Find a normal vector to the following planes (a normal vector to a
+%   plane is perpendicular to all non-zero vectors displacing points on
+%   the plane).
+%   \begin{equation}
+%     \label{eq:afanaagu}
+%     2x+y-z=5
+%   \end{equation}
+%   \begin{equation}
+%     \label{eq:reeregha}
+%     2(x-z)=3(x+y)
+%   \end{equation}
+%   For (\ref{eq:afanaagu}), set $x=1,y=1$, then $z=-2$ for
+%   $P=(1,1,-2)$. Then set $x=3,y=1$, so $z=2$ for $Q=(3,1,2)$. Both $P$
+%   and $Q$ are on the plane, so $\vec{PQ}=\vec{OQ}-\vec{OP}$ is a
+%   vector displacing two points in the plane. To find a vector
+%   perpendicular to it consider the dot product
+% \begin{equation}
+%   \label{eq:chiemaig}
+%   -2x+0y-4z=0
+% \end{equation}
+% Choose $x=1,y=1$, so $z=-0.5$. The vector
+% $1\cdot\vec{i}+1\cdot\vec{j}-0.5\cdot\vec{k}$ is a normal vector to the
+% plane $2x+y-z=5$.
+% \end{frame}
+
+\begin{frame}
+  \frametitle{Dot Product Exercise}
+  {\ubung} Find the angle between
+  \begin{equation}
+    \label{eq:tauhohju}
+    \vec{v}=\left(
+      \begin{array}{c}
+        4 \\
+        0 \\
+        7
+      \end{array}\right)\hspace{.5in}\vec{w}=\left(
+      \begin{array}{c}
+        -2 \\
+        1 \\
+        3
+      \end{array}\right)
+  \end{equation}
+  Consider the dot product
+  \begin{equation}
+    \label{eq:ijaquahd}
+    4\cdot(-2)+0\cdot{}1+7\cdot{}3=13
+  \end{equation}
+According to the two equivalent definitions of the dot product, this
+is equal to
+\begin{equation}
+  \label{eq:ohyizaeb}
+  \Vert\vec{v}\Vert\cdot\Vert\vec{w}\Vert\cdot\cos\vartheta=\sqrt{4^{2}+7^{2}}\cdot\sqrt{(-2)^{2}+1^{2}+3^{2}}\cdot\cos\vartheta
+\end{equation}
+Therefore,
+\begin{equation}
+  \label{eq:yohsheen}
+  \vartheta=\arccos\frac{13}{\sqrt{4^{2}+7^{2}}\cdot\sqrt{(-2)^{2}+1^{2}+3^{2}}}=64.47^{\circ}
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Planes Again}
+  The equation of the plane with normal vector
+  $\vec{n}=a\vec{i}+b\vec{j}+c\vec{k}$ and containing the point
+  $P=(x_{0},y_{0},z_{0})$ is
+  \begin{equation}
+    \label{eq:ijaeriri}
+    a(x-x_{0})+b(y-y_{0})+c(z-z_{0})=0
+  \end{equation}
+  Alternatively, for $d=ax_{0}+by_{0}+cz_{0}$
+  \begin{equation}
+    \label{eq:bamoyeez}
+    ax+by+cz=d
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Cross Product}
+  \begin{figure}[h]
+    \includegraphics[scale=0.32]{./diagrams/crossproduct.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Cross Product}
+  If you know what a determinant is, you can remember the algebraic
+  definition as follows.
+  \begin{equation}
+    \label{eq:abeekohc}
+    \vec{v}\times\vec{w}=\left\vert
+      \begin{array}{ccc}
+        \vec{i} & \vec{j} & \vec{k} \\
+        v_{1} & v_{2} & v_{3} \\
+        w_{1} & w_{2} & w_{3}
+      \end{array}\right\vert
+  \end{equation}
+  Note that $\vec{w}\times\vec{v}=-\vec{v}\times\vec{w}$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Cross Product Exercise}
+  {\ubung} Use the cross product to find the linear equation containing the
+  three points
+  \begin{equation}
+    \label{eq:eiyeigaz}
+    \begin{array}{rcl}
+      P&=&(1,3,0) \\
+      Q&=&(3,4,-3) \\
+      R&=&(3,6,2)
+    \end{array}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Cross Product Exercise Answer}
+One way to find the answer to the last exercise (without using the
+cross product) is to solve the following system of linear equations
+for the plane $x+ay+bz=c$,
+\begin{equation}
+  \label{eq:yohghaef}
+  \begin{array}{rcl}
+    1+3a+0b&=&c \\
+    3+4a-3b&=&c \\
+    3+6a+2b&=&c
+  \end{array}
+\end{equation}
+Change this to
+\begin{equation}
+  \label{eq:oxeingiu}
+  \begin{array}{rcl}
+    3a+0b-c&=&-1 \\
+    4a-3b-c&=&-3 \\
+    6a+2b-c&=&-3 \\
+  \end{array}
+\end{equation}
+Using matrices,
+\begin{equation}
+  \label{eq:ukohjiej}
+  \left(
+    \begin{array}{ccc}
+      3&0&-1 \\
+      4&-3&-1 \\
+      6&2&-1
+    \end{array}\right)\cdot\left(
+    \begin{array}{c}
+      a \\
+      b \\
+      c
+    \end{array}\right)=\left(
+    \begin{array}{c}
+      -1 \\
+      -3 \\
+      -3
+    \end{array}\right)
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Cross Product Exercise Answer}
+  Equation (\ref{eq:ukohjiej}) yields the solution
+  \begin{equation}
+    \label{eq:maeshael}
+      x-\frac{10}{11}y+\frac{4}{11}z=-\frac{19}{11}
+  \end{equation}
+Now let's use the cross product instead, avoiding the matrices. Note
+that
+\begin{equation}
+  \label{eq:ushahroh}
+  \begin{array}{rcl}
+    \vec{PQ}&=&2\vec{i}+\vec{j}-3\vec{k} \\
+    \vec{PR}&=&2\vec{i}+3\vec{j}+2\vec{k}
+  \end{array}
+\end{equation}
+The cross product, using the algebraic definition, is
+$\vec{u}=\vec{PQ}\times\vec{PR}=11\vec{i}-10\vec{j}+4\vec{k}$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Cross Product Exercise Answer}
+  Let $P=(x_{0},y_{0},z_{0})$ be a fixed point on the plane with known
+  coordinates. Since any point $S=(x,y,z)$ on the plane fulfills
+\begin{equation}
+  \label{eq:iefeeboh}
+  \vec{PS}\cdot\vec{u}=0
+\end{equation}
+this can be turned into the plane equation
+\begin{equation}
+  \label{eq:vetiexup}
+  u_{x}(x-x_{0})+u_{y}(y-y_{0})+u_{z}(z-z_{0})=0
+\end{equation}
+Therefore, using $P=(1,3,0)$, this translates into
+\begin{equation}
+  \label{eq:eechawoi}
+11x-10y+4z=19  
+\end{equation}
+which is equivalent to (\ref{eq:maeshael}). Notice how easy it is to
+find a linear equation when you have a point $P=(x_{0},y_{0},z_{0})$
+on the plane and a normal vector $\vec{u}$ to the plane
+$u_{x}\vec{i}+u_{y}\vec{j}+u_{z}\vec{k}$:
+\begin{equation}
+  \label{eq:quaghoob}
+u_{x}x+u_{y}y+u_{z}z=u_{x}x_{0}+u_{y}y_{0}+u_{z}z_{0}
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Exercise}
+  {\ubung} Find all interior angles for and the plane equation
+  containing the triangle with points
+  \begin{equation}
+    \label{eq:yeibieba}
+    P=(1,4,-2),Q=(-1,1,2),R=(-1,3,1)
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{End of Lesson}
+Next Lesson: TBA
+\end{frame}
+
+\end{document}
+

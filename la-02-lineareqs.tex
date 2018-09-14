@@ -338,7 +338,7 @@ example $\frac{7}{8}R_{1}-R_{3}\rightarrow{}R_{3}$.
 
 \begin{frame}
   \frametitle{Matrix Row Operations}
-To find the inverse of a square matrix, we combine $A$ and $E$
+To find the inverse of a square matrix, we combine $A$ and $I$
   \begin{equation}
     \label{eq:aurohbac}
   \left[\begin{array}{cccc}
@@ -445,6 +445,10 @@ and
  2.5  
   \end{array}\right]\notag
 \end{equation}
+The method combining $A$ and $I$ to form, by elementary row
+operations, $I$ and $A^{-1}$ works because the total effect of the
+elementary row operations is left-multiplication by $A^{-1}$. This
+turns $A$ into $I$ and $I$ into $A^{-1}$. 
 \end{frame}
 
 % The following exercises are from http://www.algebralab.org/practice/practice.aspx?file=Word_ApplicationProblemFor3EquationsWith3Variables.xml
@@ -566,7 +570,7 @@ Translate the coded message:
 
 \begin{frame}
   \frametitle{End of Lesson}
-Next Lesson: Vectors
+Next Lesson: Cramer, Jordan, and Gauss
 \end{frame}
 
 \end{document}

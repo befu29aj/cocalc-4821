@@ -1,0 +1,97 @@
+% la-03-cjg.tex
+
+\documentclass[xcolor=dvipsnames]{beamer}
+\usepackage{teachbeamer}
+
+\title{Cramer, Jordan, and Gauss}
+\subtitle{{\CourseNumber}, BCIT}
+
+\author{\CourseName}
+
+\date{September 24, 2018}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+  \frametitle{Topics Covered}
+  This lesson covers the following topics:
+  \begin{enumerate}
+  \item Cramer's Rule
+  \item Echelon Forms and Gauss-Jordan Elimination
+  \item Least Squares Approximation
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Cramer's Rule}
+  Cramer's rule makes finding the solutions to systems of linear
+  equations very simple, at the expense of understanding what's going
+  on. It's black magic. Consider the following system of linear
+  equations:
+  \begin{equation}
+    \label{eq:keiyikae}
+    \left[
+      \begin{array}{ccc}
+        3 & 4 & -2 \\
+        1 & 2 & -1 \\
+        3 & -1 & -3
+      \end{array}\right]\cdot\left[
+      \begin{array}{c}
+        x \\
+        y \\
+        z
+      \end{array}\right]=\left[
+      \begin{array}{c}
+        20 \\
+        9 \\
+        6
+      \end{array}\right]
+  \end{equation}
+  The inverse of the coefficient matrix is
+  \begin{equation}
+    \label{eq:phiedier}
+    -\frac{1}{7}\cdot\left[
+      \begin{array}{ccc}
+        -7 & 14 & 0 \\
+        0 & -3 & 1 \\
+        -7 & 15 & 2
+      \end{array}\right]
+  \end{equation}
+  Therefore, the solution to the system is
+  \begin{equation}
+    \label{eq:suchociw}
+    \left[
+      \begin{array}{c}
+        x \\
+        y \\
+        z
+      \end{array}\right]=-\frac{1}{7}\cdot\left[
+      \begin{array}{ccc}
+        -7 & 14 & 0 \\
+        0 & -3 & 1 \\
+        -7 & 15 & 2
+      \end{array}\right]\cdot\left[
+      \begin{array}{c}
+        20 \\
+        9 \\
+        6
+      \end{array}\right]=\left[
+      \begin{array}{c}
+        2 \\
+        3 \\
+        -1
+      \end{array}\right]
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{End of Lesson}
+Next Lesson: Vectors
+\end{frame}
+
+\end{document}
+
