@@ -383,6 +383,10 @@ INPUT ./diagrams/gm-03-SystemsEquations-04.eps
 INPUT ./diagrams/gm-03-SystemsEquations-04-eps-converted-to.pdf
 INPUT ./diagrams/gm-03-SystemsEquations-04-eps-converted-to.pdf
 INPUT ./diagrams/gm-03-SystemsEquations-04-eps-converted-to.pdf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+INPUT ./diagrams/pardet.png
+INPUT ./diagrams/pardet.png
+INPUT ./diagrams/pardet.png
 OUTPUT la-01-labasics.nav
 OUTPUT la-01-labasics.toc
 OUTPUT la-01-labasics.snm
@@ -399,5 +403,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
