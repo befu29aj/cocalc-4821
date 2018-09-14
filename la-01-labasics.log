@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  14 SEP 2018 18:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  14 SEP 2018 18:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1147,17 +1147,8 @@ Overfull \hbox (25.77708pt too wide) detected at line 950
 File: ./diagrams/pardet.png Graphic file (type png)
 <use ./diagrams/pardet.png>
 Package pdftex.def Info: ./diagrams/pardet.png  used on input line 1015.
-(pdftex.def)             Requested size: 396.28355pt x 340.27386pt.
-
-Overfull \hbox (88.99368pt too wide) in paragraph at lines 1015--1015
- [] 
- []
-
-
-Overfull \vbox (132.33147pt too high) detected at line 1015
- []
-
-[46
+(pdftex.def)             Requested size: 231.16708pt x 198.49452pt.
+ [46
 
  <./diagrams/pardet.png>] [47
 
@@ -1169,7 +1160,8 @@ Overfull \vbox (132.33147pt too high) detected at line 1015
 
 ] [51
 
-] [52
+]
+[52
 
 ] [53
 
@@ -1177,39 +1169,7 @@ Overfull \vbox (132.33147pt too high) detected at line 1015
 
 ] [55
 
-]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1154 \end{frame}
-                  
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1154 \end{frame}
-                  
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1154 \end{frame}
-                  
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-
-Overfull \vbox (11.42004pt too high) detected at line 1154
- []
-
-[56
+] [56
 
 ] [57
 
@@ -1253,7 +1213,7 @@ amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
 ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
 ls/msbm10.pfb>
-Output written on la-01-labasics.pdf (57 pages, 223090 bytes).
+Output written on la-01-labasics.pdf (57 pages, 223049 bytes).
 PDF statistics:
  580 PDF objects out of 1000 (max. 8388607)
  480 compressed objects within 5 object streams
