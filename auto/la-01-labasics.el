@@ -42,6 +42,7 @@
     "eq:iegoowae"
     "eq:oyingiej"
     "eq:ewezohhu"
+    "eq:ooyegeuk"
     "eq:oazefako"
     "eq:foomochu"
     "eq:soojohdi"
