@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  14 SEP 2018 18:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  14 SEP 2018 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1147,8 +1147,12 @@ Overfull \hbox (25.77708pt too wide) detected at line 950
 File: ./diagrams/pardet.png Graphic file (type png)
 <use ./diagrams/pardet.png>
 Package pdftex.def Info: ./diagrams/pardet.png  used on input line 1015.
-(pdftex.def)             Requested size: 231.16708pt x 198.49452pt.
- [46
+(pdftex.def)             Requested size: 264.18231pt x 226.84348pt.
+
+Overfull \vbox (5.30107pt too high) detected at line 1015
+ []
+
+[46
 
  <./diagrams/pardet.png>] [47
 
@@ -1160,8 +1164,7 @@ Package pdftex.def Info: ./diagrams/pardet.png  used on input line 1015.
 
 ] [51
 
-]
-[52
+] [52
 
 ] [53
 
@@ -1169,7 +1172,8 @@ Package pdftex.def Info: ./diagrams/pardet.png  used on input line 1015.
 
 ] [55
 
-] [56
+]
+[56
 
 ] [57
 
@@ -1213,7 +1217,7 @@ amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
 ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
 ls/msbm10.pfb>
-Output written on la-01-labasics.pdf (57 pages, 223049 bytes).
+Output written on la-01-labasics.pdf (57 pages, 223044 bytes).
 PDF statistics:
  580 PDF objects out of 1000 (max. 8388607)
  480 compressed objects within 5 object streams
