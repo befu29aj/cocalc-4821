@@ -89,6 +89,36 @@
 \end{frame}
 
 \begin{frame}
+  \frametitle{Cramer's Rule}
+  Finding the inverse, however, is time-consuming. Also, it gives us
+  all three solutions, and we may only want the value of one of the
+  variables and not all of them. Cramer's rule tells us that, for
+  example,
+  \begin{equation}
+    \label{eq:aquohkol}
+    y=\frac{\det(\hat{A})}{\det(A)}
+  \end{equation}
+where $A$ is the coefficient matrix and $\hat{A}$ is the coefficient
+matrix with the second column replaced by the vector of constants. In
+other words,
+\begin{equation}
+  \label{eq:veefoubu}
+  y=\frac{\det\left(\left[
+        \begin{array}{ccc}
+          3 & 20 & -2 \\
+          1 & 9 & -1 \\
+          3 & 6 & -3
+        \end{array}
+\right]\right)}{\det\left(\left[
+      \begin{array}{ccc}
+        3 & 4 & -2 \\
+        1 & 2 & -1 \\
+        3 & -1 & -3
+      \end{array}\right]\right)}=\frac{-21}{-7}=3
+\end{equation}
+\end{frame}
+
+\begin{frame}
   \frametitle{End of Lesson}
 Next Lesson: Vectors
 \end{frame}
