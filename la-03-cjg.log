@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  15 SEP 2018 00:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  15 SEP 2018 00:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -968,7 +968,8 @@ thkerncmss.
 ] [9
 
 ]
-Overfull \vbox (32.79886pt too high) detected at line 300
+Overfull \hbox (53.36562pt too wide) detected at line 288
+[][] []  []  [][]
  []
 
 [10
@@ -985,19 +986,19 @@ Overfull \vbox (32.79886pt too high) detected at line 300
 \tf@snm=\write8
 \openout8 = `la-03-cjg.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 295.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 295.
  (./la-03-cjg.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 307.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 307.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 295.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 295.
 Package rerunfilecheck Info: File `la-03-cjg.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 20255 strings out of 492982
- 398260 string characters out of 6134896
- 475471 words of memory out of 5000000
- 23319 multiletter control sequences out of 15000+600000
+ 20249 strings out of 492982
+ 398188 string characters out of 6134896
+ 475396 words of memory out of 5000000
+ 23316 multiletter control sequences out of 15000+600000
  10684 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,63p,800b,606s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1010,10 +1011,10 @@ t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb>
-Output written on la-03-cjg.pdf (11 pages, 97628 bytes).
+Output written on la-03-cjg.pdf (11 pages, 97440 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
+ 155 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
  79 words of extra memory for PDF output out of 10000 (max. 10000000)
 
