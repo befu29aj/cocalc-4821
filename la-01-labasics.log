@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  19 SEP 2018 16:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  19 SEP 2018 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -997,81 +997,25 @@ thkerncmss.
 ] [23
 
 ]
+<./diagrams/pardet1.png, id=215, 556.0775pt x 376.40625pt>
+File: ./diagrams/pardet1.png Graphic file (type png)
+<use ./diagrams/pardet1.png>
+Package pdftex.def Info: ./diagrams/pardet1.png  used on input line 584.
+(pdftex.def)             Requested size: 278.03807pt x 188.20265pt.
+ [24
+
+ <./diagrams/pardet1.png>] [25
+
+]
 Missing character: There is no â in font cmss10!
 Missing character: There is no ˆ in font cmss10!
 Missing character: There is no ’ in font cmss10!
-
-! You can't use `\eqno' in math mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.617 \end{frame}
-                 
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing \right. inserted.
-<inserted text> 
-                \right .
-l.617 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing \right. inserted.
-<inserted text> 
-                \right .
-l.617 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing \right. inserted.
-<inserted text> 
-                \right .
-l.617 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing \right. inserted.
-<inserted text> 
-                \right .
-l.617 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \vbox (26.64975pt too high) detected at line 617
- []
-
-[24
-
-]
-<./diagrams/pardet1.png, id=224, 556.0775pt x 376.40625pt>
-File: ./diagrams/pardet1.png Graphic file (type png)
-<use ./diagrams/pardet1.png>
-Package pdftex.def Info: ./diagrams/pardet1.png  used on input line 624.
-(pdftex.def)             Requested size: 278.03807pt x 188.20265pt.
- [25
-
- <./diagrams/pardet1.png>] [26
+ [26
 
 ] [27
+
+]
+[28
 
 ]
 \tf@nav=\write6
@@ -1083,19 +1027,19 @@ Package pdftex.def Info: ./diagrams/pardet1.png  used on input line 624.
 \tf@snm=\write8
 \openout8 = `la-01-labasics.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 653.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 653.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 656.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 656.
  (./la-01-labasics.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 653.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 653.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 656.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 656.
 Package rerunfilecheck Info: File `la-01-labasics.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 20396 strings out of 492982
- 400380 string characters out of 6134896
+ 20400 strings out of 492982
+ 400415 string characters out of 6134896
  476907 words of memory out of 5000000
- 23405 multiletter control sequences out of 15000+600000
+ 23407 multiletter control sequences out of 15000+600000
  10852 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,63p,805b,604s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1112,10 +1056,10 @@ amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
 ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
 ls/msbm10.pfb>
-Output written on la-01-labasics.pdf (27 pages, 169691 bytes).
+Output written on la-01-labasics.pdf (28 pages, 170152 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
- 249 compressed objects within 3 object streams
- 90 named destinations out of 1000 (max. 500000)
+ 316 PDF objects out of 1000 (max. 8388607)
+ 255 compressed objects within 3 object streams
+ 92 named destinations out of 1000 (max. 500000)
  84 words of extra memory for PDF output out of 10000 (max. 10000000)
 
