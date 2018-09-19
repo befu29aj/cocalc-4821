@@ -574,15 +574,46 @@ $D$. What do you notice about $\det(D)\cdot{}D^{-1}$?
   A proof without words is on the next slide. Alternatively, you can
   watch a video with the proof here:
   \texttt{https://youtu.be/n-S63\_goDFg}.
+\end{frame}
 
+\begin{frame}
+  \frametitle{Using Determinants to find Areas}
   The principle can be generalized to higher dimensions. The volume of
   a parallelepiped is the absolute value of the determinant of the
-  three vectors spanning it put side by side in a matrix. If the
-  figure based on parallelograms has dimension $k\leq{}n$ use the
-  Gramian matrix. See the example on page 6 of
-  \begin{quote}
-  \texttt{http://www.maths.manchester.ac.uk/~lwalker/MATH10000/project-04-part2.pdf}    
-  \end{quote}
+  three vectors spanning it put side by side in a matrix.
+
+  \beispiel{Parallelepiped} Find the oriented volume of the
+  parallelepiped built on
+  $a_{1}=(2,1,0)^{\intercal},a_{2}=(0,3,11)^{\intercal},a_{3}=(1,2,7)^{\intercal}$
+  in $\mathbb{R}^{3}$.
+  Solution: the volume is
+  \begin{equation}
+    \label{eq:waixaimi}
+    \left\vert\det\left(\left[
+        \begin{array}{ccc}
+          2 & 1 & 0 \\
+          0 & 3 & 11 \\
+          1 & 2 & 7
+        \end{array}\right]\right)\right\vert=9
+  \end{equation}
+
+  If the figure based on parallelograms has dimension $k\leq{}n$ use
+  the Gramian matrix. Its determinant is the square of the area,
+  volume, etc.\ of the figure based on parallelograms.
+
+  \beispiel{Gramian Matrix} Find the area of the parallelogram built
+  on $a=(1,−1,2)^{\intercal},b=(2,0,3)^{\intercal}$. Solution: the Gram
+  determinant is
+  \begin{equation}
+    \label{eq:ohgaiheo}
+    \det\left(\left[
+        \begin{array}{cc}
+          6 & 8 \\
+          8 & 13
+        \end{array}\left]\left)=14
+  \end{equation}
+Hence the area is $\sqrt{14}$.
+% http://www.maths.manchester.ac.uk/~lwalker/MATH10000/project-04-part2.pdf
 \end{frame}
 
 \begin{frame}

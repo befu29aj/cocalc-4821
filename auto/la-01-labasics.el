@@ -50,6 +50,8 @@
     "eq:fiaphaid"
     "eq:aengixoh"
     "eq:eecheipo"
+    "eq:waixaimi"
+    "eq:ohgaiheo"
     "eq:shuajohs"))
  :latex)
 
