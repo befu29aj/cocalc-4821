@@ -15,6 +15,9 @@
     "xcolor")
    (TeX-add-symbols
     '("aufgabe" 0))
+   (LaTeX-add-labels
+    "eq:oemeyeib"
+    "eq:eicheuth")
    (LaTeX-add-counters
     "aufg"))
  :latex)
