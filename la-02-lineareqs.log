@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  20 SEP 2018 22:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  20 SEP 2018 22:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1114,17 +1114,14 @@ Overfull \hbox (25.77708pt too wide) detected at line 405
 
 ] [32
 
-]
-Overfull \vbox (16.27986pt too high) detected at line 601
- []
-
-[33
+] [33
 
 ] [34
 
 ] [35
 
-] [36
+]
+[36
 
 ] [37
 
@@ -1134,14 +1131,16 @@ Overfull \vbox (16.27986pt too high) detected at line 601
 
 ] [40
 
+] [41
+
 ]
-Overfull \hbox (17.2306pt too wide) detected at line 860
+Overfull \hbox (17.2306pt too wide) detected at line 864
 [][] []  []  [][]
  []
 
-[41
+[42
 
-] [42
+] [43
 
 ]
 \tf@nav=\write6
@@ -1153,19 +1152,19 @@ Overfull \hbox (17.2306pt too wide) detected at line 860
 \tf@snm=\write8
 \openout8 = `la-02-lineareqs.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 867.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 867.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 871.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 871.
  (./la-02-lineareqs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 867.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 867.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 871.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 871.
 Package rerunfilecheck Info: File `la-02-lineareqs.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 20492 strings out of 492982
- 401871 string characters out of 6134896
+ 20496 strings out of 492982
+ 401906 string characters out of 6134896
  476492 words of memory out of 5000000
- 23447 multiletter control sequences out of 15000+600000
+ 23449 multiletter control sequences out of 15000+600000
  10684 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,63p,806b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1180,10 +1179,10 @@ ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msbm10.pfb>
-Output written on la-02-lineareqs.pdf (42 pages, 162442 bytes).
+Output written on la-02-lineareqs.pdf (43 pages, 163096 bytes).
 PDF statistics:
- 451 PDF objects out of 1000 (max. 8388607)
- 371 compressed objects within 4 object streams
- 142 named destinations out of 1000 (max. 500000)
+ 458 PDF objects out of 1000 (max. 8388607)
+ 377 compressed objects within 4 object streams
+ 144 named destinations out of 1000 (max. 500000)
  99 words of extra memory for PDF output out of 10000 (max. 10000000)
 
