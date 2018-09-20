@@ -1,4 +1,4 @@
-% la-02-vectors.tex
+% la-04-vectors.tex
 
 \documentclass[xcolor=dvipsnames]{beamer}
 \usepackage{teachbeamer}
@@ -8,7 +8,7 @@
 
 \author{\CourseName}
 
-\date{September 17, 2018}
+\date{September 24, 2018}
 
 \begin{document}
 
@@ -406,7 +406,7 @@ u_{x}x+u_{y}y+u_{z}z=u_{x}x_{0}+u_{y}y_{0}+u_{z}z_{0}
 
 \begin{frame}
   \frametitle{End of Lesson}
-Next Lesson: Least Squares Method and Gauss/Jordan/Cramer
+Next Lesson: TBA
 \end{frame}
 
 \end{document}

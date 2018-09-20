@@ -569,8 +569,269 @@ Translate the coded message:
 \end{frame}
 
 \begin{frame}
+  \frametitle{Cramer's Rule}
+  Cramer's rule makes finding the solutions to systems of linear
+  equations very simple, at the expense of understanding what's going
+  on. It's black magic. Consider the following system of linear
+  equations:
+  \begin{equation}
+    \label{eq:keiyikae}
+    \left[
+      \begin{array}{ccc}
+        3 & 4 & -2 \\
+        1 & 2 & -1 \\
+        3 & -1 & -3
+      \end{array}\right]\cdot\left[
+      \begin{array}{c}
+        x \\
+        y \\
+        z
+      \end{array}\right]=\left[
+      \begin{array}{c}
+        20 \\
+        9 \\
+        6
+      \end{array}\right]
+  \end{equation}
+  The inverse of the coefficient matrix is
+  \begin{equation}
+    \label{eq:phiedier}
+    -\frac{1}{7}\cdot\left[
+      \begin{array}{ccc}
+        -7 & 14 & 0 \\
+        0 & -3 & 1 \\
+        -7 & 15 & 2
+      \end{array}\right]
+  \end{equation}
+  Therefore, the solution to the system is
+  \begin{equation}
+    \label{eq:suchociw}
+    \left[
+      \begin{array}{c}
+        x \\
+        y \\
+        z
+      \end{array}\right]=-\frac{1}{7}\cdot\left[
+      \begin{array}{ccc}
+        -7 & 14 & 0 \\
+        0 & -3 & 1 \\
+        -7 & 15 & 2
+      \end{array}\right]\cdot\left[
+      \begin{array}{c}
+        20 \\
+        9 \\
+        6
+      \end{array}\right]=\left[
+      \begin{array}{c}
+        2 \\
+        3 \\
+        -1
+      \end{array}\right]
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Cramer's Rule}
+  Finding the inverse, however, is time-consuming. Also, it gives us
+  all three solutions, and we may only want the value of one of the
+  variables and not all of them. Cramer's rule tells us that, for
+  example,
+  \begin{equation}
+    \label{eq:aquohkol}
+    y=\frac{\det(A_{y})}{\det(A)}
+  \end{equation}
+  where $A$ is the coefficient matrix and $A_{y}$ is the coefficient
+  matrix with the second column (corresponding to $y$) replaced by the
+  vector of constants. In other words,
+\begin{equation}
+  \label{eq:veefoubu}
+  y=\frac{\det\left(\left[
+        \begin{array}{ccc}
+          3 & 20 & -2 \\
+          1 & 9 & -1 \\
+          3 & 6 & -3
+        \end{array}
+\right]\right)}{\det\left(\left[
+      \begin{array}{ccc}
+        3 & 4 & -2 \\
+        1 & 2 & -1 \\
+        3 & -1 & -3
+      \end{array}\right]\right)}=\frac{-21}{-7}=3
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Cramer's Rule}
+  For the other two variables,
+  \begin{equation}
+    \label{eq:sheethei}
+    x=\frac{\det\left(\left[
+        \begin{array}{ccc}
+        20 & 4 & -2 \\
+        9 & 2 & -1 \\
+        6 & -1 & -3
+        \end{array}
+\right]\right)}{\det\left(\left[
+      \begin{array}{ccc}
+        3 & 4 & -2 \\
+        1 & 2 & -1 \\
+        3 & -1 & -3
+      \end{array}\right]\right)}=\frac{-14}{-7}=2
+  \end{equation}
+  \begin{equation}
+    \label{eq:ijohmahv}
+    y=\frac{\det\left(\left[
+        \begin{array}{ccc}
+        3 & 4 & 20 \\
+        1 & 2 & 9 \\
+        3 & -1 & 6
+        \end{array}
+\right]\right)}{\det\left(\left[
+      \begin{array}{ccc}
+        3 & 4 & -2 \\
+        1 & 2 & -1 \\
+        3 & -1 & -3
+      \end{array}\right]\right)}=\frac{7}{-7}=-1
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Echelon Form}
+  Consider the system of linear equations from the previous slides:
+  \begin{equation}
+    \label{eq:angeezuh}
+    \left[
+      \begin{array}{ccc}
+        3 & 4 & -2 \\
+        1 & 2 & -1 \\
+        3 & -1 & -3
+      \end{array}\right]\cdot\left[
+      \begin{array}{c}
+        x \\
+        y \\
+        z
+      \end{array}\right]=\left[
+      \begin{array}{c}
+        20 \\
+        9 \\
+        6
+      \end{array}\right]
+  \end{equation}
+  Combine the coefficient matrix and the vector of constants to an
+  \alert{augmented matrix}:
+  \begin{equation}
+    \label{eq:iezaayoo}
+    \left[
+      \begin{array}{cccc}
+        3 & 4 & -2 & 20 \\
+        1 & 2 & -1 & 9 \\
+        3 & -1 & -3 & 6
+      \end{array}\right]
+  \end{equation}
+Now use elementary row operations to make sure that only zeroes
+populate the matrix below the diagonal. This is called the
+\alert{echelon form} of the system.
+\begin{equation}
+  \label{eq:eitaewoo}
+    \left[
+      \begin{array}{cccc}
+        3 & 4 & -2 & 20 \\
+        0 & -10 & 5 & -35 \\
+        0 & 0 & 7 & -7
+      \end{array}\right]
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Echelon Form}
+  Because the echelon form is the product of elementary row
+  operations, the solutions of the system of linear equations
+  associated with it are the same as the solutions of the original
+  system of linear equations.
+  \begin{equation}
+    \label{eq:thiajaxe}
+    \begin{array}{ccccccc}
+      3x & + & 4y & - & 2z & = & 20 \\
+       &  & -10y & + & 5z & = & -35 \\
+      & & & & 7z & = & -7
+    \end{array}
+  \end{equation}
+The last equation tells us that $z=-1$. Substituting $z=-1$, the
+middle equation tells us that $y=3$. Substituting both of these
+results in the first equation tells us that $x=2$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Echelon Form}
+  The echelon form provides another way to solve a system of linear
+  equations. The elementary row operations are called \alert{Gaussian
+    elimination} or \alert{Gauss-Jordan elimination} (there are
+  technical details about the difference between these two elimination
+  methods that we are not worried about right now). Gaussian or
+  Gauss-Jordan elimination, however, is hard to do manually. We use
+  the echelon form primarily to deal with pathological cases where the
+  determinant of the coefficient matrix is zero.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Theory of Linear Systems}
+  \begin{enumerate}
+  \item If some row of an echelon form has its first nonzero entry in
+    the last column, then the system has no solution. The system is
+    \alert{inconsistent}. 
+  \item If a system is consistent, it has a \alert{rank}. The rank is
+    the number of leading nonzero entries with respect to the rows of
+    the echelon form.
+  \item If the rank of a system equals the number of unknowns, then
+    the system has exactly one solution.
+  \item If the rank of a system is strictly less than the number of
+    unknowns, then the system has infinitely many solutions.
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Echelon Form Exercises}
+  {\ubung} Determine the number of solutions for the following echelon
+  forms.
+  \begin{equation}
+    \label{eq:uababohk}
+    \left[
+      \begin{array}{cccc}
+        5 & -3 & 1 & 4 \\
+        0 & -\frac{7}{5} & \frac{4}{5} & \frac{1}{5} \\
+        0 & 0 & 0 & -2
+      \end{array}\right]\hspace{.25in}\left[
+      \begin{array}{cccc}
+        2 & \pi & 4 & 3 \\
+        0 & 5 & 6 & -13 \\
+        0 & 0 & 0 & 0
+      \end{array}\right]\hspace{.25in}\left[
+      \begin{array}{cccc}
+        3 & e^{2} & -1 & 12 \\
+        0 & 1 & 0 & 6 \\
+        0 & 0 & 4 & 0
+      \end{array}\right]\notag
+  \end{equation}
+  \begin{equation}
+    \label{eq:oataequa}
+    \left[
+      \begin{array}{cccc}
+        3 & e^{2} & -1 & 12 \\
+        0 & 1 & 0 & 6
+      \end{array}\right]\hspace{.5in}\left[
+      \begin{array}{cccc}
+        3 & e^{2} & -1 & 12 \\
+        0 & 1 & 0 & 6 \\
+        0 & 0 & 3 & -8 \\
+        0 & 0 & 0 & 14 \\
+        0 & 0 & 0 & 0
+      \end{array}\right]\notag
+  \end{equation}
+\end{frame}
+
+\begin{frame}
   \frametitle{End of Lesson}
-Next Lesson: Cramer, Jordan, and Gauss
+Next Lesson: Vectors
 \end{frame}
 
 \end{document}
