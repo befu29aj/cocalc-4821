@@ -572,7 +572,37 @@ Translate the coded message:
   \frametitle{Cramer's Rule}
   Cramer's rule makes finding the solutions to systems of linear
   equations very simple, at the expense of understanding what's going
-  on. It's black magic. Consider the following system of linear
+  on. It's a bit of black magic. Recall the following equations:
+  \begin{equation}
+    \label{eq:quaipeek}
+  \det(A)\cdot{}I=\mbox{adj}(A)\cdot{}A
+  \end{equation}
+  \begin{equation}
+    \label{eq:luyeiyei}
+    A\cdot{}v=b
+  \end{equation}
+(\ref{eq:luyeiyei}) is a system of linear equations whose solution
+vector is $v$. Right-multiply (\ref{eq:quaipeek}) by $v$ and divide by
+$\det(A)$ for
+\begin{equation}
+  \label{eq:ohghoyae}
+  v=\frac{1}{\det(A)}\mbox{adj}(A)\cdot{}b
+\end{equation}
+Let $c_{ij}$ be the elements of the checkerboard matrix.
+$\mbox{adj}(A)\cdot{}b$ is a vector whose elements $x_{i}$ are
+\begin{equation}
+  \label{eq:ceitezee}
+  x_{i}=c_{i1}\det(A_{1i})b_{1}+c_{i2}\det(A_{2i})b_{2}+{\ldots}
+\end{equation}
+Looking closely at (\ref{eq:ceitezee}), you will notice that $x_{i}$
+is also the determinant of $A_{i}$, where $A_{i}$ is the matrix $A$
+with the $i$-th column replaced by $b$ (choosing $b$ as the column
+along which you calculate the matrix).
+\end{frame}
+
+\begin{frame}
+  \frametitle{Cramer's Rule}
+  Consider the following system of linear
   equations:
   \begin{equation}
     \label{eq:keiyikae}
