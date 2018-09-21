@@ -76,6 +76,10 @@
     "eq:eitaewoo"
     "eq:thiajaxe"
     "eq:uababohk"
-    "eq:oataequa"))
+    "eq:oataequa"
+    "eq:lahpuwis"
+    "eq:iecoyaem"
+    "eq:orieteeb"
+    "eq:giekeati"))
  :latex)
 
