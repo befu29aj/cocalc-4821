@@ -1138,9 +1138,9 @@ Overfull \hbox (25.77708pt too wide) detected at line 405
 File: ./diagrams/echelon.png Graphic file (type png)
 <use ./diagrams/echelon.png>
 Package pdftex.def Info: ./diagrams/echelon.png  used on input line 835.
-(pdftex.def)             Requested size: 183.88373pt x 310.354pt.
+(pdftex.def)             Requested size: 137.9163pt x 232.77141pt.
 
-Overfull \vbox (88.8116pt too high) detected at line 835
+Overfull \vbox (11.229pt too high) detected at line 835
  []
 
 [42
@@ -1191,7 +1191,7 @@ ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msbm10.pfb>
-Output written on la-02-lineareqs.pdf (44 pages, 207202 bytes).
+Output written on la-02-lineareqs.pdf (44 pages, 207204 bytes).
 PDF statistics:
  467 PDF objects out of 1000 (max. 8388607)
  384 compressed objects within 4 object streams
