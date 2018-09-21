@@ -82,6 +82,9 @@
     "eq:orieteeb"
     "eq:giekeati"
     "eq:ohsiepun"
-    "eq:aethahth"))
+    "eq:aethahth"
+    "eq:kieshiec"
+    "eq:xifeelie"
+    "eq:zeiniyah"))
  :latex)
 
