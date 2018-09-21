@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  21 SEP 2018 18:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  21 SEP 2018 18:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -754,14 +754,7 @@ Package: alltt 1997/06/16 v2.0g defines alltt environment
 \c@expls=\count164
 \c@exercise=\count165
 )
-(./la-02-lineareqs.aux
-
-LaTeX Warning: Label `eq:aethahth' multiply defined.
-
-
-LaTeX Warning: Label `eq:aethahth' multiply defined.
-
-)
+(./la-02-lineareqs.aux)
 \openout1 = `la-02-lineareqs.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -961,7 +954,22 @@ thkerncmss.
 )
 [3
 
-] [4
+]
+! Extra \right.
+\beamer@doifinframe ... {eq:ahshohwa} S=\{\right .
+                                                  (x,y)\in \mathbb {R}\times...
+l.56 \end{frame}
+                
+I'm ignoring a \right that had no matching \left.
+
+! Extra \right.
+\vert ->\delimiter "026A30C 
+                            
+l.56 \end{frame}
+                
+I'm ignoring a \right that had no matching \left.
+
+[4
 
 ] [5
 
@@ -1165,19 +1173,9 @@ Overfull \hbox (17.2306pt too wide) detected at line 920
 
 ] [48
 
-]pdfTeX warning (ext4): destination with the same identifier (name{eq:aethahth}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.998 \end{frame}
-                  [49
+] [49
 
-]pdfTeX warning (ext4): destination with the same identifier (name{eq:aethahth}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1012 \end{frame}
-                   [50
+] [50
 
 ] [51
 
@@ -1207,16 +1205,12 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1060.
 
 Package rerunfilecheck Info: File `la-02-lineareqs.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 20572 strings out of 492982
- 402728 string characters out of 6134896
- 478806 words of memory out of 5000000
- 23488 multiletter control sequences out of 15000+600000
+ 20576 strings out of 492982
+ 402776 string characters out of 6134896
+ 478817 words of memory out of 5000000
+ 23490 multiletter control sequences out of 15000+600000
  10684 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,63p,806b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1232,10 +1226,10 @@ blic/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
 ls/msbm10.pfb>
-Output written on la-02-lineareqs.pdf (55 pages, 227630 bytes).
+Output written on la-02-lineareqs.pdf (55 pages, 227723 bytes).
 PDF statistics:
- 556 PDF objects out of 1000 (max. 8388607)
- 460 compressed objects within 5 object streams
- 179 named destinations out of 1000 (max. 500000)
+ 560 PDF objects out of 1000 (max. 8388607)
+ 464 compressed objects within 5 object streams
+ 181 named destinations out of 1000 (max. 500000)
  104 words of extra memory for PDF output out of 10000 (max. 10000000)
 
