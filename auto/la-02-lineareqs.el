@@ -81,6 +81,7 @@
     "eq:iecoyaem"
     "eq:orieteeb"
     "eq:giekeati"
-    "eq:ohsiepun"))
+    "eq:ohsiepun"
+    "eq:aethahth"))
  :latex)
 
