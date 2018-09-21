@@ -714,7 +714,7 @@ along which you calculate the matrix).
   \end{equation}
   \begin{equation}
     \label{eq:ijohmahv}
-    y=\frac{\det\left(\left[
+    z=\frac{\det\left(\left[
         \begin{array}{ccc}
         3 & 4 & \alert{20} \\
         1 & 2 & \alert{9} \\
@@ -803,8 +803,12 @@ results in the first equation tells us that $x=2$.
   technical details about the difference between these two elimination
   methods that we are not worried about right now). Gaussian or
   Gauss-Jordan elimination, however, is hard to do manually. We use
-  the echelon form primarily to deal with pathological cases where the
-  determinant of the coefficient matrix is zero.
+  the echelon form primarily to deal with cases where
+  \begin{itemize}
+  \item the determinant of the coefficient matrix is zero
+  \item the number of equations and the number of unknowns are not
+    equal
+  \end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -817,10 +821,17 @@ results in the first equation tells us that $x=2$.
     the number of leading nonzero entries with respect to the rows of
     the echelon form.
   \item If the rank of a system equals the number of unknowns, then
-    the system has exactly one solution.
+    the system has \alert{exactly one solution}.
   \item If the rank of a system is strictly less than the number of
-    unknowns, then the system has infinitely many solutions.
+    unknowns, then the system has \alert{infinitely many solutions}.
   \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Theory of Linear Systems}
+  \begin{figure}[h]
+    \includegraphics[scale=.6]{./diagrams/echelon.png}
+  \end{figure}
 \end{frame}
 
 \begin{frame}
