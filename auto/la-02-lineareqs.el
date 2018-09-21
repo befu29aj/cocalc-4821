@@ -83,6 +83,8 @@
     "eq:giekeati"
     "eq:ohsiepun"
     "eq:aethahth"
+    "eq:bohzooch"
+    "eq:seizoili"
     "eq:kieshiec"
     "eq:xifeelie"
     "eq:zeiniyah"))
