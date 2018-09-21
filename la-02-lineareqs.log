@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  21 SEP 2018 17:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  21 SEP 2018 17:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1096,31 +1096,103 @@ Overfull \hbox (25.77708pt too wide) detected at line 405
 
 ] [23
 
-])
-Runaway argument?
-\frametitle {Matrices and Systems of Linear Equations IV} Why does th\ETC.
-! File ended while scanning use of \frame.
-<inserted text> 
-                \par 
-<*> la-02-lineareqs.tex
-                       
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+] [24
 
-! Emergency stop.
-<*> la-02-lineareqs.tex
-                       
-*** (job aborted, no legal \end found)
+] [25
 
- 
+] [26
+
+] [27
+
+] [28
+
+] [29
+
+] [30
+
+] [31
+
+] [32
+
+] [33
+
+] [34
+
+] [35
+
+]
+[36
+
+] [37
+
+] [38
+
+] [39
+
+] [40
+
+] [41
+
+] [42
+
+]
+<./diagrams/echelon.png, id=381, 459.7175pt x 775.89874pt>
+File: ./diagrams/echelon.png Graphic file (type png)
+<use ./diagrams/echelon.png>
+Package pdftex.def Info: ./diagrams/echelon.png  used on input line 844.
+(pdftex.def)             Requested size: 128.72002pt x 217.25017pt.
+ [43
+
+ <./diagrams/echelon.png (PNG copy)>]
+Overfull \hbox (17.2306pt too wide) detected at line 884
+[][] []  []  [][]
+ []
+
+[44
+
+] [45
+
+]
+\tf@nav=\write6
+\openout6 = `la-02-lineareqs.nav'.
+
+\tf@toc=\write7
+\openout7 = `la-02-lineareqs.toc'.
+
+\tf@snm=\write8
+\openout8 = `la-02-lineareqs.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 891.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 891.
+ (./la-02-lineareqs.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 891.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 891.
+Package rerunfilecheck Info: File `la-02-lineareqs.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
 Here is how much of TeX's memory you used:
- 20397 strings out of 492982
- 400516 string characters out of 6134896
- 472967 words of memory out of 5000000
- 23415 multiletter control sequences out of 15000+600000
- 10390 words of font info for 38 fonts, out of 8000000 for 9000
+ 20510 strings out of 492982
+ 402098 string characters out of 6134896
+ 476492 words of memory out of 5000000
+ 23457 multiletter control sequences out of 15000+600000
+ 10684 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,15n,63p,806b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 58i,15n,63p,806b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/symbols/msbm10.pfb>
+Output written on la-02-lineareqs.pdf (45 pages, 208151 bytes).
+PDF statistics:
+ 473 PDF objects out of 1000 (max. 8388607)
+ 389 compressed objects within 4 object streams
+ 148 named destinations out of 1000 (max. 500000)
+ 104 words of extra memory for PDF output out of 10000 (max. 10000000)
+
