@@ -456,10 +456,29 @@ and
 \begin{frame}
   \frametitle{Matrices and Systems of Linear Equations IV}
   Why does this procedure work in order to give us the inverse matrix?
+
+  \medskip
+
   \begin{tabular}{rcl}
     \multicolumn{3}{c}{elementary row operations} \\
     $\left[A\hspace{0.25in}I\right]$ & $\longrightarrow$ & $\left[I\hspace{0.25in}A^{-1}\right]$ 
   \end{tabular}
+
+  \medskip
+
+  Because each elementary row operation corresponds to a matrix
+  multiplication by some matrix $E_{i}$. This means that $A$ changes
+  into $I$ by the following process:
+  \begin{equation}
+    \label{eq:wohfohho}
+    A\cdot{}E_{1}\cdot{}E_{2}\cdot\ldots\cdot{}E_{k}=I
+  \end{equation}
+Therefore, $E_{1}\cdot{}E_{2}\cdot\ldots\cdot{}E_{k}=A^{-1}$ and as A
+is changed into $I$, $I$ is changed to $A^{-1}$:
+  \begin{equation}
+    \label{eq:oothiera}
+    I\cdot{}E_{1}\cdot{}E_{2}\cdot\ldots\cdot{}E_{k}=A^{1}
+  \end{equation}
 \end{frame}
 
 \begin{frame}

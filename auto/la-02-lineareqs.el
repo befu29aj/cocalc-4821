@@ -54,6 +54,8 @@
     "eq:ephoopha"
     "eq:oogeujie"
     "eq:seeleeje"
+    "eq:wohfohho"
+    "eq:oothiera"
     "eq:oemeyeib"
     "eq:eicheuth"
     "eq:iephaeke"
