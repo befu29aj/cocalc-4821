@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  24 SEP 2018 22:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  24 SEP 2018 22:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -973,16 +973,21 @@ Package pdftex.def Info: ./diagrams/polar.png  used on input line 96.
 
 ] [9
 
-] [10
+]
+<./diagrams/comproot.png, id=114, 256.96pt x 263.98625pt>
+File: ./diagrams/comproot.png Graphic file (type png)
+<use ./diagrams/comproot.png>
+Package pdftex.def Info: ./diagrams/comproot.png  used on input line 201.
+(pdftex.def)             Requested size: 128.47968pt x 131.9928pt.
+ [10
 
-] [11
+ <./diagrams/comproot.png>] [11
 
 ] [12
 
 ] [13
 
-]
-[14
+] [14
 
 ] [15
 
@@ -994,22 +999,22 @@ Package pdftex.def Info: ./diagrams/polar.png  used on input line 96.
 
 ] [19
 
+] [20
+
 ]
-<./diagrams/crossproduct.png, id=193, 993.7125pt x 508.90125pt>
+<./diagrams/crossproduct.png, id=201, 993.7125pt x 508.90125pt>
 File: ./diagrams/crossproduct.png Graphic file (type png)
 <use ./diagrams/crossproduct.png>
-Package pdftex.def Info: ./diagrams/crossproduct.png  used on input line 442.
+Package pdftex.def Info: ./diagrams/crossproduct.png  used on input line 457.
 (pdftex.def)             Requested size: 317.99449pt x 162.85172pt.
 
-Overfull \hbox (10.70462pt too wide) in paragraph at lines 442--442
+Overfull \hbox (10.70462pt too wide) in paragraph at lines 457--457
  [] 
  []
 
-[20
+[21
 
- <./diagrams/crossproduct.png>] [21
-
-] [22
+ <./diagrams/crossproduct.png>] [22
 
 ] [23
 
@@ -1021,6 +1026,8 @@ Overfull \hbox (10.70462pt too wide) in paragraph at lines 442--442
 
 ] [27
 
+] [28
+
 ]
 \tf@nav=\write6
 \openout6 = `la-03-vectors.nav'.
@@ -1031,20 +1038,20 @@ Overfull \hbox (10.70462pt too wide) in paragraph at lines 442--442
 \tf@snm=\write8
 \openout8 = `la-03-vectors.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 581.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 581.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 596.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 596.
 
 (./la-03-vectors.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 581.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 581.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 596.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 596.
 Package rerunfilecheck Info: File `la-03-vectors.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 20419 strings out of 492982
- 400778 string characters out of 6134896
+ 20428 strings out of 492982
+ 400936 string characters out of 6134896
  472089 words of memory out of 5000000
- 23420 multiletter control sequences out of 15000+600000
+ 23426 multiletter control sequences out of 15000+600000
  10684 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,63p,804b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1060,10 +1067,10 @@ blic/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
 ls/msbm10.pfb>
-Output written on la-03-vectors.pdf (27 pages, 199957 bytes).
+Output written on la-03-vectors.pdf (28 pages, 204149 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 257 compressed objects within 3 object streams
- 98 named destinations out of 1000 (max. 500000)
- 95 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 326 PDF objects out of 1000 (max. 8388607)
+ 262 compressed objects within 3 object streams
+ 100 named destinations out of 1000 (max. 500000)
+ 100 words of extra memory for PDF output out of 10000 (max. 10000000)
 
