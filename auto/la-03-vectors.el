@@ -36,6 +36,8 @@
     "eq:phoojahs"
     "eq:oozaechi"
     "eq:iejopice"
+    "eq:aiveatah"
+    "eq:wohsiete"
     "eq:lapheeka"
     "eq:kaepuema"
     "eq:kemodaim"

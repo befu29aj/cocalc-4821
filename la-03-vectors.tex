@@ -220,19 +220,88 @@ degree $n$ always have $n$ solutions in $\mathbb{C}$.
     \label{eq:iejopice}
     x_{k}=w_{k}\sqrt[3]{-\frac{1}{2}+\sqrt{\frac{-3}{4}}}+w_{k}^{2}\sqrt[3]{-\frac{1}{2}-\sqrt{\frac{-3}{4}}}
   \end{equation}
-where $k=1,2,3$ and the $w_{k}$ are the three cube roots of $1$. You
-can look up online why Cardano's formula is true. The point is that
-all the solutions to this problem are real numbers, but we have to use
-complex algebra to calculate them. 
+  where $k=1,2,3$ and $(w_{1},w_{2},w_{3})$ are the three cube roots
+  of $1$. You can look up online why Cardano's formula is true. The
+  point is that all the solutions to this problem are real numbers,
+  but we have to use complex algebra to calculate them.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Linear Combination and Span}
+  If $T=\{v_{1},{\ldots},v_{k}\}$ is a set of vectors and
+  $\{x_{1},{\ldots},x_{k}\}\subset{}F$ is a set of scalars, then
+  \begin{equation}
+    \label{eq:aiveatah}
+    x_{1}v_{1}+{\ldots}+x_{k}v_{k}
+  \end{equation}
+  is called a \alert{linear combination} of $v_{1},{\ldots},v_{k}$.
+  The set of all linear combinations of $v_{1},{\ldots},v_{k}$ is
+  called the \alert{span} of $v_{1},{\ldots},v_{k}$.
+
+  \medskip
+
+  The span of a set of vectors is a \alert{subspace} of $V$, meaning
+  that it is closed with respect to addition and scalar
+  multiplication. The solution set for a system of linear equations is
+  always a subspace (if $u,v\in{}S$ and $a\in{}F$, then $u+v\in{}S$
+  and $au\in{}S$).
+\end{frame}
+
+\begin{frame}
+  \frametitle{Linear Independence}
+  A set of vectors $v_{1},{\ldots},v_{k}$ is \alert{linearly
+    independent} if and only if the vector equation
+  \begin{equation}
+    \label{eq:wohsiete}
+    x_{1}v_{1}+{\ldots}+x_{k}v_{k}=0    
+  \end{equation}
+  has the unique solution $(x_{1},{\ldots},x_{k})=(0,{\ldots},0)$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Theorems of Linear Independence}
+  \begin{enumerate}
+  \item $v_{1},{\ldots},v_{k}$ are linearly independent if and only if
+    at least one of these vectors is a linear combination of the
+    others
+  \item The columns of an augmented matrix $A$ are linearly
+    independent if and only if the rank of $A$ is $k$ (the number of
+    columns).
+  \item A square matrix is invertible if and only if its columns (or
+    rows) are linearly independent.
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Basis and Dimension}
+  If $V$ is a vector space, then the set $B=\{b_{1},{\ldots},b_{k}\}$
+  is a basis of $V$ if and only if $v_{1},{\ldots},v_{k}$ are linearly
+  independent and the span of $B$ is $V$.
+  \begin{block}{Unique Representation}
+    Every vector $u\in{}V$ is a linear combination
+    $u=x_{1}b_{1}+{\ldots}+x_{k}b_{k}$ of basis vectors, if such a basis
+    exists. The ordered set $(x_{1},{\ldots},x_{k})$ is called the
+    \alert{coordinates} of $u$ with respect to basis $B$. 
+  \end{block}
+  There is a theorem that tells us that if a vector space has two
+  bases, then the cardinality of the first base equals the cardinality
+  of the second base. Thus, if a finite base exists, it makes sense to
+  define the \alert{dimension} of the vector space to be the
+  cardinality of that base.
 \end{frame}
 
 \begin{frame}
   \frametitle{Vectors}
-  A vector is an ordered pair or triplet of real numbers. One way to interpret it
-  is to make it refer to a point in the $xy$-plane or
-  $xyz$-three-dimensional space. The usual interpretation, however, is
-  as a \alert{displacement vector} with a direction and a length. Here
-  is an example:
+  A finite-dimensional vector space (let the dimension be $n$) over
+  the real numbers corresponds to a set of ordered sets of real
+  numbers (the coordinates of the vectors). In other words, it
+  corresponds to $\mathbb{R}^{n}$. 
+
+  One way to interpret a vector in $\mathbb{R}^{2}$ or
+  $\mathbb{R}^{3}$ is to make it refer to a point in the
+  $xy$-plane or $xyz$-three-dimensional space. The usual
+  interpretation, however, is as a \alert{displacement vector} with a
+  direction and a length. Here is an example:
   \begin{equation}
     \label{eq:lapheeka}
     \vec{v}=\left(
@@ -289,7 +358,7 @@ complex algebra to calculate them.
 \begin{frame}
   \frametitle{Unit Vectors}
   All three-dimensional vectors can be expressed in components. For
-  this expression we need unit vectors. Any three linearly-independent
+  this expression we need unit vectors. Any three linearly independent
   vectors would work, but it makes sense to use the following three:
   \begin{equation}
     \label{eq:bahniech}

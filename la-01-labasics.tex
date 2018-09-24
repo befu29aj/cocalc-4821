@@ -232,7 +232,11 @@ where $c_{ik}=a_{i1}b_{1k}+a_{i2}b_{2k}+\ldots+a_{ij}b_{jk}$.
   Notice that $c_{ik}$ is the product of the $i$-th row vector of $A$
   and the $k$-th column vector of $B$. The dot product of two vectors
   $\vec{v}$ and $\vec{w}$ is defined to be
-  $\vec{v}\,^{\intercal}\cdot\vec{w}$.
+  $\vec{v}\,^{\intercal}\cdot\vec{w}$. Note that
+  \begin{equation}
+    \label{eq:aidoupae}
+    A^{\intercal}B^{\intercal}=\left(BA\right)^{\intercal}
+  \end{equation}
 
 \medskip
 
@@ -352,6 +356,25 @@ matrix
 \end{frame}
 
 \begin{frame}
+  \frametitle{Inverse of Transpose}
+  The inverse of the transpose is the transpose of the inverse, so
+  \begin{equation}
+    \label{eq:ieroonge}
+    \left(A^{-1}\right)^{\intercal}=\left(A^{\intercal}\right)^{-1}
+  \end{equation}
+  This is true because
+  \begin{equation}
+    \label{eq:gahmagee}
+    A^{\intercal}\left(A^{-1}\right)^{\intercal}=\left(A^{-1}A\right)^{\intercal}=I^{\intercal}=I
+  \end{equation}
+  and
+  \begin{equation}
+    \label{eq:raengied}
+    \left(A^{-1}\right)^{\intercal}A^{\intercal}=\left(AA^{-1}\right)^{\intercal}=I^{\intercal}=I
+  \end{equation}
+\end{frame}
+
+\begin{frame}
   \frametitle{Matrix Determinant}
   Considering the last slide, it is evident that a matrix has an
   inverse if and only if $ad-bc\neq{}0$. Such a matrix is called
@@ -394,7 +417,10 @@ matrix
     of its diagonal entries.
   \end{enumerate}
   It follows from rule 3 that the determinant of a matrix, where two
-  rows or columns are equal, is zero (why?). 
+  rows or columns are equal, is zero (why?). Rule 1 together with
+  $\left(A^{-1}\right)^{\intercal}=\left(A^{\intercal}\right)^{-1}$
+  tells us that in much of what we have to say in the future, rows and
+  columns are interchangable.
 \end{frame}
 
 \begin{frame}
