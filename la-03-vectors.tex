@@ -48,7 +48,7 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Excursus: Complex Numbers}
+  \frametitle{Excursus: Complex Operators}
   {\ubung} Find the determinant of the following matrix:
   \begin{equation}
     \label{eq:ohhohhoo}
@@ -78,7 +78,7 @@ example.
 \end{frame}
 
 \begin{frame}
-  \frametitle{Excursus: Complex Numbers}
+  \frametitle{Excursus: Polar Form}
   The complex numbers correspond to vectors in $\mathbb{R}^{2}$.
     \begin{figure}[h]
     \includegraphics[scale=0.32]{./diagrams/polar.png}
@@ -96,7 +96,7 @@ A complex number $a+bi$ can always be written in its polar form $a+bi=r(\cos\the
 \end{frame}
 
 \begin{frame}
-  \frametitle{Excursus: Complex Numbers}
+  \frametitle{Excursus: Euler's Formula}
   One of the most famous formulas in mathematics is Euler's formula
   \begin{equation}
     \label{eq:kiagaiga}
@@ -120,7 +120,7 @@ Calculus still works in the complex numbers, now try to find $e^{ix}$.
 \end{frame}
 
 \begin{frame}
-  \frametitle{Excursus: Complex Numbers}
+  \frametitle{Excursus: Use of the Polar Form}
 Euler's formula makes multiplication, division, exponentiation and
 finding roots of complex numbers in polar form more simple.
 
@@ -144,7 +144,7 @@ given numbers are complex numbers provided in polar form.
 \end{frame}
 
 \begin{frame}
-  \frametitle{Excursus: Complex Numbers}
+  \frametitle{Excursus: Closeted Functions}
 You may remember that I once called trigonometric functions ``closeted
 exponential functions.'' Here is the reason. Consider
 \begin{equation}
@@ -169,7 +169,7 @@ since $\cosh(x)=\cos(ix)$ and $i\sinh(x)=\sin(ix)$.
 \end{frame}
 
 \begin{frame}
-  \frametitle{Excursus: Complex Numbers}
+  \frametitle{Excursus: de Moivre's Formula}
 \begin{block}{de Moivre's Formula}
   $\left(re^{i\theta}\right)^{n}=r^{n}e^{in\theta}$
 \end{block}
@@ -194,10 +194,36 @@ degree $n$ always have $n$ solutions in $\mathbb{C}$.
 \end{frame}
 
 \begin{frame}
-  \frametitle{Complex Roots}
+  \frametitle{Excursus: Complex Roots}
     \begin{figure}[h]
-    \includegraphics[scale=1]{./diagrams/comproot.png}
+    \includegraphics[scale=0.8]{./diagrams/comproot.png}
   \end{figure}
+  {\ubung} Solve the equation
+  \begin{equation}
+    \label{eq:phoojahs}
+    x^{2}+4x+5=0
+  \end{equation}
+  in the complex numbers.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Excursus: Casus Irreducibilis}
+  What is the use of complex numbers? There are many engineering
+  examples, but here is one from solving cubic equations. Find the
+  solutions for
+  \begin{equation}
+    \label{eq:oozaechi}
+    x^{3}-3x+1=0
+  \end{equation}
+  Cardano's formula gives us the three solutions,
+  \begin{equation}
+    \label{eq:iejopice}
+    x_{k}=w_{k}\sqrt[3]{-\frac{1}{2}+\sqrt{\frac{-3}{4}}}+w_{k}^{2}\sqrt[3]{-\frac{1}{2}-\sqrt{\frac{-3}{4}}}
+  \end{equation}
+where $k=1,2,3$ and the $w_{k}$ are the three cube roots of $1$. You
+can look up online why Cardano's formula is true. The point is that
+all the solutions to this problem are real numbers, but we have to use
+complex algebra to calculate them. 
 \end{frame}
 
 \begin{frame}
