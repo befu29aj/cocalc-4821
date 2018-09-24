@@ -100,7 +100,7 @@ A complex number $a+bi$ can always be written in its polar form $a+bi=r(\cos\the
   One of the most famous formulas in mathematics is Euler's formula
   \begin{equation}
     \label{eq:kiagaiga}
-    e^{i\theta}=\cos\theta+i\sin\theta
+    e^{ix}=\cos{}x+i\sin{}x
   \end{equation}
 For the proof, we need some calculus. Recall the Maclaurin series
 expansions
@@ -124,11 +124,17 @@ Calculus still works in the complex numbers, now try to find $e^{ix}$.
 Euler's formula makes multiplication, division, exponentiation and
 finding roots of complex numbers in polar form more simple.
 
+\medskip
+
 {\ubung} Multiply $(4,60^{\circ})$ by $(2,20^{\circ})$, where the
 given factors are complex numbers provided in polar form.
 
+\medskip
+
 {\ubung} Divide $(8,100^{\circ})$ by $(4,65^{\circ})$, where the
 given numbers are complex numbers provided in polar form.
+
+\medskip
 
 {\ubung} Find, using two alternative ways,
 \begin{equation}
@@ -157,12 +163,14 @@ Add and subtract these two equations for
   \label{eq:quuiquei}
   \sin{}x=\frac{e^{ix}-e^{-ix}}{2i}
 \end{equation}
-This is the definition of trigonometric functions on $\mathbb{C}$. 
+This is the definition of trigonometric functions on $\mathbb{C}$. The
+hyperbolic trigonometric functions are closeted sines and cosines,
+since $\cosh(x)=\cos(ix)$ and $i\sinh(x)=\sin(ix)$. 
 \end{frame}
 
 \begin{frame}
   \frametitle{Excursus: Complex Numbers}
-\begin{block}{DeMoivre's Formula}
+\begin{block}{de Moivre's Formula}
   $\left(re^{i\theta}\right)^{n}=r^{n}e^{in\theta}$
 \end{block}
 
@@ -178,11 +186,18 @@ polar form.
 
 \medskip
 
-By DeMoivre's formula, $x=(3,40^{\circ})$ is a solution. However,
-$c=(27,480^{\circ})$ and therefore, by DeMoivre's formula again,
+By de Moivre's formula, $x=(3,40^{\circ})$ is a solution. However,
+$c=(27,480^{\circ})$ and therefore, by de Moivre's formula again,
 $x=(3,160^{\circ})$ is also a solution. $c=(27,840^{\circ})$ provides
 the third solution, $x=(3,280^{\circ})$. Polynomial equations of
 degree $n$ always have $n$ solutions in $\mathbb{C}$. 
+\end{frame}
+
+\begin{frame}
+  \frametitle{Complex Roots}
+    \begin{figure}[h]
+    \includegraphics[scale=0.5]{./diagrams/comproot.png}
+  \end{figure}
 \end{frame}
 
 \begin{frame}
