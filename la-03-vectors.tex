@@ -83,13 +83,13 @@ example.
     \begin{figure}[h]
     \includegraphics[scale=0.32]{./diagrams/polar.png}
   \end{figure}
-Instead of providing the coordinates $(x,y)$ of a complex number, it
+Instead of providing the coordinates $(a,b)$ of a complex number, it
 is sometimes useful to provide the \alert{polar form} $(r,\theta)$.
 \begin{equation}
   \label{eq:eekaerai}
   \begin{array}{ll}
-    x=r\cos\theta & y=r\sin\theta \\
-    r^{2}=x^{2}+y^{2} & \tan\theta=\frac{y}{x}
+    a=r\cos\theta & b=r\sin\theta \\
+    r^{2}=a^{2}+b^{2} & \tan\theta=\frac{b}{a}
   \end{array}
 \end{equation}
 A complex number $a+bi$ can always be written in its polar form $a+bi=r(\cos\theta+i\sin\theta)$.
@@ -102,12 +102,87 @@ A complex number $a+bi$ can always be written in its polar form $a+bi=r(\cos\the
     \label{eq:kiagaiga}
     e^{i\theta}=\cos\theta+i\sin\theta
   \end{equation}
-This formula makes multiplication, division, exponentiation and
+For the proof, we need some calculus. Recall the Maclaurin series
+expansions
+\begin{equation}
+  \label{eq:uthairoj}
+  e^{x}=\sum_{j=0}^{\infty}\frac{x^{j}}{j!}
+\end{equation}
+\begin{equation}
+  \label{eq:eepiewez}
+  \cos{}x=\sum_{j=0}^{\infty}(-1)^{j}\frac{x^{2j}}{(2j)!}
+\end{equation}
+\begin{equation}
+  \label{eq:mohhaich}
+  \sin{}x=\sum_{j=0}^{\infty}(-1)^{j}\frac{x^{2j+1}}{(2j+1)!}
+\end{equation}
+Calculus still works in the complex numbers, now try to find $e^{ix}$. 
+\end{frame}
+
+\begin{frame}
+  \frametitle{Excursus: Complex Numbers}
+Euler's formula makes multiplication, division, exponentiation and
 finding roots of complex numbers in polar form more simple.
+
+{\ubung} Multiply $(4,60^{\circ})$ by $(2,20^{\circ})$, where the
+given factors are complex numbers provided in polar form.
+
+{\ubung} Divide $(8,100^{\circ})$ by $(4,65^{\circ})$, where the
+given numbers are complex numbers provided in polar form.
+
+{\ubung} Find, using two alternative ways,
+\begin{equation}
+  \label{eq:iekaekep}
+  \frac{-2+5i}{-1-i}\mbox{ and }\left(2+3i\right)^{5}
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Excursus: Complex Numbers}
+You may remember that I once called trigonometric functions ``closeted
+exponential functions.'' Here is the reason. Consider
+\begin{equation}
+  \label{eq:eixeivei}
+  \begin{array}{rcl}
+  e^{ix}&=&\cos{}x+i\sin{}x \\
+  e^{-ix}&=&\cos{}x-i\sin{}x
+  \end{array}
+\end{equation}
+Add and subtract these two equations for
+\begin{equation}
+  \label{eq:ohrayaxu}
+  \cos{}x=\frac{e^{ix}+e^{-ix}}{2}
+\end{equation}
+\begin{equation}
+  \label{eq:quuiquei}
+  \sin{}x=\frac{e^{ix}-e^{-ix}}{2i}
+\end{equation}
+This is the definition of trigonometric functions on $\mathbb{C}$. 
+\end{frame}
+
+\begin{frame}
+  \frametitle{Excursus: Complex Numbers}
 \begin{block}{DeMoivre's Formula}
   $\left(re^{i\theta}\right)^{n}=r^{n}e^{in\theta}$
 \end{block}
-Note that there are $m$ $m$-th roots of complex numbers.
+
+\medskip
+
+\beispiel{Cube Roots} Find the solution set for the following equation
+and $c=(27,120^{\circ})$, where $c$ is a complex number provided in
+polar form.
+\begin{equation}
+  \label{eq:aephacha}
+  x^{3}=c
+\end{equation}
+
+\medskip
+
+By DeMoivre's formula, $x=(3,40^{\circ})$ is a solution. However,
+$c=(27,480^{\circ})$ and therefore, by DeMoivre's formula again,
+$x=(3,160^{\circ})$ is also a solution. $c=(27,840^{\circ})$ provides
+the third solution, $x=(3,280^{\circ})$. Polynomial equations of
+degree $n$ always have $n$ solutions in $\mathbb{C}$. 
 \end{frame}
 
 \begin{frame}
