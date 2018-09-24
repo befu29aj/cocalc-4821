@@ -261,12 +261,11 @@ degree $n$ always have $n$ solutions in $\mathbb{C}$.
 \begin{frame}
   \frametitle{Theorems of Linear Independence}
   \begin{enumerate}
-  \item $v_{1},{\ldots},v_{k}$ are linearly independent if and only if
+  \item $v_{1},{\ldots},v_{k}$ are linearly dependent if and only if
     at least one of these vectors is a linear combination of the
     others
-  \item The columns of an augmented matrix $A$ are linearly
-    independent if and only if the rank of $A$ is $k$ (the number of
-    columns).
+  \item The columns of a matrix $A$ are linearly independent if and
+    only if the rank of $A$ is $k$ (the number of columns).
   \item A square matrix is invertible if and only if its columns (or
     rows) are linearly independent.
   \end{enumerate}
@@ -275,7 +274,7 @@ degree $n$ always have $n$ solutions in $\mathbb{C}$.
 \begin{frame}
   \frametitle{Basis and Dimension}
   If $V$ is a vector space, then the set $B=\{b_{1},{\ldots},b_{k}\}$
-  is a basis of $V$ if and only if $v_{1},{\ldots},v_{k}$ are linearly
+  is a \alert{basis} of $V$ if and only if $v_{1},{\ldots},v_{k}$ are linearly
   independent and the span of $B$ is $V$.
   \begin{block}{Unique Representation}
     Every vector $u\in{}V$ is a linear combination
@@ -283,11 +282,11 @@ degree $n$ always have $n$ solutions in $\mathbb{C}$.
     exists. The ordered set $(x_{1},{\ldots},x_{k})$ is called the
     \alert{coordinates} of $u$ with respect to basis $B$. 
   \end{block}
-  There is a theorem that tells us that if a vector space has two
-  bases, then the cardinality of the first base equals the cardinality
-  of the second base. Thus, if a finite base exists, it makes sense to
-  define the \alert{dimension} of the vector space to be the
-  cardinality of that base.
+  There is a theorem that tells us that if two sets of vectors $B_{1}$
+  and $B_{2}$ are bases of vector space $V$, then the cardinality of
+  $B_{1}$ equals the cardinality of $B_{2}$. Thus, if a finite base
+  exists, it makes sense to define the \alert{dimension} of the vector
+  space to be the cardinality of that base.
 \end{frame}
 
 \begin{frame}
@@ -296,6 +295,8 @@ degree $n$ always have $n$ solutions in $\mathbb{C}$.
   the real numbers corresponds to a set of ordered sets of real
   numbers (the coordinates of the vectors). In other words, it
   corresponds to $\mathbb{R}^{n}$. 
+
+\medskip
 
   One way to interpret a vector in $\mathbb{R}^{2}$ or
   $\mathbb{R}^{3}$ is to make it refer to a point in the
