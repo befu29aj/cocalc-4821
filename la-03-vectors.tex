@@ -18,6 +18,100 @@
 
 \begin{frame}
   \frametitle{Vectors}
+  A vector space $V$ over a field $F$ is a set on which two operations
+  (addition and scalar multiplication) are defined. Some axioms need
+  to be fulfilled, most relevantly \alert{closure} with respect to
+  addition and scalar multiplication:
+  \begin{itemize}
+  \item If $v,w\in{}V$, then $v+w\in{}V$
+  \item If $a\in{}F,v\in{}V$, then $av\in{}V$
+  \end{itemize}
+  In this course, the field will always be $\mathbb{R}$ or
+  $\mathbb{C}$, the real or the complex numbers.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Excursus: Complex Numbers}
+  The following set
+  \begin{equation}
+    \label{eq:oiphaebo}
+    \mathbb{C}=\{a+bi|a,b\in\mathbb{R}\}
+  \end{equation}
+  is called the set of complex numbers. Note that
+  $\mathbb{R}\subset\mathbb{C}$. Operations (addition, multiplication,
+  and so on) are defined on complex numbers the same way as on real
+  numbers with one additional rule:
+  \begin{equation}
+    \label{eq:thaikiec}
+    i^{2}=-1
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Excursus: Complex Numbers}
+  {\ubung} Find the determinant of the following matrix:
+  \begin{equation}
+    \label{eq:ohhohhoo}
+    A=\left[
+      \begin{array}{cc}
+        1-4i & 3-i \\
+        -3i & 3+4i
+      \end{array}\right]
+  \end{equation}
+{\ubung} A matrix that equals its conjugate transpose is called a
+\alert{Hermitian matrix}. Calculate the determinate of the following
+example.
+\begin{equation}
+  \label{eq:ohsaiphi}
+  B=\left[
+    \begin{array}{ccc}
+      2 & 2+i & 4 \\
+      2-i & 3 & i \\
+      4 & -i & 1
+    \end{array}\right]
+\end{equation}
+{\ubung} Use expansion by conjugates to divide
+\begin{equation}
+  \label{eq:choomeux}
+  \frac{7-2i}{3+4i}
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Excursus: Complex Numbers}
+  The complex numbers correspond to vectors in $\mathbb{R}^{2}$.
+    \begin{figure}[h]
+    \includegraphics[scale=0.32]{./diagrams/polar.png}
+  \end{figure}
+Instead of providing the coordinates $(x,y)$ of a complex number, it
+is sometimes useful to provide the \alert{polar form} $(r,\theta)$.
+\begin{equation}
+  \label{eq:eekaerai}
+  \begin{array}{ll}
+    x=r\cos\theta & y=r\sin\theta \\
+    r^{2}=x^{2}+y^{2} & \tan\theta=\frac{y}{x}
+  \end{array}
+\end{equation}
+A complex number $a+bi$ can always be written in its polar form $a+bi=r(\cos\theta+i\sin\theta)$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Excursus: Complex Numbers}
+  One of the most famous formulas in mathematics is Euler's formula
+  \begin{equation}
+    \label{eq:kiagaiga}
+    e^{i\theta}=\cos\theta+i\sin\theta
+  \end{equation}
+This formula makes multiplication, division, exponentiation and
+finding roots of complex numbers in polar form more simple.
+\begin{block}{DeMoivre's Formula}
+  $\left(re^{i\theta}\right)^{n}=r^{n}e^{in\theta}$
+\end{block}
+Note that there are $m$ $m$-th roots of complex numbers.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Vectors}
   A vector is an ordered pair or triplet of real numbers. One way to interpret it
   is to make it refer to a point in the $xy$-plane or
   $xyz$-three-dimensional space. The usual interpretation, however, is
