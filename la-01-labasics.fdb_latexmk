@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1537373092 "la-01-labasics.tex" "la-01-labasics.pdf" "la-01-labasics" 1537373093
+["pdflatex"] 1537835760 "la-01-labasics.tex" "la-01-labasics.pdf" "la-01-labasics" 1537835762
   "/etc/texmf/web2c/texmf.cnf" 1535314180 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -207,16 +207,16 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1535345801 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1535345686 4127293 e426791f7d60570cbd329fe378e4215f ""
   "diagrams/pardet1.png" 1536949218 20115 57b556077f222c55577f15d8d5934152 ""
-  "la-01-labasics.aux" 1537373093 7926 141af39584aba074404726091ad84af9 ""
-  "la-01-labasics.nav" 1537373093 2783 f8b0d1eaf383f71e4268670ac899f7e1 ""
-  "la-01-labasics.out" 1537373092 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "la-01-labasics.tex" 1537373083 18025 560b57a005c43ceb7b8ebb94e410903c ""
+  "la-01-labasics.aux" 1537835762 8447 67be1d8659b232c1e890297b7c6b2617 ""
+  "la-01-labasics.nav" 1537835762 2876 537f74995c35c6a2ad0a2421b28a59b3 ""
+  "la-01-labasics.out" 1537835761 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "la-01-labasics.tex" 1537832783 18966 46a50d90a7da4cded57c5bbc525286df ""
   "teachbeamer.sty" 1536261356 1599 47b30f8a7e30907cf86a9a1fff41cc5e ""
   (generated)
-  "la-01-labasics.nav"
-  "la-01-labasics.pdf"
-  "la-01-labasics.toc"
   "la-01-labasics.aux"
   "la-01-labasics.snm"
   "la-01-labasics.log"
+  "la-01-labasics.pdf"
+  "la-01-labasics.toc"
   "la-01-labasics.out"
+  "la-01-labasics.nav"
