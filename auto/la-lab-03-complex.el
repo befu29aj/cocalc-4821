@@ -19,7 +19,13 @@
     "eq:kieshiec"
     "eq:cahkaedi"
     "eq:yoveerae"
-    "eq:jawahrei")
+    "eq:jawahrei"
+    "eq:lahqueeh"
+    "eq:usaideix"
+    "eq:noemanie"
+    "eq:chaiyaet"
+    "eq:guphuphe"
+    "eq:aihiisha")
    (LaTeX-add-counters
     "aufg"))
  :latex)
