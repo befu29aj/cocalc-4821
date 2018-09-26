@@ -1,0 +1,65 @@
+% la-lab-03-complex.tex
+
+\documentclass[11pt]{article}
+\usepackage{enumerate}
+\usepackage{syllogism} 
+\usepackage{october}
+\usepackage[table]{xcolor}
+
+\newcounter{aufg}
+\setcounter{aufg}{0}
+\newcommand{\aufgabe}[0]{\refstepcounter{aufg}\textbf{(\arabic{aufg})}}
+
+\begin{document}
+
+\textbf{Echelon Form and Complex Numbers}
+
+{\aufgabe} Find the equation of the quadratic
+  \begin{equation}
+    \label{eq:kieshiec}
+    y=ax^{2}+bx+c
+  \end{equation}
+  which passes through $(0,0),(1,2),(-1,3)$.
+
+  {\aufgabe} Find the determinant for the following Hermitian matrix.
+  What do you notice?
+  \begin{equation}
+    \label{eq:cahkaedi}
+    \left[
+      \begin{array}{ccc}
+        4 & 3-2i & -3i \\
+        3+2i & 1 & -5+2i \\
+        3i & -5-2i & 2
+      \end{array}\right]
+  \end{equation}
+
+  {\aufgabe} Represent the following complex numbers in polar form
+  $r(\cos\theta+i\sin\theta)$.
+  \begin{enumerate}
+  \item $3+4i$
+  \item $-1.04-1.56i$
+  \end{enumerate}
+
+  {\aufgabe} Solve the following problems in electrical engineering.
+  \begin{enumerate}
+  \item The impedance $Z$ (in $\Omega$) in an alternating-current
+  circuit is given by$Z=3560/-32.4^{\circ}$. Express this in
+  rectangular form.
+  \item The current in a microprocessor circuit is represented
+    by $3.75/15.0^{\circ}\mu$A. Write this in rectangular form.
+  \item The voltage of a generator is represented by $2.84-1.06i$kV.
+    Write this voltage in polar form.
+  \end{enumerate}
+
+  {\aufgabe} Solve the following problems in complex arithmetic.
+  \begin{enumerate}
+  \item $(8i-5)(7+4i)$
+  \item $(\sqrt{-18}\sqrt{-4})\cdot{}3i$
+  \item $(1+i)(1-i)^{2}$
+  \item $\displaymath \frac{0.25}{3-\sqrt{-1}}$
+  \item $\displaymath \frac{6+5i}{3-4i}$
+  \item $\displaymath \frac{(2-i^{3})^{4}}{(i^{8}-i^{6})^{3}}+i$
+  \end{enumerate}
+
+\end{document}
+
