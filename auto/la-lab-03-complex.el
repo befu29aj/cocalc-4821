@@ -17,7 +17,9 @@
     '("aufgabe" 0))
    (LaTeX-add-labels
     "eq:kieshiec"
-    "eq:cahkaedi")
+    "eq:cahkaedi"
+    "eq:yoveerae"
+    "eq:jawahrei")
    (LaTeX-add-counters
     "aufg"))
  :latex)
