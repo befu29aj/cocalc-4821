@@ -20,6 +20,8 @@
     "eq:cahkaedi"
     "eq:yoveerae"
     "eq:jawahrei"
+    "eq:usiesigh"
+    "eq:oluuniov"
     "eq:lahqueeh"
     "eq:usaideix"
     "eq:noemanie"
