@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1537987579 "la-lab-03-complex.tex" "la-lab-03-complex.pdf" "la-lab-03-complex" 1537987579
+["pdflatex"] 1537987743 "la-lab-03-complex.tex" "la-lab-03-complex.pdf" "la-lab-03-complex" 1537987744
   "/etc/texmf/web2c/texmf.cnf" 1535314180 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -74,10 +74,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1535345801 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1535345686 4127293 e426791f7d60570cbd329fe378e4215f ""
-  "la-lab-03-complex.aux" 1537987579 319 ee5de0c865adcb4ec053cd83ae4544df ""
-  "la-lab-03-complex.tex" 1537987579 2535 8e9de4651aafcef9840e2605f340d7c6 ""
+  "la-lab-03-complex.aux" 1537987744 383 f069f167db150e791f6d639e516e7580 ""
+  "la-lab-03-complex.tex" 1537987743 2634 aee8fd137fbb2f4d4c0f83cb98028b8a ""
   "october.sty" 1536769900 2997 265ecb1cf7c10b3151e59742b19f912c ""
   (generated)
   "la-lab-03-complex.aux"
-  "la-lab-03-complex.log"
   "la-lab-03-complex.pdf"
+  "la-lab-03-complex.log"
