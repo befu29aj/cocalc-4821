@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1538074118 "la-03-vectors.tex" "la-03-vectors.pdf" "la-03-vectors" 1538074119
+["pdflatex"] 1538074526 "la-03-vectors.tex" "la-03-vectors.pdf" "la-03-vectors" 1538074527
   "/etc/texmf/web2c/texmf.cnf" 1535314180 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -208,16 +208,16 @@
   "diagrams/comproot.png" 1537827647 3468 ed298ed6f260c35b9b2b8f9a3f5d505b ""
   "diagrams/crossproduct.png" 1536616565 69611 f6e98e27c99149632ded75e19d8f2ea2 ""
   "diagrams/polar.png" 1537820789 1795 052ce3b751198be0823e4418ca2ef65e ""
-  "la-03-vectors.aux" 1538074119 9786 25bdbddb40b681c4e47f09e7033e304d ""
-  "la-03-vectors.nav" 1538074119 3341 7d73de7ff642878dd6c36c12ea38837e ""
-  "la-03-vectors.out" 1538074118 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "la-03-vectors.tex" 1538074116 21917 6529f5d15e759655ec9d35b06f6ef97e ""
+  "la-03-vectors.aux" 1538074527 9657 e1d20b12cfaf6652dd1ef7f6ce8de47d ""
+  "la-03-vectors.nav" 1538074527 3248 04f88683e470406fc21eb9e1acb56761 ""
+  "la-03-vectors.out" 1538074526 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "la-03-vectors.tex" 1538074524 22047 a08a11dd11c27409d3d8b81b67e7efe8 ""
   "teachbeamer.sty" 1536261356 1599 47b30f8a7e30907cf86a9a1fff41cc5e ""
   (generated)
+  "la-03-vectors.snm"
+  "la-03-vectors.out"
+  "la-03-vectors.nav"
   "la-03-vectors.log"
   "la-03-vectors.aux"
   "la-03-vectors.pdf"
-  "la-03-vectors.out"
-  "la-03-vectors.nav"
-  "la-03-vectors.snm"
   "la-03-vectors.toc"
