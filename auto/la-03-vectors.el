@@ -52,6 +52,7 @@
     "eq:yohsheen"
     "eq:ijaeriri"
     "eq:bamoyeez"
+    "eq:ivaichoh"
     "eq:abeekohc"
     "eq:eiyeigaz"
     "eq:yohghaef"

@@ -596,6 +596,35 @@ Therefore,
 \end{frame}
 
 \begin{frame}
+  \frametitle{Orthonormal Basis}
+  If a basis consists of vectors which are
+  \begin{enumerate}
+  \item pairwise orthogonal and
+  \item all have length 1
+  \end{enumerate}
+  then the basis is an \alert{orthonormal basis}. A vector $w$ can always
+  be scaled to length 1 by multiplying it by $1/\Vert{}w\Vert$. 
+\end{frame}
+
+\begin{frame}
+  \frametitle{An Infinite-Dimensional Vector Space}
+  Consider the set $\mathcal{F}=\{f|f\mbox{ is a continuous function
+    on }\mathbb{R}\}$. Define addition by $(f+g)(x)=f(x)+g(x)$ and
+  scalar multiplication by $(af)(x)=af(x)$. Then the set $\mathcal{F}$
+  fulfills all the axioms for a vector space. Now define the dot
+  product
+  \begin{equation}
+    \label{eq:ivaichoh}
+    f\cdot{}g=\int_{0}^{1}f(x)g(x)\,dx
+  \end{equation}
+Show that $f(x)=\sin\pi{}x$ and $g(x)=\sin{}2\pi{}x$ are orthogonal to
+each other. As it turns out,
+$\{1,\sin{}2\pi{}x,\cos{}2\pi{}x,\sin{}4\pi{}x,\cos{}4\pi{}x,{\ldots}\}$
+is a basis of orthogonal vectors for $\mathcal{F}$. Therefore, the
+dimension of $\mathcal{F}$ is infinite. 
+\end{frame}
+
+\begin{frame}
   \frametitle{Cross Product}
   \begin{figure}[h]
     \includegraphics[scale=0.32]{./diagrams/crossproduct.png}
