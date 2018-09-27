@@ -42,6 +42,8 @@
     "eq:kaepuema"
     "eq:kemodaim"
     "eq:emiehoij"
+    "eq:zuabiemu"
+    "eq:iechaigu"
     "eq:bahniech"
     "eq:teequahg"
     "eq:zaegiexo"

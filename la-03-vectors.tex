@@ -381,9 +381,25 @@ Try to determine the dimensions of these vector spaces.
   with respect to the basis are $(u_{1},{\ldots},u_{n})$ and
   $(v_{1},{\ldots},v_{n})$. Organize the coordinate vectors as
   one-column matrices $\vec{u}$ and $\vec{v}$. Then the dot product is
+  defined using matrix multiplication.
   \begin{equation}
     \label{eq:emiehoij}
-    u\cdot{}v=\vec{u}^{\intercal}\cdot\vec{v}
+    u\cdot{}v=\vec{u}^{\intercal}\,\cdot\vec{v}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Length and Angle of Vector}
+  Now verify that in the two-dimensional case, the length of a vector $u$
+  is
+  \begin{equation}
+    \label{eq:zuabiemu}
+    \Vert{}u\Vert^{2}=u\cdot{}u
+  \end{equation}
+  and its angle is
+  \begin{equation}
+    \label{eq:iechaigu}
+    \cos\theta=\frac{u\cdot{}v}{\Vert{}u\Vert\cdot\Vert{}v\Vert}
   \end{equation}
 \end{frame}
 
