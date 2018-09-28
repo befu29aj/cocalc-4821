@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  28 SEP 2018 23:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  28 SEP 2018 23:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -754,7 +754,14 @@ Package: alltt 1997/06/16 v2.0g defines alltt environment
 \c@expls=\count164
 \c@exercise=\count165
 )
-(./la-03-vectors.aux)
+(./la-03-vectors.aux
+
+LaTeX Warning: Label `eq:akingahg' multiply defined.
+
+
+LaTeX Warning: Label `eq:ohsegeel' multiply defined.
+
+)
 \openout1 = `la-03-vectors.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -974,19 +981,38 @@ Package pdftex.def Info: ./diagrams/polar.png  used on input line 96.
 ] [9
 
 ]
-Overfull \hbox (269.71205pt too wide) detected at line 204
-[][]\OT1/mathkerncmss/m/sl/10.95 x \OT1/cmss/m/n/10.95 = [][] = [][] = [][] [] 
-= \OMS/cmsy/m/n/10.95 ^^@\OT1/cmss/m/n/10.95 46 \OMS/cmsy/m/n/10.95 ^^@ \OT1/cm
-ss/m/n/10.95 9\OT1/mathkerncmss/m/sl/10.95 i
+Overfull \hbox (48.68959pt too wide) detected at line 217
+[][] [][] \OT1/cmss/m/n/10.95 = [][] [] = \OMS/cmsy/m/n/10.95 ^^@\OT1/cmss/m/n/
+10.95 46 \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmss/m/n/10.95 9\OT1/mathkerncmss/m/sl/10
+.95 i[]
+ []
+
+
+Overfull \hbox (29.95204pt too wide) detected at line 217
+[][] [][] \OT1/cmss/m/n/10.95 = 13[] [] = \OMS/cmsy/m/n/10.95 ^^@\OT1/cmss/m/n/
+10.95 46 \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmss/m/n/10.95 9\OT1/mathkerncmss/m/sl/10
+.95 i[]
  []
 
 [10
 
-]
-<./diagrams/comproot.png, id=122, 256.96pt x 263.98625pt>
+pdfTeX warning (ext4): destination with the same identifier (name{eq:akingahg})
+ has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.217 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{eq:ohsegeel}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.217 \end{frame}
+                 ]
+<./diagrams/comproot.png, id=123, 256.96pt x 263.98625pt>
 File: ./diagrams/comproot.png Graphic file (type png)
 <use ./diagrams/comproot.png>
-Package pdftex.def Info: ./diagrams/comproot.png  used on input line 217.
+Package pdftex.def Info: ./diagrams/comproot.png  used on input line 230.
 (pdftex.def)             Requested size: 128.47968pt x 131.9928pt.
  [11
 
@@ -1000,14 +1026,14 @@ Package pdftex.def Info: ./diagrams/comproot.png  used on input line 217.
 
 ] [16
 
-] [17
+]
+[17
 
 ] [18
 
 ] [19
 
-]
-[20
+] [20
 
 ] [21
 
@@ -1024,13 +1050,13 @@ Package pdftex.def Info: ./diagrams/comproot.png  used on input line 217.
 ] [27
 
 ]
-<./diagrams/crossproduct.png, id=251, 993.7125pt x 508.90125pt>
+<./diagrams/crossproduct.png, id=252, 993.7125pt x 508.90125pt>
 File: ./diagrams/crossproduct.png Graphic file (type png)
 <use ./diagrams/crossproduct.png>
-Package pdftex.def Info: ./diagrams/crossproduct.png  used on input line 642.
+Package pdftex.def Info: ./diagrams/crossproduct.png  used on input line 655.
 (pdftex.def)             Requested size: 317.99449pt x 162.85172pt.
 
-Overfull \hbox (10.70462pt too wide) in paragraph at lines 642--642
+Overfull \hbox (10.70462pt too wide) in paragraph at lines 655--655
  [] 
  []
 
@@ -1062,20 +1088,24 @@ Overfull \hbox (10.70462pt too wide) in paragraph at lines 642--642
 \tf@snm=\write8
 \openout8 = `la-03-vectors.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 793.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 793.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 806.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 806.
 
 (./la-03-vectors.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 793.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 793.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 806.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 806.
 Package rerunfilecheck Info: File `la-03-vectors.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 20486 strings out of 492982
- 401811 string characters out of 6134896
- 471214 words of memory out of 5000000
- 23463 multiletter control sequences out of 15000+600000
+ 20488 strings out of 492982
+ 401835 string characters out of 6134896
+ 471278 words of memory out of 5000000
+ 23464 multiletter control sequences out of 15000+600000
  10684 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,63p,804b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1093,10 +1123,10 @@ s/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
 0.pfb>
-Output written on la-03-vectors.pdf (36 pages, 233801 bytes).
+Output written on la-03-vectors.pdf (36 pages, 234612 bytes).
 PDF statistics:
- 394 PDF objects out of 1000 (max. 8388607)
- 319 compressed objects within 4 object streams
- 121 named destinations out of 1000 (max. 500000)
+ 395 PDF objects out of 1000 (max. 8388607)
+ 320 compressed objects within 4 object streams
+ 122 named destinations out of 1000 (max. 500000)
  100 words of extra memory for PDF output out of 10000 (max. 10000000)
 
