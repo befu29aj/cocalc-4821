@@ -34,6 +34,7 @@
     "eq:quuiquei"
     "eq:aephacha"
     "eq:akingahg"
+    "eq:ohsegeel"
     "eq:phoojahs"
     "eq:oozaechi"
     "eq:iejopice"
