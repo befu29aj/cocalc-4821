@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  29 SEP 2018 00:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  1 OCT 2018 20:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1004,40 +1004,40 @@ l.212 \end{frame}
 name{eq:akingahg}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.243 \end{frame}
+l.239 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{eq:ohsegeel}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.243 \end{frame}
+l.239 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{eq:ohsegeel}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.243 \end{frame}
+l.239 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{eq:ohsegeel}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.243 \end{frame}
+l.239 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{eq:ohsegeel}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.243 \end{frame}
+l.239 \end{frame}
                   [11
 
+] [12
+
 ]
-<./diagrams/comproot.png, id=129, 256.96pt x 263.98625pt>
+<./diagrams/comproot.png, id=139, 256.96pt x 263.98625pt>
 File: ./diagrams/comproot.png Graphic file (type png)
 <use ./diagrams/comproot.png>
-Package pdftex.def Info: ./diagrams/comproot.png  used on input line 256.
+Package pdftex.def Info: ./diagrams/comproot.png  used on input line 275.
 (pdftex.def)             Requested size: 128.47968pt x 131.9928pt.
- [12
+ [13
 
- <./diagrams/comproot.png>] [13
-
-] [14
+ <./diagrams/comproot.png>] [14
 
 ] [15
 
@@ -1070,22 +1070,22 @@ Package pdftex.def Info: ./diagrams/comproot.png  used on input line 256.
 
 ] [29
 
+] [30
+
 ]
-<./diagrams/crossproduct.png, id=264, 993.7125pt x 508.90125pt>
+<./diagrams/crossproduct.png, id=274, 993.7125pt x 508.90125pt>
 File: ./diagrams/crossproduct.png Graphic file (type png)
 <use ./diagrams/crossproduct.png>
-Package pdftex.def Info: ./diagrams/crossproduct.png  used on input line 701.
+Package pdftex.def Info: ./diagrams/crossproduct.png  used on input line 720.
 (pdftex.def)             Requested size: 317.99449pt x 162.85172pt.
 
-Overfull \hbox (10.70462pt too wide) in paragraph at lines 701--701
+Overfull \hbox (10.70462pt too wide) in paragraph at lines 720--720
  [] 
  []
 
-[30
+[31
 
- <./diagrams/crossproduct.png>] [31
-
-] [32
+ <./diagrams/crossproduct.png>] [32
 
 ] [33
 
@@ -1099,6 +1099,8 @@ Overfull \hbox (10.70462pt too wide) in paragraph at lines 701--701
 
 ] [38
 
+] [39
+
 ]
 \tf@nav=\write6
 \openout6 = `la-03-vectors.nav'.
@@ -1109,12 +1111,12 @@ Overfull \hbox (10.70462pt too wide) in paragraph at lines 701--701
 \tf@snm=\write8
 \openout8 = `la-03-vectors.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 852.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 852.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 871.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 871.
 
 (./la-03-vectors.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 852.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 852.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 871.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 871.
 Package rerunfilecheck Info: File `la-03-vectors.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1123,10 +1125,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20496 strings out of 492982
- 401905 string characters out of 6134896
- 471276 words of memory out of 5000000
- 23468 multiletter control sequences out of 15000+600000
+ 20508 strings out of 492982
+ 402036 string characters out of 6134896
+ 471378 words of memory out of 5000000
+ 23474 multiletter control sequences out of 15000+600000
  10684 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,63p,804b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1144,10 +1146,10 @@ s/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
 0.pfb>
-Output written on la-03-vectors.pdf (38 pages, 238172 bytes).
+Output written on la-03-vectors.pdf (39 pages, 239977 bytes).
 PDF statistics:
- 410 PDF objects out of 1000 (max. 8388607)
- 333 compressed objects within 4 object streams
- 126 named destinations out of 1000 (max. 500000)
+ 421 PDF objects out of 1000 (max. 8388607)
+ 343 compressed objects within 4 object streams
+ 132 named destinations out of 1000 (max. 500000)
  100 words of extra memory for PDF output out of 10000 (max. 10000000)
 
