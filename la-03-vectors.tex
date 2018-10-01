@@ -685,6 +685,16 @@ Therefore,
 \end{frame}
 
 \begin{frame}
+  \frametitle{Orthonormal Basis Exercise}
+% Paul C. Shields, page 227
+  {\ubung} Find an orthonormal basis for the plane whose equation is
+  \begin{equation}
+    \label{eq:deidongo}
+    2x-3y+7z=0
+  \end{equation}
+\end{frame}
+
+\begin{frame}
   \frametitle{An Infinite-Dimensional Vector Space}
   Consider the set $\mathcal{F}=\{f|f\mbox{ is a continuous function
     on }\mathbb{R}\}$. Define addition by $(f+g)(x)=f(x)+g(x)$ and
@@ -720,6 +730,38 @@ dimension of $\mathcal{F}$ is infinite.
   and planes are hyperplanes. It is relatively easy to show that in
   the finite-dimensional case, all and only hyperplanes in $V$ are
   subspaces of $V$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Projection}
+  The \alert{projection} $u_{H}$ of a vector $u$ onto a hyperplane $H$
+  is the vector in the hyperplane that is ``most similar'' to $u$. The
+  formal definition for $u_{H}$ requires that
+  \begin{enumerate}
+  \item $u$ is in $H$
+  \item $(u-u_{H})$ is orthogonal to all basis vectors of $H$
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Projection}
+  \beispiel{Finding a Projection} Let $H$ be the line spanned by
+  $\vec{v}=(-1,1)^{\intercal}$ in $\mathbb{R}^{2}$. What is the
+  projection $\vec{w}$ of $\vec{u}=(3,-2)^{\intercal}$?
+
+  \medskip
+
+  Let $\vec{w}=(w_{1},w_{2})^{\intercal}$. Then $\vec{u}-\vec{w}$ is
+  orthogonal to $\vec{v}$ and $\vec{w}=\alpha\vec{v}$ for some
+  $\alpha\in\mathbb{R}\setminus\{0\}$. 
+  \begin{equation}
+    \label{eq:vorahcat}
+    \begin{array}{ccccc}
+      w_{1}&-&w_{2}&=&5 \\
+      w_{1}&+&w_{2}&=&0 \\
+    \end{array}
+  \end{equation}
+Cramer's rule tells us that $\vec{w}=(2.5,-2.5)^{\intercal}$. 
 \end{frame}
 
 \begin{frame}
