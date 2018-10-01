@@ -765,6 +765,24 @@ Cramer's rule tells us that $\vec{w}=(2.5,-2.5)^{\intercal}$.
 \end{frame}
 
 \begin{frame}
+  \frametitle{Projection}
+  Let $u=(u_{1},{\ldots},u_{n})^{\intercal}$ be a vector and $H$ be a
+  $k$-dimensional hyperplane in the vector space $\mathbb{R}^{n}$. Let
+  $x_{1},{\ldots},x_{k}$ be a basis for $H$. Then it is true for all
+  vectors $v$ in the hyperplane that
+  \begin{equation}
+    \label{eq:ahdoogoh}
+    \Vert{}u-v\Vert\geq\Vert{}u-u_{H}\Vert
+  \end{equation}
+  Proof: use the theorem of Pythagoras for
+  \begin{equation}
+    \label{eq:yoochaev}
+    \Vert{}u-v\Vert^{2}=\Vert{}u-u_{H}\Vert^{2}+\Vert{}u_{H}-v\Vert^{2}\geq\Vert{}u-u_{H}\Vert^{2}
+  \end{equation}
+The claim follows.
+\end{frame}
+
+\begin{frame}
   \frametitle{Cross Product}
   \begin{figure}[h]
     \includegraphics[scale=0.32]{./diagrams/crossproduct.png}

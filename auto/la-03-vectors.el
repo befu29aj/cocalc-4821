@@ -67,6 +67,8 @@
     "eq:deidongo"
     "eq:ivaichoh"
     "eq:vorahcat"
+    "eq:ahdoogoh"
+    "eq:yoochaev"
     "eq:abeekohc"
     "eq:eiyeigaz"
     "eq:yohghaef"
