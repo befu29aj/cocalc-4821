@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  1 OCT 2018 23:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  1 OCT 2018 23:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1028,10 +1028,16 @@ Package pdftex.def Info: ./diagrams/comproot.png  used on input line 269.
 
 ] [33
 
-] [34
-
 ]
-<./diagrams/crossproduct.png, id=308, 993.7125pt x 508.90125pt>
+<./diagrams/project.png, id=301, 376.40625pt x 140.525pt>
+File: ./diagrams/project.png Graphic file (type png)
+<use ./diagrams/project.png>
+Package pdftex.def Info: ./diagrams/project.png  used on input line 765.
+(pdftex.def)             Requested size: 120.45245pt x 44.9689pt.
+ [34
+
+ <./diagrams/project.png (PNG copy)>]
+<./diagrams/crossproduct.png, id=309, 993.7125pt x 508.90125pt>
 File: ./diagrams/crossproduct.png Graphic file (type png)
 <use ./diagrams/crossproduct.png>
 Package pdftex.def Info: ./diagrams/crossproduct.png  used on input line 772.
@@ -1079,10 +1085,10 @@ Package rerunfilecheck Info: File `la-03-vectors.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 20540 strings out of 492982
- 402368 string characters out of 6134896
+ 20545 strings out of 492982
+ 402486 string characters out of 6134896
  471539 words of memory out of 5000000
- 23490 multiletter control sequences out of 15000+600000
+ 23494 multiletter control sequences out of 15000+600000
  10684 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,63p,804b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1100,10 +1106,10 @@ s/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
 0.pfb>
-Output written on la-03-vectors.pdf (43 pages, 246554 bytes).
+Output written on la-03-vectors.pdf (43 pages, 249844 bytes).
 PDF statistics:
- 458 PDF objects out of 1000 (max. 8388607)
+ 459 PDF objects out of 1000 (max. 8388607)
  376 compressed objects within 4 object streams
  148 named destinations out of 1000 (max. 500000)
- 100 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
