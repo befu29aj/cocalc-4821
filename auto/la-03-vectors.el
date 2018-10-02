@@ -69,6 +69,7 @@
     "eq:vorahcat"
     "eq:ahdoogoh"
     "eq:yoochaev"
+    "eq:faishiso"
     "eq:abeekohc"
     "eq:eiyeigaz"
     "eq:yohghaef"
