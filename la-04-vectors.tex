@@ -407,7 +407,13 @@ Therefore,
   \item all have length 1
   \end{enumerate}
   then the basis is an \alert{orthonormal basis}. A vector $w$ can always
-  be scaled to length 1 by multiplying it by $1/\Vert{}w\Vert$. 
+  be scaled to length 1 by multiplying it by $1/\Vert{}w\Vert$.
+
+  \medskip
+
+  An orthogonal matrix $Q$ consists of columns which form an orthonormal
+  basis. It can be shown that $Q^{\intercal}Q=Q^{\intercal}Q=I$,
+  therefore $Q^{\intercal}=Q^{-1}$. 
 \end{frame}
 
 \begin{frame}
@@ -418,6 +424,23 @@ Therefore,
     \label{eq:deidongo}
     2x-3y+7z=0
   \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{QR Matrix Factorization}
+  There are several matrix factorization theorems. For example, if you
+  order the rows and columns of a square matrix $A$ intelligently,
+  then $A=LU$, where $L$ is a lower triangular matrix and $U$ is an
+  upper triangular matrix. Computers use the fact to find determinants
+  and solutions for systems of linear equations.
+  \begin{block}{QR Factorization Theorem}
+    Any real square matrix $A$ can be decomposed as $A=QR$, where $Q$
+    is an orthogonal matrix and $R$ is an upper triangular matrix.
+  \end{block}
+  The QR factorization theorem can also be used to solve a system of
+  linear equations efficiently. Assume you have a QR factorization
+  machine. How would you find the solutions for a system of linear
+  equations?
 \end{frame}
 
 \begin{frame}
@@ -436,6 +459,33 @@ each other. As it turns out,
 $\{1,\sin{}2\pi{}x,\cos{}2\pi{}x,\sin{}4\pi{}x,\cos{}4\pi{}x,{\ldots}\}$
 is a basis of orthogonal vectors for $\mathcal{F}$. Therefore, the
 dimension of $\mathcal{F}$ is infinite. 
+\end{frame}
+
+\begin{frame}
+  \frametitle{Tangent Planes}
+  Assuming $f$ is differentiable at $(a,b)$, the equation of the
+  tangent plane is
+  \begin{equation}
+    \label{eq:aoseenai}
+z=f(a,b)+f_{x}(a,b)(x-a)+f_{y}(a,b)(y-b)
+  \end{equation}
+  $f(x,y)$ can be approximated around $(a,b)$ by the tangent plane,
+  \begin{equation}
+    \label{eq:xabixaic}
+    f(x,y)\approx{}f(a,b)+f_{x}(a,b)(x-a)+f_{y}(a,b)(y-b)\mbox{ near }(a,b)
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Tangent Planes Exercise}
+  {\ubung} Find the equation of the tangent plane with respect to the
+  unit circle at $P=(0.2,0.3,\sqrt{0.87})$.
+
+  \medskip
+
+  Hint: identify a vector that is orthogonal to the plane or use
+  partial derivatives for the function whose function graph overlaps
+  with the relevant part of the sphere.
 \end{frame}
 
 \begin{frame}
@@ -479,6 +529,13 @@ dimension of $\mathcal{F}$ is infinite.
       \end{array}\right\vert
   \end{equation}
   Note that $\vec{w}\times\vec{v}=-\vec{v}\times\vec{w}$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Cross Product Exercise}
+% Paul C. Shields, page 264, sol 1/(3*sqrt(46))*(-7,-19,2)
+  {\ubung} Find a unit vector that is perpendicular to both
+  $\vec{u}=(3,-1,1)^{\intercal}$ and $\vec{v}=(2,0,7)^{\intercal}$
 \end{frame}
 
 \begin{frame}
@@ -595,18 +652,6 @@ u_{x}x+u_{y}y+u_{z}z=u_{x}x_{0}+u_{y}y_{0}+u_{z}z_{0}
     \label{eq:yeibieba}
     P=(1,4,-2),Q=(-1,1,2),R=(-1,3,1)
   \end{equation}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Exercise}
-  {\ubung} Find the equation of the tangent plane with respect to the
-  unit circle at $P=(0.2,0.3,\sqrt{0.87})$.
-
-  \medskip
-
-  Hint: identify a vector that is orthogonal to the plane or use
-  partial derivatives for the function whose function graph overlaps
-  with the relevant part of the sphere.
 \end{frame}
 
 \begin{frame}

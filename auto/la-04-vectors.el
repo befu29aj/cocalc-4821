@@ -35,6 +35,8 @@
     "eq:bamoyeez"
     "eq:deidongo"
     "eq:ivaichoh"
+    "eq:aoseenai"
+    "eq:xabixaic"
     "eq:abeekohc"
     "eq:eiyeigaz"
     "eq:yohghaef"
