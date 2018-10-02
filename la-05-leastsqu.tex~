@@ -1,0 +1,27 @@
+% la-05-leastsqu.tex
+
+\documentclass[xcolor=dvipsnames]{beamer}
+\usepackage{teachbeamer}
+
+\title{Vectors}
+\subtitle{{\CourseNumber}, BCIT}
+
+\author{\CourseName}
+
+\date{October 8, 2018}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+
+
+\begin{frame}
+  \frametitle{End of Lesson}
+Next Lesson: TBA
+\end{frame}
+
+\end{document}
+
