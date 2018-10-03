@@ -21,7 +21,9 @@
     "eq:oobaisoo"
     "eq:quiequae"
     "eq:uchaelex"
+    "eq:pahreeth"
     "eq:hohnooph"
+    "eq:peeyohli"
     "eq:iozooroo")
    (LaTeX-add-counters
     "aufg"))
