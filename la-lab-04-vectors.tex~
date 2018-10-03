@@ -1,0 +1,53 @@
+% la-lab-04-vectors.tex
+
+\documentclass[11pt]{article}
+\usepackage{enumerate}
+\usepackage{syllogism} 
+\usepackage{october}
+\usepackage[table]{xcolor}
+
+\newcounter{aufg}
+\setcounter{aufg}{0}
+\newcommand{\aufgabe}[0]{\refstepcounter{aufg}\textbf{(\arabic{aufg})}}
+
+\begin{document}
+
+\textbf{Complex Numbers and Vectors}
+
+{\aufgabe} Solve the following equation for $x$ and $y$.
+\begin{equation}
+  \label{eq:ilishaih}
+(x+y\cdot{}i)(7\cdot{}i-4)=i\cdot{}(x-5)  
+\end{equation}
+
+{\aufgabe} Convert the following expression to rectangular form with
+and without Euler's formula,
+\begin{equation}
+  \label{eq:ookoohos}
+  \frac{3+\sqrt{-4}}{4-i}
+\end{equation}
+
+{\aufgabe} Perform the indicated operations.
+\begin{equation}
+  \label{eq:oobaisoo}
+(1-i)^{10}  
+\end{equation}
+\begin{equation}
+  \label{eq:quiequae}
+(\sqrt{3}+i)^{8}(1+i)^{5}  
+\end{equation}
+\begin{equation}
+  \label{eq:uchaelex}
+(\sqrt{3}-i)^{-8}  
+\end{equation}
+
+{\aufgabe} Show that $\frac{1}{2}(1+\sqrt{-3})$ is the reciprocal of
+its conjugate. (The reciprocal of $x$ is $1/x$.)
+
+{\aufgabe} Find the fifth roots of $\sqrt{-1024}$.
+
+{\aufgabe} 
+
+    
+\end{document}
+
