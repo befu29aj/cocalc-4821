@@ -1,0 +1,46 @@
+% la-termtest-A-instructions.tex
+
+\documentclass[11pt]{article}
+\usepackage{enumerate}
+\usepackage{syllogism} 
+\usepackage{october}
+\usepackage[table]{xcolor}
+
+\newcounter{aufg}
+\setcounter{aufg}{0}
+\newcommand{\aufgabe}[0]{\refstepcounter{aufg}\textbf{(\arabic{aufg})}}
+
+\begin{document}
+
+\textbf{Term Test A Instructions}
+
+Some rules for the term test:
+\begin{itemize}
+\item I will probably reseat you in random order.
+\item You are only allowed to leave the classroom (for example, to go
+  to the bathroom) if no one else has left the classroom. Ask for
+  permission to leave. 
+\item You are not allowed to submit your test to the instructor and
+  leave the classroom for the first 45 minutes.
+\item All electronic devices must be turned off except for a
+  calculator that cannot perform matrix arithmetic.
+\item If you commit an act of academic dishonesty, I will take your
+  case to the dean.
+\item You are graded on the steps that lead to your results. Correct
+  results with incorrect or missing work to get to the results do not
+  earn points.
+\end{itemize}
+
+Here is the material covered for term test A:
+\begin{description}
+\item[Matrix Arithmetic] addition, multiplication, inverse,
+  adjugate, determinant, areas of triangles and parallelograms.
+\item[Systems of Linear Equations] curve fitting, word problems,
+  echelon form.
+\item[Complex Arithmetic] addition, multiplication, division,
+  exponents, radicals, polar and rectangular form, solving complex
+  equations.
+\end{description}
+
+\end{document}
+
