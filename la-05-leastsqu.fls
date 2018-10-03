@@ -350,6 +350,15 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT ./diagrams/project.png
 INPUT ./diagrams/project.png
 INPUT ./diagrams/project.png
+INPUT ./diagrams/lsqu1.png
+INPUT ./diagrams/lsqu1.png
+INPUT ./diagrams/lsqu1.png
+INPUT ./diagrams/lsqu2.png
+INPUT ./diagrams/lsqu2.png
+INPUT ./diagrams/lsqu2.png
+INPUT ./diagrams/lsqu3.png
+INPUT ./diagrams/lsqu3.png
+INPUT ./diagrams/lsqu3.png
 OUTPUT la-05-leastsqu.nav
 OUTPUT la-05-leastsqu.toc
 OUTPUT la-05-leastsqu.snm

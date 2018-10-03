@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  2 OCT 2018 20:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  3 OCT 2018 18:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -965,7 +965,32 @@ Package pdftex.def Info: ./diagrams/project.png  used on input line 49.
 
 ] [5
 
-] [6
+]
+<./diagrams/lsqu1.png, id=74, 166.9437pt x 174.8934pt>
+File: ./diagrams/lsqu1.png Graphic file (type png)
+<use ./diagrams/lsqu1.png>
+Package pdftex.def Info: ./diagrams/lsqu1.png  used on input line 114.
+(pdftex.def)             Requested size: 100.16698pt x 104.93684pt.
+ [6
+
+ <./diagrams/lsqu1.png>]
+<./diagrams/lsqu2.png, id=83, 158.2713pt x 172.7253pt>
+File: ./diagrams/lsqu2.png Graphic file (type png)
+<use ./diagrams/lsqu2.png>
+Package pdftex.def Info: ./diagrams/lsqu2.png  used on input line 121.
+(pdftex.def)             Requested size: 94.9635pt x 103.63597pt.
+
+[7
+
+ <./diagrams/lsqu2.png>]
+<./diagrams/lsqu3.png, id=92, 162.6075pt x 166.9437pt>
+File: ./diagrams/lsqu3.png Graphic file (type png)
+<use ./diagrams/lsqu3.png>
+Package pdftex.def Info: ./diagrams/lsqu3.png  used on input line 128.
+(pdftex.def)             Requested size: 97.56525pt x 100.16698pt.
+ [8
+
+ <./diagrams/lsqu3.png>] [9
 
 ]
 \tf@nav=\write6
@@ -977,19 +1002,19 @@ Package pdftex.def Info: ./diagrams/project.png  used on input line 49.
 \tf@snm=\write8
 \openout8 = `la-05-leastsqu.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
  (./la-05-leastsqu.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 135.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 135.
 Package rerunfilecheck Info: File `la-05-leastsqu.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 20218 strings out of 492982
- 398011 string characters out of 6134896
+ 20245 strings out of 492982
+ 398434 string characters out of 6134896
  472128 words of memory out of 5000000
- 23301 multiletter control sequences out of 15000+600000
+ 23319 multiletter control sequences out of 15000+600000
  10684 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,63p,805b,612s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1004,10 +1029,10 @@ ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msbm10.pfb>
-Output written on la-05-leastsqu.pdf (6 pages, 104773 bytes).
+Output written on la-05-leastsqu.pdf (9 pages, 140614 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 84 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 99 words of extra memory for PDF output out of 10000 (max. 10000000)
 
