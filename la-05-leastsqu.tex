@@ -113,7 +113,7 @@ for which the solution is $u_{H}=(\hat{x},\hat{y},\hat{z})^{\intercal}=(-1,-1,1)
   the line spanned by $v$ is
   \begin{equation}
     \label{eq:weehohqu}
-    u_{v}=\left(\frac{u\cdot{}v}{v\cdot{}v}\right)\cdot{}v
+    u_{v}=\left(\frac{u\cdot{}v}{v\cdot{}v}\right)v
   \end{equation}
 To verify the formula, note that $u_{v}=av$ for some real number $a$.
 Therefore
@@ -292,7 +292,7 @@ is minimal.
   \end{equation}
   Then $AV=mX+bB$. The set $S=\{AV|m,b\in\mathbb{R}\}$ is a plane in
   $n$-dimensional space. The ordered pair $(m,b)$ that minimizes the
-  squared error corresponds to the projection of $Y$ onto $S$.
+  squared error corresponds to the projection $Y_{S}$ of $Y$ onto $S$.
 \end{frame}
 
 \begin{frame}
@@ -301,9 +301,37 @@ is minimal.
   the line spanned by $X$. Then
   \begin{equation}
     \label{eq:aiwaozie}
-    C=\frac{B\cdot{}X}{X\cdot{}X}\cdot{}X
+    C=\frac{B\cdot{}X}{X\cdot{}X}X
   \end{equation}
-  Note that $X\perp{}B_{X}$. 
+  Note that $X\perp{}C$. $X$ and $C$ form an orthogonal basis for $S$,
+  therefore
+  \begin{equation}
+    \label{eq:eijohkah}
+    Y_{S}=Y_{X}+Y_{C}=\left(\frac{Y\cdot{}X}{X\cdot{}X}\right)X+\left(\frac{Y\cdot{}C}{C\cdot{}C}\right)C
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Least Squares Method}
+  Replace the rightmost $C$ by $\frac{B\cdot{}X}{X\cdot{}X}X$ for
+  \begin{equation}
+    \label{eq:maigeise}
+    Y_{S}=\left(\frac{Y\cdot{}X}{X\cdot{}X}-\left(\frac{Y\cdot{}C}{C\cdot{}C}\right)\left(\frac{B\cdot{}X}{X\cdot{}X}\right)\right)X+\left(\frac{Y\cdot{}C}{C\cdot{}C}\right)B
+  \end{equation}
+  or alternatively
+  \begin{equation}
+    \label{eq:soguesee}
+    m=\frac{Y\cdot{}X}{X\cdot{}X}-\left(\frac{Y\cdot{}C}{C\cdot{}C}\right)\left(\frac{B\cdot{}X}{X\cdot{}X}\right)
+  \end{equation}
+  \begin{equation}
+    \label{eq:cuboonai}
+    b=\left(\frac{Y\cdot{}C}{C\cdot{}C}\right)
+  \end{equation}
+  with
+  \begin{equation}
+    \label{eq:nesheeli}
+    C=B-\left(\frac{B\cdot{}X}{X\cdot{}X}\right)X
+  \end{equation}
 \end{frame}
 
 \begin{frame}

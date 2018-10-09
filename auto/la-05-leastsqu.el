@@ -30,6 +30,11 @@
     "eq:keebiero"
     "eq:phugeyai"
     "eq:iapuveer"
-    "eq:aiwaozie"))
+    "eq:aiwaozie"
+    "eq:eijohkah"
+    "eq:maigeise"
+    "eq:soguesee"
+    "eq:cuboonai"
+    "eq:nesheeli"))
  :latex)
 
