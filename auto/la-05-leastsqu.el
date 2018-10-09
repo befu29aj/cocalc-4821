@@ -22,10 +22,14 @@
     "eq:ahdoogoh"
     "eq:yoochaev"
     "eq:faishiso"
+    "eq:weehohqu"
+    "eq:yahveego"
     "eq:cheexame"
     "eq:aewieley"
     "eq:aikaewah"
     "eq:keebiero"
-    "eq:phugeyai"))
+    "eq:phugeyai"
+    "eq:iapuveer"
+    "eq:aiwaozie"))
  :latex)
 

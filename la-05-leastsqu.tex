@@ -108,6 +108,43 @@ for which the solution is $u_{H}=(\hat{x},\hat{y},\hat{z})^{\intercal}=(-1,-1,1)
 
 \begin{frame}
   \frametitle{Least Squares Method}
+  Let there be two linearly independent vectors $u$ and $v$ in
+  $\mathbb{R}^{n}$. Then the formula for the projection $u_{v}$ of $u$ onto
+  the line spanned by $v$ is
+  \begin{equation}
+    \label{eq:weehohqu}
+    u_{v}=\left(\frac{u\cdot{}v}{v\cdot{}v}\right)\cdot{}v
+  \end{equation}
+To verify the formula, note that $u_{v}=av$ for some real number $a$.
+Therefore
+\begin{equation}
+  \label{eq:yahveego}
+  (u-av)\perp{}v
+\end{equation}
+Isolate $a$ in the equation $(u-av)\cdot{}v=0$ to yield the formula.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Least Squares Method}
+  Formula (\ref{eq:weehohqu}) only works when the hyperplane is a
+  line. You can scale up the idea in terms of dimensions by the
+  following theorem.
+  \begin{block}{Formula for Projection Onto Plane with Orthogonal
+      Basis}
+    Let $\{u,v\}$ be an orthogonal basis for $H$. Then the projection
+    of $w$ onto $H$ is the sum of $w_{u}$ and $w_{v}$, the projections
+    of $w$ onto the lines spanned by $u$ and $v$, respectively.
+  \end{block}
+  Proof: check the following
+  \begin{enumerate}
+  \item $(w_{u}+w_{v})\in{}H$ (trivial)
+  \item $(w-(w_{u}+w_{v}))\perp{}u$ (use the fact that $u\perp{}v$)
+  \item $(w-(w_{u}+w_{v}))\perp{}v$ (same idea)
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Least Squares Method}
   Consider the following table of measurements for the length of shoe
   prints and the height of the person wearing the shoes.
 
@@ -234,6 +271,39 @@ where $Y,A,V,E$ are defined on the next slide.
     \Vert{}E\Vert^{2}=\Vert{}Y-AV\Vert^{2}
   \end{equation}
 is minimal.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Least Squares Method}
+  Let
+  \begin{equation}
+    \label{eq:iapuveer}
+    X=\left[
+      \begin{array}{c}
+        x_{1} \\
+        {\vdots} \\
+        x_{n}
+      \end{array}\right]\mbox{ and }B=\left[
+      \begin{array}{c}
+        1 \\
+        {\vdots} \\
+        1
+      \end{array}\right]
+  \end{equation}
+  Then $AV=mX+bB$. The set $S=\{AV|m,b\in\mathbb{R}\}$ is a plane in
+  $n$-dimensional space. The ordered pair $(m,b)$ that minimizes the
+  squared error corresponds to the projection of $Y$ onto $S$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Least Squares Method}
+  Let $C$ be $B-B_{X}$, where $B_{X}$ is the projection of $B$ onto
+  the line spanned by $X$. Then
+  \begin{equation}
+    \label{eq:aiwaozie}
+    C=\frac{B\cdot{}X}{X\cdot{}X}\cdot{}X
+  \end{equation}
+  Note that $X\perp{}B_{X}$. 
 \end{frame}
 
 \begin{frame}
