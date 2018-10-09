@@ -301,7 +301,7 @@ is minimal.
   the line spanned by $X$. Then
   \begin{equation}
     \label{eq:aiwaozie}
-    C=\frac{B\cdot{}X}{X\cdot{}X}X
+    C=B-\left(\frac{B\cdot{}X}{X\cdot{}X}\right)X
   \end{equation}
   Note that $X\perp{}C$. $X$ and $C$ form an orthogonal basis for $S$,
   therefore
@@ -313,7 +313,7 @@ is minimal.
 
 \begin{frame}
   \frametitle{Least Squares Method}
-  Replace the rightmost $C$ by $\frac{B\cdot{}X}{X\cdot{}X}X$ for
+  Replace the rightmost $C$ by $B-\left(\frac{B\cdot{}X}{X\cdot{}X}\right)X$ for
   \begin{equation}
     \label{eq:maigeise}
     Y_{S}=\left(\frac{Y\cdot{}X}{X\cdot{}X}-\left(\frac{Y\cdot{}C}{C\cdot{}C}\right)\left(\frac{B\cdot{}X}{X\cdot{}X}\right)\right)X+\left(\frac{Y\cdot{}C}{C\cdot{}C}\right)B
