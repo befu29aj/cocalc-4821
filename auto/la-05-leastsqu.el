@@ -22,6 +22,8 @@
     "eq:ahdoogoh"
     "eq:yoochaev"
     "eq:faishiso"
-    "eq:cheexame"))
+    "eq:cheexame"
+    "eq:aewieley"
+    "eq:aikaewah"))
  :latex)
 

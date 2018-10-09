@@ -178,11 +178,33 @@ for which the solution is $u_{H}=(\hat{x},\hat{y},\hat{z})^{\intercal}=(-1,-1,1)
     \begin{array}{ccccccc}
       y_{1}&=&mx_{1}&+&b&+&\epsilon_{1} \\
       y_{2}&=&mx_{2}&+&b&+&\epsilon_{2} \\
-      {\vdots}&&&&&& \\
+      &&&{\vdots}&&& \\
       y_{n}&=&mx_{n}&+&b&+&\epsilon_{n} \\
     \end{array}
   \end{equation}
-where the $\epsilon_{i}$ are the errors ($i=1,{\ldots},n$). 
+where the $\epsilon_{i}$ are the errors ($i=1,{\ldots},n$). This
+system is equivalent to the following vector equation,
+\begin{equation}
+  \label{eq:aewieley}
+  Y=AV+E
+\end{equation}
+where
+$Y=(y_{1},{\ldots},y_{n})^{\intercal},V=(m,b)^{\intercal},E=(\epsilon_{1},{\ldots},\epsilon_{n})^{\intercal}$.
+$A$ is on the next slide.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Least Squares Method}
+  \begin{equation}
+    \label{eq:aikaewah}
+    A=\left[
+      \begin{array}{cc}
+        x_{1} & 1 \\
+        x_{2} & 1 \\
+        {\vdots} & {\vdots} \\
+        x_{n} & 1
+      \end{array}\right]
+  \end{equation}
 \end{frame}
 
 \begin{frame}
