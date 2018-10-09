@@ -24,6 +24,8 @@
     "eq:faishiso"
     "eq:cheexame"
     "eq:aewieley"
-    "eq:aikaewah"))
+    "eq:aikaewah"
+    "eq:keebiero"
+    "eq:phugeyai"))
  :latex)
 
