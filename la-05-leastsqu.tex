@@ -108,23 +108,55 @@ for which the solution is $u_{H}=(\hat{x},\hat{y},\hat{z})^{\intercal}=(-1,-1,1)
 
 \begin{frame}
   \frametitle{Least Squares Method}
-    \begin{figure}[h]
-    \includegraphics[scale=1]{./diagrams/lsqu2.png}
-    \end{figure}
+  Consider the following table of measurements for the length of shoe
+  prints and the height of the person wearing the shoes.
+  \begin{tabular}{|c|c|}
+    Shoe Print (cm) & Height (cm) \\
+    29.7 & 175.3 \\
+    29.9 & 177.8 \\
+    31.4 & 185.4 \\
+    31.8 & 175.3 \\
+    27.6 & 172.7
+  \end{tabular}
+  In the statistics portion of this course, we will learn whether the
+  paired data provide evidence of a linear relationship. In the linear
+  algebra portion, we will learn how to find the line which is closest
+  to the data points in the least squares sense.
 \end{frame}
 
 \begin{frame}
   \frametitle{Least Squares Method}
     \begin{figure}[h]
-    \includegraphics[scale=1]{./diagrams/lsqu1.png}
+    \includegraphics[scale=1]{./diagrams/lsqu4.png}
     \end{figure}
 \end{frame}
 
+% \begin{frame}
+%   \frametitle{Least Squares Method}
+%     \begin{figure}[h]
+%     \includegraphics[scale=1]{./diagrams/lsqu1.png}
+%     \end{figure}
+% \end{frame}
+
+% \begin{frame}
+%   \frametitle{Least Squares Method}
+%     \begin{figure}[h]
+%     \includegraphics[scale=1]{./diagrams/lsqu3.png}
+%     \end{figure}
+% \end{frame}
+
 \begin{frame}
   \frametitle{Least Squares Method}
-    \begin{figure}[h]
-    \includegraphics[scale=1]{./diagrams/lsqu3.png}
-    \end{figure}
+  \begin{block}{Least Squares Method}
+    If $L$ is a given line, the \alert{error} for each data point is
+    the vertical distance from that point to the line. The
+    \alert{squared error} is the sum of the squares of the errors. The
+    line that best fits the data in the least squares sense is the
+    line that minimizes the squared error.
+  \end{block}
+  You can find the \alert{regression line} using calculus
+  optimization. However, there is also an elegant method using linear
+  algebra.
 \end{frame}
 
 \begin{frame}
