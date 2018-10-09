@@ -188,21 +188,38 @@ system is equivalent to the following vector equation,
   \label{eq:aewieley}
   Y=AV+E
 \end{equation}
-where
-$Y=(y_{1},{\ldots},y_{n})^{\intercal},V=(m,b)^{\intercal},E=(\epsilon_{1},{\ldots},\epsilon_{n})^{\intercal}$.
-$A$ is on the next slide.
+where $Y,A,V,E$ are defined on the next slide.
 \end{frame}
 
 \begin{frame}
   \frametitle{Least Squares Method}
   \begin{equation}
     \label{eq:aikaewah}
+    Y=\left[
+      \begin{array}{cc}
+        y_{1}  \\
+        y_{2}  \\
+        {\vdots} \\
+        y_{n}  
+      \end{array}\right],
     A=\left[
       \begin{array}{cc}
         x_{1} & 1 \\
         x_{2} & 1 \\
         {\vdots} & {\vdots} \\
         x_{n} & 1
+      \end{array}\right],
+    V=\left[
+      \begin{array}{cc}
+        m  \\
+        b  
+      \end{array}\right],
+    E=\left[
+      \begin{array}{cc}
+        \epsilon_{1}  \\
+        \epsilon_{2}  \\
+        {\vdots} \\
+        \epsilon_{n}  
       \end{array}\right]
   \end{equation}
 \end{frame}
