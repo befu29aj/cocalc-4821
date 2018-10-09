@@ -21,6 +21,7 @@
     "eq:vorahcat"
     "eq:ahdoogoh"
     "eq:yoochaev"
-    "eq:faishiso"))
+    "eq:faishiso"
+    "eq:cheexame"))
  :latex)
 
