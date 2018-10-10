@@ -335,11 +335,11 @@ is minimal.
 \end{frame}
 
 \begin{frame}
-  \frametitle{Least Squares Method}
+  \frametitle{Angles at Gray Cliff}
   \beispiel{Angles at Gray Cliff} This example is from \mbox{Oscar S.
     Adams's} \emph{Application of the Theory of Least Squares to the
     Adjustment of Triangulation} (1915), a ``working manual for the
-  computer in the office''. You measure the following angles.
+  computer in the office.'' You measure the following angles.
 
   \medskip
   
@@ -354,7 +354,7 @@ is minimal.
 \end{frame}
 
 \begin{frame}
-  \frametitle{Least Squares Method}
+  \frametitle{Angles at Gray Cliff}
   Notice that the angles do not add up to $360^{\circ}$. We are
   missing $1.7''$. How should we adjust these numbers?
 
@@ -369,7 +369,7 @@ is minimal.
 \end{frame}
 
 \begin{frame}
-  \frametitle{Least Squares Method}
+  \frametitle{Angles at Gray Cliff}
   Convert the angles to real numbers
   \begin{equation}
     \label{eq:maeshoga}
@@ -390,7 +390,7 @@ is minimal.
 \end{frame}
 
 \begin{frame}
-  \frametitle{Least Squares Method}
+  \frametitle{Angles at Gray Cliff}
 The system of equations is equivalent to the following matrix
 equation.
 \begin{equation}
@@ -418,7 +418,17 @@ equation.
       \epsilon_{2} \\
       \epsilon_{3} \\
       \epsilon_{4}
-    \end{array}\right
+    \end{array}\right]
+\end{equation}
+In symbols,
+\begin{equation}
+  \label{eq:eceesien}
+  AV=Y+E
+\end{equation}
+Again, we want to minimize
+\begin{equation}
+  \label{eq:ahgaituc}
+  \Vert{}Y-AV\Vert^{2}=\Vert{}E\Vert^{2}
 \end{equation}
 \end{frame}
 

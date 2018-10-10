@@ -38,6 +38,8 @@
     "eq:nesheeli"
     "eq:maeshoga"
     "eq:puzeiboo"
-    "eq:ijuniero"))
+    "eq:ijuniero"
+    "eq:eceesien"
+    "eq:ahgaituc"))
  :latex)
 
