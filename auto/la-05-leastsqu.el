@@ -37,6 +37,7 @@
     "eq:cuboonai"
     "eq:nesheeli"
     "eq:ohngahse"
+    "eq:chawohph"
     "eq:maeshoga"
     "eq:puzeiboo"
     "eq:ijuniero"
