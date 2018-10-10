@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  10 OCT 2018 23:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  10 OCT 2018 23:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1004,12 +1004,10 @@ Package pdftex.def Info: ./diagrams/lsqu4.png  used on input line 175.
 ] [21
 
 ]
-Overfull \hbox (290.39093pt too wide) detected at line 525
+Overfull \hbox (68.16072pt too wide) detected at line 525
 [][]\OT1/mathkerncmss/m/sl/10.95 Y[] \OT1/cmss/m/n/10.95 + \OT1/mathkerncmss/m/
 sl/10.95 Y[] \OT1/cmss/m/n/10.95 + \OT1/mathkerncmss/m/sl/10.95 Y[] \OT1/cmss/m
-/n/10.95 = [] + [] \OT1/mathkerncmss/m/sl/10.95 b[] \OT1/cmss/m/n/10.95 = [] + 
-[] \OT1/mathkerncmss/m/sl/10.95 b[] \OT1/cmss/m/n/10.95 = [] = [] \OT1/mathkern
-cmss/m/sl/10.95 b[] \OT1/cmss/m/n/10.95 = []
+/n/10.95 = [] + [] + [] = []
  []
 
 [22
@@ -1054,7 +1052,7 @@ ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb>
-Output written on la-05-leastsqu.pdf (23 pages, 190504 bytes).
+Output written on la-05-leastsqu.pdf (23 pages, 190434 bytes).
 PDF statistics:
  275 PDF objects out of 1000 (max. 8388607)
  218 compressed objects within 3 object streams
