@@ -37,6 +37,7 @@
     "eq:cuboonai"
     "eq:nesheeli"
     "eq:maeshoga"
-    "eq:puzeiboo"))
+    "eq:puzeiboo"
+    "eq:ijuniero"))
  :latex)
 

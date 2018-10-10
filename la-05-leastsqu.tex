@@ -349,6 +349,7 @@ is minimal.
     Tower & Tyonek & $19^{\circ}46'26.9''$ \\ \hline
     Tyonek & Round Point & $8^{\circ}39'14.2''$ \\ \hline
     Round Point & Boulder & $266^{\circ}27'47.9''$ \\ \hline
+    % Boulder & Round Point & $93^{\circ}32'9.6''$ \\ \hline
   \end{tabular}
 \end{frame}
 
@@ -372,19 +373,52 @@ is minimal.
   Convert the angles to real numbers
   \begin{equation}
     \label{eq:maeshoga}
-    a=65.108,b=19.774,c=8.6539,d=266.46
+    \hat{a}=65.108,\hat{b}=19.774,\hat{c}=8.6539,\hat{d}=266.46
   \end{equation}
-The sum is $359.999527778$. Here is a system of equations with no
-solutions:
+  The sum is $359.999527778$. Here is a system of equations with
+  measurement errors, exploiting the fact that $d$ is supposed to be
+  $360^{\circ}-(a+b+c)$
 \begin{equation}
   \label{eq:puzeiboo}
-  \begin{array}{ccccccccc}
-    a&&&&&&&=&65.108 \\
-    &&b&&&&&=&19.774 \\
-    &&&&c&&&=&8.6539 \\
-    &&&&&&d&=&266.46 \\
-    a&+&b&+&c&+&d&=&360
+  \begin{array}{ccc}
+    a&=&65.108+\epsilon_{1} \\
+    b&=&19.774+\epsilon_{2} \\
+    c&=&8.6539+\epsilon_{3} \\
+    360-(a+b+c)&=&266.46+\epsilon_{4}
   \end{array}
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Least Squares Method}
+The system of equations is equivalent to the following matrix
+equation.
+\begin{equation}
+  \label{eq:ijuniero}
+  \left[
+    \begin{array}{ccc}
+      1 & 0 & 0 \\
+      0 & 1 & 0 \\
+      0 & 0 & 1 \\
+      -1 & -1 & -1
+    \end{array}\right]\left[
+    \begin{array}{c}
+      a \\
+      b \\
+      c
+    \end{array}\right]=\left[
+    \begin{array}{c}
+      65.108 \\
+      19.774 \\
+      8.6539 \\
+      -93.537
+    \end{array}\right]+\left[
+    \begin{array}{c}
+      \epsilon_{1} \\
+      \epsilon_{2} \\
+      \epsilon_{3} \\
+      \epsilon_{4}
+    \end{array}\right
 \end{equation}
 \end{frame}
 
