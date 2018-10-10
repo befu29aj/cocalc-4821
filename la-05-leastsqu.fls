@@ -353,6 +353,9 @@ INPUT ./diagrams/project.png
 INPUT ./diagrams/lsqu4.png
 INPUT ./diagrams/lsqu4.png
 INPUT ./diagrams/lsqu4.png
+INPUT ./diagrams/librelinreg.png
+INPUT ./diagrams/librelinreg.png
+INPUT ./diagrams/librelinreg.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 OUTPUT la-05-leastsqu.nav
 OUTPUT la-05-leastsqu.toc
