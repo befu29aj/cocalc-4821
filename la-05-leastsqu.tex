@@ -303,8 +303,9 @@ is minimal.
     \label{eq:aiwaozie}
     C=B-\left(\frac{B\cdot{}X}{X\cdot{}X}\right)X
   \end{equation}
-  Note that $X\perp{}C$. $X$ and $C$ form an orthogonal basis for $S$,
-  therefore
+  Note that $X\perp{}C$. $X$ and $C$ form an orthogonal basis for $S$.
+  We have chosen $C$ by a process called \alert{successive orthogonal
+    selection}. Consequently,
   \begin{equation}
     \label{eq:eijohkah}
     Y_{S}=Y_{X}+Y_{C}=\left(\frac{Y\cdot{}X}{X\cdot{}X}\right)X+\left(\frac{Y\cdot{}C}{C\cdot{}C}\right)C
@@ -430,6 +431,97 @@ Again, we want to minimize
   \label{eq:ahgaituc}
   \Vert{}Y-AV\Vert^{2}=\Vert{}E\Vert^{2}
 \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Angles at Gray Cliff}
+  The minimization is achieved by projecting $Y$ onto the hyperplane $S$
+  \begin{equation}
+    \label{eq:shohyaec}
+    a\left[
+      \begin{array}{c}
+        1 \\
+        0 \\
+        0 \\
+        -1
+      \end{array}\right]+b\left[
+      \begin{array}{c}
+        0 \\
+        1 \\
+        0 \\
+        -1
+      \end{array}\right]+c\left[
+      \begin{array}{c}
+        0 \\
+        0 \\
+        1 \\
+        -1
+      \end{array}\right]
+  \end{equation}
+  These three vectors $\alpha,\beta,\gamma$ form a basis of $S$, but
+  the basis vectors are not orthogonal to each other. We will search
+  for a different basis of $S$ that is orthonormal by successive
+  orthogonal selection.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Angles at Gray Cliff}
+  Start with a non-zero vector $b_{1}$ in $S$, for example
+  $b_{1}=\alpha=(1,0,0,-1)^{\intercal}$. This is our first basis
+  vector. The second basis vector $b_{2}=x\alpha+y\beta+z\gamma$ must
+  fulfill
+  \begin{enumerate}
+  \item $b_{2}\cdot{}b_{1}=0$ (which is equivalent to
+    $b_{2}\perp{}b_{1}$)
+  \item $b_{2}\in{}S$
+  \end{enumerate}
+For example, $b_{2}=(1,-1,-1,1)^{\intercal}$ qualifies. Follow the
+same procedure for $b_{3}=(0,1,-1,0)^{\intercal}$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Angles at Gray Cliff}
+  Let $Y_{i}$ be the projection of $Y$ onto the line spanned by
+  $b_{i}$, for example. 
+  \begin{equation}
+    \label{eq:zeoyeobe}
+    Y_{1}=\left(\frac{Y\cdot{}b_{1}}{b_{1}\cdot{}b_{1}}\right)b_{1}=\left[
+      \begin{array}{c}
+        79.32242 \\
+        0 \\
+        0 \\
+        -79.32242
+      \end{array}\right]
+  \end{equation}
+  Then the projection $Y_{S}$ equals
+  \begin{equation}
+    \label{eq:yeeyaesh}
+    Y_{1}+Y_{2}+Y_{3}=\left(\frac{Y\cdot{}b_{1}}{b_{1}\cdot{}b_{1}}\right)b_{1}=\left[
+      \begin{array}{c}
+        79.32242 \\
+        0 \\
+        0 \\
+        -79.32242
+      \end{array}\right]+\left(\frac{Y\cdot{}b_{1}}{b_{1}\cdot{}b_{1}}\right)b_{1}=\left[
+      \begin{array}{c}
+        -14.214 \\
+        14.214 \\
+        14.214 \\
+        -14.214
+      \end{array}\right]+\left(\frac{Y\cdot{}b_{1}}{b_{1}\cdot{}b_{1}}\right)b_{1}=\left[
+      \begin{array}{c}
+0 \\
+        5.56010 \\
+        -5.56010 \\
+        0
+      \end{array}\right]=\left(\frac{Y\cdot{}b_{1}}{b_{1}\cdot{}b_{1}}\right)b_{1}=\left[
+      \begin{array}{c}
+        65.1083 \\
+        19.7743 \\
+        8.6541 \\
+        -93.5366
+      \end{array}\right]
+  \end{equation}
 \end{frame}
 
 \begin{frame}

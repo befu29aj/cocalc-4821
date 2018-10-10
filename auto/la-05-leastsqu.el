@@ -40,6 +40,9 @@
     "eq:puzeiboo"
     "eq:ijuniero"
     "eq:eceesien"
-    "eq:ahgaituc"))
+    "eq:ahgaituc"
+    "eq:shohyaec"
+    "eq:zeoyeobe"
+    "eq:yeeyaesh"))
  :latex)
 
