@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1539217866 "la-05-leastsqu.tex" "la-05-leastsqu.pdf" "la-05-leastsqu" 1539217869
+["pdflatex"] 1539277774 "la-05-leastsqu.tex" "la-05-leastsqu.pdf" "la-05-leastsqu" 1539277776
   "/etc/texmf/web2c/texmf.cnf" 1535314180 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -208,16 +208,16 @@
   "diagrams/librelinreg.png" 1539216048 39441 668bf793798e38f82df3214950cd47ce ""
   "diagrams/lsqu4.png" 1539109346 60752 7bfc7ae5fc361d5eefd539233f1a2f6a ""
   "diagrams/project.png" 1538436259 3217 f46df6025025348b094036beafc842c6 ""
-  "la-05-leastsqu.aux" 1539217869 8178 34d20b932b2ff5b8fa244ae405f1e34e ""
-  "la-05-leastsqu.nav" 1539217869 2876 537f74995c35c6a2ad0a2421b28a59b3 ""
-  "la-05-leastsqu.out" 1539217867 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "la-05-leastsqu.tex" 1539217866 19072 049b08f625ae6cb9e4afbc6554e9deb0 ""
+  "la-05-leastsqu.aux" 1539277775 8503 ae1490d76c1919248b5e9c139cc96ce4 ""
+  "la-05-leastsqu.nav" 1539277775 2969 5734b160ef74b140b37e35c19980d54f ""
+  "la-05-leastsqu.out" 1539277775 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "la-05-leastsqu.tex" 1539277772 19800 4ade570e7ff03c3fcf754e0b68f97967 ""
   "teachbeamer.sty" 1536261356 1599 47b30f8a7e30907cf86a9a1fff41cc5e ""
   (generated)
-  "la-05-leastsqu.pdf"
-  "la-05-leastsqu.toc"
-  "la-05-leastsqu.snm"
   "la-05-leastsqu.log"
-  "la-05-leastsqu.nav"
   "la-05-leastsqu.out"
   "la-05-leastsqu.aux"
+  "la-05-leastsqu.pdf"
+  "la-05-leastsqu.snm"
+  "la-05-leastsqu.toc"
+  "la-05-leastsqu.nav"
