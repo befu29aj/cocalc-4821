@@ -38,6 +38,8 @@
     "eq:nesheeli"
     "eq:ohngahse"
     "eq:chawohph"
+    "eq:thoemeir"
+    "eq:ohwoiwoh"
     "eq:maeshoga"
     "eq:puzeiboo"
     "eq:ijuniero"
