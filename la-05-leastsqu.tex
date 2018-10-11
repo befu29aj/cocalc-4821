@@ -639,12 +639,45 @@ same procedure for $b_{3}=(0,1,-1,0)^{\intercal}$.
     F(a,b)=\Vert{}E\Vert^{2}=(a-211.52)^{2}+(b-220.10)^{2}+(a+b-431.71)^{2}=\notag
   \end{equation}
   \begin{equation}
-    \label{eq:ceexaeke}
+    \label{eq:shaisaht}
     2a^{2}+2ab+2b^{2}-1286.46a-1303.62b+279558.2445
   \end{equation}
   We want to minimize $F$. The partial derivatives are
+  \begin{equation}
+    \label{eq:ohbiecoa}
+    \frac{\partial{}F}{\partial{}a}=4a+2b-1286.46
+  \end{equation}
+  \begin{equation}
+    \label{eq:eureejoo}
+    \frac{\partial{}F}{\partial{}b}=2a+4b-1303.62
+  \end{equation}
 \end{frame}
 
+\begin{frame}
+  \frametitle{Abigail, Ben, and Charlie [Calculus]}
+  Setting the partial derivatives to zero gives us the following
+  system of linear equations.
+  \begin{equation}
+    \label{eq:megioquo}
+    \left[
+      \begin{array}{cc}
+        4 & 2 \\
+        2 & 4
+      \end{array}\right]\left[
+      \begin{array}{c}
+        a \\
+        b
+      \end{array}\right]=\left[
+      \begin{array}{c}
+        1286.46 \\
+        1303.62
+      \end{array}\right
+  \end{equation}
+The solution is $a=211.55,b=220.13$ for Abigail and Ben's least
+squares adjusted measurements, compared to the original
+$\hat{a}=211.52,\hat{b}=220.10$. Charlie's measurement is adjusted
+from $431.71$ to $431.68$. 
+\end{frame}
 
 \begin{frame}
   \frametitle{End of Lesson}

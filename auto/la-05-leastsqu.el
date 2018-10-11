@@ -47,6 +47,10 @@
     "eq:zeoyeobe"
     "eq:yeeyaesh"
     "eq:ohjeigoo"
-    "eq:ceexaeke"))
+    "eq:ceexaeke"
+    "eq:shaisaht"
+    "eq:ohbiecoa"
+    "eq:eureejoo"
+    "eq:megioquo"))
  :latex)
 
