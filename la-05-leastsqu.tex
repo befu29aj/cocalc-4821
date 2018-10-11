@@ -940,6 +940,80 @@ Temperature & 57 & 37 & 24 & -5 & -30 & -41 & -54 \\
 \end{frame}
 
 \begin{frame}
+  \frametitle{Least Squares Exercises}
+  The objective is to determine elevations of $A$, $B$, and $C$, which
+  are to serve as temporary project bench marks to control
+  construction of a highway through the crosshatched corridor.
+
+  Obviously, it would have been possible to obtain elevations for $A$,
+  $B$, and $C$ by beginning at $BMX$ and running a single closed loop
+  consisting of only courses 1, 5, 7, and 4. Alternatively, a single
+  closed loop could have been initiated at $BMY$ and consist of courses
+  2, 5, 7, and 3.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Least Squares Exercises}
+  However, by running all seven courses, redundancy is achieved that
+  enables checks to be made, blunders to be isolated, and precision to
+  be increased. Having run all seven courses, it would be possible to
+  compute the adjusted elevation of $B$, for example, using several
+  different single closed circuits. Loops 1-5-6, 2-5-6, 3-7-6, and
+  4-7-6 could each be used, but it is almost certain that each would
+  yield a different elevation for $B$.
+
+  A more logical approach, which will produce only one adjusted value
+  for $B$---its most probable one---is to use all seven courses in a
+  simultaneous least squares adjustment. In adjusting level networks,
+  the observed difference in elevation for each course is treated as
+  one observation containing a single random error.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Least Squares Exercises}
+  This single random error is the total of the individual random
+  errors in backsight and foresight readings for the entire course. In
+  the figure, the arrows indicate the direction of leveling. Thus, for
+  course number 1, leveling proceeded from $BMX$ to $A$ and the observed
+  elevation difference was $+5.10$ feet.
+
+  Try to find the equations yourself (before looking at the next slide
+  to check if they are correct) and then calculate the least square
+  adjusted elevations of $A$, $B$, and $C$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Least Squares Exercises}
+  The first set of equation for the seven courses is
+  \begin{equation}
+    \label{eq:aelaeghu}
+    \begin{array}{rcl}
+      A&=&BMX+5.10+\epsilon_{1} \\
+      BMY&=&A+2.34+\epsilon_{2} \\
+      C&=&BMY-1.25+\epsilon_{3} \\
+      BMX&=&C-6.13+\epsilon_{4} \\
+      B&=&A-0.68+\epsilon_{5} \\
+      B&=&BMY-3.00+\epsilon_{6} \\
+      C&=&B+1.70+\epsilon_{7}
+    \end{array}
+  \end{equation}
+  The resulting yave setup is
+  \begin{equation}
+    \label{eq:beephaht}
+    \begin{array}{rcl}
+      A&=&105.10+\epsilon_{1} \\
+      A&=&105.16+\epsilon_{2} \\
+      C&=&106.25+\epsilon_{3} \\
+      C&=&106.13+\epsilon_{4} \\
+      A-B&=&0.68+\epsilon_{5} \\
+      B&=&104.50+\epsilon_{6} \\
+      B-C&=&-1.70+\epsilon_{7}
+    \end{array}
+  \end{equation}
+The adjusted benchmark elevations are $A=105.14,B=104.48,C=106.19$.
+\end{frame}
+
+\begin{frame}
   \frametitle{End of Lesson}
 Next Lesson: Eigenvalues and Eigenvectors
 \end{frame}

@@ -68,6 +68,8 @@
     "eq:feizahgh"
     "eq:waheisha"
     "eq:zeengaip"
-    "eq:ciephini"))
+    "eq:ciephini"
+    "eq:aelaeghu"
+    "eq:beephaht"))
  :latex)
 
