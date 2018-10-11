@@ -3,12 +3,12 @@
 \documentclass[xcolor=dvipsnames]{beamer}
 \usepackage{teachbeamer}
 
-\title{Vectors}
+\title{Least Squares Method}
 \subtitle{{\CourseNumber}, BCIT}
 
 \author{\CourseName}
 
-\date{October 8, 2018}
+\date{October 12, 2018}
 
 \begin{document}
 
@@ -709,8 +709,37 @@ from $431.71$ to $431.68$.
   or
   \begin{equation}
     \label{eq:quahyawi}
-    E=Y-AV
+    AV=Y+E\mbox{ and therefore }E=Y-AV
   \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Abigail, Ben, and Charlie [Projection]}
+  Find the projection $Y_{S}$ of $Y$ onto the hyperplane $S$ defined
+  by $AV$ with free variables $a,b$. $u=(1,0,1)^{\intercal}$ and
+  $v=(0,1,1)^{\intercal}$ are not orthogonal. Find the projection
+  $v_{u}$ of $v$ onto the line spanned by $u$ and define $w=v-v_{u}$
+  (successive orthogonal selection).
+  \begin{equation}
+    \label{eq:ierishie}
+    w=v-v_{u}=v-\left(\frac{v\cdot{}u}{u\cdot{}u}\right)u=\left[
+      \begin{array}{c}
+        -\frac{1}{2} \\
+        1 \\
+        \frac{1}{2}
+      \end{array}\right]
+  \end{equation}
+  Consequently,
+  \begin{equation}
+    \label{eq:dieshahz}
+    Y_{S}=Y_{u}+Y_{w}=\left(\frac{Y\cdot{}u}{u\cdot{}u}\right)u+\left(\frac{Y\cdot{}w}{w\cdot{}w}\right)w=\left[
+      \begin{array}{c}
+        211.55 \\
+        220.13 \\
+        431.68
+      \end{array}\right]
+  \end{equation}
+The solution found by using projection agrees with the solution found by using calculus.
 \end{frame}
 
 \begin{frame}

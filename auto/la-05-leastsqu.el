@@ -55,6 +55,8 @@
     "eq:eureejoo"
     "eq:megioquo"
     "eq:eiwiepho"
-    "eq:quahyawi"))
+    "eq:quahyawi"
+    "eq:ierishie"
+    "eq:dieshahz"))
  :latex)
 
