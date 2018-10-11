@@ -544,8 +544,7 @@ Again, we want to minimize
   \frametitle{Angles at Gray Cliff}
   Start with a non-zero vector $b_{1}$ in $S$, for example
   $b_{1}=\alpha=(1,0,0,-1)^{\intercal}$. This is our first basis
-  vector. The second basis vector $b_{2}=x\alpha+y\beta+z\gamma$ must
-  fulfill
+  vector. The second basis vector $b_{2}$ must fulfill
   \begin{enumerate}
   \item $b_{2}\cdot{}b_{1}=0$ (which is equivalent to
     $b_{2}\perp{}b_{1}$)
@@ -603,6 +602,49 @@ same procedure for $b_{3}=(0,1,-1,0)^{\intercal}$.
   to the original
   $65^{\circ}6'29.3'',19^{\circ}46'26.9'',8^{\circ}39'14.2''$.
 \end{frame}
+
+\begin{frame}
+  \frametitle{Abigail, Ben, and Charlie}
+  \beispiel{Abigail, Ben, and Charlie} Here is an example adapted from
+  \mbox{Paul R. Wolf's} \emph{Survey Measurement Adjustments by Least
+    Squares}. Abigail measures a length $\bar{XY}$ to be 211.52 units.
+  Ben measures a length $\bar{YZ}$ to be 220.10 units. Charlie
+  measures the length $\bar{XZ}$ to be 431.71 units. What lengths
+  should they report to their supervisor?
+
+  \medskip
+
+  We will solve this problem three different ways.
+  \begin{enumerate}
+  \item use calculus
+  \item use projection
+  \item use a matrix formula based on projection
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Abigail, Ben, and Charlie [Calculus]}
+  Here are the three equations with errors:
+  \begin{equation}
+    \label{eq:ohjeigoo}
+    \begin{array}{ccccc}
+      a&&&=&211.52+\epsilon_{1} \\
+      &&b&=&220.10+\epsilon_{2} \\
+      a&+&b&=&431.71+\epsilon_{3} \\
+    \end{array}
+  \end{equation}
+  Define the function
+  \begin{equation}
+    \label{eq:ceexaeke}
+    F(a,b)=\Vert{}E\Vert^{2}=(a-211.52)^{2}+(b-220.10)^{2}+(a+b-431.71)^{2}=\notag
+  \end{equation}
+  \begin{equation}
+    \label{eq:ceexaeke}
+    2a^{2}+2ab+2b^{2}-1286.46a-1303.62b+279558.2445
+  \end{equation}
+  We want to minimize $F$. The partial derivatives are
+\end{frame}
+
 
 \begin{frame}
   \frametitle{End of Lesson}

@@ -45,6 +45,8 @@
     "eq:ahgaituc"
     "eq:shohyaec"
     "eq:zeoyeobe"
-    "eq:yeeyaesh"))
+    "eq:yeeyaesh"
+    "eq:ohjeigoo"
+    "eq:ceexaeke"))
  :latex)
 
