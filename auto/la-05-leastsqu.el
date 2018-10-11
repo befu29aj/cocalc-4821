@@ -58,6 +58,15 @@
     "eq:quahyawi"
     "eq:ierishie"
     "eq:dieshahz"
-    "eq:zeifaidu"))
+    "eq:zeifaidu"
+    "eq:aebohche"
+    "eq:aicohkai"
+    "eq:yaephubo"
+    "eq:ezahsiex"
+    "eq:geexeiri"
+    "eq:eighaidi"
+    "eq:feizahgh"
+    "eq:waheisha"
+    "eq:zeengaip"))
  :latex)
 

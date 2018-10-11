@@ -763,6 +763,112 @@ Why does this formula work?
 \end{frame}
 
 \begin{frame}
+  \frametitle{Abigail, Ben, and Charlie [Linear Algebra]}
+  Let $V_{0}$ be the solution to the least squares problem, $AV_{0}$
+  is the projection $Y_{S}$ of $Y$ onto the hyperplane $S$ defined by
+  $AV$ when the variables in $V$ are still free. $Y-AV_{0}$ is
+  orthogonal to $S$. $S$ is the hyperplane $\{AU|U\mbox{ is a vector
+    with the right dimensions}\}$. Consequently,
+  \begin{equation}
+    \label{eq:aebohche}
+    (Y-AV_{0})\cdot{}AU=0
+  \end{equation}
+  for some $U$ with the right dimensions. Rewrite
+  \begin{equation}
+    \label{eq:aicohkai}
+    Y\cdot{}AU=AV_{0}\cdot{}AU
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Abigail, Ben, and Charlie [Linear Algebra]}
+For column vectors $u$ and $v$, it is generally true that
+$u\cdot{}v=u^{\intercal}\,v$. Also recall that for any two matrices
+$A$ and $B$
+\begin{equation}
+  \label{eq:yaephubo}
+    (AB)^{\intercal}=B^{\intercal}A^{\intercal}
+\end{equation}
+Using these two facts, continue with
+\begin{equation}
+  \label{eq:ezahsiex}
+  Y\cdot{}AU=Y^{\intercal}AU=(A^{\intercal}Y)^{\intercal}U
+\end{equation}
+and
+\begin{equation}
+  \label{eq:geexeiri}
+  AV_{0}\cdot{}AU=(AV_{0})^{\intercal}AU=(A^{\intercal}AV_{0})^{\intercal}U
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Abigail, Ben, and Charlie [Linear Algebra]}
+Combine (\ref{eq:aicohkai}), (\ref{eq:ezahsiex}) and (\ref{eq:geexeiri}) for
+\begin{equation}
+  \label{eq:eighaidi}
+  (A^{\intercal}Y)^{\intercal}U=(A^{\intercal}AV_{0})^{\intercal}U
+\end{equation}
+Because this is true for all well-dimensioned vectors $U$, it must be
+true that
+\begin{equation}
+  \label{eq:feizahgh}
+  (A^{\intercal}Y)^{\intercal}=(A^{\intercal}AV_{0})^{\intercal}
+\end{equation}
+If $A^{\intercal}A$ is invertible (this can be shown to be true), it
+follows that
+\begin{equation}
+  \label{eq:waheisha}
+  V_{0}=(A^{\intercal}A)^{-1}A^{\intercal}Y
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Shoe Print and Height}
+  Now that we have a formula, let us return to the problem of shoe
+  print and height.
+
+    \begin{tabular}{|c|c|}\hline
+    Shoe Print (cm) & Height (cm) \\ \hline
+    29.7 & 175.3 \\ \hline
+    29.9 & 177.8 \\ \hline
+    31.4 & 185.4 \\ \hline
+    31.8 & 175.3 \\ \hline
+    27.6 & 172.7 \\ \hline
+  \end{tabular}
+
+  The yave setup is
+  \begin{equation}
+    \label{eq:zeengaip}
+    \left[
+      \begin{array}{c}
+    175.3 \\
+    177.8 \\
+    185.4 \\
+    175.3 \\
+    172.7 
+      \end{array}\right]-\left[
+      \begin{array}{cc}
+    29.7 & 1 \\
+    29.9 & 1 \\
+    31.4 & 1 \\
+    31.8 & 1 \\
+    27.6 & 1
+      \end{array}\right]\left[
+      \begin{array}{c}
+        m \\
+        b
+      \end{array}\right]=\left[
+    \begin{array}{c}
+      \epsilon_{1} \\
+      \epsilon_{2} \\
+      \epsilon_{3} \\
+      \epsilon_{4} \\
+      \epsilon_{5}
+    \end{array}\right]
+  \end{equation}
+\end{frame}
+
+\begin{frame}
   \frametitle{End of Lesson}
 Next Lesson: Eigenvalues and Eigenvectors
 \end{frame}
