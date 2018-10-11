@@ -607,9 +607,9 @@ same procedure for $b_{3}=(0,1,-1,0)^{\intercal}$.
   \frametitle{Abigail, Ben, and Charlie}
   \beispiel{Abigail, Ben, and Charlie} Here is an example adapted from
   \mbox{Paul R. Wolf's} \emph{Survey Measurement Adjustments by Least
-    Squares}. Abigail measures a length $\bar{XY}$ to be 211.52 units.
-  Ben measures a length $\bar{YZ}$ to be 220.10 units. Charlie
-  measures the length $\bar{XZ}$ to be 431.71 units. What lengths
+    Squares}. Abigail measures a length $\overline{XY}$ to be 211.52 units.
+  Ben measures a length $\overline{YZ}$ to be 220.10 units. Charlie
+  measures the length $\overline{XZ}$ to be 431.71 units. What lengths
   should they report to their supervisor?
 
   \medskip
@@ -677,6 +677,40 @@ The solution is $a=211.55,b=220.13$ for Abigail and Ben's least
 squares adjusted measurements, compared to the original
 $\hat{a}=211.52,\hat{b}=220.10$. Charlie's measurement is adjusted
 from $431.71$ to $431.68$. 
+\end{frame}
+
+\begin{frame}
+  \frametitle{Abigail, Ben, and Charlie [Projection]}
+  Equation (\ref{eq:ohjeigoo}) translates into the following matrix
+  equation.
+  \begin{equation}
+    \label{eq:eiwiepho}
+    \left[
+      \begin{array}{cc}
+        1 & 0 \\
+        0 & 1 \\
+        1 & 1 
+      \end{array}\right]\left[
+      \begin{array}{c}
+        a \\
+        b
+      \end{array}\right]=\left[
+      \begin{array}{c}
+        211.52 \\
+        220.10 \\
+        431.71
+      \end{array}\right]+\left[
+      \begin{array}{c}
+        \epsilon_{1} \\
+        \epsilon_{2} \\
+        \epsilon_{3}
+      \end{array}\right]
+  \end{equation}
+  or
+  \begin{equation}
+    \label{eq:quahyawi}
+    E=Y-AV
+  \end{equation}
 \end{frame}
 
 \begin{frame}
