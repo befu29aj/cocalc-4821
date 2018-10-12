@@ -1,8 +1,8 @@
-# la-termtest-A.pl
+# la-termtest-Aa.pl
 # run this on local terminal
-# perl la-termtest-A.pl && ./gg la-termtest-A.pl
+# perl la-termtest-Aa.pl && ./gg la-termtest-Aa.pl
 # run this on cocalc
-# git pull && latexmk -pdf -f -g -bibtex -synctex=1 -interaction=nonstopmode 'la-termtest-A1.tex' && latexmk -pdf -f -g -bibtex -synctex=1 -interaction=nonstopmode 'la-termtest-A2.tex' && git add . && git commit -am "la-termtest-A2.tex cocalc" && git push
+# git pull && latexmk -pdf -f -g -bibtex -synctex=1 -interaction=nonstopmode 'la-termtest-Aa1.tex' && latexmk -pdf -f -g -bibtex -synctex=1 -interaction=nonstopmode 'la-termtest-Aa2.tex' && git add . && git commit -am "la-termtest-Aa2.tex cocalc" && git push
 
 use List::Util 'shuffle';
 
@@ -143,8 +143,8 @@ $p[6]="5";
 
 for ($i1=0;$i1<=$#nm;++$i1)
 {
-open(termtest,">./la-termtest-A$vn[$i1].tex");
-print termtest "% la-termtest-A$vn[$i1].tex\n\n";
+open(termtest,">./la-termtest-Aa$vn[$i1].tex");
+print termtest "% la-termtest-Aa$vn[$i1].tex\n\n";
 print termtest "\\documentclass[11pt]{article}\n";
 print termtest "\\usepackage{alltt}\n";
 print termtest "\\usepackage{enumerate}\n";
