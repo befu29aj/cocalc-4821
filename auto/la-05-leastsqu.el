@@ -70,6 +70,15 @@
     "eq:zeengaip"
     "eq:ciephini"
     "eq:aelaeghu"
-    "eq:beephaht"))
+    "eq:beephaht"
+    "eq:pheengei"
+    "eq:ahazohve"
+    "eq:oolietai"
+    "eq:quaechun"
+    "eq:vifahtuu"
+    "eq:noopheij"
+    "eq:oochohda"
+    "eq:ohvoidei"
+    "eq:ooveitho"))
  :latex)
 
