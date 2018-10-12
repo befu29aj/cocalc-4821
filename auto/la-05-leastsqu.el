@@ -81,6 +81,11 @@
     "eq:ohvoidei"
     "eq:ooveitho"
     "eq:ahchaiyi"
-    "eq:ziexowei"))
+    "eq:ziexowei"
+    "eq:jahxiebo"
+    "eq:dooxahru"
+    "eq:yahziech"
+    "eq:axeeteja"
+    "eq:hohchadu"))
  :latex)
 
