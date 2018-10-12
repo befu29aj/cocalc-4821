@@ -79,6 +79,8 @@
     "eq:noopheij"
     "eq:oochohda"
     "eq:ohvoidei"
-    "eq:ooveitho"))
+    "eq:ooveitho"
+    "eq:ahchaiyi"
+    "eq:ziexowei"))
  :latex)
 
