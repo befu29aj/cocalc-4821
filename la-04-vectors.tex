@@ -431,8 +431,8 @@ Therefore,
   There are several matrix factorization theorems. For example, if you
   order the rows and columns of a square matrix $A$ intelligently,
   then $A=LU$, where $L$ is a lower triangular matrix and $U$ is an
-  upper triangular matrix. Computers use the fact to find determinants
-  and solutions for systems of linear equations.
+  upper triangular matrix. Computers use this factorization to find
+  determinants and solutions for systems of linear equations.
   \begin{block}{QR Factorization Theorem}
     Any real square matrix $A$ can be decomposed as $A=QR$, where $Q$
     is an orthogonal matrix and $R$ is an upper triangular matrix.
@@ -472,7 +472,7 @@ z=f(a,b)+f_{x}(a,b)(x-a)+f_{y}(a,b)(y-b)
   $f(x,y)$ can be approximated around $(a,b)$ by the tangent plane,
   \begin{equation}
     \label{eq:xabixaic}
-    f(x,y)\approx{}f(a,b)+f_{x}(a,b)(x-a)+f_{y}(a,b)(y-b)\mbox{ near }(a,b)
+    f(x,y)\approx{}f(a,b)+\frac{\partial{}f}{\partial{}x}(a,b)(x-a)+\frac{\partial{}f}{\partial{}y}(a,b)(y-b)\mbox{ near }(a,b)
   \end{equation}
 \end{frame}
 
