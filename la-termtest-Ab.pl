@@ -71,6 +71,14 @@ $aufgabe[1]=sub {
 };
 
 $aufgabe[2]=sub {
+    print termtest "Determine how many solutions the following system of equations has. Your answer should be none, one, or infinitely many. Show your work.$v005[$i1]\n\n";
+};
+
+$aufgabe[3]=sub {
+    print termtest "Convert the following complex number to polar form: \$\\frac{$v006[$i1]}{$v007[$i1]}\$.";
+};
+
+$aufgabe[3]=sub {
     print termtest "";
 };
 
@@ -104,12 +112,12 @@ $v003[0]="2,15";
 $v003[1]="-2,16";
 $v004[0]="\\begin{equation}\n\\begin{array}{ccccccc}\n4a&-&2b&+&3c&=&2\\\\\n5a&+&b&-&2c&=&3\\\\\n-7a&-&7b&+&12c&=&-5\n\\end{array}\\notag\n\\end{equation}";
 $v004[1]="\\begin{equation}\n\\begin{array}{ccccccc}\n2a&+&3b&+&7c&=&-1\\\\\n4a&-&2b&-&2c&=&3\\\\\n8a&-&12b&-&20c&=&11\n\\end{array}\notag\n\\end{equation}";
-$v005[0]="";
-$v005[1]="";
-$v006[0]="";
-$v006[1]="";
-$v007[0]="";
-$v007[1]="";
+$v005[0]="\\begin{equation}\n\\begin{array}{ccccccc}\n-4x&+&2y&+&6z&=&4\\\\\n8x&-&8y&-&z&=&2\\\\\n-4x&-&2y&+&17z&=&9\n\\end{array}\\notag\n\\end{equation}";
+$v005[1]="\\begin{equation}\n\\begin{array}{ccccccc}\n3x&+&4y&-&8z&=&-6\\\\\n-x&+&3y&+&6z&=&7\\\\\nx&+&10y&+&4z&=&-3\n\\end{array}\\notag\n\\end{equation}";
+$v006[0]="-2+2i";
+$v006[1]="5+i";
+$v007[0]="3-3i";
+$v007[1]="-4+i";
 $v008[0]="";
 $v008[1]="";
 $v009[0]="";
