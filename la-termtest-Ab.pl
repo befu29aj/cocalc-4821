@@ -63,11 +63,11 @@ use List::Util 'shuffle';
 srand($seed[1]);
 
 $aufgabe[0]=sub {
-    print termtest "";
+    print termtest "The following points lie on a parabola \$y=ax^{2}+bx+c\$: \$P=($v001[$i1]),Q=($v002[$i1]),R=($v003[$i1])\$. Determine the coefficients of the parabola.";
 };
 
 $aufgabe[1]=sub {
-    print termtest "";
+    print termtest "Determine how many solutions the following system of equations has. Your answer should be none, one, or infinitely many. Show your work.\n\n";
 };
 
 $aufgabe[2]=sub {
@@ -96,14 +96,14 @@ $nm[1]="termtest2";
 $vn[0]="1";
 $vn[1]="2";
 
-$v001[0]="";
-$v001[1]="";
-$v002[0]="";
-$v002[1]="";
-$v003[0]="";
-$v003[1]="";
-$v004[0]="";
-$v004[1]="";
+$v001[0]="3,28";
+$v001[1]="1,4";
+$v002[0]="-1,12";
+$v002[1]="-3,40";
+$v003[0]="2,15";
+$v003[1]="-2,16";
+$v004[0]="\\begin{equation}\n\\begin{array}{ccccccc}\n4a&-&2b&+&3c&=&2\\\\\n5a&+&b&-&2c&=&3\\\\\n-7a&-&7b&+&12c&=&-5\n\\end{array}\\notag\n\\end{equation}";
+$v004[1]="\\begin{equation}\n\\begin{array}{ccccccc}\n2a&+&3b&+&7c&=&-1\\\\\n4a&-&2b&-&2c&=&3\\\\\n8a&-&12b&-&20c&=&11\n\\end{array}\notag\n\\end{equation}";
 $v005[0]="";
 $v005[1]="";
 $v006[0]="";
