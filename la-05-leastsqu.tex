@@ -1126,23 +1126,29 @@ Note that $F_{i}(\vec{x})=y_{i}$ for $F(\vec{x})=\vec{y}$.
   \begin{equation}
     \label{eq:ahchaiyi}
     J(x,y,z,w)=\left[
-      \begin{array}{cccc}
-        \frac{x-z}{\sqrt{(z-x)^{2}+(w-y)^{2}}}&\frac{z-x}{\sqrt{(z-x)^{2}+(w-y)^{2}}}&\frac{y-w}{\sqrt{(z-x)^{2}+(w-y)^{2}}}&\frac{w-y}{\sqrt{(z-x)^{2}+(w-y)^{2}}}
-      \end{array}\right]
+      \begin{array}{c}
+     \frac{x-z}{\sqrt{(z-x)^{2}+(w-y)^{2}}} \\
+     \frac{z-x}{\sqrt{(z-x)^{2}+(w-y)^{2}}} \\
+     \frac{y-w}{\sqrt{(z-x)^{2}+(w-y)^{2}}} \\
+     \frac{w-y}{\sqrt{(z-x)^{2}+(w-y)^{2}}}
+      \end{array}\right]^{\intercal}\notag
   \end{equation}
   Therefore
   \begin{equation}
     \label{eq:ziexowei}
     G(x,y,z,w)\approx{}G(\hat{x},\hat{y},\hat{z},\hat{w})+\left[
-      \begin{array}{cccc}
-        \frac{x-z}{\sqrt{(z-x)^{2}+(w-y)^{2}}}&\frac{z-x}{\sqrt{(z-x)^{2}+(w-y)^{2}}}&\frac{y-w}{\sqrt{(z-x)^{2}+(w-y)^{2}}}&\frac{w-y}{\sqrt{(z-x)^{2}+(w-y)^{2}}}
-      \end{array}\right]\left[
+      \begin{array}{c}
+     \frac{x-z}{\sqrt{(z-x)^{2}+(w-y)^{2}}} \\
+     \frac{z-x}{\sqrt{(z-x)^{2}+(w-y)^{2}}} \\
+     \frac{y-w}{\sqrt{(z-x)^{2}+(w-y)^{2}}} \\
+     \frac{w-y}{\sqrt{(z-x)^{2}+(w-y)^{2}}}
+      \end{array}\right]^{\intercal}\left[
       \begin{array}{c}
         x-\hat{x} \\
         y-\hat{y} \\
         z-\hat{z} \\
         w-\hat{w}
-      \end{array}\right]
+      \end{array}\right]\notag
   \end{equation}
 \end{frame}
 
