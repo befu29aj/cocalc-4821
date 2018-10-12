@@ -102,8 +102,8 @@ $nm[1]="termtest2";
 $vn[0]="1";
 $vn[1]="2";
 
-$v001[0]="\\begin{equation}\nA=\\begin{array}{cc}\n3-3i&6\\\\\n-5i&-4+7i\n\\end{array}\\hspace{.5in}\nB=\\begin{array}{cc}\n-5-6i&-4+7i\\\\\n-2+5i&7+2i\n\\end{array}\n\\end{equation}";
-$v001[1]="\\begin{equation}\nA=\\begin{array}{cc}\n3+3i&6i\\\\\n-5&-4-7i\n\\end{array}\\hspace{.5in}\nB=\\begin{array}{cc}\n-5+6i&-4-7i\\\\\n2-5i&-7+2i\n\\end{array}\n\\end{equation}";
+$v001[0]="\\begin{equation}\nA=\\begin{array}{cc}\n\\left[3-3i&6\\\\\n-5i&-4+7i\n\\end{array}\\right]\\hspace{.5in}\nB=\\left[\\begin{array}{cc}\n-5-6i&-4+7i\\\\\n-2+5i&7+2i\n\\end{array}\\right]\n\\end{equation}";
+$v001[1]="\\begin{equation}\nA=\\left[\\begin{array}{cc}\n3+3i&6i\\\\\n-5&-4-7i\n\\end{array}\\right]\\hspace{.5in}\nB=\\left[\\begin{array}{cc}\n-5+6i&-4-7i\\\\\n2-5i&-7+2i\n\\end{array}\\right]\n\\end{equation}";
 $v002[0]="";
 $v002[1]="";
 $v003[0]="";
@@ -172,7 +172,7 @@ for ($i2=0;$i2<=$#aufgabe;++$i2)
 {
     print termtest "\\aufgabe{$p[$i2]} ";
     $bufgabe[$i2]->();
-    print termtest "\n";
+    print termtest "\n\n";
 }
 
 print termtest "\\end{document}\n";
