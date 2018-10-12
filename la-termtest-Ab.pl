@@ -67,7 +67,7 @@ $aufgabe[0]=sub {
 };
 
 $aufgabe[1]=sub {
-    print termtest "Determine how many solutions the following system of equations has. Your answer should be none, one, or infinitely many. Show your work.\n\n";
+    print termtest "Determine how many solutions the following system of equations has. Your answer should be none, one, or infinitely many. Show your work.$v004[$i1]\n\n";
 };
 
 $aufgabe[2]=sub {

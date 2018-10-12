@@ -1264,18 +1264,6 @@ Next Lesson: Eigenvalues and Eigenvectors
   \end{array}
 \end{equation}
 
-\\begin{equation}
-\\begin{array}{ccccccc}
-4a&-&2b&+&3c&=&2 \\\\
-5a&+&b&-&2c&=&3 \\\\
--7a&-&7b&+&12c&=&-5
-\\end{array}
-\\end{equation}
+\\begin{equation}\n\\begin{array}{ccccccc}\n4a&-&2b&+&3c&=&2\\\\\n5a&+&b&-&2c&=&3\\\\\n-7a&-&7b&+&12c&=&-5\n\\end{array}\n\\end{equation}
 
-\\begin{equation}
-\\begin{array}{ccccccc}
-2a&+&3b&+&7c&=&-1 \\\\
-4a&-&2b&-&2c&=&3 \\\\
-8a&-&12b&-&20c&=&11
-\\end{array}
-\\end{equation}
+\\begin{equation}\n\\begin{array}{ccccccc}\n2a&+&3b&+&7c&=&-1\\\\\n4a&-&2b&-&2c&=&3\\\\\n8a&-&12b&-&20c&=&11\n\\end{array}\n\\end{equation}
