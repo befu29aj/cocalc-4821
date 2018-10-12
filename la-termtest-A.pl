@@ -1,4 +1,6 @@
 # la-termtest-A.pl
+# run this on local terminal
+# perl la-termtest-A.pl && ./gg la-termtest-A.pl
 # run this on cocalc
 # git pull && latexmk -pdf -f -g -bibtex -synctex=1 -interaction=nonstopmode 'la-termtest-A1.tex' && latexmk -pdf -f -g -bibtex -synctex=1 -interaction=nonstopmode 'la-termtest-A2.tex' && git add . && git commit -am "la-termtest-A2.tex cocalc" && git push
 
@@ -102,7 +104,7 @@ $nm[1]="termtest2";
 $vn[0]="1";
 $vn[1]="2";
 
-$v001[0]="\\begin{equation}\nA=\\begin{array}{cc}\n\\left[3-3i&6\\\\\n-5i&-4+7i\n\\end{array}\\right]\\hspace{.5in}\nB=\\left[\\begin{array}{cc}\n-5-6i&-4+7i\\\\\n-2+5i&7+2i\n\\end{array}\\right]\n\\end{equation}";
+$v001[0]="\\begin{equation}\nA=\\left[\\begin{array}{cc}\n3-3i&6\\\\\n-5i&-4+7i\n\\end{array}\\right]\\hspace{.5in}\nB=\\left[\\begin{array}{cc}\n-5-6i&-4+7i\\\\\n-2+5i&7+2i\n\\end{array}\\right]\n\\end{equation}";
 $v001[1]="\\begin{equation}\nA=\\left[\\begin{array}{cc}\n3+3i&6i\\\\\n-5&-4-7i\n\\end{array}\\right]\\hspace{.5in}\nB=\\left[\\begin{array}{cc}\n-5+6i&-4-7i\\\\\n2-5i&-7+2i\n\\end{array}\\right]\n\\end{equation}";
 $v002[0]="";
 $v002[1]="";
