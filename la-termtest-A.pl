@@ -71,7 +71,7 @@ $aufgabe[1]=sub {
 };
 
 $aufgabe[2]=sub {
-    print termtest "Aufgabe 3";
+    print termtest "Use Cramer's rule to find the values of \$x_{2}\$ and \$x_{3}\$.$v003[$i1]";
 };
 
 $aufgabe[3]=sub {
@@ -108,8 +108,8 @@ $v001[0]="\\begin{equation}\nA=\\left[\\begin{array}{cc}\n3-3i&6\\\\\n-5i&-4+7i\
 $v001[1]="\\begin{equation}\nA=\\left[\\begin{array}{cc}\n3+3i&6i\\\\\n-5&-4-7i\n\\end{array}\\right]\\hspace{.5in}\nB=\\left[\\begin{array}{cc}\n-5+6i&-4-7i\\\\\n2-5i&-7+2i\n\\end{array}\\right]\n\\end{equation}";
 $v002[0]="\\begin{equation}\nC=\\left[\\begin{array}{cccc}\n1&-2&-3&0\\\\\n-1&0&0&3\\\\\n0&1&3&0\\\\\n1&2&0&2\n\\end{array}\\right]\n\\end{equation}";
 $v002[1]="\\begin{equation}\nC=\\left[\\begin{array}{cccc}\n-2&1&-3&0\\\\\n0&1&3&0\\\\\n-1&0&0&3\\\\\n1&2&0&2\n\\end{array}\\right]\n\\end{equation}";
-$v003[0]="";
-$v003[1]="";
+$v003[0]="\\begin{equation}\n\\begin{array}{ccccccc}\nx_{1}&+&2x_{2}&+&4x_{3}&=&31\\\\\n5x_{1}&+&x_{2}&+&2x_{3}&=&29\\\\\n3x_{1}&-&x_{2}&+&x_{3}&=&10\n\\end{array}\n\\end{equation}";
+$v003[1]="\\begin{equation}\n\\begin{array}{ccccccc}\nx_{1}&+&x_{2}&+&2x_{3}&=&-1\\\\\n2x_{1}&-&x_{2}&+&2x_{3}&=&-4\\\\\n4x_{1}&+&x_{2}&+&4x_{3}&=&-2\n\\end{array}\n\\end{equation}";
 $v004[0]="";
 $v004[1]="";
 $v005[0]="";
