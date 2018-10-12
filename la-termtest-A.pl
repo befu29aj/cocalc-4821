@@ -67,7 +67,7 @@ $aufgabe[0]=sub {
 };
 
 $aufgabe[1]=sub {
-    print termtest "Aufgabe 2";
+    print termtest "Find the determinant of \$C\$.\n$v002[$i1]";
 };
 
 $aufgabe[2]=sub {
@@ -106,8 +106,8 @@ $vn[1]="2";
 
 $v001[0]="\\begin{equation}\nA=\\left[\\begin{array}{cc}\n3-3i&6\\\\\n-5i&-4+7i\n\\end{array}\\right]\\hspace{.5in}\nB=\\left[\\begin{array}{cc}\n-5-6i&-4+7i\\\\\n-2+5i&7+2i\n\\end{array}\\right]\n\\end{equation}";
 $v001[1]="\\begin{equation}\nA=\\left[\\begin{array}{cc}\n3+3i&6i\\\\\n-5&-4-7i\n\\end{array}\\right]\\hspace{.5in}\nB=\\left[\\begin{array}{cc}\n-5+6i&-4-7i\\\\\n2-5i&-7+2i\n\\end{array}\\right]\n\\end{equation}";
-$v002[0]="";
-$v002[1]="";
+$v002[0]="\\begin{equation}\nC=\\left[\\begin{array}{cccc}\n1&-2&-3&0\\\\\n-1&0&0&3\\\\\n0&1&3&0\\\\\n1&2&0&2\n\\end{array}\\right]\n\\end{equation}";
+$v002[1]="\\begin{equation}\nC=\\left[\\begin{array}{cccc}\n-2&1&-3&0\\\\\n0&1&3&0\\\\\n-1&0&0&3\\\\\n1&2&0&2\n\\end{array}\\right]\n\\end{equation}";
 $v003[0]="";
 $v003[1]="";
 $v004[0]="";
