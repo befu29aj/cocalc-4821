@@ -65,23 +65,23 @@ $aufgabe[0]=sub {
 };
 
 $aufgabe[1]=sub {
-    print termtest "";
+    print termtest "Aufgabe 2";
 };
 
 $aufgabe[2]=sub {
-    print termtest "";
+    print termtest "Aufgabe 3";
 };
 
 $aufgabe[3]=sub {
-    print termtest "";
+    print termtest "Aufgabe 4";
 };
 
 $aufgabe[4]=sub {
-    print termtest "";
+    print termtest "Aufgabe 5";
 };
 
 $aufgabe[5]=sub {
-    print termtest "";
+    print termtest "Aufgabe 6";
 };
 
 for ($y2=0;$y2<=$#aufgabe;++$y2)
