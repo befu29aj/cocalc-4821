@@ -75,15 +75,7 @@ $aufgabe[2]=sub {
 };
 
 $aufgabe[3]=sub {
-    print termtest "Aufgabe 4";
-};
-
-$aufgabe[4]=sub {
-    print termtest "Aufgabe 5";
-};
-
-$aufgabe[5]=sub {
-    print termtest "Aufgabe 6";
+    print termtest "Use matrix arithmetic to find the area of the following triangle: \$P=($v004[$i1]),Q=($v005[$i1]),R=($v006[$i1])\$.";
 };
 
 for ($y2=0;$y2<=$#aufgabe;++$y2)
@@ -110,12 +102,12 @@ $v002[0]="\\begin{equation}\nC=\\left[\\begin{array}{cccc}\n1&-2&-3&0\\\\\n-1&0&
 $v002[1]="\\begin{equation}\nC=\\left[\\begin{array}{cccc}\n-2&1&-3&0\\\\\n0&1&3&0\\\\\n-1&0&0&3\\\\\n1&2&0&2\n\\end{array}\\right]\n\\end{equation}";
 $v003[0]="\\begin{equation}\n\\begin{array}{ccccccc}\nx_{1}&+&2x_{2}&+&4x_{3}&=&31\\\\\n5x_{1}&+&x_{2}&+&2x_{3}&=&29\\\\\n3x_{1}&-&x_{2}&+&x_{3}&=&10\n\\end{array}\n\\end{equation}";
 $v003[1]="\\begin{equation}\n\\begin{array}{ccccccc}\nx_{1}&+&x_{2}&+&2x_{3}&=&-1\\\\\n2x_{1}&-&x_{2}&+&2x_{3}&=&-4\\\\\n4x_{1}&+&x_{2}&+&4x_{3}&=&-2\n\\end{array}\n\\end{equation}";
-$v004[0]="";
-$v004[1]="";
-$v005[0]="";
-$v005[1]="";
-$v006[0]="";
-$v006[1]="";
+$v004[0]="-2,-5";
+$v004[1]="-2,2";
+$v005[0]="4,-3";
+$v005[1]="5,4";
+$v006[0]="1,3";
+$v006[1]="1,-3";
 $v007[0]="";
 $v007[1]="";
 $v008[0]="";
