@@ -71,19 +71,11 @@ $aufgabe[1]=sub {
 };
 
 $aufgabe[2]=sub {
-    print termtest "Determine how many solutions the following system of equations has. Your answer should be none, one, or infinitely many. Show your work.$v005[$i1]\n\n";
+    print termtest "HELP! Determine how many solutions the following system of equations has. Your answer should be none, one, or infinitely many. Show your work.$v005[$i1]\n\n";
 };
 
 $aufgabe[3]=sub {
     print termtest "Convert the following complex number to polar form: \$\\frac{$v006[$i1]}{$v007[$i1]}\$.";
-};
-
-$aufgabe[3]=sub {
-    print termtest "";
-};
-
-$aufgabe[3]=sub {
-    print termtest "";
 };
 
 for ($y2=0;$y2<=$#aufgabe;++$y2)
