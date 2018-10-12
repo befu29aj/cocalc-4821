@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  12 OCT 2018 00:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.27)  12 OCT 2018 00:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1085,25 +1085,7 @@ Package pdftex.def Info: ./diagrams/levelingnetwork.png  used on input line 943
 
 ] [50
 
-]
-Overfull \hbox (103.36952pt too wide) detected at line 1147
-[][]\OT1/mathkerncmss/m/sl/10.95 J\OT1/cmss/m/n/10.95 (\OT1/mathkerncmss/m/sl/1
-0.95 x\OML/cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 y\OML/cmm/m/it/10.95 ;
- \OT1/mathkerncmss/m/sl/10.95 z\OML/cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.
-95 w\OT1/cmss/m/n/10.95 ) = []
- []
-
-
-Overfull \hbox (229.99283pt too wide) detected at line 1147
-[][]\OT1/mathkerncmss/m/sl/10.95 G\OT1/cmss/m/n/10.95 (\OT1/mathkerncmss/m/sl/1
-0.95 x\OML/cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 y\OML/cmm/m/it/10.95 ;
- \OT1/mathkerncmss/m/sl/10.95 z\OML/cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.
-95 w\OT1/cmss/m/n/10.95 ) \OMS/cmsy/m/n/10.95 ^^Y []\OT1/mathkerncmss/m/sl/10.9
-5 G\OT1/cmss/m/n/10.95 ([]\OML/cmm/m/it/10.95 ; []; []; []\OT1/cmss/m/n/10.95 )
- + [] []
- []
-
-[51
+] [51
 
 ] [52
 
@@ -1117,11 +1099,11 @@ Overfull \hbox (229.99283pt too wide) detected at line 1147
 \tf@snm=\write8
 \openout8 = `la-05-leastsqu.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1154.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1154.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1160.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1160.
  (./la-05-leastsqu.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1154.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1154.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1160.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1160.
 
 Package rerunfilecheck Info: File `la-05-leastsqu.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1129,7 +1111,7 @@ Package rerunfilecheck Info: File `la-05-leastsqu.out' has not changed.
 Here is how much of TeX's memory you used:
  20560 strings out of 492982
  402100 string characters out of 6134896
- 473672 words of memory out of 5000000
+ 474672 words of memory out of 5000000
  23487 multiletter control sequences out of 15000+600000
  11040 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1147,7 +1129,7 @@ msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
 ls/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbol
 s/msbm10.pfb>
-Output written on la-05-leastsqu.pdf (52 pages, 349090 bytes).
+Output written on la-05-leastsqu.pdf (52 pages, 348960 bytes).
 PDF statistics:
  524 PDF objects out of 1000 (max. 8388607)
  433 compressed objects within 5 object streams
