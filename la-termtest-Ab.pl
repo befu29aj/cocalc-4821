@@ -79,7 +79,7 @@ $aufgabe[3]=sub {
 };
 
 $aufgabe[4]=sub {
-    print termtest "Find the three cube roots of \$$v008[$i1]\$.";
+    print termtest "Find the three cube roots of \$$v008[$i1]\$. Clearly indicate the radius and the angle (in degrees) of your solutions.";
 };
 
 for ($y2=0;$y2<=$#aufgabe;++$y2)
