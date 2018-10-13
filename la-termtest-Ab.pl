@@ -78,6 +78,10 @@ $aufgabe[3]=sub {
     print termtest "Convert the following complex number to polar form: \\begin{equation}\\frac{$v006[$i1]}{$v007[$i1]}\\notag\\end{equation}";
 };
 
+$aufgabe[4]=sub {
+    print termtest "Find the three cube roots of \$$v008[$i1]\$.";
+};
+
 for ($y2=0;$y2<=$#aufgabe;++$y2)
 {
     $z5=rand;
@@ -110,8 +114,8 @@ $v006[0]="-2+2i";
 $v006[1]="3-3i";
 $v007[0]="5+i";
 $v007[1]="-4+i";
-$v008[0]="";
-$v008[1]="";
+$v008[0]="5i-10";
+$v008[1]="10i+5";
 $v009[0]="";
 $v009[1]="";
 $v010[0]="";
