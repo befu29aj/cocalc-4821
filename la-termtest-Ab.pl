@@ -79,7 +79,7 @@ $aufgabe[3]=sub {
 };
 
 $aufgabe[4]=sub {
-    print termtest "Find the three cube roots of \$$v008[$i1]\$. Clearly indicate the radius and the angle (in degrees) of your solutions.";
+    print termtest "Find the three cube roots of \$$v008[$i1]\$ in polar form. Clearly indicate the radius and the angle (in degrees) of your solutions.";
 };
 
 for ($y2=0;$y2<=$#aufgabe;++$y2)
@@ -107,7 +107,7 @@ $v002[1]="-3,40";
 $v003[0]="2,15";
 $v003[1]="-2,16";
 $v004[0]="\\begin{equation}\n\\begin{array}{ccccccc}\n4a&-&2b&+&3c&=&2\\\\\n5a&+&b&-&2c&=&3\\\\\n-7a&-&7b&+&12c&=&-5\n\\end{array}\\notag\n\\end{equation}";
-$v004[1]="\\begin{equation}\n\\begin{array}{ccccccc}\n2a&+&3b&+&7c&=&-1\\\\\n4a&-&2b&-&2c&=&3\\\\\n8a&-&12b&-&20c&=&11\n\\end{array}\notag\n\\end{equation}";
+$v004[1]="\\begin{equation}\n\\begin{array}{ccccccc}\n2a&+&3b&+&7c&=&-1\\\\\n4a&-&2b&-&2c&=&3\\\\\n8a&-&12b&-&20c&=&11\n\\end{array}\\notag\n\\end{equation}";
 $v005[0]="\\begin{equation}\n\\begin{array}{ccccccc}\n-4x&+&2y&+&6z&=&4\\\\\n8x&-&8y&-&z&=&2\\\\\n-4x&-&2y&+&17z&=&9\n\\end{array}\\notag\n\\end{equation}";
 $v005[1]="\\begin{equation}\n\\begin{array}{ccccccc}\n3x&+&4y&-&8z&=&-6\\\\\n-x&+&3y&+&6z&=&7\\\\\nx&+&10y&+&4z&=&-3\n\\end{array}\\notag\n\\end{equation}";
 $v006[0]="-2+2i";
