@@ -63,7 +63,7 @@ use List::Util 'shuffle';
 srand($seed[1]);
 
 $aufgabe[0]=sub {
-    print termtest "Find the product \$AB\$.\n$v001[$i1]";
+    print termtest "NOTE TO SELF: Term Test Aa is shorter than Ab. Rebalance the questions if you have two separate hours for the term test. Find the product \$AB\$.\n$v001[$i1]";
 };
 
 $aufgabe[1]=sub {
