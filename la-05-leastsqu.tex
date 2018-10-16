@@ -987,7 +987,7 @@ Temperature & 57 & 37 & 24 & -5 & -30 & -41 & -54 \\
 \bigskip
 
   Try to find the equations yourself (before looking at the next slide
-  to check if they are correct) and then calculate the least square
+  to check if they are correct) and then calculate the least squares
   adjusted elevations of $A$, $B$, and $C$.
 \end{frame}
 
@@ -1218,6 +1218,30 @@ Note that $F_{i}(\vec{x})=y_{i}$ for $F(\vec{x})=\vec{y}$.
       \epsilon_{5}
     \end{array}\right]
   \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Linearizing Distance Observation Equations}
+  Use the formula
+  \begin{equation}
+    \label{eq:haeyahgo}
+    V_{0}=(A^{\intercal}A)^{-1}A^{\intercal}Y
+  \end{equation}
+  for
+  \begin{equation}
+    \label{eq:quoiseih}
+    V_{0}=(8.4052,3.0169,-2.8777,1.4929)^{\intercal}
+  \end{equation}
+The least squares adjusted coordinates are
+$(8.4052,3.0169)$ and $(-2.8777,1.4929)$, compared to the original
+$(8.3995,3.0161)$ and $(-2.8720,1.4937)$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Linearizing Distance Observation Equations}
+  Next: do this for angles (partial derivative of arctan). Then solve
+  system of non-linear equations. Tie this in with Shields, example 2
+  on page 296.
 \end{frame}
 
 \begin{frame}

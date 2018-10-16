@@ -511,16 +511,16 @@ z=f(a,b)+f_{x}(a,b)(x-a)+f_{y}(a,b)(y-b)
 
 \begin{frame}
   \frametitle{Subspaces and Hyperplanes}
-The solution to a system of linear equations is always a hyperplane
-unless there is a unique solution. Note that the empty set is a
-hyperplane. The reason is that whenever there are two distinct
-solutions, any linear combination of these two distinct solutions will
-also be a solution.
+  The solution to a system of linear equations is always a hyperplane
+  unless there is a unique solution. Note that the empty set is a
+  hyperplane. The reason is that whenever there are two distinct
+  solutions $\vec{OP}$ and $\vec{OQ}$, any combination
+  $\vec{OP}+\lambda\vec{PQ}$ will also be a solution.
 \end{frame}
 
 \begin{frame}
   \frametitle{Subspaces and Hyperplanes}
-  \beispiel{Solving a Dependent System of Equations} Solve
+  \beispiel{Solving a Dependent System of Equations}
   \begin{equation}
     \label{eq:leizaewu}
     \begin{array}{ccccccc}
@@ -554,8 +554,11 @@ also be a solution.
       0&0&0&0
     \end{array}\right]
   \end{equation}
-The system is consistent with infinitely many solutions. From the
-second row, we learn that
+  The system is consistent with infinitely many solutions.
+
+\medskip
+
+  \textbf{Step 3.} From the second row, we learn that
 \begin{equation}
   \label{eq:ahpoquah}
   y=\frac{1}{2}-\frac{17}{2}z
@@ -565,29 +568,120 @@ Plug this into the first row for
   \label{eq:zayochee}
   x=-\frac{3}{2}-\frac{25}{2}z
 \end{equation}
-One solution is $(3,-8,1)$. 
+One solution is $(3,-8,1)$. Another is $(-\frac{3}{2},\frac{1}{2},0)$. 
 \end{frame}
 
 \begin{frame}
   \frametitle{Subspaces and Hyperplanes}
-  $z$ is here a free variable. Once the free variable is fixed, the
-  other variables are fixed as well. The solution space is
-  one-dimensional (a line in three-dimensional space). For an
-  $n$-dimensional solution space, express the solution space as a
-  linear combination of its basis vectors $v_{1},{\ldots},v_{n}$ (make
-  sure they are linearly independent). 
+  \textbf{Step 4.} $z$ is here a free variable. Once the free
+  variables are arbitrarily fixed, the other variables are determined
+  as well. The solution space in this case is one-dimensional (a line
+  in three-dimensional space). For an $n$-dimensional solution space
+  and a solution $v_{0}$, express the solution space as a linear
+  combination of its basis vectors $v_{1},{\ldots},v_{n}$ (make sure
+  they are linearly independent).
   \begin{equation}
     \label{eq:geeduboh}
-    S=\left\{a_{1}v_{1}+{\ldots}+a_{n}v_{n}|a_{1},{\ldots},a_{n}\in\mathbb{R}\right\}
+    S=\left\{v_{0}+a_{1}v_{1}+{\ldots}+a_{n}v_{n}|a_{1},{\ldots},a_{n}\in\mathbb{R}\right\}
   \end{equation}
   \begin{equation}
     \label{eq:shoxuqui}
-    S=\left.\left\{a\left(
+    S=\left.\left\{\left(
         \begin{array}{c}
           3 \\
           -8 \\
           1
+        \end{array}\right)+a\left(
+        \begin{array}{c}
+          -\frac{9}{2} \\
+          \frac{17}{2} \\
+          -1
         \end{array}\right)\right\vert{}a\in\mathbb{R}\right\}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Subspaces and Hyperplanes}
+  {\ubung} Solve the following system of linear equations:
+  \begin{equation}
+    \label{eq:xohvaesh}
+    \begin{array}{ccccccccc}
+      4x_{1}&+&x_{2}&+&5x_{3}&-&7x_{4}&=&14 \\
+      -3x_{1}&+&5x_{2}&-&x_{3}&-&2x_{4}&=&-18 \\
+      11x_{1}&-&3x_{2}&+&11x_{3}&-&12x_{4}&=&46 \\
+      10x_{1}&-&9x_{2}&+&7x_{3}&-&3x_{4}&=&50
+    \end{array}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Subspaces and Hyperplanes}
+  Solution: create the coefficient matrix and calculate the
+  determinant.
+  \begin{equation}
+    \label{eq:pepheiwo}
+    \left\vert
+      \begin{array}{cccc}
+        4&1&5&-7 \\
+         -3&5&-1&-2 \\
+         11&-3&11&-12 \\
+         10&-9&7&-3
+      \end{array}\right\vert=0
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Subspaces and Hyperplanes}
+The determinant is zero, therefore there are dependent equations. Find
+the echelon form of the augmented matrix.
+\begin{equation}
+  \label{eq:iaphuuth}
+  \left[
+    \begin{array}{ccccc}
+1 & 6 & 4 & -9 & -4 \\
+0 & 23 & 11 & -29 & -30 \\
+0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 
+    \end{array}\right]
+\end{equation}
+The system is consistent with infinitely many solutions, and there are
+two free variables. The solution space is a two-dimensional hyperplane
+in four-dimensional space. 
+\end{frame}
+
+\begin{frame}
+  \frametitle{Subspaces and Hyperplanes}
+  Find three linearly independent solutions.
+  \begin{enumerate}
+  \item If $x_{4}=1,x_{3}=2$, then the top two rows of the echelon
+    form determine $x_{2}=-1,x_{1}=3$.
+  \item If $x_{4}=0,x_{3}=0$, then the top two rows of the echelon
+    form determine $x_{2}=-\frac{30}{23},x_{1}=\frac{88}{23}$.
+  \item If $x_{4}=1,x_{3}=-1$, then the top two rows of the echelon
+    form determine $x_{2}=\frac{10}{23},x_{1}=\frac{147}{23}$.
+  \end{enumerate}
+  Consequently,
+  \begin{equation}
+    \label{eq:eidichee}
+    S=\left\{\left.\left(
+        \begin{array}{c}
+          3 \\
+          -1 \\
+          2 \\
+          1
+        \end{array}\right)+\lambda\left(
+        \begin{array}{c}
+          19 \\
+          -7 \\
+          -46 \\
+          -23
+        \end{array}\right)+\mu\left(
+        \begin{array}{c}
+          78 \\
+          33 \\
+          -69 \\
+          0
+        \end{array}\right)\right\vert\lambda,\mu\in\mathbb{R}\right\}
   \end{equation}
 \end{frame}
 

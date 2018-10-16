@@ -87,6 +87,8 @@
     "eq:yahziech"
     "eq:axeeteja"
     "eq:hohchadu"
-    "eq:yaericee"))
+    "eq:yaericee"
+    "eq:haeyahgo"
+    "eq:quoiseih"))
  :latex)
 
