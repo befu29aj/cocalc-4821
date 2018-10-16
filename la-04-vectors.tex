@@ -514,8 +514,9 @@ z=f(a,b)+f_{x}(a,b)(x-a)+f_{y}(a,b)(y-b)
   The solution to a system of linear equations is always a hyperplane
   (of points, not of vectors) unless there is a unique solution. The
   reason is that whenever there are two distinct solutions $\vec{OP}$
-  and $\vec{OQ}$, any combination $\vec{OP}+\lambda\vec{PQ}$ will also
-  be a solution. Note that the empty set is a hyperplane.
+  and $\vec{OQ}$, any combination $\vec{OP}+s_{1}\vec{PQ}$ with
+  $s_{1}\in\mathbb{R}$ will also be a solution. Note that the empty
+  set is a hyperplane.
 \end{frame}
 
 \begin{frame}
@@ -669,19 +670,19 @@ in four-dimensional space.
           -1 \\
           2 \\
           1
-        \end{array}\right)+\lambda\left(
+        \end{array}\right)+s_{1}\left(
         \begin{array}{c}
           19 \\
           -7 \\
           -46 \\
           -23
-        \end{array}\right)+\mu\left(
+        \end{array}\right)+s_{2}\left(
         \begin{array}{c}
           78 \\
           33 \\
           -69 \\
           0
-        \end{array}\right)\right\vert\lambda,\mu\in\mathbb{R}\right\}
+        \end{array}\right)\right\vert{}s_{1},s_{2}\in\mathbb{R}\right\}
   \end{equation}
 \end{frame}
 
