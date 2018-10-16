@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1539722621 "la-04-vectors.tex" "la-04-vectors.pdf" "la-04-vectors" 1539722624
+["pdflatex"] 1539723007 "la-04-vectors.tex" "la-04-vectors.pdf" "la-04-vectors" 1539723011
   "/etc/texmf/web2c/texmf.cnf" 1535314180 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -205,16 +205,16 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1535345801 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1535345686 4127293 e426791f7d60570cbd329fe378e4215f ""
   "diagrams/crossproduct.png" 1536616565 69611 f6e98e27c99149632ded75e19d8f2ea2 ""
-  "la-04-vectors.aux" 1539722624 10286 6d233d4f55c588452087a808b81d292b ""
-  "la-04-vectors.nav" 1539722624 3899 fef2a199258e9e89b3fab237594fbc6c ""
-  "la-04-vectors.out" 1539722622 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "la-04-vectors.tex" 1539722617 25385 bd5076822a8901af6ab8e3cbbc8a014b ""
+  "la-04-vectors.aux" 1539723010 10286 6d233d4f55c588452087a808b81d292b ""
+  "la-04-vectors.nav" 1539723010 3899 fef2a199258e9e89b3fab237594fbc6c ""
+  "la-04-vectors.out" 1539723008 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "la-04-vectors.tex" 1539723007 25393 6b56a60eee7d558c3037921b5d1c7ce2 ""
   "teachbeamer.sty" 1536261356 1599 47b30f8a7e30907cf86a9a1fff41cc5e ""
   (generated)
-  "la-04-vectors.pdf"
   "la-04-vectors.aux"
-  "la-04-vectors.snm"
-  "la-04-vectors.log"
-  "la-04-vectors.nav"
   "la-04-vectors.out"
+  "la-04-vectors.nav"
   "la-04-vectors.toc"
+  "la-04-vectors.log"
+  "la-04-vectors.snm"
+  "la-04-vectors.pdf"
