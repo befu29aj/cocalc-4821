@@ -28,7 +28,8 @@
     "eq:iexoomoh"
     "eq:xoomoube"
     "eq:yeibieba"
-    "eq:abeekohc")
+    "eq:abeekohc"
+    "eq:eweemeez")
    (LaTeX-add-counters
     "aufg"))
  :latex)
