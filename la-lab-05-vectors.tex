@@ -1,0 +1,159 @@
+% la-lab-05-vectors.tex
+
+\documentclass[11pt]{article}
+\usepackage{enumerate}
+\usepackage{syllogism} 
+\usepackage{october}
+\usepackage[table]{xcolor}
+
+\newcounter{aufg}
+\setcounter{aufg}{0}
+\newcommand{\aufgabe}[0]{\refstepcounter{aufg}\textbf{(\arabic{aufg})}}
+
+\begin{document}
+
+\textbf{Vectors}
+
+{\aufgabe} Consider the vector space of quadratic polynomials
+\begin{equation}
+  \label{eq:pahreeth}
+V=\{f|f(x)=ax^{2}+bx+c\}  
+\end{equation}
+Are the following three quadratic polynomials a basis for $V$?
+\begin{equation}
+  \label{eq:hohnooph}
+  \begin{array}{rcl}
+    f_{1}(x)&=&3x^{2}+x+6 \\
+    f_{2}(x)&=&5x^{2}+x+11 \\
+    f_{3}(x)&=&-2x^{2}-6x+4
+  \end{array}
+\end{equation}
+\begin{itemize}
+\item If yes, find the coordinates in terms of this basis for $7x^{2}-x-4$.
+\item If no, express one of the $f_{i}$ by the others, $i=1,2,3$. 
+\end{itemize}
+
+{\aufgabe} Consider the vector space of lines in $\mathbb{R}^{3}$
+going through the origin.
+\begin{equation}
+  \label{eq:peeyohli}
+W=\{L|L:ax+by+cz=0\}  
+\end{equation}
+Are the following three lines a basis for $W$?
+\begin{equation}
+  \label{eq:iozooroo}
+  \begin{array}{rcl}
+    L_{1}&:&2x+5y+z=0 \\
+    L_{2}&:&x-y-2z=0 \\
+    L_{3}&:&-3x+4z=0
+  \end{array}
+\end{equation}
+\begin{itemize}
+\item If yes, find the coordinates in terms of this basis for $L:14x+9y-12z=0$.
+\item If no, express one of the $L_{i}$ by the others, $i=1,2,3$. 
+\end{itemize}
+
+  \beispiel{Angle Observations} There are three points whose
+  coordinates with measurement errors are
+  \begin{equation}
+    \label{eq:aukoogha}
+    \begin{array}{rcl}
+      I&=&(595.74,537.76) \\
+       J&=&(800.92,658.44) \\
+       K&=&(302.96,168.88)
+    \end{array}
+  \end{equation}
+From station $I$, you observe an angle of $158^{\circ}49'21''$, again
+with the usual measurement error. In the next lesson, we will learn
+how to adjust the coordinates based on the observed angle. In the
+meantime, what is the angle between $\vec{IJ}$ and $\vec{IK}$ that you
+would have expected based on the coordinates? Use the inner product.
+
+{\aufgabe} Find an orthonormal basis for the following vector plane.
+\begin{equation}
+  \label{eq:aewashic}
+  -6x+5y+8z=0
+\end{equation}
+
+{\aufgabe} Consider the vector
+\begin{equation}
+  \label{eq:chowiute}
+  \hat{b_{1}}=\left(
+    \begin{array}{c}
+      -5 \\
+      -7 \\
+      4
+    \end{array}\right)
+\end{equation}
+Find $b_{1}$ such that $\b_{1}\Vert\hat{b_{1}}$ ($b_{1}$ and
+$\hat{b_{1}}$ are parallel) and $\Vert{}b_{1}\Vert=1$. Then find
+vectors $b_{2},b_{3}$ so that $B=\{b_{1},b_{2},b_{3}\}$ is an
+orthonormal basis of $\mathbb{R}^{3}$. Combine $b_{1},b_{2},b_{3}$ in
+a matrix $M$ and find the inverse $M^{-1}$, using software. What do
+you notice?
+
+{\aufgabe} Find the equation of the tangent plane with respect to the
+unit circle at $P=(0.2,0.3,\sqrt{0.87})$. Do this two ways: first use
+calculus, then use linear algebra. (Ask the instructor for hints!)
+
+{\aufgabe} Solve the following system of linear equations. Use
+software.
+\begin{equation}
+  \label{eq:aingethu}
+  \begin{array}{ccccccc}
+4a & + & b  & - & c   & = & -12 \\
+3a & - & 2b & + & 4c  & = & -5  \\
+-a & + & 8b & - & 14c & = & -14
+  \end{array}
+\end{equation}
+If the system is consistent and dependent, provide your answer in the
+form
+\begin{equation}
+  \label{eq:siechaep}
+  S=\{u\in\mathbb{R}^{3}|u\mbox{ corresponds to }\vec{u}=\vec{u_{0}}+s_{1}v_{1}+{\ldots}+s_{n}v_{n}\}
+\end{equation}
+where $n$ is the dimension of the solution space and
+$s_{i}\in\mathbb{R}$ for $i=1,{\ldots},n$. Note that
+$(-3,2,2)^{\intercal}$ solves the system.
+
+{\aufgabe} Solve the following system of linear equations. Use software.
+\begin{equation}
+  \label{eq:iexoomoh}
+  \begin{array}{ccccccccc}
+6x  &   &     & - & 4z & + & 5w & = & 23  \\
+-3x & + & 8y  & + & 3z & - & w  & = & -14 \\
+9x  & + & 8y  & - & 5z & + & 9w & = & 32  \\
+    &   & 16y & + & 2z & + & 3w & = & -5
+  \end{array}
+\end{equation}
+If the system is consistent and dependent, provide your answer in the
+form
+\begin{equation}
+  \label{eq:siechaep}
+  S=\{u\in\mathbb{R}^{4}|u\mbox{ corresponds to }\vec{u}=\vec{u_{0}}+s_{1}v_{1}+{\ldots}+s_{n}v_{n}\}
+\end{equation}
+where $n$ is the dimension of the solution space and
+$s_{i}\in\mathbb{R}$ for $i=1,{\ldots},n$. Note that
+$(2,-1,1,3)^{\intercal}$ solves the system.
+
+{\ubung} Find all interior angles for and the plane equation
+  containing the triangle with points
+  \begin{equation}
+    \label{eq:yeibieba}
+    P=(-6,-2,-7),Q=(-2,1,6),R=(-8,3,-5)
+  \end{equation}
+  Hint: use the cross product to find a normal vector to the plane.
+  Remember that the cross product of two vectors is
+  \begin{equation}
+    \label{eq:abeekohc}
+    \vec{v}\times\vec{w}=\left\vert
+      \begin{array}{ccc}
+        \vec{i} & \vec{j} & \vec{k} \\
+        v_{1} & v_{2} & v_{3} \\
+        w_{1} & w_{2} & w_{3}
+      \end{array}\right\vert
+  \end{equation}
+and is perpendicular to both $\vec{v}$ and $\vec{w}$.
+
+\end{document}
+
