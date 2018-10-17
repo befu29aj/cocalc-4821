@@ -96,6 +96,10 @@
     "eq:aenesiiw"
     "eq:chaiquei"
     "eq:eeleequo"
-    "eq:sheidiiw"))
+    "eq:iiphiewi"
+    "eq:ciedaewe"
+    "eq:ithaenga"
+    "eq:sheidiiw"
+    "eq:saexooph"))
  :latex)
 

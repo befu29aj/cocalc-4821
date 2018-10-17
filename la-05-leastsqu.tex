@@ -1301,20 +1301,49 @@ slide. The non-linear function is
   \end{equation}
   for the linearization
   \begin{equation}
-    \label{eq:sheidiiw}
-    G(x,y,z,w,u,v)\approx\pi+0.00379297940350206x+
+    \label{eq:iiphiewi}
+    G(x,y,z,w,u,v)\approx\pi+0.00379297940350206x+\notag
+  \end{equation}
+  \begin{equation}
+    \label{eq:ciedaewe}
+    0.00494115229670866y+0.00212980385748917z-\notag
+  \end{equation}
+  \begin{equation}
+    \label{eq:ithaenga}
+    0.00166317554601289u-0.00132006217838228v+\notag
   \end{equation}
   \begin{equation}
     \label{eq:sheidiiw}
-    0.00494115229670866y+0.00212980385748917z-
+    0.00362109011832638w-9.71163063930754\notag
   \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Linearizing Angle Observation Equations}
+Let the linearization
+$G(x,y,z,w,u,v)\approx{}ax+by+cz+dw+ev+fu-g$. 
+  Define
   \begin{equation}
-    \label{eq:sheidiiw}
-    0.00166317554601289u-0.00132006217838228v+
-  \end{equation}
-  \begin{equation}
-    \label{eq:sheidiiw}
-    0.00362109011832638w-9.71163063930754
+    \label{eq:saexooph}
+    A=\left[
+      \begin{array}{cccccc}
+        1&0&0&0&0&0 \\
+        0&1&0&0&0&0 \\
+        0&0&1&0&0&0 \\
+        0&0&0&1&0&0 \\
+        0&0&0&0&1&0 \\
+        0&0&0&0&0&1 \\
+        a&b&c&d&e&f
+      \end{array}\right],Y=\left[
+      \begin{array}{c}
+595.74+\epsilon_{1} \\
+537.76+\epsilon_{2} \\
+800.92+\epsilon_{3} \\
+658.44+\epsilon_{4} \\
+302.96+\epsilon_{5} \\
+168.88+\epsilon_{6} \\
+158.82+g+\epsilon_{7}
+      \end{array}\right]
   \end{equation}
 \end{frame}
 
@@ -1334,6 +1363,9 @@ variable & adjusted & original \\ \hline
       $u$ & $303.22$ & $302.96$ \\ 
       $v$ & $169.09$ & $168.88$ 
 \end{tabular}
+
+\bigskip
+
 Because we arrived at these values by an approximation (using a
 linearization instead of the non-linear function), we should repeat
 the process using the new numbers as we did with Newton's method.
@@ -1345,3 +1377,10 @@ Next Lesson: Eigenvalues and Eigenvectors
 \end{frame}
 
 \end{document}
+
+595.74
+537.76
+800.92
+658.44
+302.96
+168.88
