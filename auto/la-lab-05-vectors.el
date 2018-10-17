@@ -26,6 +26,7 @@
     "eq:aingethu"
     "eq:siechaep"
     "eq:iexoomoh"
+    "eq:xoomoube"
     "eq:yeibieba"
     "eq:abeekohc")
    (LaTeX-add-counters
