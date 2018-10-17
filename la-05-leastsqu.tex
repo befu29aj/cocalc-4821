@@ -1264,12 +1264,68 @@ $I,J,K$ in light of your angle measurement?
 
 \begin{frame}
   \frametitle{Linearizing Angle Observation Equations}
+  Label the coordinates of $I$ to be $x$ and $y$; the coordinates
+  of $J$ to be $z$ and $w$; the coordinates of $K$ to be $u$ and
+  $v$. The first six equations are as usual, for example
+  \begin{equation}
+    \label{eq:aicheghi}
+    x=595.74+\epsilon_{1}
+  \end{equation}
+  The seventh equation is non-linear.
+  \begin{equation}
+    \label{eq:aenesiiw}
+    \pi+\arctan\left(\frac{w-y}{z-x}\right)-\arctan\left(\frac{v-y}{u-x}\right)=158.82+\epsilon_{7}
+  \end{equation}
+Using the Jacobian of $G$, the seventh equation is linearized on the next
+slide. The non-linear function is
+\begin{equation}
+  \label{eq:chaiquei}
+  G(x,y,z,w,u,v)=\pi+\arctan\left(\frac{w-y}{z-x}\right)-\arctan\left(\frac{v-y}{u-x}\right)
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Linearizing Angle Observation Equations}
+  The Jacobian is
+  \begin{equation}
+    \label{eq:eeleequo}
+    \left[
+      \begin{array}{c}
+        \frac{w-y}{\Vert\vec{IJ}\Vert^{2}}-\frac{v-y}{\Vert\vec{IK}\Vert^{2}} \\
+        \frac{z-x}{\Vert\vec{IJ}\Vert^{2}}-\frac{u-x}{\Vert\vec{IK}\Vert^{2}} \\
+        \frac{w-y}{\Vert\vec{IJ}\Vert^{2}} \\
+        \frac{z-x}{\Vert\vec{IJ}\Vert^{2}} \\
+        \frac{v-y}{\Vert\vec{IK}\Vert^{2}} \\
+        \frac{u-x}{\Vert\vec{IK}\Vert^{2}}
+      \end{array}\right]^{\intercal}
+  \end{equation}
+  for the linearization
+  \begin{equation}
+    \label{eq:sheidiiw}
+    G(x,y,z,w,u,v)\approx\pi+0.00379297940350206x+
+  \end{equation}
+  \begin{equation}
+    \label{eq:sheidiiw}
+    0.00494115229670866y+0.00212980385748917z-
+  \end{equation}
+  \begin{equation}
+    \label{eq:sheidiiw}
+    0.00166317554601289u-0.00132006217838228v+
+  \end{equation}
+  \begin{equation}
+    \label{eq:sheidiiw}
+    0.00362109011832638w-9.71163063930754
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Linearizing Angle Observation Equations}
 Compare the original measurements to the least squares adjusted
 values.
 
 \bigskip
 
-\begin{tabular}{|r|l|l|}
+\begin{tabular}{r|l|l}
 variable & adjusted & original \\ \hline
       $x$ & $596.33$ & $595.74$ \\ 
       $y$ & $538.53$ & $537.76$ \\ 
@@ -1278,6 +1334,9 @@ variable & adjusted & original \\ \hline
       $u$ & $303.22$ & $302.96$ \\ 
       $v$ & $169.09$ & $168.88$ 
 \end{tabular}
+Because we arrived at these values by an approximation (using a
+linearization instead of the non-linear function), we should repeat
+the process using the new numbers as we did with Newton's method.
 \end{frame}
 
 \begin{frame}

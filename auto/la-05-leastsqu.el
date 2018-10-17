@@ -91,6 +91,11 @@
     "eq:yaericee"
     "eq:haeyahgo"
     "eq:quoiseih"
-    "eq:aukoogha"))
+    "eq:aukoogha"
+    "eq:aicheghi"
+    "eq:aenesiiw"
+    "eq:chaiquei"
+    "eq:eeleequo"
+    "eq:sheidiiw"))
  :latex)
 
