@@ -1336,15 +1336,17 @@ $G(x,y,z,w,u,v)\approx{}ax+by+cz+dw+ev+fu-g$.
         a&b&c&d&e&f
       \end{array}\right],Y=\left[
       \begin{array}{c}
-595.74+\epsilon_{1} \\
-537.76+\epsilon_{2} \\
-800.92+\epsilon_{3} \\
-658.44+\epsilon_{4} \\
-302.96+\epsilon_{5} \\
-168.88+\epsilon_{6} \\
-158.82+g+\epsilon_{7}
+595.74 \\
+537.76 \\
+800.92 \\
+658.44 \\
+302.96 \\
+168.88 \\
+158.82+g
       \end{array}\right]
   \end{equation}
+  $(A^{\intercal}A)^{-1}A^{\intercal}Y$ yields the results on the
+  next slide.
 \end{frame}
 
 \begin{frame}
@@ -1354,21 +1356,24 @@ values.
 
 \bigskip
 
-\begin{tabular}{r|l|l}
-variable & adjusted & original \\ \hline
-      $x$ & $596.33$ & $595.74$ \\ 
-      $y$ & $538.53$ & $537.76$ \\ 
-      $z$ & $801.25$ & $800.92$ \\ 
-      $w$ & $659.00$ & $658.44$ \\ 
-      $u$ & $303.22$ & $302.96$ \\ 
-      $v$ & $169.09$ & $168.88$ 
+\begin{tabular}{r|l|l|l}
+variable & original & adjusted & adjusted again \\ \hline
+      $x$ & $595.74$  & $596.330374912751$ & $596.330444508634$ \\ 
+      $y$ & $537.76$  & $538.529087317840$ & $538.529645106905$ \\ 
+      $z$ & $800.92$  & $801.251502661307$ & $801.251871588615$ \\ 
+      $w$ & $658.44$  & $659.003620451168$ & $659.004496897710$ \\ 
+      $u$ & $302.96$  & $303.218872251445$ & $303.218572920019$ \\ 
+      $v$ & $168.88$  & $169.085466866672$ & $169.085148209195$
 \end{tabular}
 
 \bigskip
 
 Because we arrived at these values by an approximation (using a
-linearization instead of the non-linear function), we should repeat
-the process using the new numbers as we did with Newton's method.
+linearization instead of the non-linear function), we should
+repeat the process using the new numbers as we did with Newton's
+method. In this case, however, the difference between the first
+iteration and the second iteration is below the sensitivity of our
+measuring instruments.
 \end{frame}
 
 \begin{frame}
@@ -1377,10 +1382,3 @@ Next Lesson: Eigenvalues and Eigenvectors
 \end{frame}
 
 \end{document}
-
-595.74
-537.76
-800.92
-658.44
-302.96
-168.88
