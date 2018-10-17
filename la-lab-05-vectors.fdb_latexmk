@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1539793024 "la-lab-05-vectors.tex" "la-lab-05-vectors.pdf" "la-lab-05-vectors" 1539793024
+["pdflatex"] 1539793100 "la-lab-05-vectors.tex" "la-lab-05-vectors.pdf" "la-lab-05-vectors" 1539793100
   "/etc/texmf/web2c/texmf.cnf" 1535314180 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -78,10 +78,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1535345801 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1539447059 4126370 04448162a4da151233589cc4b45c1165 ""
-  "la-lab-05-vectors.aux" 1539793024 415 87d0a60f6707e3447c52b95c45cee3a9 ""
-  "la-lab-05-vectors.tex" 1539793024 4967 66db998a1001298c5d3d11820aff2d1a ""
+  "la-lab-05-vectors.aux" 1539793100 415 87d0a60f6707e3447c52b95c45cee3a9 ""
+  "la-lab-05-vectors.tex" 1539793099 4977 3f6da4af8d439a7790176bcf114eb959 ""
   "october.sty" 1536769900 2997 265ecb1cf7c10b3151e59742b19f912c ""
   (generated)
+  "la-lab-05-vectors.aux"
   "la-lab-05-vectors.pdf"
   "la-lab-05-vectors.log"
-  "la-lab-05-vectors.aux"
