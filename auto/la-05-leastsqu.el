@@ -114,6 +114,7 @@
     "eq:xohdaihu"
     "eq:ahxeemei"
     "eq:ocheevoh"
+    "eq:ungaedei"
     "eq:ahghajee"
     "eq:ahthaith"
     "eq:weeghifi"
@@ -125,6 +126,7 @@
     "eq:geigiepu"
     "eq:heawaiqu"
     "eq:zohfetie"
-    "eq:eipoghoo"))
+    "eq:eipoghoo"
+    "eq:ohnohfee"))
  :latex)
 
