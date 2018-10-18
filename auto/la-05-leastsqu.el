@@ -101,20 +101,10 @@
     "eq:ithaenga"
     "eq:sheidiiw"
     "eq:saexooph"
-    "eq:eizuchan"
-    "eq:xohdaihu"
-    "eq:ahxeemei"
-    "eq:ocheevoh"
-    "eq:aewaimei"
-    "eq:ahghajee"
-    "eq:ahthaith"
-    "eq:weeghifi"
-    "eq:cezoorae"
-    "eq:zahghohm"
-    "eq:peelaloi"
-    "eq:thaayain"
-    "eq:ceijahgh"
-    "eq:geigiepu"
-    "eq:heawaiqu"))
+    "eq:gieghaik"
+    "eq:cohkacho"
+    "eq:saimalei"
+    "eq:thaitofe"
+    "eq:foovixah"))
  :latex)
 
