@@ -114,7 +114,6 @@
     "eq:xohdaihu"
     "eq:ahxeemei"
     "eq:ocheevoh"
-    "eq:aewaimei"
     "eq:ahghajee"
     "eq:ahthaith"
     "eq:weeghifi"

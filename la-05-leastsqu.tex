@@ -1545,26 +1545,20 @@ The idea is to linearize these equations and then use Newton's method.
 Let $\vec{x}=(x_{1},x_{2},x_{3},x_{4})^{\intercal}$. Then
 \begin{equation}
   \label{eq:ocheevoh}
-  \begin{array}{ccc}
-F_{1}(\vec{x}) & = & x_{1}^{2}+x_{2}x_{3}  \\
-F_{2}(\vec{x}) & = & x_{1}x_{2}+x_{2}x_{4} \\
-F_{3}(\vec{x}) & = & x_{1}x_{3}+x_{3}x_{4} \\
-F_{4}(\vec{x}) & = & x_{2}x_{3}+x_{4}^{2} 
-  \end{array}
+F(\vec{x})=\notag
 \end{equation}
-Let $M=\left(m_{ij}\right)$ be the matrix collecting the Jacobian matrices of
-$F_{i},i=1,2,3,4$ in its rows,
 \begin{equation}
-  \label{eq:aewaimei}
- m_{ij}=\frac{\partial{}F_{i}}{\partial{}x_{j}} 
+  \label{eq:ocheevoh}
+(x_{1}^{2}+x_{2}x_{3},x_{1}x_{2}+x_{2}x_{4},x_{1}x_{3}+x_{3}x_{4},x_{2}x_{3}+x_{4}^{2})
 \end{equation}
 \end{frame}
 
 \begin{frame}
   \frametitle{Systems of Non-Linear Equations}
+The Jacobian matrix of $F$ is
   \begin{equation}
     \label{eq:ahghajee}
-    M=\left[
+    J=\left[
       \begin{array}{cccc}
 2x_{1} & x_{3}       & x_{2}       & 0     \\
 x_{2}  & x_{1}+x_{4} & 0           & x_{2} \\
