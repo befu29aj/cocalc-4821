@@ -114,6 +114,7 @@
     "eq:peelaloi"
     "eq:thaayain"
     "eq:ceijahgh"
-    "eq:geigiepu"))
+    "eq:geigiepu"
+    "eq:heawaiqu"))
  :latex)
 

@@ -1456,7 +1456,7 @@ equations. Then we can linearize (see next slide).
   \frametitle{Systems of Non-Linear Equations}
   \begin{equation}
   \label{eq:ahthaith}
-F_{1}(\vec{x})\approx\notag
+\alert{F_{1}(\vec{x})\approx}\notag
 \end{equation}
 \begin{equation}
   \label{eq:weeghifi}
@@ -1464,7 +1464,7 @@ F_{1}(\hat{x})+2x_{1}(x_{1}-\hat{x}_{1})+x_{3}(x_{2}-\hat{x}_{2})+x_{2}(x_{3}-\h
 \end{equation}
 \begin{equation}
   \label{eq:cezoorae}
-F_{2}(\vec{x})\approx\notag
+\alert{F_{2}(\vec{x})\approx}\notag
 \end{equation}
 \begin{equation}
   \label{eq:zahghohm}
@@ -1472,7 +1472,7 @@ F_{2}(\hat{x})+x_{2}(x_{1}-\hat{x}_{1})+(x_{1}+x_{4})(x_{2}-\hat{x}_{2})+0(x_{3}
 \end{equation}
 \begin{equation}
   \label{eq:peelaloi}
-F_{3}(\vec{x})\approx\notag
+\alert{F_{3}(\vec{x})\approx}\notag
 \end{equation}
 \begin{equation}
   \label{eq:thaayain}
@@ -1480,7 +1480,7 @@ F_{3}(\hat{x})+x_{3}(x_{1}-\hat{x}_{1})+0(x_{2}-\hat{x}_{2})+(x_{1}+x_{4})(x_{3}
 \end{equation}
 \begin{equation}
   \label{eq:ceijahgh}
-F_{4}(\vec{x})\approx\notag
+\alert{F_{4}(\vec{x})\approx}\notag
 \end{equation}
 \begin{equation}
   \label{eq:geigiepu}
@@ -1489,8 +1489,45 @@ F_{4}(\hat{x})+0(x_{1}-\hat{x}_{1})+x_{3}(x_{2}-\hat{x}_{2})+x_{2}(x_{3}-\hat{x}
 \end{frame}
 
 \begin{frame}
+  \frametitle{Systems of Non-Linear Equations}
+  Now rewrite as a system of linear equations. Remember that
+  $\hat{x}_{i}$ are simply numbers.
+x_{1}^{2}         & + & x_{2}x_{3} & = & 3    \\
+x_{1}x_{2}        & + & x_{2}x_{4} & = & -1   \\
+x_{1}x_{3}        & + & x_{3}x_{4} & = & 2    \\
+x_{2}x_{3}        & + & x_{4}^{2}  & = & 0
+  \begin{equation}
+    \label{eq:heawaiqu}
+    \left[
+      \begin{array}{cccc}
+2\hat{x}_{1} & \hat{x}_{3}       & \hat{x}_{2}       & 0     \\
+\hat{x}_{2}  & \hat{x}_{1}+\hat{x}_{4} & 0           & \hat{x}_{2} \\
+\hat{x}_{3}  & 0           & \hat{x}_{1}+\hat{x}_{4} & \hat{x}_{3} \\
+0      & \hat{x}_{3}       & \hat{x}_{2}       & 2\hat{x}_{4}
+      \end{array}\right]\left[
+      \begin{array}{c}
+        x_{1} \\
+        x_{2} \\
+        x_{3} \\
+        x_{4}
+      \end{array}\right]=\left[
+      \begin{array}{c}
+        3+\hat{x}_{1}^{2}+\hat{x}_{2}\hat{x}_{3} \\
+        -1+\hat{x}_{1}\hat{x}_{2}+\hat{x}_{2}\hat{x}_{4} \\
+        2+\hat{x}_{1}\hat{x}_{3}+\hat{x}_{3}\hat{x}_{4} \\
+        \hat{x}_{2}\hat{x}_{3}+\hat{x}_{4}^{2}
+      \end{array}\right]
+  \end{equation}
+\end{frame}
+
+\begin{frame}
   \frametitle{End of Lesson}
 Next Lesson: Eigenvalues and Eigenvectors
 \end{frame}
 
 \end{document}
+
+x_{1}^{2}         & + & x_{2}x_{3} & = & 3    \\
+x_{1}x_{2}        & + & x_{2}x_{4} & = & -1   \\
+x_{1}x_{3}        & + & x_{3}x_{4} & = & 2    \\
+x_{2}x_{3}        & + & x_{4}^{2}  & = & 0
