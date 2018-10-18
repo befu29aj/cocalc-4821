@@ -106,6 +106,7 @@
     "eq:ahxeemei"
     "eq:ocheevoh"
     "eq:aewaimei"
-    "eq:ahghajee"))
+    "eq:ahghajee"
+    "eq:ahthaith"))
  :latex)
 
