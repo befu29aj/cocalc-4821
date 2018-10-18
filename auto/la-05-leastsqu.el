@@ -107,6 +107,13 @@
     "eq:ocheevoh"
     "eq:aewaimei"
     "eq:ahghajee"
-    "eq:ahthaith"))
+    "eq:ahthaith"
+    "eq:weeghifi"
+    "eq:cezoorae"
+    "eq:zahghohm"
+    "eq:peelaloi"
+    "eq:thaayain"
+    "eq:ceijahgh"
+    "eq:geigiepu"))
  :latex)
 
