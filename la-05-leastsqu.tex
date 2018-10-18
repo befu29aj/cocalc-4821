@@ -1411,11 +1411,7 @@ Let $F:\mathbb{R}^{2}\rightarrow\mathbb{R}^{2}$ be a function.
   The linearization of $F$ is
   \begin{equation}
     \label{eq:thaitofe}
-    F(x,y)\approx\left[
-      \begin{array}{c}
-        x_{0} \\
-        y_{0}
-      \end{array}\right]+\left[
+    F(x,y)\approx{}F(x_{0},y_{0})+\left[
       \begin{array}{cc}
         -\sin{}x_{0} & -1 \\
                  1&-2y_{0}
@@ -1425,7 +1421,7 @@ Let $F:\mathbb{R}^{2}\rightarrow\mathbb{R}^{2}$ be a function.
         y-y_{0}
       \end{array}\right]
   \end{equation}
-  This translates into the matrix equation
+  Setting it to zero translates into the matrix equation
   \begin{equation}
     \label{eq:ooyaiche}
     \left[
@@ -1438,8 +1434,8 @@ Let $F:\mathbb{R}^{2}\rightarrow\mathbb{R}^{2}$ be a function.
       y
     \end{array}\right]=\left[
     \begin{array}{c}
-      -x_{0}-x_{0}\sin{}x_{0}-y_{0} \\
-      -y_{0}+x_{0}-2y_{0}
+      -\cos{}x_{0}-x_{0}\sin{}x_{0} \\
+      y_{0}^{2}-2y_{0}
     \end{array}\right]
   \end{equation}
 
@@ -1462,6 +1458,46 @@ Let $F:\mathbb{R}^{2}\rightarrow\mathbb{R}^{2}$ be a function.
   \end{equation}
 for an approximation of our system of linear equations. The solution
 is $(x_{1},y_{1})=(0.64202,0.80126)^{\intercal}$. 
+\end{frame}
+
+\begin{frame}
+  \frametitle{Systems of Non-Linear Equations}
+  Now plug $(x_{1},y_{1})=(0.64202,0.80126)^{\intercal}$ into
+  \begin{equation}
+    \label{eq:ooyaiche}
+    \left[
+    \begin{array}{cc}
+      -\sin{}x_{1}&-1 \\
+                  1&-2y_{1}
+    \end{array}\right]\left[
+    \begin{array}{c}
+      x \\
+      y
+    \end{array}\right]=\left[
+    \begin{array}{c}
+      -\cos{}x_{1}-x_{1}\sin{}x_{1} \\
+      y_{1}^{2}-2y_{1}
+    \end{array}\right]
+  \end{equation}
+  for
+  \begin{equation}
+    \label{eq:ietahsai}
+    \left[
+      \begin{array}{cc}
+        -0.59881 & -1 \\
+        1 & -1.6025
+      \end{array}\right]\left[
+      \begin{array}{c}
+        x\\
+        y
+      \end{array}\right]=\left[
+      \begin{array}{c}
+        -1.8277 \\
+        -1.4433
+      \end{array}\right]
+  \end{equation}
+The solution
+is $(x_{2},y_{2})=(0.75815,1.37373)^{\intercal}$. 
 \end{frame}
 
 % \begin{frame}
