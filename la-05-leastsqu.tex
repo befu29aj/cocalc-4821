@@ -1409,21 +1409,21 @@ equations given
   \begin{equation}
     \label{eq:ahxeemei}
     \begin{array}{ccccc}
-x_{1}^{2} & + & x_{2}x_{3}    & = & 3  \\
-x_{1}x_{2}    & + & x_{2}x_{4}    & = & -1 \\
-x_{1}x_{3}    & + & x_{3}x_{4}    & = & 2  \\
-x_{2}x_{3}    & + & x_{4}^{2} & = & 0
+x_{1}^{2}         & + & x_{2}x_{3} & = & 3    \\
+x_{1}x_{2}        & + & x_{2}x_{4} & = & -1   \\
+x_{1}x_{3}        & + & x_{3}x_{4} & = & 2    \\
+x_{2}x_{3}        & + & x_{4}^{2}  & = & 0
     \end{array}
   \end{equation}
 The idea is to linearize these equations and then use Newton's method.
-Let $\vec{x}=(a,b,c,d)^{\intercal}$. Then
+Let $\vec{x}=(x_{1},x_{2},x_{3},x_{4})^{\intercal}$. Then
 \begin{equation}
   \label{eq:ocheevoh}
   \begin{array}{ccc}
-    F_{1}(\vex_{3}{x}&=&x_{1}^{2}+x_{2}x_{3} \\
-    F_{2}(\vex_{3}{x}&=&x_{1}x_{2}+x_{2}x_{4} \\
-    F_{3}(\vex_{3}{x}&=&x_{1}x_{3}+x_{3}x_{4} \\
-    F_{4}(\vex_{3}{x}&=&x_{2}x_{3}+x_{4}^{2} \\
+F_{1}(\vec{x} & = & x_{1}^{2}+x_{2}x_{3}  \\
+F_{2}(\vec{x} & = & x_{1}x_{2}+x_{2}x_{4} \\
+F_{3}(\vec{x} & = & x_{1}x_{3}+x_{3}x_{4} \\
+F_{4}(\vec{x} & = & x_{2}x_{3}+x_{4}^{2} 
   \end{array}
 \end{equation}
 Let $M=\left(m_{ij}\right)$ be the matrix collecting the Jacobian matrices of
@@ -1440,10 +1440,10 @@ $F_{i},i=1,2,3,4$ in its rows,
     \label{eq:ahghajee}
     M=\left[
       \begin{array}{cccc}
-2x_{1} & x_{3}   & x_{2}   & 0 \\
-x_{2}  & x_{1}+x_{4} & 0   & x_{2} \\
-x_{3}  & 0   & x_{1}+x_{4} & x_{3} \\
-0  & x_{3}   & x_{2}   & 2s
+2x_{1} & x_{3}       & x_{2}       & 0     \\
+x_{2}  & x_{1}+x_{4} & 0           & x_{2} \\
+x_{3}  & 0           & x_{1}+x_{4} & x_{3} \\
+0      & x_{3}       & x_{2}       & 2s
       \end{array}\right]
   \end{equation}
 \end{frame}
