@@ -107,6 +107,7 @@
     "eq:thaitofe"
     "eq:ooyaiche"
     "eq:foovixah"
+    "eq:cheateeg"
     "eq:ietahsai"
     "eq:xiepudei"
     "eq:eizuchan"
@@ -124,6 +125,7 @@
     "eq:ceijahgh"
     "eq:geigiepu"
     "eq:heawaiqu"
-    "eq:zohfetie"))
+    "eq:zohfetie"
+    "eq:eipoghoo"))
  :latex)
 
