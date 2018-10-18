@@ -1435,7 +1435,7 @@ Let $F:\mathbb{R}^{2}\rightarrow\mathbb{R}^{2}$ be a function.
     \end{array}\right]=\left[
     \begin{array}{c}
       -\cos{}x_{0}-x_{0}\sin{}x_{0} \\
-      y_{0}^{2}-2y_{0}
+      -y_{0}^{2}
     \end{array}\right]
   \end{equation}
 
@@ -1457,12 +1457,12 @@ Let $F:\mathbb{R}^{2}\rightarrow\mathbb{R}^{2}$ be a function.
       \end{array}\right]
   \end{equation}
 for an approximation of our system of linear equations. The solution
-is $(x_{1},y_{1})=(0.64202,0.80126)^{\intercal}$. 
+is $(x_{1},y_{1})=(0.64231,0.80144)^{\intercal}$. 
 \end{frame}
 
 \begin{frame}
   \frametitle{Systems of Non-Linear Equations}
-  Now plug $(x_{1},y_{1})=(0.64202,0.80126)^{\intercal}$ into
+  Now plug $(x_{1},y_{1})=(0.64231,0.80144)^{\intercal}$ into
   \begin{equation}
     \label{eq:ooyaiche}
     \left[
@@ -1476,7 +1476,7 @@ is $(x_{1},y_{1})=(0.64202,0.80126)^{\intercal}$.
     \end{array}\right]=\left[
     \begin{array}{c}
       -\cos{}x_{1}-x_{1}\sin{}x_{1} \\
-      y_{1}^{2}-2y_{1}
+      -y_{1}^{2}
     \end{array}\right]
   \end{equation}
   for
@@ -1484,21 +1484,28 @@ is $(x_{1},y_{1})=(0.64202,0.80126)^{\intercal}$.
     \label{eq:ietahsai}
     \left[
       \begin{array}{cc}
-        -0.59881 & -1 \\
-        1 & -1.6025
+        -0.59905 & -1 \\
+        1 & -1.6029
       \end{array}\right]\left[
       \begin{array}{c}
         x\\
         y
       \end{array}\right]=\left[
       \begin{array}{c}
-        -1.8277 \\
-        -1.4433
+        -1.1855 \\
+        -0.6423
       \end{array}\right]
   \end{equation}
-The solution
-is $(x_{2},y_{2})=(0.75815,1.37373)^{\intercal}$. 
+  The solution is $(x_{2},y_{2})=(0.64171,0.80107)^{\intercal}$. With
+  five significant digits, $(x_{3},y_{3})$ is already
+  indistinguishable from $(x_{2},y_{2})$. The solution set for the
+  system of non-linear equations is
+  \begin{equation}
+    \label{eq:xiepudei}
+    S=\{(x,y)\in\mathbb{R}^{2}|x\approx{}0.64171,y\approx{}0.80107\}
+  \end{equation}
 \end{frame}
+
 
 % \begin{frame}
 %   \frametitle{Systems of Non-Linear Equations}

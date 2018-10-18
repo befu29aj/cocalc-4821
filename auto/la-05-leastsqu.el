@@ -107,6 +107,7 @@
     "eq:thaitofe"
     "eq:ooyaiche"
     "eq:foovixah"
-    "eq:ietahsai"))
+    "eq:ietahsai"
+    "eq:xiepudei"))
  :latex)
 
