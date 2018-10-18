@@ -108,6 +108,22 @@
     "eq:ooyaiche"
     "eq:foovixah"
     "eq:ietahsai"
-    "eq:xiepudei"))
+    "eq:xiepudei"
+    "eq:eizuchan"
+    "eq:xohdaihu"
+    "eq:ahxeemei"
+    "eq:ocheevoh"
+    "eq:aewaimei"
+    "eq:ahghajee"
+    "eq:ahthaith"
+    "eq:weeghifi"
+    "eq:cezoorae"
+    "eq:zahghohm"
+    "eq:peelaloi"
+    "eq:thaayain"
+    "eq:ceijahgh"
+    "eq:geigiepu"
+    "eq:heawaiqu"
+    "eq:zohfetie"))
  :latex)
 
