@@ -1417,14 +1417,32 @@ Let $F:\mathbb{R}^{2}\rightarrow\mathbb{R}^{2}$ be a function.
         y_{0}
       \end{array}\right]+\left[
       \begin{array}{cc}
-        -\sin{}x & -1 \\
-                 1&-2y
+        -\sin{}x_{0} & -1 \\
+                 1&-2y_{0}
       \end{array}\right]\left[
       \begin{array}{c}
         x-x_{0} \\
         y-y_{0}
       \end{array}\right]
   \end{equation}
+  This translates into the matrix equation
+  \begin{equation}
+    \label{eq:ooyaiche}
+    \left[
+    \begin{array}{cc}
+      -\sin{}x_{0}&-1 \\
+                  1&-2y_{0}
+    \end{array}\right]\left[
+    \begin{array}{c}
+      x \\
+      y
+    \end{array}\right]=\left[
+    \begin{array}{c}
+      -x_{0}-x_{0}\sin{}x_{0}-y_{0} \\
+      -y_{0}+x_{0}-2y_{0}
+    \end{array}\right]
+  \end{equation}
+
   Taking $(0.6,0.8)^{\intercal}$ as our first approximation, this yields
   \begin{equation}
     \label{eq:foovixah}
@@ -1443,7 +1461,7 @@ Let $F:\mathbb{R}^{2}\rightarrow\mathbb{R}^{2}$ be a function.
       \end{array}\right]
   \end{equation}
 for an approximation of our system of linear equations. The solution
-is $(0.64202,0.80126)^{\intercal}$. 
+is $(x_{1},y_{1})=(0.64202,0.80126)^{\intercal}$. 
 \end{frame}
 
 % \begin{frame}

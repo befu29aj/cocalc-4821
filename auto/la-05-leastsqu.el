@@ -105,6 +105,7 @@
     "eq:cohkacho"
     "eq:saimalei"
     "eq:thaitofe"
+    "eq:ooyaiche"
     "eq:foovixah"))
  :latex)
 
