@@ -8,7 +8,7 @@
 
 \author{\CourseName}
 
-\date{October 22, 2018}
+\date{October 29, 2018}
 
 \begin{document}
 
@@ -17,12 +17,111 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Motivating Eigenstuff}
-  Rat word problem.
+  \frametitle{Motivation}
+Here is a list of questions that can be answered using eigenvalues and
+eigenvectors.
+\begin{itemize}
+\item Let the probability of rain tomorrow depend only on whether
+  there is rain today. If it rains today, the probability of rain
+  tomorrow is 20\%. If it is clear today, the probability of rain
+  tomorrow is 10\%. What is the average ratio of rainy days to clear
+  days in this climate?
+\item Let a particle go on a random walk along a line between $S_{1}$
+  and $S_{n}$. How much of its time does it spend at $S_{i}$?
+\item The Fibonacci sequence is $1,1,2,3,5,8,13,21,34,{\ldots}$. It is
+  used in many applications, for example population modeling. Is there
+  an explicit (not recursive) formula for the $n$-term?
+\item Given a matrix $A$, what is $A^{n}$ for large $n$?
+\item Given a matrix $B$, what is a matrix $C$ such that $C^{2}=B$?
+\end{itemize}
+\end{frame}
 
-  Use similarity to find $A^{5}$.
+\begin{frame}
+  \frametitle{Eigenvalues and Eigenvectors}
+  Consider a square matrix $A$. A real (or complex) number $\lambda$
+  is an \alert{eigenvalue} if an only if there exists an \alert{eigenvector}
+  $X\neq{}0$ such that
+  \begin{equation}
+    \label{eq:raeshaez}
+    AX=\lambda{}X
+  \end{equation}
+  $AX=\lambda{}X$ is equivalent to the system of linear equations
+  $(A-\lambda{}I)X=0$, which has a non-zero solution if and only if
+  $A-\lambda{}I$ is singular,
+\begin{equation}
+  \label{eq:aeshopae}
+  \det(A-\lambda{}I)=0
+\end{equation}
+$\det(A-\lambda{}I)$ is a polynomial in $\lambda$. It is called the
+\alert{characteristic polynomial}.
+\end{frame}
 
-  Use similarity to find $B$ such that $BB=A$.
+\begin{frame}
+  \frametitle{Eigenvalues and Eigenvectors}
+  \begin{block}{Characteristic Polynomial}
+    The eigenvalues os a square matrix $A$ are the roots (solutions)
+    of the polynomial equation $\det(A-\lambda{}I)=0$.
+  \end{block}
+  {\ubung} Find the eigenvalues of
+  \begin{equation}
+    \label{eq:neevicuo}
+    A=\left[
+      \begin{array}{cc}
+        3&-1\\
+        2&0
+      \end{array}\right]
+  \end{equation}
+and find one eigenvector for each eigenvalue.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Eigenvalues and Eigenvectors}
+  Solution: find the determinant of
+  \begin{equation}
+    \label{eq:aeboapai}
+    A-\lambda{}I=\left[
+      \begin{array}{cc}
+        3-\lambda&-1\\
+        2&-\lambda
+      \end{array}\right]
+  \end{equation}
+The characteristic polynomial is $\lambda^{2}-3\lambda+2$. The
+eigenvalues of $A$ are $\lambda=2$ and $\lambda=1$. Now solve the
+systems of linear equations for the eigenvectors:
+\begin{equation}
+  \label{eq:ahquaiwi}
+  (A-2I)X=0\mbox{ for }\lambda=2
+\end{equation}
+and
+\begin{equation}
+  \label{eq:eetoodai}
+  (A-I)X=0\mbox{ for }\lambda=1
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Eigenvalues and Eigenvectors}
+  \begin{equation}
+    \label{eq:jaegheed}
+    A-2I=\left[
+      \begin{array}{cc}
+        1&-1\\
+        2&-2
+      \end{array}\right]\sim\left[
+      \begin{array}{cc}
+        1&-1\\
+        0&0
+      \end{array}\right]
+  \end{equation}
+  The solution set is
+  \begin{equation}
+    \label{eq:enahvodo}
+S=\{X|X=s_{1}\left[
+    \begin{array}{c}
+      1\\
+      1
+    \end{array}\right],s_{1}\in\mathbb{R}\}
+  \end{equation}
 \end{frame}
 
 \begin{frame}
