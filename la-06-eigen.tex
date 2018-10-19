@@ -30,7 +30,7 @@ eigenvectors.
   and $S_{n}$. How much of its time does it spend at $S_{i}$?
 \item The Fibonacci sequence is $1,1,2,3,5,8,13,21,34,{\ldots}$. It is
   used in many applications, for example population modeling. Is there
-  an explicit (not recursive) formula for the $n$-term?
+  an explicit (not recursive) formula for the $n$-th term?
 \item Given a matrix $A$, what is $A^{n}$ for large $n$?
 \item Given a matrix $B$, what is a matrix $C$ such that $C^{2}=B$?
 \end{itemize}
@@ -39,7 +39,7 @@ eigenvectors.
 \begin{frame}
   \frametitle{Eigenvalues and Eigenvectors}
   Consider a square matrix $A$. A real (or complex) number $\lambda$
-  is an \alert{eigenvalue} if an only if there exists an \alert{eigenvector}
+  is an \alert{eigenvalue} if and only if there exists an \alert{eigenvector}
   $X\neq{}0$ such that
   \begin{equation}
     \label{eq:raeshaez}
@@ -59,9 +59,12 @@ $\det(A-\lambda{}I)$ is a polynomial in $\lambda$. It is called the
 \begin{frame}
   \frametitle{Eigenvalues and Eigenvectors}
   \begin{block}{Characteristic Polynomial}
-    The eigenvalues os a square matrix $A$ are the roots (solutions)
+    The eigenvalues of a square matrix $A$ are the roots (solutions)
     of the polynomial equation $\det(A-\lambda{}I)=0$.
   \end{block}
+
+  \bigskip
+
   {\ubung} Find the eigenvalues of
   \begin{equation}
     \label{eq:neevicuo}
@@ -116,12 +119,15 @@ and
   The solution set is
   \begin{equation}
     \label{eq:enahvodo}
-S=\{X|X=s_{1}\left[
+S=\left\{X|X=s_{1}\left[
     \begin{array}{c}
       1\\
       1
-    \end{array}\right],s_{1}\in\mathbb{R}\}
-  \end{equation}
+    \end{array}\right],s_{1}\in\mathbb{R}\right\}
+\end{equation}
+$S$ is called the eigenspace of $\lambda=2$. All vectors except $X=0$
+in the eigenspace of $\lambda$ are called eigenvectors belonging to
+$\lambda$. Find the eigenspace of $\lambda=1$.
 \end{frame}
 
 \begin{frame}
