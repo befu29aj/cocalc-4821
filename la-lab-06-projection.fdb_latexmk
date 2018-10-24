@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1540398217 "la-lab-06-projection.tex" "la-lab-06-projection.pdf" "la-lab-06-projection" 1540398217
+["pdflatex"] 1540398325 "la-lab-06-projection.tex" "la-lab-06-projection.pdf" "la-lab-06-projection" 1540398326
   "/etc/texmf/web2c/texmf.cnf" 1535314180 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -78,10 +78,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1535345801 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1539447059 4126370 04448162a4da151233589cc4b45c1165 ""
-  "la-lab-06-projection.aux" 1540398217 132 6a3f16b37f317ffa4d68ede188d9d0a6 ""
-  "la-lab-06-projection.tex" 1540398216 3139 e26a6751f2029d08c499b9c00ccf9307 ""
+  "la-lab-06-projection.aux" 1540398326 132 6a3f16b37f317ffa4d68ede188d9d0a6 ""
+  "la-lab-06-projection.tex" 1540398325 3141 da70959449ac72744e046e353a225e7e ""
   "october.sty" 1536769900 2997 265ecb1cf7c10b3151e59742b19f912c ""
   (generated)
   "la-lab-06-projection.log"
-  "la-lab-06-projection.aux"
   "la-lab-06-projection.pdf"
+  "la-lab-06-projection.aux"
