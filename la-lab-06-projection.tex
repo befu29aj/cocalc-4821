@@ -45,15 +45,15 @@ This only works for one-dimensional $H$! Show that it is true by
 writing $u_{H}=av$ for some $a\in\mathbb{R}$ and isolating $a$ in
 \begin{equation}
   \label{eq:oatiefai}
-  (u-av)\perp{}v
+  (u-av)\perp{}v\notag
 \end{equation}
 
 {\aufgabe} Let $H=\mbox{span}(\{v\})$ with $v=(-2,3)^{\intercal}$.
 Find $u_{H}$ for $u=(7,5)^{\intercal}$.
 
-{\aufgabe} Let's try this again with a different strategy: What is the projection of
-  $\vec{u}=(5,2,10)^{\intercal}$ onto the plane $H$ characterized by
-  $2x+y+3z=0$?
+{\aufgabe} Let's try \textbf{(1)} again with a different strategy:
+What is the projection of $\vec{u}=(5,2,10)^{\intercal}$ onto the
+plane $H$ characterized by $2x+y+3z=0$?
 
   Procedure:
 
@@ -73,5 +73,26 @@ Find $u_{H}$ for $u=(7,5)^{\intercal}$.
     $u_{v_{2}}$. 
   \item Use $u_{v_{1}}+u_{v_{2}}=u_{H}$ to find $u_{H}$.
   \end{enumerate}
+
+  {\aufgabe} Consider the system of non-linear equations
+  \begin{equation}
+    \label{eq:ukaephei}
+    \begin{array}{ccccc}
+      3^{x}&-&y^{2}&=&2 \\
+      xy+\cos(y-5)&=&16
+    \end{array}
+  \end{equation}
+To solve it numerically, we need to linearize the following function
+around an initial estimate of the solution $x=4,y=4$.
+\begin{equation}
+  \label{eq:aeluquoh}
+  f((x,y)^{\intercal})=\left(
+    \begin{array}{c}
+      e^{x\ln{}3}-y^{2}-2 \\
+      xy+\cos(y-5)-16
+    \end{array}\right)
+\end{equation}
+Find the Jacobian of $f$ and derive the linearization of the function
+around $x=4,y=4$.
 
 \end{document}
