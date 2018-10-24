@@ -1,0 +1,37 @@
+% la-lab-06-projection.tex
+
+\documentclass[11pt]{article}
+\usepackage{enumerate}
+\usepackage{syllogism} 
+\usepackage{october}
+\usepackage[table]{xcolor}
+
+\newcounter{aufg}
+\setcounter{aufg}{0}
+\newcommand{\aufgabe}[0]{\refstepcounter{aufg}\textbf{(\arabic{aufg})}}
+
+\begin{document}
+
+\textbf{Projection}
+
+{\aufgabe} What is the projection of
+  $\vec{u}=(5,2,10)^{\intercal}$ onto the plane $T$ characterized by
+  $2x+y+3z=0$?
+
+  Procedure:
+
+  \begin{enumerate}
+  \item Find a vector in the plane. Choose $x,y$ arbitrarily, then
+    calculate $z$. Call this vector $v_{1}$. 
+  \item Find another vector in the plane and make sure it is linearly
+    independent of $v_{1}$. Call it $v_{2}$. 
+  \item You know the following about $u_{H}$. Use it to find the
+    coordinates of $u_{H}$ by forming a system of linear equations.
+    \begin{enumerate}
+    \item $u_{H}$ is in the plane
+    \item $u-u_{H}\perp{}v_{1}$
+    \item $u-u_{H}\perp{}v_{2}$
+    \end{enumerate}
+  \end{enumerate}
+
+\end{document}
