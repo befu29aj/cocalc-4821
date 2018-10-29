@@ -1,0 +1,1216 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  29 OCT 2018 15:35
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**la-05-leastsqu-beamer.tex
+(./la-05-leastsqu-beamer.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count87
+\calc@Bcount=\count88
+\calc@Adimen=\dimen103
+\calc@Bdimen=\dimen104
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count89
+\calc@Cskip=\skip45
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+\AM@pagewidth=\dimen107
+\AM@pageheight=\dimen108
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box26
+\AM@global@opts=\toks15
+\AM@toc@title=\toks16
+\c@AM@survey=\count90
+\AM@templatesizebox=\box27
+)
+(./la-05-leastsqu-beamer.aux)
+\openout1 = `la-05-leastsqu-beamer.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+\AtBeginShipoutBox=\box28
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count91
+\scratchdimen=\dimen109
+\scratchbox=\box29
+\nofMPsegments=\count92
+\nofMParguments=\count93
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count94
+\MPscratchDim=\dimen110
+\MPnumerator=\count95
+\makeMPintoPDFobject=\count96
+\everyMPtoPDFconversion=\toks18
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+))
+<la-05-leastsqu.pdf, id=1, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf>
+Package pdftex.def Info: la-05-leastsqu.pdf  used on input line 6.
+(pdftex.def)             Requested size: 364.19473pt x 273.14581pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf>
+Package pdftex.def Info: la-05-leastsqu.pdf  used on input line 6.
+(pdftex.def)             Requested size: 364.19473pt x 273.14581pt.
+<la-05-leastsqu.pdf, id=4, page=1, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 1>
+Package pdftex.def Info: la-05-leastsqu.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 1>
+Package pdftex.def Info: la-05-leastsqu.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 1>
+Package pdftex.def Info: la-05-leastsqu.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=5, page=2, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 2>
+Package pdftex.def Info: la-05-leastsqu.pdf , page2 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 2>
+Package pdftex.def Info: la-05-leastsqu.pdf , page2 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=6, page=3, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 3>
+Package pdftex.def Info: la-05-leastsqu.pdf , page3 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 3>
+Package pdftex.def Info: la-05-leastsqu.pdf , page3 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=7, page=4, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 4>
+Package pdftex.def Info: la-05-leastsqu.pdf , page4 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 4>
+Package pdftex.def Info: la-05-leastsqu.pdf , page4 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 1>
+Package pdftex.def Info: la-05-leastsqu.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 2>
+Package pdftex.def Info: la-05-leastsqu.pdf , page2 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 3>
+Package pdftex.def Info: la-05-leastsqu.pdf , page3 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 4>
+Package pdftex.def Info: la-05-leastsqu.pdf , page4 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+ [1
+
+ <./la-05-leastsqu.pdf{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}> <./l
+a-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf>]
+<la-05-leastsqu.pdf, id=77, page=5, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 5>
+Package pdftex.def Info: la-05-leastsqu.pdf , page5 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 5>
+Package pdftex.def Info: la-05-leastsqu.pdf , page5 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=78, page=6, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 6>
+Package pdftex.def Info: la-05-leastsqu.pdf , page6 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 6>
+Package pdftex.def Info: la-05-leastsqu.pdf , page6 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=79, page=7, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 7>
+Package pdftex.def Info: la-05-leastsqu.pdf , page7 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 7>
+Package pdftex.def Info: la-05-leastsqu.pdf , page7 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=80, page=8, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 8>
+Package pdftex.def Info: la-05-leastsqu.pdf , page8 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 8>
+Package pdftex.def Info: la-05-leastsqu.pdf , page8 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 5>
+Package pdftex.def Info: la-05-leastsqu.pdf , page5 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 6>
+Package pdftex.def Info: la-05-leastsqu.pdf , page6 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 7>
+Package pdftex.def Info: la-05-leastsqu.pdf , page7 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 8>
+Package pdftex.def Info: la-05-leastsqu.pdf , page8 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+ [2 <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-
+05-leastsqu.pdf>]
+<la-05-leastsqu.pdf, id=91, page=9, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 9>
+Package pdftex.def Info: la-05-leastsqu.pdf , page9 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 9>
+Package pdftex.def Info: la-05-leastsqu.pdf , page9 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=92, page=10, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 10>
+Package pdftex.def Info: la-05-leastsqu.pdf , page10 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 10>
+Package pdftex.def Info: la-05-leastsqu.pdf , page10 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=93, page=11, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 11>
+Package pdftex.def Info: la-05-leastsqu.pdf , page11 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 11>
+Package pdftex.def Info: la-05-leastsqu.pdf , page11 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=94, page=12, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 12>
+Package pdftex.def Info: la-05-leastsqu.pdf , page12 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 12>
+Package pdftex.def Info: la-05-leastsqu.pdf , page12 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 9>
+Package pdftex.def Info: la-05-leastsqu.pdf , page9 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 10>
+Package pdftex.def Info: la-05-leastsqu.pdf , page10 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 11>
+Package pdftex.def Info: la-05-leastsqu.pdf , page11 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 12>
+Package pdftex.def Info: la-05-leastsqu.pdf , page12 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+ [3 <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-
+05-leastsqu.pdf>]
+<la-05-leastsqu.pdf, id=101, page=13, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 13>
+Package pdftex.def Info: la-05-leastsqu.pdf , page13 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 13>
+Package pdftex.def Info: la-05-leastsqu.pdf , page13 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=102, page=14, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 14>
+Package pdftex.def Info: la-05-leastsqu.pdf , page14 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 14>
+Package pdftex.def Info: la-05-leastsqu.pdf , page14 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=103, page=15, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 15>
+Package pdftex.def Info: la-05-leastsqu.pdf , page15 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 15>
+Package pdftex.def Info: la-05-leastsqu.pdf , page15 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=104, page=16, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 16>
+Package pdftex.def Info: la-05-leastsqu.pdf , page16 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 16>
+Package pdftex.def Info: la-05-leastsqu.pdf , page16 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 13>
+Package pdftex.def Info: la-05-leastsqu.pdf , page13 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 14>
+Package pdftex.def Info: la-05-leastsqu.pdf , page14 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 15>
+Package pdftex.def Info: la-05-leastsqu.pdf , page15 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 16>
+Package pdftex.def Info: la-05-leastsqu.pdf , page16 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+ [4 <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-
+05-leastsqu.pdf>]
+<la-05-leastsqu.pdf, id=113, page=17, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 17>
+Package pdftex.def Info: la-05-leastsqu.pdf , page17 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 17>
+Package pdftex.def Info: la-05-leastsqu.pdf , page17 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=114, page=18, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 18>
+Package pdftex.def Info: la-05-leastsqu.pdf , page18 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 18>
+Package pdftex.def Info: la-05-leastsqu.pdf , page18 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=115, page=19, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 19>
+Package pdftex.def Info: la-05-leastsqu.pdf , page19 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 19>
+Package pdftex.def Info: la-05-leastsqu.pdf , page19 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=116, page=20, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 20>
+Package pdftex.def Info: la-05-leastsqu.pdf , page20 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 20>
+Package pdftex.def Info: la-05-leastsqu.pdf , page20 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 17>
+Package pdftex.def Info: la-05-leastsqu.pdf , page17 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 18>
+Package pdftex.def Info: la-05-leastsqu.pdf , page18 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 19>
+Package pdftex.def Info: la-05-leastsqu.pdf , page19 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 20>
+Package pdftex.def Info: la-05-leastsqu.pdf , page20 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+ [5 <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-
+05-leastsqu.pdf>]
+<la-05-leastsqu.pdf, id=124, page=21, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 21>
+Package pdftex.def Info: la-05-leastsqu.pdf , page21 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 21>
+Package pdftex.def Info: la-05-leastsqu.pdf , page21 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=125, page=22, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 22>
+Package pdftex.def Info: la-05-leastsqu.pdf , page22 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 22>
+Package pdftex.def Info: la-05-leastsqu.pdf , page22 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=126, page=23, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 23>
+Package pdftex.def Info: la-05-leastsqu.pdf , page23 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 23>
+Package pdftex.def Info: la-05-leastsqu.pdf , page23 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=127, page=24, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 24>
+Package pdftex.def Info: la-05-leastsqu.pdf , page24 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 24>
+Package pdftex.def Info: la-05-leastsqu.pdf , page24 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 21>
+Package pdftex.def Info: la-05-leastsqu.pdf , page21 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 22>
+Package pdftex.def Info: la-05-leastsqu.pdf , page22 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 23>
+Package pdftex.def Info: la-05-leastsqu.pdf , page23 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 24>
+Package pdftex.def Info: la-05-leastsqu.pdf , page24 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+ [6 <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-
+05-leastsqu.pdf>]
+<la-05-leastsqu.pdf, id=131, page=25, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 25>
+Package pdftex.def Info: la-05-leastsqu.pdf , page25 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 25>
+Package pdftex.def Info: la-05-leastsqu.pdf , page25 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=132, page=26, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 26>
+Package pdftex.def Info: la-05-leastsqu.pdf , page26 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 26>
+Package pdftex.def Info: la-05-leastsqu.pdf , page26 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=133, page=27, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 27>
+Package pdftex.def Info: la-05-leastsqu.pdf , page27 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 27>
+Package pdftex.def Info: la-05-leastsqu.pdf , page27 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=134, page=28, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 28>
+Package pdftex.def Info: la-05-leastsqu.pdf , page28 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 28>
+Package pdftex.def Info: la-05-leastsqu.pdf , page28 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 25>
+Package pdftex.def Info: la-05-leastsqu.pdf , page25 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 26>
+Package pdftex.def Info: la-05-leastsqu.pdf , page26 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 27>
+Package pdftex.def Info: la-05-leastsqu.pdf , page27 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 28>
+Package pdftex.def Info: la-05-leastsqu.pdf , page28 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+ [7 <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-
+05-leastsqu.pdf>]
+<la-05-leastsqu.pdf, id=139, page=29, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 29>
+Package pdftex.def Info: la-05-leastsqu.pdf , page29 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 29>
+Package pdftex.def Info: la-05-leastsqu.pdf , page29 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=140, page=30, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 30>
+Package pdftex.def Info: la-05-leastsqu.pdf , page30 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 30>
+Package pdftex.def Info: la-05-leastsqu.pdf , page30 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=141, page=31, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 31>
+Package pdftex.def Info: la-05-leastsqu.pdf , page31 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 31>
+Package pdftex.def Info: la-05-leastsqu.pdf , page31 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=142, page=32, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 32>
+Package pdftex.def Info: la-05-leastsqu.pdf , page32 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 32>
+Package pdftex.def Info: la-05-leastsqu.pdf , page32 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 29>
+Package pdftex.def Info: la-05-leastsqu.pdf , page29 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 30>
+Package pdftex.def Info: la-05-leastsqu.pdf , page30 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 31>
+Package pdftex.def Info: la-05-leastsqu.pdf , page31 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 32>
+Package pdftex.def Info: la-05-leastsqu.pdf , page32 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+
+[8 <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-0
+5-leastsqu.pdf>]
+<la-05-leastsqu.pdf, id=146, page=33, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 33>
+Package pdftex.def Info: la-05-leastsqu.pdf , page33 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 33>
+Package pdftex.def Info: la-05-leastsqu.pdf , page33 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=147, page=34, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 34>
+Package pdftex.def Info: la-05-leastsqu.pdf , page34 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 34>
+Package pdftex.def Info: la-05-leastsqu.pdf , page34 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=148, page=35, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 35>
+Package pdftex.def Info: la-05-leastsqu.pdf , page35 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 35>
+Package pdftex.def Info: la-05-leastsqu.pdf , page35 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=149, page=36, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 36>
+Package pdftex.def Info: la-05-leastsqu.pdf , page36 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 36>
+Package pdftex.def Info: la-05-leastsqu.pdf , page36 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 33>
+Package pdftex.def Info: la-05-leastsqu.pdf , page33 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 34>
+Package pdftex.def Info: la-05-leastsqu.pdf , page34 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 35>
+Package pdftex.def Info: la-05-leastsqu.pdf , page35 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 36>
+Package pdftex.def Info: la-05-leastsqu.pdf , page36 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+ [9 <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-
+05-leastsqu.pdf>]
+<la-05-leastsqu.pdf, id=153, page=37, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 37>
+Package pdftex.def Info: la-05-leastsqu.pdf , page37 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 37>
+Package pdftex.def Info: la-05-leastsqu.pdf , page37 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=154, page=38, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 38>
+Package pdftex.def Info: la-05-leastsqu.pdf , page38 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 38>
+Package pdftex.def Info: la-05-leastsqu.pdf , page38 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=155, page=39, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 39>
+Package pdftex.def Info: la-05-leastsqu.pdf , page39 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 39>
+Package pdftex.def Info: la-05-leastsqu.pdf , page39 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=156, page=40, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 40>
+Package pdftex.def Info: la-05-leastsqu.pdf , page40 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 40>
+Package pdftex.def Info: la-05-leastsqu.pdf , page40 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 37>
+Package pdftex.def Info: la-05-leastsqu.pdf , page37 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 38>
+Package pdftex.def Info: la-05-leastsqu.pdf , page38 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 39>
+Package pdftex.def Info: la-05-leastsqu.pdf , page39 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 40>
+Package pdftex.def Info: la-05-leastsqu.pdf , page40 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+ [10 <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la
+-05-leastsqu.pdf>]
+<la-05-leastsqu.pdf, id=161, page=41, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 41>
+Package pdftex.def Info: la-05-leastsqu.pdf , page41 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 41>
+Package pdftex.def Info: la-05-leastsqu.pdf , page41 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=162, page=42, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 42>
+Package pdftex.def Info: la-05-leastsqu.pdf , page42 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 42>
+Package pdftex.def Info: la-05-leastsqu.pdf , page42 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=163, page=43, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 43>
+Package pdftex.def Info: la-05-leastsqu.pdf , page43 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 43>
+Package pdftex.def Info: la-05-leastsqu.pdf , page43 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=164, page=44, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 44>
+Package pdftex.def Info: la-05-leastsqu.pdf , page44 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 44>
+Package pdftex.def Info: la-05-leastsqu.pdf , page44 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 41>
+Package pdftex.def Info: la-05-leastsqu.pdf , page41 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 42>
+Package pdftex.def Info: la-05-leastsqu.pdf , page42 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 43>
+Package pdftex.def Info: la-05-leastsqu.pdf , page43 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 44>
+Package pdftex.def Info: la-05-leastsqu.pdf , page44 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+ [11 <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la
+-05-leastsqu.pdf>]
+<la-05-leastsqu.pdf, id=168, page=45, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 45>
+Package pdftex.def Info: la-05-leastsqu.pdf , page45 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 45>
+Package pdftex.def Info: la-05-leastsqu.pdf , page45 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=169, page=46, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 46>
+Package pdftex.def Info: la-05-leastsqu.pdf , page46 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 46>
+Package pdftex.def Info: la-05-leastsqu.pdf , page46 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=170, page=47, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 47>
+Package pdftex.def Info: la-05-leastsqu.pdf , page47 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 47>
+Package pdftex.def Info: la-05-leastsqu.pdf , page47 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=171, page=48, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 48>
+Package pdftex.def Info: la-05-leastsqu.pdf , page48 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 48>
+Package pdftex.def Info: la-05-leastsqu.pdf , page48 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 45>
+Package pdftex.def Info: la-05-leastsqu.pdf , page45 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 46>
+Package pdftex.def Info: la-05-leastsqu.pdf , page46 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 47>
+Package pdftex.def Info: la-05-leastsqu.pdf , page47 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 48>
+Package pdftex.def Info: la-05-leastsqu.pdf , page48 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+ [12 <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la
+-05-leastsqu.pdf>]
+<la-05-leastsqu.pdf, id=175, page=49, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 49>
+Package pdftex.def Info: la-05-leastsqu.pdf , page49 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 49>
+Package pdftex.def Info: la-05-leastsqu.pdf , page49 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=176, page=50, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 50>
+Package pdftex.def Info: la-05-leastsqu.pdf , page50 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 50>
+Package pdftex.def Info: la-05-leastsqu.pdf , page50 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=177, page=51, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 51>
+Package pdftex.def Info: la-05-leastsqu.pdf , page51 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 51>
+Package pdftex.def Info: la-05-leastsqu.pdf , page51 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=178, page=52, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 52>
+Package pdftex.def Info: la-05-leastsqu.pdf , page52 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 52>
+Package pdftex.def Info: la-05-leastsqu.pdf , page52 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 49>
+Package pdftex.def Info: la-05-leastsqu.pdf , page49 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 50>
+Package pdftex.def Info: la-05-leastsqu.pdf , page50 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 51>
+Package pdftex.def Info: la-05-leastsqu.pdf , page51 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 52>
+Package pdftex.def Info: la-05-leastsqu.pdf , page52 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+ [13 <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la
+-05-leastsqu.pdf>]
+<la-05-leastsqu.pdf, id=188, page=53, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 53>
+Package pdftex.def Info: la-05-leastsqu.pdf , page53 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 53>
+Package pdftex.def Info: la-05-leastsqu.pdf , page53 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=189, page=54, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 54>
+Package pdftex.def Info: la-05-leastsqu.pdf , page54 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 54>
+Package pdftex.def Info: la-05-leastsqu.pdf , page54 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=190, page=55, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 55>
+Package pdftex.def Info: la-05-leastsqu.pdf , page55 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 55>
+Package pdftex.def Info: la-05-leastsqu.pdf , page55 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=191, page=56, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 56>
+Package pdftex.def Info: la-05-leastsqu.pdf , page56 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 56>
+Package pdftex.def Info: la-05-leastsqu.pdf , page56 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 53>
+Package pdftex.def Info: la-05-leastsqu.pdf , page53 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 54>
+Package pdftex.def Info: la-05-leastsqu.pdf , page54 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 55>
+Package pdftex.def Info: la-05-leastsqu.pdf , page55 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 56>
+Package pdftex.def Info: la-05-leastsqu.pdf , page56 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+ [14 <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la
+-05-leastsqu.pdf>]
+<la-05-leastsqu.pdf, id=195, page=57, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 57>
+Package pdftex.def Info: la-05-leastsqu.pdf , page57 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 57>
+Package pdftex.def Info: la-05-leastsqu.pdf , page57 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=196, page=58, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 58>
+Package pdftex.def Info: la-05-leastsqu.pdf , page58 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 58>
+Package pdftex.def Info: la-05-leastsqu.pdf , page58 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=197, page=59, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 59>
+Package pdftex.def Info: la-05-leastsqu.pdf , page59 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 59>
+Package pdftex.def Info: la-05-leastsqu.pdf , page59 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=198, page=60, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 60>
+Package pdftex.def Info: la-05-leastsqu.pdf , page60 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 60>
+Package pdftex.def Info: la-05-leastsqu.pdf , page60 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 57>
+Package pdftex.def Info: la-05-leastsqu.pdf , page57 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 58>
+Package pdftex.def Info: la-05-leastsqu.pdf , page58 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 59>
+Package pdftex.def Info: la-05-leastsqu.pdf , page59 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 60>
+Package pdftex.def Info: la-05-leastsqu.pdf , page60 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+ [15 <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la
+-05-leastsqu.pdf>]
+<la-05-leastsqu.pdf, id=202, page=61, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 61>
+Package pdftex.def Info: la-05-leastsqu.pdf , page61 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 61>
+Package pdftex.def Info: la-05-leastsqu.pdf , page61 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=203, page=62, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 62>
+Package pdftex.def Info: la-05-leastsqu.pdf , page62 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 62>
+Package pdftex.def Info: la-05-leastsqu.pdf , page62 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=204, page=63, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 63>
+Package pdftex.def Info: la-05-leastsqu.pdf , page63 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 63>
+Package pdftex.def Info: la-05-leastsqu.pdf , page63 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=205, page=64, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 64>
+Package pdftex.def Info: la-05-leastsqu.pdf , page64 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 64>
+Package pdftex.def Info: la-05-leastsqu.pdf , page64 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 61>
+Package pdftex.def Info: la-05-leastsqu.pdf , page61 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 62>
+Package pdftex.def Info: la-05-leastsqu.pdf , page62 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 63>
+Package pdftex.def Info: la-05-leastsqu.pdf , page63 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 64>
+Package pdftex.def Info: la-05-leastsqu.pdf , page64 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+ [16 <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la
+-05-leastsqu.pdf>]
+<la-05-leastsqu.pdf, id=209, page=65, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 65>
+Package pdftex.def Info: la-05-leastsqu.pdf , page65 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 65>
+Package pdftex.def Info: la-05-leastsqu.pdf , page65 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=210, page=66, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 66>
+Package pdftex.def Info: la-05-leastsqu.pdf , page66 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 66>
+Package pdftex.def Info: la-05-leastsqu.pdf , page66 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=211, page=67, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 67>
+Package pdftex.def Info: la-05-leastsqu.pdf , page67 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 67>
+Package pdftex.def Info: la-05-leastsqu.pdf , page67 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=212, page=68, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 68>
+Package pdftex.def Info: la-05-leastsqu.pdf , page68 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 68>
+Package pdftex.def Info: la-05-leastsqu.pdf , page68 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 65>
+Package pdftex.def Info: la-05-leastsqu.pdf , page65 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 66>
+Package pdftex.def Info: la-05-leastsqu.pdf , page66 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 67>
+Package pdftex.def Info: la-05-leastsqu.pdf , page67 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 68>
+Package pdftex.def Info: la-05-leastsqu.pdf , page68 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+ [17 <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la
+-05-leastsqu.pdf>]
+<la-05-leastsqu.pdf, id=216, page=69, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 69>
+Package pdftex.def Info: la-05-leastsqu.pdf , page69 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 69>
+Package pdftex.def Info: la-05-leastsqu.pdf , page69 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=217, page=70, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 70>
+Package pdftex.def Info: la-05-leastsqu.pdf , page70 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 70>
+Package pdftex.def Info: la-05-leastsqu.pdf , page70 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=218, page=71, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 71>
+Package pdftex.def Info: la-05-leastsqu.pdf , page71 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 71>
+Package pdftex.def Info: la-05-leastsqu.pdf , page71 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+<la-05-leastsqu.pdf, id=219, page=72, 364.19562pt x 273.14648pt>
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 72>
+Package pdftex.def Info: la-05-leastsqu.pdf , page72 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 72>
+Package pdftex.def Info: la-05-leastsqu.pdf , page72 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 69>
+Package pdftex.def Info: la-05-leastsqu.pdf , page69 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 70>
+Package pdftex.def Info: la-05-leastsqu.pdf , page70 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 71>
+Package pdftex.def Info: la-05-leastsqu.pdf , page71 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+File: la-05-leastsqu.pdf Graphic file (type pdf)
+<use la-05-leastsqu.pdf, page 72>
+Package pdftex.def Info: la-05-leastsqu.pdf , page72 used on input line 6.
+(pdftex.def)             Requested size: 437.03256pt x 327.77414pt.
+ [18 <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la-05-leastsqu.pdf> <./la
+-05-leastsqu.pdf>] (./la-05-leastsqu-beamer.aux) ) 
+Here is how much of TeX's memory you used:
+ 2943 strings out of 492982
+ 47277 string characters out of 6134895
+ 103915 words of memory out of 5000000
+ 6489 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,19n,49p,288b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssb
+x10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on la-05-leastsqu-beamer.pdf (18 pages, 400410 bytes).
+PDF statistics:
+ 240 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 376 words of extra memory for PDF output out of 10000 (max. 10000000)
+
