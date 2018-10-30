@@ -67,7 +67,7 @@ $aufgabe[0]=sub {
 };
 
 $aufgabe[1]=sub {
-    print termtest "";
+    print termtest "Consider the following three vectors in \$\\mathbb{R}^{3}\$: \$($v003[$i1])^{\\intercal},($v004[$i1])^{\\intercal},($v005[$i1])^{\\intercal}\$. Determine the three lengths of these vectors and the three angles between them. If they replace the origin to the points \$P,Q,R\$, determine the plane equation for the plane containing the three points, using the cross product.";
 };
 
 $aufgabe[2]=sub {
@@ -100,12 +100,12 @@ $v001[0]="2a&-&6b&-&3c&=&13\\\\\n-5a&-&3b&+&c&=&15\\\\\n19a&-&3b&-&9c&=&-19";
 $v001[1]="4x&-&y&+&2z&=&-8\\\\\n-2x&+&3y&+&7z&=&17\\\\\n8x&+&3y&+&20z&=&10\n";
 $v002[0]="-1,-3,1";
 $v002[1]="-2,2,1";
-$v003[0]="";
-$v003[1]="";
-$v004[0]="";
-$v004[1]="";
-$v005[0]="";
-$v005[1]="";
+$v003[0]="-7,-2,3";
+$v003[1]="-8,-10,2";
+$v004[0]="-6,-10,-2";
+$v004[1]="0,-1,-3";
+$v005[0]="10,-3,7";
+$v005[1]="-2,6,5";
 $v006[0]="";
 $v006[1]="";
 $v007[0]="";
