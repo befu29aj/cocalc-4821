@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1540923531 "la-termtest-Ba2.tex" "la-termtest-Ba2.pdf" "la-termtest-Ba2" 1540923531
+["pdflatex"] 1540943992 "la-termtest-Ba2.tex" "la-termtest-Ba2.pdf" "la-termtest-Ba2" 1540943992
   "/etc/texmf/web2c/texmf.cnf" 1535314180 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -49,6 +49,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty" 1480098821 3140 977eaf314c97ac67b8675753fb15f67f ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1480098821 19821 310da678527a7dfe2a02c88af38079b7 ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty" 1480098821 5159 a08c9bbd48fc492f15b22e458bef961f ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd" 1480098821 2256 80ce1168fb4ce6a85583a9cf8972c013 ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo" 1480098821 8308 f91506bb4df6d8527331f7bbeaf0e63c ""
   "/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty" 1480098823 66233 8b81cfab95a1f8fc2f0f6c89415b087a ""
   "/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty" 1480098823 64866 1ea74c5f2d1685881497f021b8f186b2 ""
@@ -77,10 +78,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1535345801 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1539447059 4126370 04448162a4da151233589cc4b45c1165 ""
-  "la-termtest-Ba2.aux" 1540923531 8 a94a2480d3289e625eea47cd1b285758 ""
-  "la-termtest-Ba2.tex" 1540923530 1474 335e138db6ac4bc65db832bdfed6137e ""
+  "la-termtest-Ba2.aux" 1540943992 39 4229351d8623287c193e590b63fccef0 ""
+  "la-termtest-Ba2.tex" 1540943991 1956 66aa9905ae6bdfefb545f7d20058ad27 ""
   "october.sty" 1536769900 2997 265ecb1cf7c10b3151e59742b19f912c ""
   (generated)
+  "la-termtest-Ba2.log"
   "la-termtest-Ba2.aux"
   "la-termtest-Ba2.pdf"
-  "la-termtest-Ba2.log"
