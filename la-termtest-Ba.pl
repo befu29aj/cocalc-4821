@@ -63,7 +63,7 @@ use List::Util 'shuffle';
 srand($seed[1]);
 
 $aufgabe[0]=sub {
-    print termtest "Solve the following system of linear equations.\n\\begin{equation}\n\\begin{array}{ccccccc}\n$v001[\$i1]\n\\end{array}\\notag\n\\end{equation}\nIf the system is consistent and dependent, provide your answer in the form\n\\begin{equation}\nS=\\{u\\in\\mathbb{R}^{3}\\;|\\;u\\mbox{ corresponds to }\\vec{u}=\\vec{v_{0}}+s_{1}\\vec{v_{1}}+{\\ldots}+s_{n}\\vec{v_{n}}\\}\\notag\n\\end{equation}\nwhere \$n\$ is the dimension of the solution space and \$s_{i}\\in\\mathbb{R}\$ for \$i=1,{\\ldots},n\$. Note that\n\$($v002[\$i1])^{\\intercal}\$ solves the system.";
+    print termtest "Solve the following system of linear equations.\n\\begin{equation}\n\\begin{array}{ccccccc}\n$v001[$i1]\n\\end{array}\\notag\n\\end{equation}\nIf the system is consistent and dependent, provide your answer in the form\n\\begin{equation}\nS=\\{u\\in\\mathbb{R}^{3}\\;|\\;u\\mbox{ corresponds to }\\vec{u}=\\vec{v_{0}}+s_{1}\\vec{v_{1}}+{\\ldots}+s_{n}\\vec{v_{n}}\\}\\notag\n\\end{equation}\nwhere \$n\$ is the dimension of the solution space and \$s_{i}\\in\\mathbb{R}\$ for \$i=1,{\\ldots},n\$. Note that\n\$($v002[$i1])^{\\intercal}\$ solves the system.";
 };
 
 $aufgabe[1]=sub {
