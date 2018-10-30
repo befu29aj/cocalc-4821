@@ -71,7 +71,7 @@ $aufgabe[1]=sub {
 };
 
 $aufgabe[2]=sub {
-    print termtest "";
+    print termtest "Consider the vector space of parabolas with the equation\n\\$y=a(x-h)^{2}+k\\$. Are the following three parabolas a basis for this\nvector space?\n\\begin{equation}\n  \\label{eq:iozooroo}\n  \\begin{array}{ccccc}\n$v006[$i1]\n  \\end{array}\\notag\n\\end{equation}\n\\begin{itemize}\n\\item If yes, find the coordinates in terms of this basis for \\$y=$v007[$i1]\\$.\n\\item If no, express one of the three given parabolas by the other two.\n\\end{itemize}";
 };
 
 $aufgabe[3]=sub {
@@ -106,10 +106,10 @@ $v004[0]="-6\\\\\n-10\\\\\n-2\n";
 $v004[1]="0\\\\\n-1\\\\\n-3\n";
 $v005[0]="10\\\\\n-3\\\\\n7\n";
 $v005[1]="-2\\\\\n6\\\\\n5\n";
-$v006[0]="";
-$v006[1]="";
-$v007[0]="";
-$v007[1]="";
+$v006[0]="y&=&2(x+6)^{2}&+&1\\\\y&=&(x+10)^{2}&+&1\\\\y&=&4(x-2)^{2}&+&1";
+$v006[1]="y&=&-6(x-5)^{2}&-&8\\\\y&=&(x-2)^{2}&-&4\\\\y&=&-15(x-4)^{2}&-&4";
+$v007[0]="32(x-33)^{2}+30";
+$v007[1]="-3(x-20)^{2}-66";
 $v008[0]="";
 $v008[1]="";
 $v009[0]="";
