@@ -63,7 +63,11 @@ use List::Util 'shuffle';
 srand($seed[1]);
 
 $aufgabe[0]=sub {
-    print termtest "Consider the following function:\n\\begin{equation}\nf\\left(\\left[\n\\begin{array}{c}\nx \\\\\ny\n\\end{array}\\right]\\right)=\\left[\n\\begin{array}{c}\nx^{2}+x\\sin(x+y) \\\\\n\\sin{}x\\cos(x+y)\n\\end{array}\\right]\n\\end{equation}\nLinearize the function around (add \&\\pi\$?) \$x=1,y=2\$ so it looks as follows,\n\\begin{equation}\nf(x)\\approx{}E+\\left[\n\\begin{array}{cc}\nA&B \\\\\nC&D\n\\end{array}\\right]\\left[\n\\begin{array}{c}\nx-M \\\\\ny-N\n\\end{array}\\right]\n\\end{equation}\nSpecify the numbers \$A,B,C,D,E,M,N\$ in your solution.";
+    print termtest "Consider the following function:\n\\begin{equation}\nf\\left(\\left[\n\\begin{array}{c}\nx \\\\\ny\n\\end{array}\\right]\\right)=\\left[\n\\begin{array}{c}\n$v002[$i1]\\\\\n$v001[$i1]\n\\end{array}\\right]\n\\end{equation}\nLinearize the function around (add \&\\pi\$?) \$x=1,y=2\$ so it looks as follows,\n\\begin{equation}\nf(x)\\approx{}E+\\left[\n\\begin{array}{cc}\nA&B \\\\\nC&D\n\\end{array}\\right]\\left[\n\\begin{array}{c}\nx-M \\\\\ny-N\n\\end{array}\\right]\n\\end{equation}\nSpecify the numbers \$A,B,C,D,E,M,N\$ in your solution.";
+};
+
+$aufgabe[0]=sub {
+    print termtest "Project \$\\vec{u}=(44/3,-127/3,148/3)^{\intercal}\$ onto the plane \$H\$ containing \$P=(-2,3,-2),Q=(-1,5,1),R=(2,6,2)\$ in order to find the distance between \$\\vec{u}\$ and \$H\$.";
 };
 
 for ($y2=0;$y2<=$#aufgabe;++$y2)
@@ -84,10 +88,10 @@ $nm[1]="termtest2";
 $vn[0]="1";
 $vn[1]="2";
 
-$v001[0]="";
-$v001[1]="";
-$v002[0]="";
-$v002[1]="";
+$v001[0]="x^{2}+2y^{2}";
+$v001[1]="2x^{2}+y^{2}";
+$v002[0]="x\cos(xy)";
+$v002[1]="y\cos(xy)";
 $v003[0]="";
 $v003[1]="";
 $v004[0]="";
