@@ -1,0 +1,43 @@
+% la-lab-07-leastsqu.tex
+
+\documentclass[11pt]{article}
+\usepackage{enumerate}
+\usepackage{syllogism} 
+\usepackage{october}
+\usepackage[table]{xcolor}
+
+\newcounter{aufg}
+\setcounter{aufg}{0}
+\newcommand{\aufgabe}[0]{\refstepcounter{aufg}\textbf{(\arabic{aufg})}}
+
+\begin{document}
+
+\textbf{Least Squares}
+
+{\aufgabe} Consider the following function:
+\begin{equation}
+f\left(\left[
+\begin{array}{c}
+x \\
+y
+\end{array}\right]\right)=\left[
+\begin{array}{c}
+x^{2}+x\sin(x+y) \\
+\sin{}x\cos(x+y)
+\end{array}\right]
+\end{equation}
+Linearize the function around $x=\frac{\pi}{2},y=\frac{\pi}{2}$ so it looks as follows,
+\begin{equation}
+f(x)\approx{}E+\left[
+\begin{array}{cc}
+A&B \\
+C&D
+\end{array}\right]\left[
+\begin{array}{c}
+x-M \\
+x-N
+\end{array}\right]
+\end{equation}
+Specify the numbers $A,B,C,D,E,M,N$ in your solution.
+
+\end{document}

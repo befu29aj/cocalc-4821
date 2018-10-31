@@ -1,0 +1,138 @@
+% la-lab-07-leastsqu.tex
+
+\documentclass[11pt]{article}
+\usepackage{enumerate}
+\usepackage{syllogism} 
+\usepackage{october}
+\usepackage[table]{xcolor}
+
+\newcounter{aufg}
+\setcounter{aufg}{0}
+\newcommand{\aufgabe}[0]{\refstepcounter{aufg}\textbf{(\arabic{aufg})}}
+
+\begin{document}
+
+\textbf{Least Squares}
+
+{\aufgabe} Consider the following function:
+\begin{equation}
+f\left(\left[
+\begin{array}{c}
+x \\
+y
+\end{array}\right]\right)=\left[
+\begin{array}{c}
+x^{2}+x\sin(x+y) \\
+\sin{}x\cos(x+y)
+\end{array}\right]
+\end{equation}
+Linearize the function around $x=\frac{\pi}{2},y=\frac{\pi}{2}$ so it looks as follows,
+\begin{equation}
+f(x)\approx{}E+\left[
+\begin{array}{cc}
+A&B \\
+C&D
+\end{array}\right]\left[
+\begin{array}{c}
+x-M \\
+x-N
+\end{array}\right]
+\end{equation}
+Specify the numbers $A,B,C,D,E,M,N$ in your solution.
+
+{\aufgabe} Project the vector $y=(4,-6,-10,-10)^{\intercal}$ onto the
+plane containing the points
+\begin{equation}
+  \label{eq:eareisoo}
+  P=(-7,8,3,0),Q=(-3,11,2,6),R=(-4,11,12,-2)
+\end{equation}
+
+{\aufgabe} Project the vector $y=(4,-6,-10,-10)^{\intercal}$ onto the
+plane containing the points
+\begin{equation}
+  \label{eq:eareisoo}
+  P=(-7,8,3,0),Q=(-3,11,2,6),R=(-2,11,-8,14)
+\end{equation}
+You should get the same answer as in the last question, but your
+procedure will probably be different.
+
+{\aufgabe} At 6327 ft (or 6.327 thousand feet), Mario Triola recorded
+  the temperature. Find the best predicted temperature at that
+  altitude based on other measurements, assuming a linear
+  relationship. How does the result compare to the actual recorded
+  value of 48$^{\circ}$F?
+
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\hline
+Altitude & 3 & 10 & 14 & 22 & 28 & 31 & 33 \\
+\hline
+Temperature & 57 & 37 & 24 & -5 & -30 & -41 & -54 \\
+\hline
+\end{tabular}
+
+Do this both ways, using the $Y-AV=E$ setup and projection on the one
+hand and, on the other hand, the formula
+\begin{equation}
+  \label{eq:iduochuk}
+    V_{0}=\left[
+      \begin{array}{c}
+        m \\
+        b
+      \end{array}\right]=(A^{\intercal}A)^{-1}A^{\intercal}Y  
+\end{equation}
+
+{\aufgabe} You measure the four angles in a quadrilateral
+$\hat{a}=8.490426^{\circ},\hat{b}=182.029154^{\circ},\hat{c}=119.148088^{\circ},\hat{d}=50.32948$.
+What are the least squares adjusted measurements?
+
+{\aufgabe} Consider the following leveling network. 
+    \begin{figure}[h]
+    \includegraphics[scale=0.26]{./diagrams/levelingnetwork.png}
+  \end{figure}
+  The objective is to determine elevations of $A$, $B$, and $C$, which
+  are to serve as temporary project bench marks to control
+  construction of a highway through the crosshatched corridor.
+
+  Obviously, it would have been possible to obtain elevations for $A$,
+  $B$, and $C$ by beginning at $BMX$ and running a single closed loop
+  consisting of only courses 1, 5, 7, and 4. Alternatively, a single
+  closed loop could have been initiated at $BMY$ and consist of courses
+  2, 5, 7, and 3.
+
+  However, by running all seven courses, redundancy is achieved that
+  enables checks to be made, blunders to be isolated, and precision to
+  be increased. Having run all seven courses, it would be possible to
+  compute the adjusted elevation of $B$, for example, using several
+  different single closed circuits. Loops 1-5-6, 2-5-6, 3-7-6, and
+  4-7-6 could each be used, but it is almost certain that each would
+  yield a different elevation for $B$.
+
+  A more logical approach, which will produce only one adjusted value
+  for $B$---its most probable one---is to use all seven courses in a
+  simultaneous least squares adjustment. In adjusting level networks,
+  the observed difference in elevation for each course is treated as
+  one observation containing a single random error.
+
+  This single random error is the total of the individual random
+  errors in backsight and foresight readings for the entire course. In
+  the figure, the arrows indicate the direction of leveling. Thus, for
+  course number 1, leveling proceeded from $BMX$ to $A$ and the observed
+  elevation difference was $+5.10$ feet.
+
+Calculate the least squares
+  adjusted elevations of $A$, $B$, and $C$ using the following
+  observation equations.
+  \begin{equation}
+    \label{eq:aelaeghu}
+    \begin{array}{rcl}
+      A&=&BMX+5.10+\epsilon_{1} \\
+      BMY&=&A+2.34+\epsilon_{2} \\
+      C&=&BMY-1.25+\epsilon_{3} \\
+      BMX&=&C-6.13+\epsilon_{4} \\
+      B&=&A-0.68+\epsilon_{5} \\
+      B&=&BMY-3.00+\epsilon_{6} \\
+      C&=&B+1.70+\epsilon_{7}
+    \end{array}
+  \end{equation}
+
+\end{document}
