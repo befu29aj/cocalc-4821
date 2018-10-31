@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1541003108 "la-lab-07-leastsqu.tex" "la-lab-07-leastsqu.pdf" "la-lab-07-leastsqu" 1541003109
+["pdflatex"] 1541003219 "la-lab-07-leastsqu.tex" "la-lab-07-leastsqu.pdf" "la-lab-07-leastsqu" 1541003220
   "/etc/texmf/web2c/texmf.cnf" 1535314180 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -78,10 +78,10 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1535345801 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1539447059 4126370 04448162a4da151233589cc4b45c1165 ""
   "diagrams/levelingnetwork.png" 1539284191 91274 08117cdc468bb8a448f225d2fd399855 ""
-  "la-lab-07-leastsqu.aux" 1541003109 163 4b2ba0807a6fc3ef3a62f8816eaedacf ""
-  "la-lab-07-leastsqu.tex" 1541003098 3787 ad45a5a907c54b540a7b05374e64dc7c ""
+  "la-lab-07-leastsqu.aux" 1541003220 163 4b2ba0807a6fc3ef3a62f8816eaedacf ""
+  "la-lab-07-leastsqu.tex" 1541003219 3793 d64ddc96246ec4600e98d68d89ea5b6b ""
   "october.sty" 1536769900 2997 265ecb1cf7c10b3151e59742b19f912c ""
   (generated)
-  "la-lab-07-leastsqu.pdf"
   "la-lab-07-leastsqu.aux"
   "la-lab-07-leastsqu.log"
+  "la-lab-07-leastsqu.pdf"
