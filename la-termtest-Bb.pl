@@ -63,7 +63,7 @@ use List::Util 'shuffle';
 srand($seed[1]);
 
 $aufgabe[0]=sub {
-    print termtest "Consider the following function:\n\\begin{equation}\nf\\left(\\left[\n\\begin{array}{c}\nx \\\\\ny\n\\end{array}\\left]\\right)=\\left[\n\\begin{array}{c}\nx^{2}+x\\sin(x+y) \\\\\n\\sin{}x\\cos(x+y)\n\\end{array}\\right]\n\\end{equation}\nLinearize the function around \$x=1,y=2\$ so it looks as follows,\n\\begin{equation}\nf(x)\\approx{}E+\\left[\n\\begin{array}{cc}\nA&B \\\\\nC&D\n\\end{array}\\right]\\left[\n\\begin{array}{c}\nx-M \\\\\nx-N\n\\end{array}\\right]\n\\end{equation}\nSpecify the numbers \$A,B,C,D,E,M,N\$ in your solution.";
+    print termtest "Consider the following function:\n\\begin{equation}\nf\\left(\\left[\n\\begin{array}{c}\nx \\\\\ny\n\\end{array}\\right]\\right)=\\left[\n\\begin{array}{c}\nx^{2}+x\\sin(x+y) \\\\\n\\sin{}x\\cos(x+y)\n\\end{array}\\right]\n\\end{equation}\nLinearize the function around \$x=1,y=2\$ so it looks as follows,\n\\begin{equation}\nf(x)\\approx{}E+\\left[\n\\begin{array}{cc}\nA&B \\\\\nC&D\n\\end{array}\\right]\\left[\n\\begin{array}{c}\nx-M \\\\\nx-N\n\\end{array}\\right]\n\\end{equation}\nSpecify the numbers \$A,B,C,D,E,M,N\$ in your solution.";
 };
 
 for ($y2=0;$y2<=$#aufgabe;++$y2)
