@@ -63,7 +63,7 @@ use List::Util 'shuffle';
 srand($seed[1]);
 
 $aufgabe[0]=sub {
-    print termtest "Consider the following function:\n\\begin{equation}\nf\\left(\\left[\n\\begin{array}{c}\nx \\\\\ny\n\\end{array}\\right]\\right)=\\left[\n\\begin{array}{c}\n$v002[$i1]\\\\\n$v001[$i1]\n\\end{array}\\right]\n\\end{equation}\nLinearize the function around (add \&\\pi\$?) \$x=1,y=2\$ so it looks as follows,\n\\begin{equation}\nf(x)\\approx{}E+\\left[\n\\begin{array}{cc}\nA&B \\\\\nC&D\n\\end{array}\\right]\\left[\n\\begin{array}{c}\nx-M \\\\\ny-N\n\\end{array}\\right]\n\\end{equation}\nSpecify the numbers \$A,B,C,D,E,M,N\$ in your solution.";
+    print termtest "Consider the following function:\n\\begin{equation}\nf\\left(\\left[\n\\begin{array}{c}\nx \\\\\ny\n\\end{array}\\right]\\right)=\\left[\n\\begin{array}{c}\n$v002[$i1]\\\\\n$v001[$i1]\n\\end{array}\\right]\n\\end{equation}\nLinearize the function around \$$v004[$i1]\$ so it looks as follows,\n\\begin{equation}\nf(x)\\approx{}E+\\left[\n\\begin{array}{cc}\nA&B \\\\\nC&D\n\\end{array}\\right]\\left[\n\\begin{array}{c}\nx-M \\\\\ny-N\n\\end{array}\\right]\n\\end{equation}\nSpecify the numbers \$A,B,C,D,E,M,N\$ in your solution.";
 };
 
 $aufgabe[1]=sub {
@@ -94,8 +94,8 @@ $v002[0]="x\cos(xy)";
 $v002[1]="y\cos(xy)";
 $v003[0]="";
 $v003[1]="";
-$v004[0]="";
-$v004[1]="";
+$v004[0]="x=2,y=\\pi";
+$v004[1]="x=\\pi,y=2";
 $v005[0]="";
 $v005[1]="";
 $v006[0]="";
