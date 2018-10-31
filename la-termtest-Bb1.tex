@@ -1,0 +1,45 @@
+% la-termtest-Bb1.tex
+
+\documentclass[11pt]{article}
+\usepackage{alltt}
+\usepackage{enumerate}
+\usepackage{syllogism} 
+\usepackage{october}
+\usepackage[table]{xcolor}
+\pagestyle{empty}
+
+\newcounter{aufg}
+\setcounter{aufg}{0}
+\newcommand{\aufgabe}[1]{\refstepcounter{aufg}\textbf{(\arabic{aufg})} [#1 points]}
+
+\begin{document}
+
+\textbf{Term Test Bb version 1}
+
+\aufgabe{5} Consider the following function:
+\begin{equation}
+f\left(\left[
+\begin{array}{c}
+x \\
+y
+\end{array}\left]\right)=\left[
+\begin{array}{c}
+x^{2}+x\sin(x+y) \\
+\sin{}x\cos(x+y)
+\end{array}\right]
+\end{equation}
+Linearize the function around $x=1,y=2$ so it looks as follows,
+\begin{equation}
+f(x)\approx{}E+\left[
+\begin{array}{cc}
+A&B \\
+C&D
+\end{array}\right]\left[
+\begin{array}{c}
+x-M \\
+x-N
+\end{array}\right]
+\end{equation}
+Specify the numbers $A,B,C,D,E,M,N$ in your solution.
+
+\end{document}
