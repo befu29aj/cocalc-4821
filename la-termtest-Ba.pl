@@ -67,7 +67,7 @@ $aufgabe[0]=sub {
 };
 
 $aufgabe[1]=sub {
-    print termtest "Consider the following three vectors in \$\\mathbb{R}^{3}\$,\n\\begin{equation}\n\\left(\n\\begin{array}{c}\n$v003[$i1]\n\\end{array}\\right),\\left(\n\\begin{array}{c}\n$v004[$i1]\n\\end{array}\\right),\\left(\n\\begin{array}{c}\n$v005[$i1]\n\\end{array}\\right)\n\\end{equation}\n Determine the three lengths of these vectors and the three angles between them. If they replace the origin to the points \$P,Q,R\$, determine the plane equation for the plane containing the three points, using the cross product.";
+    print termtest "Consider the following three vectors in \$\\mathbb{R}^{3}\$,\n\\begin{equation}\n\\left(\n\\begin{array}{c}\n$v003[$i1]\n\\end{array}\\right),\\left(\n\\begin{array}{c}\n$v004[$i1]\n\\end{array}\\right),\\left(\n\\begin{array}{c}\n$v005[$i1]\n\\end{array}\\right)\\notag\n\\end{equation}\n Determine the three lengths of these vectors and the three angles between them. If they replace the origin to the points \$P,Q,R\$, determine the plane equation for the plane containing the three points, using the cross product.";
 };
 
 $aufgabe[2]=sub {
