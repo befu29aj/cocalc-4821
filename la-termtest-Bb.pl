@@ -63,11 +63,11 @@ use List::Util 'shuffle';
 srand($seed[1]);
 
 $aufgabe[0]=sub {
-    print termtest "Consider the following function:\n\\begin{equation}\nf\\left(\\left[\n\\begin{array}{c}\nx \\\\\ny\n\\end{array}\\right]\\right)=\\left[\n\\begin{array}{c}\n$v002[$i1]\\\\\n$v001[$i1]\n\\end{array}\\right]\n\\end{equation}\nLinearize the function around \$$v004[$i1]\$ so it looks as follows,\n\\begin{equation}\nf(x)\\approx{}E+\\left[\n\\begin{array}{cc}\nA&B \\\\\nC&D\n\\end{array}\\right]\\left[\n\\begin{array}{c}\nx-M \\\\\ny-N\n\\end{array}\\right]\n\\end{equation}\nSpecify the numbers \$A,B,C,D,E,M,N\$ in your solution.";
+    print termtest "Linearize the following function around \$$v004[$i1]\$.\n\\begin{equation}\nf\\left(\\left[\n\\begin{array}{c}\nx \\\\\ny\n\\end{array}\\right]\\right)=\\left[\n\\begin{array}{c}\n$v002[$i1]\\\\\n$v001[$i1]\n\\end{array}\\right]\n\\end{equation}\n";
 };
 
 $aufgabe[1]=sub {
-    print termtest "Project \$\\vec{u}=(44/3,-127/3,148/3)^{\\intercal}\$ onto the plane \$H\$ containing \$P=(-2,3,-2),Q=(-1,5,1),R=(2,6,2)\$ in order to find the distance between \$\\vec{u}\$ and \$H\$. (Hint: If \$u_{H}\$ is the projection, then the distance is \$\\Vert{}u-u_{H}\\Vert\$.";
+    print termtest "Project \$\\vec{u}=(44/3,-127/3,148/3)^{\\intercal}\$ onto the plane \$H\$ containing \$P=(-2,3,-2),Q=(-1,5,1),R=(2,6,2)\$ in order to find the distance between \$\\vec{u}\$ and \$H\$. (Hint: If \$u_{H}\$ is the projection, then the distance is \$\\Vert{}u-u_{H}\\Vert\$.)";
 };
 
 for ($y2=0;$y2<=$#aufgabe;++$y2)
