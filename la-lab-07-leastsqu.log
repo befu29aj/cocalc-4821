@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  31 OCT 2018 16:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  31 OCT 2018 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -347,10 +347,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./diagrams/levelingnet
 work.png>] (./la-lab-07-leastsqu.aux) ) 
 Here is how much of TeX's memory you used:
- 4847 strings out of 492982
- 67794 string characters out of 6134895
- 131645 words of memory out of 5000000
- 8340 multiletter control sequences out of 15000+600000
+ 4848 strings out of 492982
+ 67807 string characters out of 6134895
+ 131653 words of memory out of 5000000
+ 8341 multiletter control sequences out of 15000+600000
  8596 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,8n,40p,285b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -362,11 +362,12 @@ sfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on la-lab-07-leastsqu.pdf (2 pages, 167462 bytes).
+xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on la-lab-07-leastsqu.pdf (2 pages, 172822 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

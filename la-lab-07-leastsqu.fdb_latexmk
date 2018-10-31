@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1541002718 "la-lab-07-leastsqu.tex" "la-lab-07-leastsqu.pdf" "la-lab-07-leastsqu" 1541002719
+["pdflatex"] 1541003108 "la-lab-07-leastsqu.tex" "la-lab-07-leastsqu.pdf" "la-lab-07-leastsqu" 1541003109
   "/etc/texmf/web2c/texmf.cnf" 1535314180 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -28,6 +28,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1480098733 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1480098733 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1480098733 31764 459c573c03a4949a528c2cc7f557e217 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1480098734 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1480098806 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1480098815 7612 729a8cc22a1ee0029997c7f74717ae05 ""
   "/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty" 1480098815 7324 2310d1247db0114eb4726807c8837a0e ""
@@ -77,10 +78,10 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1535345801 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1539447059 4126370 04448162a4da151233589cc4b45c1165 ""
   "diagrams/levelingnetwork.png" 1539284191 91274 08117cdc468bb8a448f225d2fd399855 ""
-  "la-lab-07-leastsqu.aux" 1541002719 132 cb9a82e9d6c4a3402851607212a60e96 ""
-  "la-lab-07-leastsqu.tex" 1541002718 3187 ca57a907d9583afcfa4015dd75f525c0 ""
+  "la-lab-07-leastsqu.aux" 1541003109 163 4b2ba0807a6fc3ef3a62f8816eaedacf ""
+  "la-lab-07-leastsqu.tex" 1541003098 3787 ad45a5a907c54b540a7b05374e64dc7c ""
   "october.sty" 1536769900 2997 265ecb1cf7c10b3151e59742b19f912c ""
   (generated)
-  "la-lab-07-leastsqu.aux"
   "la-lab-07-leastsqu.pdf"
+  "la-lab-07-leastsqu.aux"
   "la-lab-07-leastsqu.log"
