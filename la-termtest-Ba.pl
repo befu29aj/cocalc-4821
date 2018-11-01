@@ -71,7 +71,7 @@ $aufgabe[1]=sub {
 };
 
 $aufgabe[2]=sub {
-    print termtest "Consider the vector space of 2x2 matrices. Are the following three matrices a basis for this vector space?\n\\begin{equation}\n\\begin{equation}\nA=\\left[\n\\begin{array}{cc}\n-9 \& -4 \\\\\n-3 \& 2\n\\end{array}\\right],B=\\left[\n\\begin{array}{cc}\n-5 \& 2 \\\\\n-6 \& -5\n\\end{array}\\right],C=\\left[\n\\begin{array}{cc}\n1 \& -8 \\\\\n9 \& 12\n\\end{array}\\right]\\notag\n\\end{equation}\n\\begin{itemize}\n\\item If yes, find the coordinates in terms of this basis for \n\\begin{equation}\nD=\\left[\n\\begin{array}{cc}\n-9 \& 2 \\\\\n1 \& 7\n\\end{array}\\right]\\notag\n\\end{equation}\n\n\\item If no, express one of the three given parabolas by the other two.\n\\end{itemize}";
+    print termtest "Consider the vector space of 2x2 matrices. Are the following three matrices a basis for this vector space?\n\\begin{equation}\nA=\\left[\n\\begin{array}{cc}\n-9 \& -4 \\\\\n-3 \& 2\n\\end{array}\\right],B=\\left[\n\\begin{array}{cc}\n-5 \& 2 \\\\\n-6 \& -5\n\\end{array}\\right],C=\\left[\n\\begin{array}{cc}\n1 \& -8 \\\\\n9 \& 12\n\\end{array}\\right]\\notag\n\\end{equation}\n\\begin{itemize}\n\\item If yes, find the coordinates in terms of this basis for \n\\begin{equation}\nD=\\left[\n\\begin{array}{cc}\n-9 \& 2 \\\\\n1 \& 7\n\\end{array}\\right]\\notag\n\\end{equation}\n\n\\item If no, express one of the three given matrices by the other two.\n\\end{itemize}";
 };
 
 for ($y2=0;$y2<=$#aufgabe;++$y2)
