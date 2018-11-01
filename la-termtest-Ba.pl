@@ -62,8 +62,12 @@ use List::Util 'shuffle';
 
 srand($seed[1]);
 
+# $aufgabe[0]=sub {
+#     print termtest "Solve the following system of linear equations.\n\\begin{equation}\n\\begin{array}{ccccccc}\n$v001[$i1]\n\\end{array}\\notag\n\\end{equation}\nIf the system is consistent and dependent, provide your answer in the form\n\\begin{equation}\nS=\\{u\\in\\mathbb{R}^{3}\\;|\\;u\\mbox{ corresponds to }\\vec{u}=\\vec{v_{0}}+s_{1}\\vec{v_{1}}+{\\ldots}+s_{n}\\vec{v_{n}}\\}\\notag\n\\end{equation}\nwhere \$n\$ is the dimension of the solution space and \$s_{i}\\in\\mathbb{R}\$ for \$i=1,{\\ldots},n\$. Note that\n\$($v002[$i1])^{\\intercal}\$ solves the system.";
+# };
+
 $aufgabe[0]=sub {
-    print termtest "Solve the following system of linear equations.\n\\begin{equation}\n\\begin{array}{ccccccc}\n$v001[$i1]\n\\end{array}\\notag\n\\end{equation}\nIf the system is consistent and dependent, provide your answer in the form\n\\begin{equation}\nS=\\{u\\in\\mathbb{R}^{3}\\;|\\;u\\mbox{ corresponds to }\\vec{u}=\\vec{v_{0}}+s_{1}\\vec{v_{1}}+{\\ldots}+s_{n}\\vec{v_{n}}\\}\\notag\n\\end{equation}\nwhere \$n\$ is the dimension of the solution space and \$s_{i}\\in\\mathbb{R}\$ for \$i=1,{\\ldots},n\$. Note that\n\$($v002[$i1])^{\\intercal}\$ solves the system.";
+    print termtest "Solve the following system of linear equations and provide a solution set.\n\\begin{equation}\n\\begin{array}{ccccc}\n$v001[$i1]\n\\end{array}\\notag\n\\end{equation}";
 };
 
 $aufgabe[1]=sub {
@@ -92,8 +96,10 @@ $nm[1]="termtest2";
 $vn[0]="1";
 $vn[1]="2";
 
-$v001[0]="2a&-&6b&-&3c&=&13\\\\\n-5a&-&3b&+&c&=&15\\\\\n19a&-&3b&-&9c&=&-19";
-$v001[1]="4x&-&y&+&2z&=&-8\\\\\n-2x&+&3y&+&7z&=&17\\\\\n8x&+&3y&+&20z&=&10\n";
+# $v001[0]="2a&-&6b&-&3c&=&13\\\\\n-5a&-&3b&+&c&=&15\\\\\n19a&-&3b&-&9c&=&-19";
+# $v001[1]="4x&-&y&+&2z&=&-8\\\\\n-2x&+&3y&+&7z&=&17\\\\\n8x&+&3y&+&20z&=&10\n";
+$v001[0]="2a&-&5b&=&6\\\\\n-a&+&\\frac{5}{2}b&=&-3";
+$v001[1]="4x&-&y&=&-8\\\\\n-2x&+&\\frac{1}{2}y&=&4";
 $v002[0]="-1,-3,1";
 $v002[1]="-2,2,1";
 $v003[0]="-7\\\\\n-2\\\\\n3\n";
