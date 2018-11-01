@@ -71,7 +71,7 @@ $aufgabe[1]=sub {
 };
 
 $aufgabe[2]=sub {
-    print termtest "Consider the vector space of 2x2 matrices. Are the following three matrices a basis for this vector space?\n\\begin{equation}\nA=\\left[\n\\begin{array}{cc}\n-9 \& -4 \\\\\n-3 \& 2\n\\end{array}\\right],B=\\left[\n\\begin{array}{cc}\n-5 \& 2 \\\\\n-6 \& -5\n\\end{array}\\right],C=\\left[\n\\begin{array}{cc}\n1 \& -8 \\\\\n9 \& 12\n\\end{array}\\right],D=\\left[\n\\begin{array}{cc}\n4 \& -8 \\\\\n -2 \& 7\n\\end{array}\\right]\\notag\n\\end{equation}\n\\begin{itemize}\n\\item If yes, find the coordinates in terms of this basis for \n\\begin{equation}\nD=\\left[\n\\begin{array}{cc}\n-9 \& 2 \\\\\n1 \& 7\n\\end{array}\\right]\\notag\n\\end{equation}\n\n\\item If no, express one of the four given matrices by the other three.\n\\end{itemize}";
+    print termtest "Consider the vector space of 2x2 matrices. Are the following four matrices a basis for this vector space?\n\\begin{equation}\nA=\\left[\n\\begin{array}{cc}\n$v011[$i1]\n\\end{array}\\right],B=\\left[\n\\begin{array}{cc}\n$v010[$i1]\n\\end{array}\\right],C=\\left[\n\\begin{array}{cc}\n$v009[$i1]\n\\end{array}\\right],D=\\left[\n\\begin{array}{cc}\n$v008[$i1]\n\\end{array}\\right]\\notag\n\\end{equation}\n\\begin{itemize}\n\\item If yes, find the coordinates in terms of this basis for \n\\begin{equation}\nD=\\left[\n\\begin{array}{cc}\n$v012[$i1]\n\\end{array}\\right]\\notag\n\\end{equation}\n\n\\item If no, express one of the four given matrices by the other three.\n\\end{itemize}";
 };
 
 for ($y2=0;$y2<=$#aufgabe;++$y2)
@@ -106,16 +106,16 @@ $v006[0]="y&=&2(x+6)^{2}&+&1\\\\y&=&(x+10)^{2}&+&1\\\\y&=&4(x-2)^{2}&+&1";
 $v006[1]="y&=&-6(x-5)^{2}&-&8\\\\y&=&(x-2)^{2}&-&4\\\\y&=&-15(x-4)^{2}&-&4";
 $v007[0]="32(x-33)^{2}+30";
 $v007[1]="-3(x-20)^{2}-66";
-$v008[0]="";
-$v008[1]="";
-$v009[0]="";
-$v009[1]="";
-$v010[0]="";
-$v010[1]="";
-$v011[0]="";
-$v011[1]="";
-$v012[0]="";
-$v012[1]="";
+$v008[0]="4 \& -8 \\\\\n -2 \& 7";
+$v008[1]="1 \& -9 \\\\\n 0 \& 8";
+$v009[0]="1 \& -8 \\\\\n9 \& 12";
+$v009[1]="-1 \& 20 \\\\\n18 \& 15";
+$v010[0]="-5 \& 2 \\\\\n-6 \& -5";
+$v010[1]="-5 \& 0 \\\\\n-4 \& 1";
+$v011[0]="-9 \& -4 \\\\\n-3 \& 2";
+$v011[1]="8 \& -10 \\\\\n-3 \& -9";
+$v012[0]="-9 \& 2 \\\\\n1 \& 7";
+$v012[1]="4 \& -9 \\\\\n-3 \& 7";
 $v013[0]="";
 $v013[1]="";
 $v014[0]="";
