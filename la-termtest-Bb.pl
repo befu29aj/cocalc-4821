@@ -71,7 +71,7 @@ $aufgabe[1]=sub {
 };
 
 $aufgabe[2]=sub {
-    print termtest "There is a linear relationship between the latitude of the centre of a US state and that state's skin cancer mortality rate (deaths per ten million in one year). Ideally, you would use the data from all fifty states, but that's a large matrix and impractical for a term test. Find the best estimate for a linear regression line from the following data:\n\n\\begin{tabular}{l|l|l|l|l}\n  State \& Alabama \& California \& Nebraska \& Wisconsin \\\\ \\hline\n Mortality Rate \& 219 \& 182 \& 122 \& 110 \\\\\\hline\n  Centre Latitude \& 33.0 \& 37.5 \& 41.5 \& 44.5\n\\end{tabular}";
+    print termtest "There is a linear relationship between the latitude of the centre of a US state and that state's skin cancer mortality rate (deaths per ten million in one year). Ideally, you would use the data from all fifty states, but that's a large matrix and impractical for a term test. Find the best estimate for a linear regression line from the following data:\n\n\\begin{tabular}{l|l|l|l|l}\n  State \& $v008[$i1] \\\\ \\hline\n Mortality Rate \& $v009[$i1] \\\\\\hline\n  Centre Latitude \& $v010[$i1]\n\\end{tabular}\n\nShow all of your steps using the YAVE method.";
 };
 
 for ($y2=0;$y2<=$#aufgabe;++$y2)
@@ -106,12 +106,12 @@ $v006[0]="-9,-11,10";
 $v006[1]="8,-22,11";
 $v007[0]="2,7,5";
 $v007[1]="7,-2,12";
-$v008[0]="";
-$v008[1]="";
-$v009[0]="";
-$v009[1]="";
-$v010[0]="";
-$v010[1]="";
+$v008[0]="Alabama \& California \& Nebraska \& Wisconsin";
+$v008[1]="Georgia \& Idaho \& Kentucky \& New York";
+$v009[0]="219 \& 182 \& 122 \& 110";
+$v009[1]="214 \& 116 \& 147 \& 152";
+$v010[0]="33.0 \& 37.5 \& 41.5 \& 44.5";
+$v010[1]="33.0 \& 44.5 \& 37.8 \& 43.0";
 $v011[0]="";
 $v011[1]="";
 $v012[0]="";
