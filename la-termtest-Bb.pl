@@ -67,7 +67,7 @@ $aufgabe[0]=sub {
 };
 
 $aufgabe[1]=sub {
-    print termtest "Project \$\\vec{u}=(44/3,-127/3,148/3)^{\\intercal}\$ onto the plane \$H\$ containing \$P=(-2,3,-2),Q=(-1,5,1),R=(2,6,2)\$ in order to find the distance between \$\\vec{u}\$ and \$H\$. (Hint: If \$u_{H}\$ is the projection, then the distance is \$\\Vert{}u-u_{H}\\Vert\$.)";
+    print termtest "Find the distance between the point \$T=($v007[$i1])\$ and the plane containing \$P=($v003[$i1]),Q=($v005[$i1]),R=($v006[$i1])\$. (Hint: Find the displacement vectors \$\\vec{PT},\\vec{PQ},\\vec{PR}\$ and project \$\\vec{PT}\$ onto the plane spanned by \$\\vec{PQ}\$ and \$\\vec{PR}\$; then find the difference between \$\\vec{PT}\$ and its projection.)";
 };
 
 for ($y2=0;$y2<=$#aufgabe;++$y2)
@@ -92,16 +92,16 @@ $v001[0]="x^{2}+2y^{2}";
 $v001[1]="2x^{2}+y^{2}";
 $v002[0]="x\\cos(xy)";
 $v002[1]="y\\cos(xy)";
-$v003[0]="";
-$v003[1]="";
+$v003[0]="5,3,-6";
+$v003[1]="8,-8,-1";
 $v004[0]="x=2,y=\\pi";
 $v004[1]="x=\\pi,y=2";
-$v005[0]="";
-$v005[1]="";
-$v006[0]="";
-$v006[1]="";
-$v007[0]="";
-$v007[1]="";
+$v005[0]="5,10,-10";
+$v005[1]="1,-1,-1";
+$v006[0]="-9,-11,10";
+$v006[1]="8,-22,11";
+$v007[0]="2,7,5";
+$v007[1]="7,-2,12";
 $v008[0]="";
 $v008[1]="";
 $v009[0]="";
