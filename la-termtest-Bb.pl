@@ -67,7 +67,11 @@ $aufgabe[0]=sub {
 };
 
 $aufgabe[1]=sub {
-    print termtest "Find the distance between the point \$T=($v007[$i1])\$ and the plane containing \$P=($v003[$i1]),Q=($v005[$i1]),R=($v006[$i1])\$. (Hint: Find the displacement vectors \$\\vec{PT},\\vec{PQ},\\vec{PR}\$ and project \$\\vec{PT}\$ onto the plane spanned by \$\\vec{PQ}\$ and \$\\vec{PR}\$; then find the difference between \$\\vec{PT}\$ and its projection.)";
+    print termtest "Find the distance between the point \$T=($v007[$i1])\$ and the plane containing \$P=($v003[$i1]),Q=($v005[$i1]),R=($v006[$i1])\$. (Hint: find the displacement vectors \$\\vec{PT},\\vec{PQ},\\vec{PR}\$ and project \$\\vec{PT}\$ onto the plane spanned by \$\\vec{PQ}\$ and \$\\vec{PR}\$; then find the difference between \$\\vec{PT}\$ and its projection.)";
+};
+
+$aufgabe[2]=sub {
+    print termtest "There is a linear relationship between the latitude of the centre of a US state and that state's skin cancer mortality rate (deaths per ten million in one year). Ideally, you would use the data from all fifty states, but that's a large matrix and impractical for a term test. Find the best estimate for a linear regression line from the following data: \\begin{tabular}{l|l|l|l|l}\n  State \& Alabama \& California \& Nebraska \& Wisconsin \\\\\n  Skin Cancer Mortality Rate \& 219 \& 182 \& 122 \& 110 \\\\\n  Centre Latitude \& 33.0 \& 37.5 \& 41.5 \& 44.5\n\\end{tabular}";
 };
 
 for ($y2=0;$y2<=$#aufgabe;++$y2)

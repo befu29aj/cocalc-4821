@@ -1,0 +1,102 @@
+% la-lab-06-projection.tex
+
+\documentclass[11pt]{article}
+\usepackage{enumerate}
+\usepackage{syllogism} 
+\usepackage{october}
+\usepackage[table]{xcolor}
+
+\newcounter{aufg}
+\setcounter{aufg}{0}
+\newcommand{\aufgabe}[0]{\refstepcounter{aufg}\textbf{(\arabic{aufg})}}
+
+\begin{document}
+
+\textbf{Projection}
+
+{\aufgabe} What is the projection of
+  $\vec{u}=(5,2,10)^{\intercal}$ onto the plane $H$ characterized by
+  $2x+y+3z=0$?
+
+  Procedure:
+
+  \begin{enumerate}
+  \item Find a vector in the plane. Choose $x,y$ arbitrarily, then
+    calculate $z$. Call this vector $v_{1}$. 
+  \item Find another vector in the plane and make sure it is linearly
+    independent of $v_{1}$. Call it $v_{2}$. Now you have a basis for $H$.
+  \item You know the following about $u_{H}$. Use it to find the
+    coordinates of $u_{H}$ by forming a system of linear equations.
+    \begin{enumerate}
+    \item $u_{H}$ is in the plane
+    \item $u-u_{H}\perp{}v_{1}$
+    \item $u-u_{H}\perp{}v_{2}$
+    \end{enumerate}
+  \end{enumerate}
+
+{\aufgabe} Let $u$ and $v$ be some linearly independent vectors. Then
+the formula for $u_{H}$, where $H$ is the hyperplane spanned by the
+basis $\{v\}$, is
+\begin{equation}
+  \label{eq:aechachu}
+    u_{H}=\left(\frac{u\cdot{}v}{v\cdot{}v}\right)v
+\end{equation}
+This only works for one-dimensional $H$! Show that it is true by
+writing $u_{H}=av$ for some $a\in\mathbb{R}$ and isolating $a$ in
+\begin{equation}
+  \label{eq:oatiefai}
+  (u-av)\perp{}v\notag
+\end{equation}
+
+{\aufgabe} Let $H=\mbox{span}(\{v\})$ with $v=(-2,3)^{\intercal}$.
+Find $u_{H}$ for $u=(7,5)^{\intercal}$.
+
+{\aufgabe} Let's try \textbf{(1)} again with a different strategy:
+What is the projection of $\vec{u}=(5,2,10)^{\intercal}$ onto the
+plane $H$ characterized by $2x+y+3z=0$?
+
+  Procedure:
+
+  \begin{enumerate}
+  \item Find an orthogonal basis for $H$. (In the above procedure,
+    find $v_{2}$ such that $v_{2}\perp{}v_{1}$.)
+  \item Note that the following is true (but only for a basis where
+    the basis vectors $v_{i}$ are pairwise orthogonal!):
+    $u_{H}=u_{v_{1}}+{\ldots}+u_{v_{n}}$. Show that it is true for
+    $n=2$, i.e.\
+      \begin{enumerate}
+  \item $(u_{v_{1}}+u_{v_{2}})\in{}H$ (trivial)
+  \item $(u-(u_{v_{1}}+u_{v_{2}}))\perp{}v_{1}$ (use the fact that $v_{1}\perp{}v_{2}$)
+  \item $(u-(u_{v_{1}}+u_{v_{2}}))\perp{}v_{2}$ (same idea)
+  \end{enumerate}
+  \item Use formula (\ref{eq:aechachu}) to calculate $u_{v_{1}}$ and
+    $u_{v_{2}}$. 
+  \item Use $u_{v_{1}}+u_{v_{2}}=u_{H}$ to find $u_{H}$.
+  \end{enumerate}
+
+  {\aufgabe} Consider the system of non-linear equations
+  \begin{equation}
+    \label{eq:ukaephei}
+    \begin{array}{ccccc}
+      3^{x}&-&y^{2}&=&2 \\
+      xy&+&\cos(y-5)&=&16
+    \end{array}
+  \end{equation}
+To solve it numerically, we need to linearize the following function
+around an initial estimate of the solution $x=4,y=4$.
+\begin{equation}
+  \label{eq:aeluquoh}
+  f((x,y)^{\intercal})=\left(
+    \begin{array}{c}
+      e^{x\ln{}3}-y^{2}-2 \\
+      xy+\cos(y-5)-16
+    \end{array}\right)
+\end{equation}
+Find the Jacobian of $f$ and derive the linearization of the function
+around $x=4,y=4$.
+
+\end{document}
+
+\begin{tabular}{l|l|l|l|l}
+  State & Alabama & California & Nebraska &
+\end{tabular}
