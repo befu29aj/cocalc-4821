@@ -71,7 +71,7 @@ $aufgabe[1]=sub {
 };
 
 $aufgabe[2]=sub {
-    print termtest "There is a linear relationship between the latitude of the centre of a US state and that state's skin cancer mortality rate (deaths per ten million in one year). Ideally, you would use the data from all fifty states, but that's a large matrix and impractical for a term test. Find the best estimate for a linear regression line from the following data: \\begin{tabular}{l|l|l|l|l}\n  State \& Alabama \& California \& Nebraska \& Wisconsin \\\\\n  Skin Cancer Mortality Rate \& 219 \& 182 \& 122 \& 110 \\\\\n  Centre Latitude \& 33.0 \& 37.5 \& 41.5 \& 44.5\n\\end{tabular}";
+    print termtest "There is a linear relationship between the latitude of the centre of a US state and that state's skin cancer mortality rate (deaths per ten million in one year). Ideally, you would use the data from all fifty states, but that's a large matrix and impractical for a term test. Find the best estimate for a linear regression line from the following data:\n\n\\begin{tabular}{l|l|l|l|l}\n  State \& Alabama \& California \& Nebraska \& Wisconsin \\\\\n  Skin Cancer Mortality Rate \& 219 \& 182 \& 122 \& 110 \\\\\n  Centre Latitude \& 33.0 \& 37.5 \& 41.5 \& 44.5\n\\end{tabular}";
 };
 
 for ($y2=0;$y2<=$#aufgabe;++$y2)
