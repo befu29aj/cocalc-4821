@@ -67,7 +67,7 @@ srand($seed[1]);
 # };
 
 $aufgabe[0]=sub {
-    print termtest "Solve the following system of linear equations.\n\\begin{equation}\n\\begin{array}{ccccc}\n$v001[$i1]\n\\end{array}\\notag\n\\end{equation}\n\nProvide the solution set in the following form, specifying \$m,n,p,q\$. If your solution is unique, then \$p=0,q=0\$.\n\\begin{equation}\n\\left\\{\\left(\\begin{array}{c}x\\\\y\\end{array}\\right)\\in\\mathbb{R}^{2}\\;\\left\\vert\\;\\left(\\begin{array}{c}x\\\\y\\end{array}\\right)=\\left(\\begin{array}{c}m\\\\n\\end{array}\\right)+s\\left(\\begin{array}{c}p\\\\q\\end{array}\\right),s\\in\\mathbb{R}\\right.\\right\\}\\notag\n\\end{equation}";
+    print termtest "Solve the following system of linear equations.\n\\begin{equation}\n\\begin{array}{ccccc}\n$v001[$i1]\n\\end{array}\\notag\n\\end{equation}\n\nProvide the solution set in the following form, specifying \$M,N,P,Q\$. If your solution is unique, then \$P=0,Q=0\$.\n\\begin{equation}\n\\left\\{\\left(\\begin{array}{c}x\\\\y\\end{array}\\right)\\in\\mathbb{R}^{2}\\;\\left\\vert\\;\\left(\\begin{array}{c}x\\\\y\\end{array}\\right)=\\left(\\begin{array}{c}M\\\\N\\end{array}\\right)+s\\left(\\begin{array}{c}P\\\\Q\\end{array}\\right),s\\in\\mathbb{R}\\right.\\right\\}\\notag\n\\end{equation}";
 };
 
 $aufgabe[1]=sub {
