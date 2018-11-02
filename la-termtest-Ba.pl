@@ -67,7 +67,7 @@ srand($seed[1]);
 # };
 
 $aufgabe[0]=sub {
-    print termtest "Solve the following system of linear equations.\n\\begin{equation}\n\\begin{array}{ccccc}\n$v001[$i1]\n\\end{array}\\notag\n\\end{equation}\n\nProvide the solution set in the following form, specifying \$M,N,P,Q\$. If your solution is unique, then \$P=0\$ and \$Q=0\$.\n\\begin{equation}\n\\left\\{\\left(\\begin{array}{c}x\\\\y\\end{array}\\right)\\in\\mathbb{R}^{2}\\;\\left\\vert\\;\\left(\\begin{array}{c}x\\\\y\\end{array}\\right)=\\left(\\begin{array}{c}M\\\\N\\end{array}\\right)+s\\left(\\begin{array}{c}P\\\\Q\\end{array}\\right),s\\in\\mathbb{R}\\right.\\right\\}\\notag\n\\end{equation}";
+    print termtest "Solve the following system of linear equations.\n\\begin{equation}\n\\begin{array}{ccccc}\n$v001[$i1]\n\\end{array}\\notag\n\\end{equation}\n\nProvide the solution set in the following form, specifying \$A,B,C,D\$. If your solution is unique, then \$C=0\$ and \$D=0\$.\n\\begin{equation}\n\\left\\{\\left(\\begin{array}{c}x\\\\y\\end{array}\\right)\\in\\mathbb{R}^{2}\\;\\left\\vert\\;\\left(\\begin{array}{c}x\\\\y\\end{array}\\right)=\\left(\\begin{array}{c}A\\\\B\\end{array}\\right)+s\\left(\\begin{array}{c}C\\\\D\\end{array}\\right),s\\in\\mathbb{R}\\right.\\right\\}\\notag\n\\end{equation}";
 };
 
 $aufgabe[1]=sub {
@@ -98,7 +98,7 @@ $vn[1]="2";
 
 # $v001[0]="2a&-&6b&-&3c&=&13\\\\\n-5a&-&3b&+&c&=&15\\\\\n19a&-&3b&-&9c&=&-19";
 # $v001[1]="4x&-&y&+&2z&=&-8\\\\\n-2x&+&3y&+&7z&=&17\\\\\n8x&+&3y&+&20z&=&10\n";
-$v001[0]="2a&-&5b&=&6\\\\\n-a&+&\\frac{5}{2}b&=&-3";
+$v001[0]="2x&-&5y&=&6\\\\\n-x&+&\\frac{5}{2}y&=&-3";
 $v001[1]="4x&-&y&=&-8\\\\\n-2x&+&\\frac{1}{2}y&=&4";
 $v002[0]="-1,-3,1";
 $v002[1]="-2,2,1";
