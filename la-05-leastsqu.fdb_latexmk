@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1541171244 "la-05-leastsqu.tex" "la-05-leastsqu.pdf" "la-05-leastsqu" 1541171246
+["pdflatex"] 1541172036 "la-05-leastsqu.tex" "la-05-leastsqu.pdf" "la-05-leastsqu" 1541172038
   "/etc/texmf/web2c/texmf.cnf" 1535314180 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -213,16 +213,16 @@
   "diagrams/povbrt2.png" 1541171241 8927 1584f862e129ee2efba797339aeaac27 ""
   "diagrams/povbrt3.jpg" 1541171241 36871 ceb07a0d850d80924e9e63aad2d69224 ""
   "diagrams/project.png" 1538436259 3217 f46df6025025348b094036beafc842c6 ""
-  "la-05-leastsqu.aux" 1541171246 21591 0e4aa7d86f125d4ecf761bb28abba102 ""
-  "la-05-leastsqu.nav" 1541171246 7247 529a6a330324e9e35792f40b668352ef ""
-  "la-05-leastsqu.out" 1541171244 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "la-05-leastsqu.tex" 1541171241 51010 11ebb0e220a8b4a2be646b482fccdeb3 ""
+  "la-05-leastsqu.aux" 1541172038 22112 591f3a3852cd0b2588cab62b2807984c ""
+  "la-05-leastsqu.nav" 1541172038 7340 cbb91c8746026d0f33690d172926aed1 ""
+  "la-05-leastsqu.out" 1541172036 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "la-05-leastsqu.tex" 1541172033 52452 b6b485a438bac0f6591d3f6a04e3629b ""
   "teachbeamer.sty" 1536261356 1599 47b30f8a7e30907cf86a9a1fff41cc5e ""
   (generated)
   "la-05-leastsqu.nav"
-  "la-05-leastsqu.toc"
-  "la-05-leastsqu.aux"
-  "la-05-leastsqu.snm"
   "la-05-leastsqu.log"
+  "la-05-leastsqu.snm"
+  "la-05-leastsqu.aux"
   "la-05-leastsqu.pdf"
   "la-05-leastsqu.out"
+  "la-05-leastsqu.toc"
