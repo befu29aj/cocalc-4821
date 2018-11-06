@@ -131,6 +131,73 @@ belonging to $\lambda$. Find the eigenspace of $\lambda=1$.
 \end{frame}
 
 \begin{frame}
+  \frametitle{Eigenvalues and Eigenvectors}
+  {\ubung} Find the eigenvalues and associated eigenvectors for
+  \begin{equation}
+    \label{eq:liezaiba}
+    A=\left[
+      \begin{array}{ccc}
+        2&4&2 \\
+        0&-3&-1 \\
+        0&0&0
+      \end{array}\right]
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Eigenvalues and Eigenvectors}
+  Suppose $\{V_{1},{\ldots},V_{n}\}$ is a basis for $\mathbb{R}^{n}$
+  and that each of these is an eigenvector for an $n\times{}n$ matrix
+  $A$. $\{V_{1},{\ldots},V_{n}\}$ is called an \alert{eigenbasis} with
+  respect to $A$. Thus, we can write
+  \begin{equation}
+    \label{eq:chucarie}
+    AV_{1}=\lambda_{1}V_{1},{\ldots},AV_{n}=\lambda_{n}V_{n}
+  \end{equation}
+where $\lambda_{1},{\ldots},\lambda_{n}$ are the eigenvalues. Let $P$
+be the matrix whose columns are the basis vectors
+$\{V_{1},{\ldots},V_{n}\}$. Then
+\begin{equation}
+  \label{eq:ahzieyuc}
+  P^{-1}AP=\left[
+    \begin{array}{cccc}
+      \lambda_{1}&0&\ldots&0 \\
+      0&\lambda_{2}&\ldots&0 \\
+      \vdots & \vdots & & \vdots \\
+      0 & 0 & \ldots & \lambda_{n}
+    \end{array}\right]
+\end{equation}
+This matrix $D$ is called a \alert{diagonal form} of $A$.
+% Proof: Paul C. Shields, 282
+\end{frame}
+
+\begin{frame}
+  \frametitle{Eigenvalues and Eigenvectors}
+  Not every $n\times{}n$ matrix $A$ generates an eigenbasis. There is
+  a theorem in linear algebra that tells us that such an eigenbasis is
+  available if the characteristic polynomial has $n$ distinct real
+  roots.
+
+  \bigskip
+
+  Another theorem of linear algebra tells us that symmetric matrices
+  have an associated eigenbasis. A matrix $A$ is symmetric if and only
+  if $A=A^{\intercal}$.
+
+  \bigskip
+
+  {\ubung} Find a diagonal form for the matrix
+  \begin{equation}
+    \label{eq:nohyaesu}
+    A=\left[
+      \begin{array}{cc}
+        22&20 \\
+        -25&-23
+      \end{array}\right]
+  \end{equation}
+\end{frame}
+
+\begin{frame}
   \frametitle{End of Lesson}
 Next Lesson: Axioms and Theorems of Probability
 \end{frame}
