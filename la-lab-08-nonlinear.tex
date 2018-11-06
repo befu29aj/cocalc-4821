@@ -15,9 +15,7 @@
 \textbf{Least Squares Adjustments with Non-Linear Equations}
 
 {\aufgabe} Solve the following system of nonlinear equations
-numerically. Use $(x_{0},y_{0})=(0.6,0.8)$ as your first approximation
-(the solution set is
-$S=\{(x,y)\in\mathbb{R}^{2}|x\approx{}0.64171,y\approx{}0.80107\}$).
+numerically. Use $(x_{0},y_{0})=(0.6,0.8)$ as your first approximation.
   \begin{equation}
     \label{eq:gieghaik}
     \begin{array}{ccccc}
@@ -25,6 +23,8 @@ $S=\{(x,y)\in\mathbb{R}^{2}|x\approx{}0.64171,y\approx{}0.80107\}$).
              x&-&y^{2}&=&0
     \end{array}\notag
   \end{equation}
+The solution set is
+\[S=\{(x,y)\in\mathbb{R}^{2}|x\approx{}0.64171,y\approx{}0.80107\}\]
 
   {\aufgabe} Find a matrix $C$ such that
   \begin{equation}
@@ -95,5 +95,44 @@ x_{2}x_{3}        & + & x_{4}^{2}  & = & 0
   unnatural to give equal weight to the errors in coordinate
   measurements and angle measurements: this can be addressed by weight
   factors, but let us skip this step here for simplicity.)
+
+  {\aufgabe} For the following matrices, find the eigenvalues and one
+  corresponding eigenvector for each eigenvalue.
+  \begin{equation}
+    \label{eq:uuvohien}
+    A_{1}=\left[
+      \begin{array}{cc}
+        22&20 \\
+        -25&-23
+      \end{array}\right]\hspace{.5in}A_{2}=\left[
+      \begin{array}{cc}
+       1&1 \\
+        1&1
+      \end{array}\right]\hspace{.5in}A_{3}=\left[
+      \begin{array}{cc}
+        1&3 \\
+        1&-1
+      \end{array}\right]\notag
+  \end{equation}
+  \begin{equation}
+    \label{eq:eitujush}
+    A_{4}=\left[
+      \begin{array}{ccc}
+        1&2&1 \\
+        0&2&1 \\
+        0&0&3
+      \end{array}\right]\hspace{.5in}A_{5}=\left[
+      \begin{array}{ccc}
+        5&2&1 \\
+        0&5&0 \\
+        0&0&3
+      \end{array}\right]\hspace{.5in}A_{6}=\left[
+      \begin{array}{cccc}
+        2&0&0&0 \\
+        3&1&0&0 \\
+        4&0&2&0 \\
+        -1&1&3&6
+      \end{array}\right]\notag
+  \end{equation}
 
 \end{document}
