@@ -1,0 +1,96 @@
+% la-lab-08-nonlinear.tex
+
+\documentclass[11pt]{article}
+\usepackage{enumerate}
+\usepackage{syllogism} 
+\usepackage{october}
+\usepackage[table]{xcolor}
+
+\newcounter{aufg}
+\setcounter{aufg}{0}
+\newcommand{\aufgabe}[0]{\refstepcounter{aufg}\textbf{(\arabic{aufg})}}
+
+\begin{document}
+
+\textbf{Least Squares Adjustments with Non-Linear Equations}
+
+{\aufgabe}   Solve, numerically,
+  \begin{equation}
+    \label{eq:gieghaik}
+    \begin{array}{ccccc}
+      \cos{}x&-&y&=&0 \\
+             x&-&y^{2}&=&0
+    \end{array}\notag
+  \end{equation}
+
+  {\aufgabe} Find a matrix $C$ such that
+  \begin{equation}
+    \label{eq:eizuchan}
+    C^{2}=A\mbox{ where }A=\left[
+      \begin{array}{cc}
+        3&-1 \\
+        2&0
+      \end{array}\right]\notag
+  \end{equation}
+  We will learn how to solve this problem using eigenvalues. For now,
+  we are faced with a system of non-linear equations given
+\begin{equation}
+  \label{eq:xohdaihu}
+  C=\left[
+    \begin{array}{cc}
+      x_{1}&x_{2} \\
+       x_{3}&x_{4}
+    \end{array}\right]\notag
+\end{equation}
+and
+\begin{equation}
+    \label{eq:ahxeemei}
+    \begin{array}{ccccc}
+x_{1}^{2}         & + & x_{2}x_{3} & = & 3    \\
+x_{1}x_{2}        & + & x_{2}x_{4} & = & -1   \\
+x_{1}x_{3}        & + & x_{3}x_{4} & = & 2    \\
+x_{2}x_{3}        & + & x_{4}^{2}  & = & 0
+    \end{array}\notag
+  \end{equation}
+
+  {\aufgabe} You are trying to measure the coordinates of stations $A$
+  and $B$. Your provisional estimate is $(8.3995,3.0161)$ and
+  $(-2.872,1.4937)$. Then you observe the length between $A$ and $B$
+  to be $11.391$. How would you report your least squares adjusted
+  coordinates for $A$ and $B$, given that you weigh equally the errors
+  for $A$ and $B$'s coordinates as well as the distance between them?
+
+    Setting up the first four yave equations is simple. The fifth one,
+  however, is non-linear.
+  \begin{equation}
+    \label{eq:pheengei}
+    \begin{array}{rcl}
+      x&=&8.3995+\epsilon_{1} \\
+      y&=&3.0161+\epsilon_{2} \\
+      z&=&-2.872+\epsilon_{3} \\
+      w&=&1.4937+\epsilon_{4} \\
+      \sqrt{(z-x)^{2}+(w-y)^{2}}&=&11.391+\epsilon_{5} \\
+    \end{array}\notag
+  \end{equation}
+  Linearize the fifth equation using the Taylor polynomial expansion
+  of the function $G(x,y,z,w)=\sqrt{(z-x)^{2}+(w-y)^{2}}$.
+
+{\aufgabe} There are three points whose
+  coordinates with measurement errors are
+  \begin{equation}
+    \label{eq:aukoogha}
+    \begin{array}{rcl}
+      I&=&(595.74,537.76) \\
+       J&=&(800.92,658.44) \\
+       K&=&(302.96,168.88)
+    \end{array}
+  \end{equation}
+  From station $I$, you observe an angle of $158^{\circ}49'21''$
+  instead of the expected $158^{\circ}54'5.9107''$ between $\vec{IJ}$
+  and $\vec{IK}$. How should you least squares adjust the coordinates
+  of $I,J,K$ in light of your angle measurement? (Note that it is
+  unnatural to give equal weight to the errors in coordinate
+  measurements and angle measurements: this can be addressed by weight
+  factors, but let us skip this step here for simplicity.)
+
+\end{document}
