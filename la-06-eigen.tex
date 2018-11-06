@@ -163,7 +163,7 @@ $\{V_{1},{\ldots},V_{n}\}$. Then
     \begin{array}{cccc}
       \lambda_{1}&0&\ldots&0 \\
       0&\lambda_{2}&\ldots&0 \\
-      \vdots & \vdots & & \vdots \\
+      \vdots & \vdots & \ddots & \vdots \\
       0 & 0 & \ldots & \lambda_{n}
     \end{array}\right]
 \end{equation}
@@ -186,7 +186,7 @@ This matrix $D$ is called a \alert{diagonal form} of $A$.
 
   \bigskip
 
-  {\ubung} Find a diagonal form for the matrix
+  {\ubung} Find a diagonal form $D$ and an eigenbasis $P$ for the matrix
   \begin{equation}
     \label{eq:nohyaesu}
     A=\left[
@@ -194,6 +194,72 @@ This matrix $D$ is called a \alert{diagonal form} of $A$.
         22&20 \\
         -25&-23
       \end{array}\right]
+  \end{equation}
+  and show that $P^{-1}AP=D$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Similarity}
+  \begin{block}{Similar Matrices}
+    $A$ and $B$ are called \alert{similar} if
+    \begin{equation}
+      \label{eq:aemiezef}
+      B=P^{-1}AP
+    \end{equation}
+    for some matrix $P$. 
+  \end{block}
+Similar matrices will have similar powers, transposes, and inverses,
+and will have equal determinants and characteristic polynomials.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Similarity}
+  If $B=P^{-1}AP$, then $B^{k}=P^{-1}A^{k}P$ for any positive integer
+  $k$ (show this for $k=2$ and then think about how the idea
+  generalizes).
+
+  \bigskip
+
+  {\ubung} Find $A^{5}$ for
+  \begin{equation}
+    \label{eq:aisejiez}
+    A=\left[
+      \begin{array}{cc}
+        19&-12 \\
+        24&-15
+      \end{array}\right]
+  \end{equation}
+  The solution is
+  \begin{equation}
+    \label{eq:pheishae}
+    A^{5}=\left[
+      \begin{array}{cc}
+        2179&-1452 \\
+        2904&-1935
+      \end{array}\right]
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Similarity}
+  {\ubung} Find a matrix $C$ such that $C^{2}=A$, where
+  \begin{equation}
+    \label{eq:phaithee}
+    A=\left[
+      \begin{array}{cc}
+        3&-1 \\
+        2&0
+      \end{array}\right]
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Similarity}
+  If $B=P^{-1}AP$, then $\det{}B=\det{}A$. To show this, you may
+  remember that $\det{}(GH)=\det{}G\cdot\det{}H$. Therefore
+  \begin{equation}
+    \label{eq:taichahh}
+    \det{}B=\det(P^{-1}AP)=\det{}P^{-1}\det{}A\det{}P=\det{}A\det{}P^{-1}\det{}P=\det{}A\det(P^{-1}P)=\det{}A
   \end{equation}
 \end{frame}
 
