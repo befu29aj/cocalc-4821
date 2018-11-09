@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  9 NOV 2018 00:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  9 NOV 2018 00:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1021,47 +1021,46 @@ Overfull \hbox (2.77098pt too wide) in paragraph at lines 262--262
 
 ] [20
 
-] [21
-
 ]
-<./diagrams/triola1.png, id=190, 375.804pt x 78.7743pt>
+<./diagrams/triola1.png, id=184, 375.804pt x 78.7743pt>
 File: ./diagrams/triola1.png Graphic file (type png)
 <use ./diagrams/triola1.png>
-Package pdftex.def Info: ./diagrams/triola1.png  used on input line 320.
+Package pdftex.def Info: ./diagrams/triola1.png  used on input line 304.
 (pdftex.def)             Requested size: 263.061pt x 55.14163pt.
-<./diagrams/triola2.png, id=191, 369.2997pt x 68.6565pt>
+<./diagrams/triola2.png, id=185, 369.2997pt x 68.6565pt>
 File: ./diagrams/triola2.png Graphic file (type png)
 <use ./diagrams/triola2.png>
-Package pdftex.def Info: ./diagrams/triola2.png  used on input line 320.
+Package pdftex.def Info: ./diagrams/triola2.png  used on input line 304.
 (pdftex.def)             Requested size: 258.50801pt x 48.0592pt.
-<./diagrams/triola3.png, id=192, 373.6359pt x 93.2283pt>
+<./diagrams/triola3.png, id=186, 373.6359pt x 93.2283pt>
 File: ./diagrams/triola3.png Graphic file (type png)
 <use ./diagrams/triola3.png>
-Package pdftex.def Info: ./diagrams/triola3.png  used on input line 320.
+Package pdftex.def Info: ./diagrams/triola3.png  used on input line 304.
 (pdftex.def)             Requested size: 261.54333pt x 65.25935pt.
- [22
+ [21
 
  <./diagrams/triola1.png (PNG copy)> <./diagrams/triola2.png (PNG copy)> <./dia
 grams/triola3.png (PNG copy)>]
-<./diagrams/triola4.png, id=199, 372.9132pt x 54.2025pt>
+<./diagrams/triola4.png, id=193, 372.9132pt x 54.2025pt>
 File: ./diagrams/triola4.png Graphic file (type png)
 <use ./diagrams/triola4.png>
-Package pdftex.def Info: ./diagrams/triola4.png  used on input line 333.
+Package pdftex.def Info: ./diagrams/triola4.png  used on input line 317.
 (pdftex.def)             Requested size: 261.03745pt x 37.94148pt.
-<./diagrams/triola5.png, id=200, 383.031pt x 54.2025pt>
+<./diagrams/triola5.png, id=194, 383.031pt x 54.2025pt>
 File: ./diagrams/triola5.png Graphic file (type png)
 <use ./diagrams/triola5.png>
-Package pdftex.def Info: ./diagrams/triola5.png  used on input line 333.
+Package pdftex.def Info: ./diagrams/triola5.png  used on input line 317.
 (pdftex.def)             Requested size: 268.11986pt x 37.94148pt.
-<./diagrams/triola6.png, id=201, 380.1402pt x 56.3706pt>
+<./diagrams/triola6.png, id=195, 380.1402pt x 56.3706pt>
 File: ./diagrams/triola6.png Graphic file (type png)
 <use ./diagrams/triola6.png>
-Package pdftex.def Info: ./diagrams/triola6.png  used on input line 333.
+Package pdftex.def Info: ./diagrams/triola6.png  used on input line 317.
 (pdftex.def)             Requested size: 266.09631pt x 39.45914pt.
- [23
+
+[22
 
  <./diagrams/triola4.png (PNG copy)> <./diagrams/triola5.png (PNG copy)> <./dia
-grams/triola6.png (PNG copy)>] [24
+grams/triola6.png (PNG copy)>] [23
 
 ]
 \tf@nav=\write6
@@ -1073,19 +1072,19 @@ grams/triola6.png (PNG copy)>] [24
 \tf@snm=\write8
 \openout8 = `la-07-normal.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 340.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 340.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 324.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 324.
  (./la-07-normal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 340.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 340.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 324.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 324.
 Package rerunfilecheck Info: File `la-07-normal.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 20430 strings out of 492982
- 401415 string characters out of 6134895
+ 20426 strings out of 492982
+ 401380 string characters out of 6134895
  478577 words of memory out of 5000000
- 23455 multiletter control sequences out of 15000+600000
+ 23453 multiletter control sequences out of 15000+600000
  11040 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,60p,796b,653s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1100,10 +1099,10 @@ e1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb>
-Output written on la-07-normal.pdf (24 pages, 4615553 bytes).
+Output written on la-07-normal.pdf (23 pages, 4614300 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
- 202 compressed objects within 3 object streams
- 64 named destinations out of 1000 (max. 500000)
+ 259 PDF objects out of 1000 (max. 8388607)
+ 197 compressed objects within 2 object streams
+ 62 named destinations out of 1000 (max. 500000)
  129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
