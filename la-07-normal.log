@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  9 NOV 2018 00:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  9 NOV 2018 00:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -647,7 +647,6 @@ Package: amsthm 2017/10/31 v2.20.4
 \beamer@dimb=\dimen189
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
-(./teachbeamer.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
@@ -716,7 +715,7 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-)))
+))) (./teachbeamer.sty
 (/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
@@ -754,36 +753,23 @@ Package: alltt 1997/06/16 v2.0g defines alltt environment
 \c@expls=\count164
 \c@exercise=\count165
 )
-(./la-07-normal.aux
-
-LaTeX Warning: Label `eq:iedohdah' multiply defined.
-
-
-LaTeX Warning: Label `eq:aitoolah' multiply defined.
-
-
-LaTeX Warning: Label `eq:uotoogoo' multiply defined.
-
-
-LaTeX Warning: Label `eq:igutheib' multiply defined.
-
-)
+(./la-07-normal.aux)
 \openout1 = `la-07-normal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -851,7 +837,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring OFF on input line 13.
+Package hyperref Info: Link coloring OFF on input line 14.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -861,66 +847,66 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count172
 )
-LaTeX Info: Redefining \ref on input line 13.
-LaTeX Info: Redefining \pageref on input line 13.
-LaTeX Info: Redefining \nameref on input line 13.
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
 
 (./la-07-normal.out) (./la-07-normal.out)
 \@outlinefile=\write5
 \openout5 = `la-07-normal.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 13.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 13.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 14.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 13.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 13.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 13.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 13.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 14.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 13.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 13.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 13.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 14.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 13.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 13.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 13.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 14.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 13.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 13.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 13.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 13.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 13.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 13.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 13.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 13.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 13.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 13.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 14.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 14.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 1
-3.
+4.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-13.
+14.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 13.
+ut line 14.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -948,17 +934,17 @@ Dictionary: translator-theorem-dictionary, Language: English
 ) (./la-07-normal.nav) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for U+msa on input line 29.
+LaTeX Font Info:    Try loading font information for U+msa on input line 30.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 29.
+LaTeX Font Info:    Try loading font information for U+msb on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 29.
+line 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -974,10 +960,10 @@ thkerncmss.
 <./diagrams/binomial1.png, id=62, 429.10312pt x 405.01312pt>
 File: ./diagrams/binomial1.png Graphic file (type png)
 <use ./diagrams/binomial1.png>
-Package pdftex.def Info: ./diagrams/binomial1.png  used on input line 68.
+Package pdftex.def Info: ./diagrams/binomial1.png  used on input line 69.
 (pdftex.def)             Requested size: 214.55103pt x 202.50606pt.
 
-Overfull \vbox (24.50116pt too high) detected at line 68
+Overfull \vbox (24.50116pt too high) detected at line 69
  []
 
 [5
@@ -986,7 +972,7 @@ Overfull \vbox (24.50116pt too high) detected at line 68
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -997,7 +983,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1008,7 +994,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1019,7 +1005,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1030,7 +1016,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1041,7 +1027,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1052,7 +1038,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1063,7 +1049,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1074,7 +1060,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1085,7 +1071,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1096,7 +1082,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1107,7 +1093,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1118,7 +1104,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1129,7 +1115,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1140,7 +1126,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1151,7 +1137,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1162,7 +1148,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1173,7 +1159,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1184,7 +1170,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1195,7 +1181,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1206,7 +1192,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1217,7 +1203,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1228,7 +1214,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1239,7 +1225,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1250,7 +1236,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1261,7 +1247,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1272,7 +1258,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1283,7 +1269,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1294,7 +1280,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1305,7 +1291,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1316,7 +1302,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1327,7 +1313,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1338,7 +1324,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1349,7 +1335,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1360,7 +1346,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1371,7 +1357,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \binomialCoefficient 
                                      
-l.79 \end{frame}
+l.80 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1387,7 +1373,7 @@ and I'll forget about whatever was undefined.
 <./diagrams/binnorm1_ed.jpg, id=84, 351.3125pt x 260.975pt>
 File: ./diagrams/binnorm1_ed.jpg Graphic file (type jpg)
 <use ./diagrams/binnorm1_ed.jpg>
-Package pdftex.def Info: ./diagrams/binnorm1_ed.jpg  used on input line 104.
+Package pdftex.def Info: ./diagrams/binnorm1_ed.jpg  used on input line 105.
 (pdftex.def)             Requested size: 175.6558pt x 130.48718pt.
  [8
 
@@ -1395,7 +1381,7 @@ Package pdftex.def Info: ./diagrams/binnorm1_ed.jpg  used on input line 104.
 <./diagrams/qfour.png, id=91, 491.436pt x 196.5744pt>
 File: ./diagrams/qfour.png Graphic file (type png)
 <use ./diagrams/qfour.png>
-Package pdftex.def Info: ./diagrams/qfour.png  used on input line 204.
+Package pdftex.def Info: ./diagrams/qfour.png  used on input line 205.
 (pdftex.def)             Requested size: 196.5709pt x 78.62836pt.
  [9
 
@@ -1404,20 +1390,15 @@ Package pdftex.def Info: ./diagrams/qfour.png  used on input line 204.
 
 ] [11
 
-]pdfTeX warning (ext4): destination with the same identifier (name{eq:iedohdah}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.251 \end{frame}
-                  [12
+] [12
 
 ]
 File: ./diagrams/binomial1.png Graphic file (type png)
 <use ./diagrams/binomial1.png>
-Package pdftex.def Info: ./diagrams/binomial1.png  used on input line 261.
+Package pdftex.def Info: ./diagrams/binomial1.png  used on input line 262.
 (pdftex.def)             Requested size: 214.55103pt x 202.50606pt.
 
-Overfull \vbox (24.50116pt too high) detected at line 261
+Overfull \vbox (24.50116pt too high) detected at line 262
  []
 
 [13
@@ -1427,37 +1408,22 @@ Overfull \vbox (24.50116pt too high) detected at line 261
 ]
 File: ./diagrams/binnorm1_ed.jpg Graphic file (type jpg)
 <use ./diagrams/binnorm1_ed.jpg>
-Package pdftex.def Info: ./diagrams/binnorm1_ed.jpg  used on input line 283.
+Package pdftex.def Info: ./diagrams/binnorm1_ed.jpg  used on input line 284.
 (pdftex.def)             Requested size: 175.6558pt x 130.48718pt.
  [15
 
-]pdfTeX warning (ext4): destination with the same identifier (name{eq:aitoolah}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.299 \end{frame}
-                 
+]
 File: ./diagrams/qfour.png Graphic file (type png)
 <use ./diagrams/qfour.png>
-Package pdftex.def Info: ./diagrams/qfour.png  used on input line 299.
+Package pdftex.def Info: ./diagrams/qfour.png  used on input line 300.
 (pdftex.def)             Requested size: 196.5709pt x 78.62836pt.
  [16
 
-]pdfTeX warning (ext4): destination with the same identifier (name{eq:uotoogoo}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.314 \end{frame}
-                  [17
+] [17
 
 ] [18
 
-]pdfTeX warning (ext4): destination with the same identifier (name{eq:igutheib}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.337 \end{frame}
-                  [19
+] [19
 
 ] [20
 
@@ -1472,13 +1438,13 @@ l.337 \end{frame}
 ] [25
 
 ]
-<./diagrams/contcorr_ed1.jpg, id=214, 620.12323pt x 384.6629pt>
+<./diagrams/contcorr_ed1.jpg, id=218, 620.12323pt x 384.6629pt>
 File: ./diagrams/contcorr_ed1.jpg Graphic file (type jpg)
 <use ./diagrams/contcorr_ed1.jpg>
-Package pdftex.def Info: ./diagrams/contcorr_ed1.jpg  used on input line 454.
+Package pdftex.def Info: ./diagrams/contcorr_ed1.jpg  used on input line 455.
 (pdftex.def)             Requested size: 310.06085pt x 192.33098pt.
 
-Overfull \hbox (2.77098pt too wide) in paragraph at lines 454--454
+Overfull \hbox (2.77098pt too wide) in paragraph at lines 455--455
  [] 
  []
 
@@ -1491,39 +1457,39 @@ Overfull \hbox (2.77098pt too wide) in paragraph at lines 454--454
 ] [29
 
 ]
-<./diagrams/triola1.png, id=239, 375.804pt x 78.7743pt>
+<./diagrams/triola1.png, id=243, 375.804pt x 78.7743pt>
 File: ./diagrams/triola1.png Graphic file (type png)
 <use ./diagrams/triola1.png>
-Package pdftex.def Info: ./diagrams/triola1.png  used on input line 512.
+Package pdftex.def Info: ./diagrams/triola1.png  used on input line 513.
 (pdftex.def)             Requested size: 263.061pt x 55.14163pt.
-<./diagrams/triola2.png, id=240, 369.2997pt x 68.6565pt>
+<./diagrams/triola2.png, id=244, 369.2997pt x 68.6565pt>
 File: ./diagrams/triola2.png Graphic file (type png)
 <use ./diagrams/triola2.png>
-Package pdftex.def Info: ./diagrams/triola2.png  used on input line 512.
+Package pdftex.def Info: ./diagrams/triola2.png  used on input line 513.
 (pdftex.def)             Requested size: 258.50801pt x 48.0592pt.
-<./diagrams/triola3.png, id=241, 373.6359pt x 93.2283pt>
+<./diagrams/triola3.png, id=245, 373.6359pt x 93.2283pt>
 File: ./diagrams/triola3.png Graphic file (type png)
 <use ./diagrams/triola3.png>
-Package pdftex.def Info: ./diagrams/triola3.png  used on input line 512.
+Package pdftex.def Info: ./diagrams/triola3.png  used on input line 513.
 (pdftex.def)             Requested size: 261.54333pt x 65.25935pt.
  [30
 
  <./diagrams/triola1.png (PNG copy)> <./diagrams/triola2.png (PNG copy)> <./dia
 grams/triola3.png (PNG copy)>]
-<./diagrams/triola4.png, id=248, 372.9132pt x 54.2025pt>
+<./diagrams/triola4.png, id=252, 372.9132pt x 54.2025pt>
 File: ./diagrams/triola4.png Graphic file (type png)
 <use ./diagrams/triola4.png>
-Package pdftex.def Info: ./diagrams/triola4.png  used on input line 525.
+Package pdftex.def Info: ./diagrams/triola4.png  used on input line 526.
 (pdftex.def)             Requested size: 261.03745pt x 37.94148pt.
-<./diagrams/triola5.png, id=249, 383.031pt x 54.2025pt>
+<./diagrams/triola5.png, id=253, 383.031pt x 54.2025pt>
 File: ./diagrams/triola5.png Graphic file (type png)
 <use ./diagrams/triola5.png>
-Package pdftex.def Info: ./diagrams/triola5.png  used on input line 525.
+Package pdftex.def Info: ./diagrams/triola5.png  used on input line 526.
 (pdftex.def)             Requested size: 268.11986pt x 37.94148pt.
-<./diagrams/triola6.png, id=250, 380.1402pt x 56.3706pt>
+<./diagrams/triola6.png, id=254, 380.1402pt x 56.3706pt>
 File: ./diagrams/triola6.png Graphic file (type png)
 <use ./diagrams/triola6.png>
-Package pdftex.def Info: ./diagrams/triola6.png  used on input line 525.
+Package pdftex.def Info: ./diagrams/triola6.png  used on input line 526.
 (pdftex.def)             Requested size: 266.09631pt x 39.45914pt.
  [31
 
@@ -1540,26 +1506,22 @@ grams/triola6.png (PNG copy)>] [32
 \tf@snm=\write8
 \openout8 = `la-07-normal.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 532.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 532.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 533.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 533.
  (./la-07-normal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 532.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 532.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 533.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 533.
 Package rerunfilecheck Info: File `la-07-normal.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 20463 strings out of 492982
- 401714 string characters out of 6134895
- 482622 words of memory out of 5000000
- 23472 multiletter control sequences out of 15000+600000
+ 20471 strings out of 492982
+ 401810 string characters out of 6134895
+ 482678 words of memory out of 5000000
+ 23476 multiletter control sequences out of 15000+600000
  11040 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,15n,63p,803b,653s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,15n,60p,796b,653s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
@@ -1571,10 +1533,10 @@ e1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb>
-Output written on la-07-normal.pdf (32 pages, 4626193 bytes).
+Output written on la-07-normal.pdf (32 pages, 4626251 bytes).
 PDF statistics:
- 320 PDF objects out of 1000 (max. 8388607)
- 248 compressed objects within 3 object streams
- 80 named destinations out of 1000 (max. 500000)
+ 324 PDF objects out of 1000 (max. 8388607)
+ 252 compressed objects within 3 object streams
+ 84 named destinations out of 1000 (max. 500000)
  129 words of extra memory for PDF output out of 10000 (max. 10000000)
 

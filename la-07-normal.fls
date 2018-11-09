@@ -227,8 +227,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamericononline.20.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamericononline.20.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty
-INPUT teachbeamer.sty
-INPUT teachbeamer.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -259,6 +257,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothand
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+INPUT teachbeamer.sty
+INPUT teachbeamer.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
