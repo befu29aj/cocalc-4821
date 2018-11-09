@@ -355,14 +355,8 @@ INPUT ./diagrams/binnorm1_ed.jpg
 INPUT ./diagrams/qfour.png
 INPUT ./diagrams/qfour.png
 INPUT ./diagrams/qfour.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
-INPUT ./diagrams/binomial1.png
-INPUT ./diagrams/binomial1.png
-INPUT ./diagrams/binnorm1_ed.jpg
-INPUT ./diagrams/binnorm1_ed.jpg
-INPUT ./diagrams/qfour.png
-INPUT ./diagrams/qfour.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 INPUT ./diagrams/contcorr_ed1.jpg
 INPUT ./diagrams/contcorr_ed1.jpg
 INPUT ./diagrams/contcorr_ed1.jpg
