@@ -1,7 +1,6 @@
 % la-07-normal.tex
 
 \documentclass[xcolor=dvipsnames]{beamer}
-\usepackage{tikz}
 \usepackage{teachbeamer}
 
 \title{Introduction to Probabilities and Normal Distribution}
@@ -50,7 +49,7 @@ Here is the formula for a \alert{binomial} setup with $n$ trials (for example,
 $n=2$ coin tosses), probability of success $p$ (for example, $p=0.5$ for the
 probability of heads), and $x$ number of successes,
 \begin{equation}
-  \label{eq:uedaikie}
+  \label{eq:iedohdah}
   P(X=x)=\frac{n!}{(n-x)!x!}p^{x}(1-p)^{n-x}
 \end{equation}
 where $0!=1$ and $(n+1)!=n!(n+1)$, for example
@@ -214,7 +213,7 @@ and $\sigma$. The value for the normal distribution is called the
 is called the \alert{$z$-score}. Travel back and forth using the following
 formula,
 \begin{equation}
-  \label{eq:eyietohw}
+  \label{eq:uotoogoo}
   z=\frac{x-\mu}{\sigma}
 \end{equation}
 \end{frame}
@@ -291,7 +290,7 @@ distribution.
   \alert{mean $\mu$} and their \alert{standard deviation $\sigma$}.
   The formula for the normal distribution is
   \begin{equation}
-    \label{eq:aengeeph}
+    \label{eq:aitoolah}
     f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-(x-\mu)^{2}/(2\sigma^{2})}
   \end{equation}
   \begin{figure}[h]
@@ -326,7 +325,7 @@ distribution.
   \frametitle{Normal Distribution Example Answer}
   Find the $z$-score, using the formula
   \begin{equation}
-    \label{eq:eejecheo}
+    \label{eq:igutheib}
     z=\frac{x-\mu}{\sigma}=\frac{72-69.5}{2.4}\approx{}1.04
   \end{equation}
   Use your $z$-score table to find the corresponding
