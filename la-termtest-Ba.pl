@@ -75,7 +75,7 @@ $aufgabe[1]=sub {
 };
 
 $aufgabe[2]=sub {
-    print termtest "Consider the vector space of 2x2 matrices. Are the following four matrices a basis for this vector space?\n\\begin{equation}\nA=\\left[\n\\begin{array}{cc}\n$v011[$i1]\n\\end{array}\\right],B=\\left[\n\\begin{array}{cc}\n$v010[$i1]\n\\end{array}\\right],C=\\left[\n\\begin{array}{cc}\n$v009[$i1]\n\\end{array}\\right],D=\\left[\n\\begin{array}{cc}\n$v008[$i1]\n\\end{array}\\right]\\notag\n\\end{equation}\n\\begin{itemize}\n\\item If yes, find the coordinates in terms of this basis for \n\\begin{equation}\nE=\\left[\n\\begin{array}{cc}\n$v012[$i1]\n\\end{array}\\right]\\notag\n\\end{equation}\n\n\\item If no, express one of the four given matrices by the other three.\n\\end{itemize}";
+    print termtest "Note to self: this problem is too hard. 4x4 is too big and I didn't explain the matrix to vector conversion. Consider the vector space of 2x2 matrices. Are the following four matrices a basis for this vector space?\n\\begin{equation}\nA=\\left[\n\\begin{array}{cc}\n$v011[$i1]\n\\end{array}\\right],B=\\left[\n\\begin{array}{cc}\n$v010[$i1]\n\\end{array}\\right],C=\\left[\n\\begin{array}{cc}\n$v009[$i1]\n\\end{array}\\right],D=\\left[\n\\begin{array}{cc}\n$v008[$i1]\n\\end{array}\\right]\\notag\n\\end{equation}\n\\begin{itemize}\n\\item If yes, find the coordinates in terms of this basis for \n\\begin{equation}\nE=\\left[\n\\begin{array}{cc}\n$v012[$i1]\n\\end{array}\\right]\\notag\n\\end{equation}\n\n\\item If no, express one of the four given matrices by the other three.\n\\end{itemize}";
 };
 
 for ($y2=0;$y2<=$#aufgabe;++$y2)
