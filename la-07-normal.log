@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  9 NOV 2018 00:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  9 NOV 2018 00:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -968,404 +968,7 @@ Overfull \vbox (24.50116pt too high) detected at line 69
 
 [5
 
- <./diagrams/binomial1.png>]
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \binomialCoefficient 
-                                     
-l.80 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[6
+ <./diagrams/binomial1.png>] [6
 
 ] [7
 
@@ -1373,7 +976,7 @@ and I'll forget about whatever was undefined.
 <./diagrams/binnorm1_ed.jpg, id=84, 351.3125pt x 260.975pt>
 File: ./diagrams/binnorm1_ed.jpg Graphic file (type jpg)
 <use ./diagrams/binnorm1_ed.jpg>
-Package pdftex.def Info: ./diagrams/binnorm1_ed.jpg  used on input line 105.
+Package pdftex.def Info: ./diagrams/binnorm1_ed.jpg  used on input line 106.
 (pdftex.def)             Requested size: 175.6558pt x 130.48718pt.
  [8
 
@@ -1381,12 +984,12 @@ Package pdftex.def Info: ./diagrams/binnorm1_ed.jpg  used on input line 105.
 <./diagrams/qfour.png, id=91, 491.436pt x 196.5744pt>
 File: ./diagrams/qfour.png Graphic file (type png)
 <use ./diagrams/qfour.png>
-Package pdftex.def Info: ./diagrams/qfour.png  used on input line 205.
+Package pdftex.def Info: ./diagrams/qfour.png  used on input line 206.
 (pdftex.def)             Requested size: 196.5709pt x 78.62836pt.
- [9
 
- <./diagrams/qfour.png (PNG copy)>]
-[10
+[9
+
+ <./diagrams/qfour.png (PNG copy)>] [10
 
 ] [11
 
@@ -1395,10 +998,10 @@ Package pdftex.def Info: ./diagrams/qfour.png  used on input line 205.
 ]
 File: ./diagrams/binomial1.png Graphic file (type png)
 <use ./diagrams/binomial1.png>
-Package pdftex.def Info: ./diagrams/binomial1.png  used on input line 262.
+Package pdftex.def Info: ./diagrams/binomial1.png  used on input line 263.
 (pdftex.def)             Requested size: 214.55103pt x 202.50606pt.
 
-Overfull \vbox (24.50116pt too high) detected at line 262
+Overfull \vbox (24.50116pt too high) detected at line 263
  []
 
 [13
@@ -1408,14 +1011,14 @@ Overfull \vbox (24.50116pt too high) detected at line 262
 ]
 File: ./diagrams/binnorm1_ed.jpg Graphic file (type jpg)
 <use ./diagrams/binnorm1_ed.jpg>
-Package pdftex.def Info: ./diagrams/binnorm1_ed.jpg  used on input line 284.
+Package pdftex.def Info: ./diagrams/binnorm1_ed.jpg  used on input line 285.
 (pdftex.def)             Requested size: 175.6558pt x 130.48718pt.
  [15
 
 ]
 File: ./diagrams/qfour.png Graphic file (type png)
 <use ./diagrams/qfour.png>
-Package pdftex.def Info: ./diagrams/qfour.png  used on input line 300.
+Package pdftex.def Info: ./diagrams/qfour.png  used on input line 301.
 (pdftex.def)             Requested size: 196.5709pt x 78.62836pt.
  [16
 
@@ -1441,10 +1044,10 @@ Package pdftex.def Info: ./diagrams/qfour.png  used on input line 300.
 <./diagrams/contcorr_ed1.jpg, id=218, 620.12323pt x 384.6629pt>
 File: ./diagrams/contcorr_ed1.jpg Graphic file (type jpg)
 <use ./diagrams/contcorr_ed1.jpg>
-Package pdftex.def Info: ./diagrams/contcorr_ed1.jpg  used on input line 455.
+Package pdftex.def Info: ./diagrams/contcorr_ed1.jpg  used on input line 456.
 (pdftex.def)             Requested size: 310.06085pt x 192.33098pt.
 
-Overfull \hbox (2.77098pt too wide) in paragraph at lines 455--455
+Overfull \hbox (2.77098pt too wide) in paragraph at lines 456--456
  [] 
  []
 
@@ -1460,17 +1063,17 @@ Overfull \hbox (2.77098pt too wide) in paragraph at lines 455--455
 <./diagrams/triola1.png, id=243, 375.804pt x 78.7743pt>
 File: ./diagrams/triola1.png Graphic file (type png)
 <use ./diagrams/triola1.png>
-Package pdftex.def Info: ./diagrams/triola1.png  used on input line 513.
+Package pdftex.def Info: ./diagrams/triola1.png  used on input line 514.
 (pdftex.def)             Requested size: 263.061pt x 55.14163pt.
 <./diagrams/triola2.png, id=244, 369.2997pt x 68.6565pt>
 File: ./diagrams/triola2.png Graphic file (type png)
 <use ./diagrams/triola2.png>
-Package pdftex.def Info: ./diagrams/triola2.png  used on input line 513.
+Package pdftex.def Info: ./diagrams/triola2.png  used on input line 514.
 (pdftex.def)             Requested size: 258.50801pt x 48.0592pt.
 <./diagrams/triola3.png, id=245, 373.6359pt x 93.2283pt>
 File: ./diagrams/triola3.png Graphic file (type png)
 <use ./diagrams/triola3.png>
-Package pdftex.def Info: ./diagrams/triola3.png  used on input line 513.
+Package pdftex.def Info: ./diagrams/triola3.png  used on input line 514.
 (pdftex.def)             Requested size: 261.54333pt x 65.25935pt.
  [30
 
@@ -1479,17 +1082,17 @@ grams/triola3.png (PNG copy)>]
 <./diagrams/triola4.png, id=252, 372.9132pt x 54.2025pt>
 File: ./diagrams/triola4.png Graphic file (type png)
 <use ./diagrams/triola4.png>
-Package pdftex.def Info: ./diagrams/triola4.png  used on input line 526.
+Package pdftex.def Info: ./diagrams/triola4.png  used on input line 527.
 (pdftex.def)             Requested size: 261.03745pt x 37.94148pt.
 <./diagrams/triola5.png, id=253, 383.031pt x 54.2025pt>
 File: ./diagrams/triola5.png Graphic file (type png)
 <use ./diagrams/triola5.png>
-Package pdftex.def Info: ./diagrams/triola5.png  used on input line 526.
+Package pdftex.def Info: ./diagrams/triola5.png  used on input line 527.
 (pdftex.def)             Requested size: 268.11986pt x 37.94148pt.
 <./diagrams/triola6.png, id=254, 380.1402pt x 56.3706pt>
 File: ./diagrams/triola6.png Graphic file (type png)
 <use ./diagrams/triola6.png>
-Package pdftex.def Info: ./diagrams/triola6.png  used on input line 526.
+Package pdftex.def Info: ./diagrams/triola6.png  used on input line 527.
 (pdftex.def)             Requested size: 266.09631pt x 39.45914pt.
  [31
 
@@ -1506,19 +1109,19 @@ grams/triola6.png (PNG copy)>] [32
 \tf@snm=\write8
 \openout8 = `la-07-normal.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 533.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 533.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 534.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 534.
  (./la-07-normal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 533.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 533.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 534.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 534.
 Package rerunfilecheck Info: File `la-07-normal.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 20471 strings out of 492982
- 401810 string characters out of 6134895
- 482678 words of memory out of 5000000
- 23476 multiletter control sequences out of 15000+600000
+ 20470 strings out of 492982
+ 401791 string characters out of 6134895
+ 484678 words of memory out of 5000000
+ 23475 multiletter control sequences out of 15000+600000
  11040 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,60p,796b,653s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1533,7 +1136,7 @@ e1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb>
-Output written on la-07-normal.pdf (32 pages, 4626251 bytes).
+Output written on la-07-normal.pdf (32 pages, 4626407 bytes).
 PDF statistics:
  324 PDF objects out of 1000 (max. 8388607)
  252 compressed objects within 3 object streams

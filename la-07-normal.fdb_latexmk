@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1541721968 "la-07-normal.tex" "la-07-normal.pdf" "la-07-normal" 1541721969
+["pdflatex"] 1541722176 "la-07-normal.tex" "la-07-normal.pdf" "la-07-normal" 1541722178
   "/etc/texmf/web2c/texmf.cnf" 1535314180 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -214,16 +214,16 @@
   "diagrams/triola4.png" 1541721810 538231 57547801fa18f71e9e11bb785db2408c ""
   "diagrams/triola5.png" 1541721810 565331 6e68888e48738c463744fe30a0e46d61 ""
   "diagrams/triola6.png" 1541721810 570713 8d72f4a582f4089931f3c74fb51b938e ""
-  "la-07-normal.aux" 1541721969 6902 431f525e3bb449eef1823034059502d6 ""
-  "la-07-normal.nav" 1541721969 3155 b379335c0c1e73cb5bf3ba258b1317d0 ""
-  "la-07-normal.out" 1541721968 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "la-07-normal.tex" 1541721966 18588 bcf5fd3323c4edcb19a0589985c47b30 ""
+  "la-07-normal.aux" 1541722177 6902 431f525e3bb449eef1823034059502d6 ""
+  "la-07-normal.nav" 1541722177 3155 b379335c0c1e73cb5bf3ba258b1317d0 ""
+  "la-07-normal.out" 1541722176 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "la-07-normal.tex" 1541722175 18637 d7dcc19a8033459fdd944d2d994d0e05 ""
   "teachbeamer.sty" 1536261356 1599 47b30f8a7e30907cf86a9a1fff41cc5e ""
   (generated)
-  "la-07-normal.log"
-  "la-07-normal.toc"
-  "la-07-normal.pdf"
-  "la-07-normal.aux"
-  "la-07-normal.nav"
-  "la-07-normal.snm"
   "la-07-normal.out"
+  "la-07-normal.nav"
+  "la-07-normal.pdf"
+  "la-07-normal.snm"
+  "la-07-normal.aux"
+  "la-07-normal.toc"
+  "la-07-normal.log"
