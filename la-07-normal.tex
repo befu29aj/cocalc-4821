@@ -73,7 +73,8 @@ slide).
 \begin{tikzpicture}
 \foreach \n in {0,...,7} {
   \foreach \k in {0,...,\n} {
-    \node at (\k-\n/2,-\n) {$\binomialCoefficient{\n}{\k}$};
+    % \node at (\k-\n/2,-\n) {$\binomialCoefficient{\n}{\k}$};
+    \node at (\k-\n/2,-\n) {$\binom{\n}{\k}$};
   }
 }
 \end{tikzpicture}
