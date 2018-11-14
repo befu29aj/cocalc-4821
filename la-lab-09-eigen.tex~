@@ -1,0 +1,83 @@
+% la-lab-09-eigen.tex
+
+\documentclass[11pt]{article}
+\usepackage{enumerate}
+\usepackage{syllogism} 
+\usepackage{october}
+\usepackage[table]{xcolor}
+
+\newcounter{aufg}
+\setcounter{aufg}{0}
+\newcommand{\aufgabe}[0]{\refstepcounter{aufg}\textbf{(\arabic{aufg})}}
+
+\begin{document}
+
+\textbf{Eigenvalues and Normal Distribution}
+
+{\aufgabe} Find an invertible matrix $P$ such that $P^{-1}AP$ is
+diagonal.
+\begin{equation}
+  \label{eq:vaitaino}
+  A=\left[
+    \begin{array}{cc}
+      -1 & 0 \\
+      2 & 4
+    \end{array}\right]\notag
+\end{equation}
+
+{\aufgabe} Find an invertible matrix $P$ such that $P^{-1}AP$ is
+diagonal.
+\begin{equation}
+  \label{eq:miezahxu}
+  A=\left[
+    \begin{array}{cc}
+      2 & 1 \\
+      -6 & 7
+    \end{array}\right]\notag
+\end{equation}
+
+{\aufgabe} Find an invertible matrix $P$ such that $P^{-1}AP$ is
+diagonal.
+\begin{equation}
+  \label{eq:lahchahd}
+  A=\left[
+    \begin{array}{ccc}
+      4 & 0 & 0 \\
+      3 & 2 & 0 \\
+      0 & 2 & 1
+    \end{array}\right]\notag
+\end{equation}
+
+{\aufgabe} Find the eigenvalues of 
+\begin{equation}
+  \label{eq:kahnuame}
+  B=\left[
+    \begin{array}{ccc}
+      -9 & -11 & -17 \\
+      16 & 18 & 25 \\
+      -4 & -4 & -5
+    \end{array}\right]\notag
+\end{equation}
+Use the formula for the characteristic polynomial of a 3x3 matrix
+\begin{equation}
+  \label{eq:oofohnga}
+p(\lambda)=-\lambda^{3}+\mbox{tr}(A)\lambda^{2}+\left(\mbox{tr}(A)^{2}-\mbox{tr}(A^{2})\right)\lambda+\det(A)
+\end{equation}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
