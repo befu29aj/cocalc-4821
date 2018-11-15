@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1542157244 "la-lab-09-eigen.tex" "la-lab-09-eigen.pdf" "la-lab-09-eigen" 1542157244
+["pdflatex"] 1542312506 "la-lab-09-eigen.tex" "la-lab-09-eigen.pdf" "la-lab-09-eigen" 1542312506
   "/etc/texmf/web2c/texmf.cnf" 1535314180 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -74,10 +74,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1535345801 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1539447059 4126370 04448162a4da151233589cc4b45c1165 ""
-  "la-lab-09-eigen.aux" 1542157244 380 34637ee80ac55e08681a76d1640af962 ""
-  "la-lab-09-eigen.tex" 1542157243 3097 838caaabef06c8a49d88f404f66a63da ""
+  "la-lab-09-eigen.aux" 1542312506 380 8aec6e653e5d99d50895679b91e7ef49 ""
+  "la-lab-09-eigen.tex" 1542312503 3186 2dc603596f061b50bf9e58e36aeb0f22 ""
   "october.sty" 1536769900 2997 265ecb1cf7c10b3151e59742b19f912c ""
   (generated)
-  "la-lab-09-eigen.log"
   "la-lab-09-eigen.pdf"
   "la-lab-09-eigen.aux"
+  "la-lab-09-eigen.log"
