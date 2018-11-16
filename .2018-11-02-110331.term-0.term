@@ -1,217 +1,0 @@
-]0;~/cocalc-4821[01;34m~/cocalc-4821[00m$ ff
-Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-96-generic x86_64)
-
- * Documentation:  https://help.ubuntu.com
- * Management:     https://landscape.canonical.com
- * Support:        https://ubuntu.com/advantage
-
-  Get cloud support with Ubuntu Advantage Cloud Guest:
-    http://www.ubuntu.com/business/services/cloud
-
-164 packages can be updated.
-0 updates are security updates.
-
-New release '18.04.1 LTS' available.
-Run 'do-release-upgrade' to upgrade to it.
-
-
-*** System restart required ***
-Last login: Fri Nov  2 14:45:31 2018 from 142.232.88.233
-]0;ubuntu@ip-172-31-9-42: ~[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~[00m$ mutt
-[?1049h[1;30r(B[m[4l[?7h[39;49m[?1h=[39;49m[37m[40m[H[2J[39;49m[37m[40m[30d[K[30;1H[?1049l[?1l>[39;49m[37m[40m[K[30;1H[?1049l[?1l>[?1049h[1;30r[39;49m(B[m[4l[?7h[39;49m[37m[40m[37m[40m[H[2J[30d(B[m[39;49m[37m[40mReading imaps://imap.gmail.com:993/INBOX...Looking up imap.gmail.com...[37m[40m[K(B[m[39;49m[37m[40mConnecting to imap.gmail.com...SSL/TLS connection using TLS1.2 (ECDHE-RSA/AES-128-GCM/AEAD)Authenticating (PLAIN)...[37m[40m[K(B[m[39;49m[37m[40mSelecting INBOX...[37m[40m[K(B[m[39;49m[37m[40mEvaluating cache... 0/3914 (0%)[30;21H10/3914 (0%)Fetching message headers... 0/3914 (0%)Sorting mailbox...[37m[40m[K(B[m[39;49m[37m[40m[?25l[?12l[?25h[?25l[37m[40m[J[H(B[0;1m[32m[44mq:Quit  d:Del  u:Undel  s:Save  m:Mail  r:Reply  g:Group  ?:Help[K
-(B[0m[30m[46m   1 N T Nov 02 Christine Mouls (9.1K) Re: Anderson in need of ride on Saturday[K
-[4G[37m[40m2 N + Nov 02 Mila[3;33H( 28K) [VAFC Thunderbolts] Missing earrings?
-   3 N   Nov 02 Google Calendar ( 13K) Notification: pay bills and pay TD credit card as easyweb transfer @ Sat Nov 3, 2018 (xootesei@gmail.com)
-   4 N   Nov 02 Google Calendar ( 12K) Notification: email Accessibility Services with Term Test B @ Sat Nov 3, 2018 (zeimiewo@gmail.com)
-   5   + Nov 02 TOM MCHUGH[33G(1865) INTERAC e-Transfer: A money transfer from TOM MCHUGH has been automatically deposited.
-   6   T Nov 01 Sherry Lukits   (  16) Prayer retreat at brooks dale remembrance weekend
-   7     Nov 01 Karen MacDonald ( 235) Games Available this weekend
-   8     Nov 02 Google Calendar (  93) Notification: World Accordion and Tango Festival @ Fri Nov 2, 2018 7pm - 9pm (PDT) (xootesei@gmail.com)
-   9   + Nov 02 Christine Mouls ( 409) [IMPACT] GAME Sat Nov 3rd
-  10   + Nov 02 IMPACT[11;33H(1798) Updated Game at NVF Raiders, November 3, 12:45 PM
-  11   + Nov 01 TOM MCHUGH[33G(1865) INTERAC e-Transfer: A money transfer from TOM MCHUGH has been automatically deposited.
-  12   C Nov 01 Sherry Lukits   ( 125) Re: Anderson in need of ride on Saturday
-  13 r C Nov 01 Sherry Lukits   ( 109) Re: Anderson in need of ride on Saturday
-  14   + Nov 02 J IJPHR[15;33H(  63) Send Papers to Journals and Enjoy Free Publication
-  15   + Nov 01 Churchill Atten (  17) Attendance - Churchill
-  16   C Nov 01 Christine Mouls (  94) Re: Anderson in need of ride on Saturday
-  17   T Nov 01 IMPACT[18;33H(1386) Game Reminder at NVF Raiders, November 3, 12:00 PM
-  18   C Nov 01 Sherry Lukits   (  63) Re: Anderson in need of ride on Saturday
-  19     Nov 01 Jonathan Jenkin ( 109) Re: epistemology group schedule
-  20   + Nov 01 PHILIP ARTHUR S (1865) INTERAC e-Transfer: A money transfer from PHILIP ARTHUR SAUNDERS has been automatically deposited.
-  21   + Nov 01 phil saunders   (  51) Re: rental bill 2018-10
-  22   + Nov 01 Philip Saunders (8953) 001.jpg
-  23     Nov 01 U15 Lions[33G( 751) MESSAGE: Please update availability for November 11th Game
-  24 r T Nov 01 Christine Mouls (  46) Re: Anderson in need of ride on Saturday
-  25     Nov 01 Elementary, L'E (  62) Registration for 2019-2020 Begins Today
-  26     Nov 01 ibchurchill     (3163) November "At a Glance" Newsletter
-  27     Nov 01 Google Calendar (  85) Notification: gpodder @ Fri Nov 2, 2018 (zeimiewo@gmail.com)
-(B[0;1m[32m[44m---Mutt: imaps://imap.gmail.com:993/INBOX [Msgs:3914 New:4 369M]---(reverse-date/date)------------------------------------------------------------------------------------------------(0%)---[2;189H(B[m[39;49m[37m[40m[?1h=[?12l[?25h[?25l[37m[40m   1 N T Nov 02 Christine Mouls (9.1K) Re: Anderson in need of ride on Saturday[K
-[30m[46m   2 N + Nov 02 Mila            ( 28K) [VAFC Thunderbolts] Missing earrings?[K[189G(B[m[39;49m[37m[40m[?12l[?25h[?25l[37m[40m   2 N + Nov 02 Mila            ( 28K) [VAFC Thunderbolts] Missing earrings?[K
-[30m[46m   3 N   Nov 02 Google Calendar ( 13K) Notification: pay bills and pay TD credit card as easyweb transfer @ Sat Nov 3, 2018 (xootesei@gmail.com)[K[189G(B[m[39;49m[37m[40m[?12l[?25h[?25l[A[30m[46m   2 N + Nov 02 Mila            ( 28K) [VAFC Thunderbolts] Missing earrings?[K
-[37m[40m   3 N   Nov 02 Google Calendar ( 13K) Notification: pay bills and pay TD credit card as easyweb transfer @ Sat Nov 3, 2018 (xootesei@gmail.com)[K[3;189H(B[m[39;49m[37m[40m[?12l[?25h[?25l[37m[40m   2 N + Nov 02 Mila            ( 28K) [VAFC Thunderbolts] Missing earrings?[K
-[30m[46m   3 N   Nov 02 Google Calendar ( 13K) Notification: pay bills and pay TD credit card as easyweb transfer @ Sat Nov 3, 2018 (xootesei@gmail.com)[K[189G(B[m[39;49m[37m[40m[?12l[?25h[?25l[37m[40m   3 N   Nov 02 Google Calendar ( 13K) Notification: pay bills and pay TD credit card as easyweb transfer @ Sat Nov 3, 2018 (xootesei@gmail.com)[K
-[30m[46m   4 N   Nov 02 Google Calendar ( 12K) Notification: email Accessibility Services with Term Test B @ Sat Nov 3, 2018 (zeimiewo@gmail.com)[K[189G(B[m[39;49m[37m[40m[?12l[?25h[30dFetching message... 0K/13K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-3498-4246726181231992178.html'[?25l[37m[40m[J[H(B[0;1m[32m[44mi:Exit  -:PrevPg  <Space>:NextPg v:View Attachm.  d:Del  r:Reply  j:Next ?:Help
-(B[0m[36m[40mDate: Fri, 02 Nov 2018 16:05:25 +0000[K
-From: Google Calendar <calendar-notification@google.com>[K
-To: Thomas Hooper <zeimiewo@gmail.com>[K
-Subject: Notification: email Accessibility Services with Term Test B @ Sat Nov 3, 2018 (zeimiewo@gmail.com)[K
-[37m[40m[K
-(B[0;1m[33m[40m[-- Autoview using /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-3498-4246726181231992178.html' --][K
-(B[0m[37m[40m[K
-   more details »[K
-[K
-email Accessibility Services with Term Test B[K
-[K
-   When[K
-   Sat Nov 3, 2018[K
-   Calendar[K
-   zeimiewo@gmail.com[K
-   Who[K
-   •[K
- zeimiewo@gmail.com[K
-   - organizer[K
-[K
-   Invitation from Google Calendar[K
-[K
-   You are receiving this email at the account zeimiewo@gmail.com because[K
-   you set a notification for this event on the calendar[K
-   zeimiewo@gmail.com.[K
-[K
-   You can change your notifications for specific events in the event[K
-[C(B[0;1m[32m[44mN  - 4/3914: Google Calendar        Notification: email Accessibility Services with Term Test B @ Sat Nov 3, 2018 (zeimiewo@gmail.com)[46X[182G-- (83%)[29;189H(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
-Fetching message... 0K/13K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-3498-4548995661446529184.html'[?25l[15;28r[15;1H[37m[40m[2T[1;30r[30;1H[J[2;28H[36m[40m6:31
-
-[5GMartha Sandlin <xootesei@gmail.com>[5;24Hpay bills and pay TD credit card as easyweb transfer @ Sat Nov 3, 2018 (xootesei@gmail.com)[7;85H(B[0;1m[33m[40m548995661446529184
-
-
-
-(B[0m[37m[40mpay bills and pay TD credit card as easyweb transfer[15;4HWhere
-   td easyweb (map)
-
-   xootesei
-
-
-   xootesei[26;48Hxootesei
-
-   xootesei
-[7G(B[0;1m[32m[44m3[29;52Hpay bills and pay TD credit card as easyweb transfer @ Sat Nov 3, 2018 (xootesei@gmail.com)[186G77%(B[m[39;49m[37m[40m[?12l[?25h
-Bounce message to: [37m[40mb(B[m[39;49m[37m[40m[37m[40mc(B[m[39;49m[37m[40m[37m[40mi(B[m[39;49m[37m[40m[37m[40mt(B[m[39;49m[37m[40m[18G Stefan Lukits BCIT <slukits@bcit.ca>? ([yes]/no): [37m[40myes(B[m[39;49m[37m[40mLooking up smtp.gmail.com...[37m[40m[K(B[m[39;49m[37m[40mConnecting to smtp.gmail.com...SSL/TLS connection using TLS1.2 (ECDHE-RSA/AES-128-GCM/AEAD)Authenticating (LOGIN)...[37m[40m[K(B[m[39;49m[37m[40mSending message... 0K/13K (0%)Message bounced.[37m[40m[K(B[m[39;49m[37m[40m[?25l[29;189H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
-Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-3498-19242984882028374767.html'[?25l[15;28r[28;1H[37m[40m[2S[1;30r[30;1H[J[2;28H[36m[40m5:25
-
-[5GThomas Hooper <zeimiewo[1P
-email Accessibility Services with Term Test B @ Sat Nov 3, 2018 (zeimiewo[7P[7;84H(B[0;1m[33m[40m19242984882028374767.html' --]
-
-
-
-(B[0m[37m[40memail Accessibility Services with Term Test B[K[16;4Hzeimiewo
-
-
-   zeimiewo[24;48Hzeimiewo
-
-   zeimiewo
-
-   You can change your notifications for specific events in the event
-[C(B[0;1m[32m[44m   - 4[29;52Hemail Accessibility Services with Term Test B @ Sat Nov 3, 2018 (zeimiewo@gmail.com)       [186G84%(B[m[39;49m[37m[40m[?12l[?25h
-Bounce message to: [37m[40mb(B[m[39;49m[37m[40m[37m[40mc(B[m[39;49m[37m[40m[37m[40mi(B[m[39;49m[37m[40m[37m[40mt(B[m[39;49m[37m[40m[18G Stefan Lukits BCIT <slukits@bcit.ca>? ([yes]/no): [37m[40myes(B[m[39;49m[37m[40mLooking up smtp.gmail.com...[37m[40m[K(B[m[39;49m[37m[40mConnecting to smtp.gmail.com...SSL/TLS connection using TLS1.2 (ECDHE-RSA/AES-128-GCM/AEAD)Authenticating (LOGIN)...[37m[40m[K(B[m[39;49m[37m[40mSending message... 0K/12K (0%)Message bounced.[37m[40m[K(B[m[39;49m[37m[40m[?25l[29;189H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
-Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-3498-19457184881517564126.html'[?25l[15;28r[15;1H[37m[40m[2T[1;30r[30;1H[J[2;28H[36m[40m6:31
-
-[5GMartha Sandlin <xootesei@gmail.com>[5;24Hpay bills and pay TD credit card as easyweb transfer @ Sat Nov 3, 2018 (xootesei@gmail.com)[7;86H(B[0;1m[33m[40m457184881517564126
-
-
-
-(B[0m[37m[40mpay bills and pay TD credit card as easyweb transfer[15;4HWhere
-   td easyweb (map)
-
-   xootesei
-
-
-   xootesei[26;48Hxootesei
-
-   xootesei
-[7G(B[0;1m[32m[44m3[29;52Hpay bills and pay TD credit card as easyweb transfer @ Sat Nov 3, 2018 (xootesei@gmail.com)[186G77%(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
-Fetching message... 0K/28K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-3498-1961190987896398800.html'[?25l[37m[40m[J[2;27H[36m[40m15:2[2;39H(UTC)
-[7GMila <donotreply@email.teamsnap.com>[K
-[5Gsediomyle@gmail.com[K[5;10H[VAFC Thunderbolts] Missing earrings?[K[7;86H(B[0;1m[33m[40m61190987896398800[1P
-[4G(B[0m[37m[40mTeamSnap
-[K
-
-   Mila has sent a message on TeamSnap.[K
-
-   I have someone's earrings... Are they your daughter's?
-   https://photos.app.goo.gl/HnGZ5NnaXVVhzcDM6
-   Chris
-[K
-   View Message
-[K
-   You are receiving this message because you are a member of the VAFC
-   Thunderbolts.
-[K
-   If you prefer not to receive email from team VAFC Thunderbolts, update[23;24Hyour communication preferences.
-     TeamSnap World HQ, 2040 14th Street, 1st Floor, Boulder, CO 80302.
-[34m[40m[K
-[K
-[K
-[K
-[C(B[0;1m[32m[44mN +- 2[15GMila           [29;38H[VAFC Thunderbolts] Missing earrings?[68X[186Gall(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
-Fetching message... 0K/10K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-3498-15777203171683572795.html'[?25l[37m[40m[J[2;12H[36m[40m2 Nov 2018 09:40:56 -0700[K
-[7GChristine Moulson <christinemoulson@gmail.com>
-[5GStefan Lukits <sediomyle@gmail.com>
-Cc: Sherry Lukits <sklukits@gmail.com>, Anderson Lukits <ajlukits@gmail.com>
-Subject: Re: Anderson in need of ride on Saturday[K
-[37m[40m[K
-(B[0;1m[33m[40m[-- Autoview using /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-3498-15777203171683572795.html' --][K
-[4G(B[0m[37m[40mOK we'll pick him up at 11:30.
-
-   On Thu, 1 Nov 2018 at 18:29, Stefan Lukits <sediomyle@gmail.com> wrote:
-
-     Our address is 20 22nd Avenue East, on 22nd Avenue just east of
-     Ontario.[K
-     Stefan
-[6GOn Thu, Nov 01, 2018 at 04:58:03PM -0700, Sherry Lukits wrote:
-[5G[32m[40m[1K >    That would be great, thanks![K
-[5G[1K >[K
-[1K >    On Thu, Nov 1, 2018 at 3:55 PM Christine Moulson[K
-[5G[1K >    <christinemoulson@gmail.com> wrote:[K
-[5G[1K >[K
-[1K >    I think Paul must be closest to you: West 13th and[K
-[6G[37m[40mColumbia/Manitoba -[K
-[5G[32m[40m[1K >    604-620-4782 Thanks, Jennifer[K
-[5G[1K >    I could come to pick him up if its too far for him to ride. In[K
-[5G[37m[40m[1K fact I[K
-[5G[32m[40m[1K >    might give Ercan a ride again and he lives very close to Main &[K
-[5G[37m[40m[1K 16th so[K
-[4G(B[0;1m[32m[44mT- 1[15GChristine Moulson[38GRe: Anderson in need of ride on Saturday[186G49%(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h
-You are on the first message.[?25l[H(B[0;1m[32m[44mq:Quit  d:Del  u:Undel  s:Save  m:Mail  r:Reply  g:Group [15P
-(B[0m[30m[46m   1   T Nov 02 Christine Mouls ( 150) Re: Anderson in need of ride on Saturday[K
-[37m[40m   2   + Nov 02 Mila            ( 401) [VAFC Thunderbolts] Missing earrings?[K
-   3     Nov 02 Google Calendar (  95) Notification: pay bills and pay TD credit card as easyweb transfer @ Sat Nov 3, 2018 (xootesei@gmail.com)[K
-   4     Nov 02 Google Calendar (  85) Notification: email Accessibility Services with Term Test B @ Sat Nov 3, 2018 (zeimiewo@gmail.com)[K
-   5   + Nov 02 TOM MCHUGH      (1865) INTERAC e-Transfer: A money transfer from TOM MCHUGH has been automatically deposited.[K
-   6   T Nov 01 Sherry Lukits   (  16) Prayer retreat at brooks dale remembrance weekend
-   7     Nov 01 Karen MacDonald ( 235) Games Available this weekend[K
-   8     Nov 02 Google Calendar (  93) Notification: World Accordion and Tango Festival @ Fri Nov 2, 2018 7pm - 9pm (PDT) (xootesei@gmail.com)
-   9   + Nov 02 Christine Mouls ( 409) [IMPACT] GAME Sat Nov 3rd
-  10   + Nov 02 IMPACT          (1798) Updated Game at NVF Raiders, November 3, 12:45 PM
-  11   + Nov 01 TOM MCHUGH[33G(1865) INTERAC e-Transfer: A money transfer from TOM MCHUGH has been automatically deposited.
-  12   C Nov 01 Sherry Lukits   ( 125) Re: Anderson in need of ride on Saturday
-  13 r C Nov 01 Sherry Lukits   ( 109) Re: Anderson in need of ride on Saturday
-  14   + Nov 02 J IJPHR[15;33H(  63) Send Papers to Journals and Enjoy Free Publication
-  15   + Nov 01 Churchill Atten (  17) Attendance - Churchill[K
-  16   C Nov 01 Christine Mouls (  94) Re: Anderson in need of ride on Saturday[K
-  17   T Nov 01 IMPACT          (1386) Game Reminder at NVF Raiders, November 3, 12:00 PM[K
-  18   C Nov 01 Sherry Lukits   (  63) Re: Anderson in need of ride on Saturday[K
-  19     Nov 01 Jonathan Jenkin ( 109) Re: epistemology group schedule[K
-  20   + Nov 01 PHILIP ARTHUR S (1865) INTERAC e-Transfer: A money transfer from PHILIP ARTHUR SAUNDERS has been automatically deposited.[K
-  21   + Nov 01 phil saunders   (  51) Re: rental bill 2018-10[K
-  22   + Nov 01 Philip Saunders (8953) 001.jpg
-  23     Nov 01 U15 Lions       ( 751) MESSAGE: Please update availability for November 11th Game[K
-  24 r T Nov 01 Christine Mouls (  46) Re: Anderson in need of ride on Saturday[K
-  25     Nov 01 Elementary, L'E (  62) Registration for 2019-2020 Begins Today
-  26     Nov 01 ibchurchill     (3163) November "At a Glance" Newsletter[K
-  27     Nov 01 Google Calendar (  85) Notification: gpodder @ Fri Nov 2, 2018 (zeimiewo@gmail.com)
-[C(B[0;1m[32m[44m*-Mutt: imaps://imap.gmail.com:993/INBOX [Msgs:3914 369M]---(reverse-date/date)------------------------------------------------------------------------------------------------------(0%)---[2;189H(B[m[39;49m[37m[40m[?12l[?25h[30d3914 kept, 0 deleted.[37m[40m[K(B[m[39;49m[37m[40mClosing connection to imap.gmail.com...[37m[40m[J(B[m[39;49m[37m[40m[39;49m[37m[40m[K[30;1H[?1049l[?1l>]0;ubuntu@ip-172-31-9-42: ~[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~[00m$ exit
-logout
-Connection to 35.160.211.119 closed.
-]0;~/cocalc-4821[01;34m~/cocalc-4821[00m$ ee
-]0;~/cocalc-4821[01;34m~/cocalc-4821[00m$ 
